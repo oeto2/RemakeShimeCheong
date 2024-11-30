@@ -9,4 +9,11 @@ namespace Constants
         Title,
         Main
     }
+    
+    //게임에 사용되는 동적로딩 이미지 경로
+    public static class ResourceImagePath
+    {
+        public const string Cursor_Idle = "Sprites/CurSor/Brush_Idle"; //브러시 기본
+        public const string Cursor_Click = "Sprites/CurSor/Brush_Click"; //브러시 클릭
+    }
 }
