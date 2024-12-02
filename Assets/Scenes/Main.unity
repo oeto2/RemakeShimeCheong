@@ -11190,7 +11190,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1596524156}
   - component: {fileID: 1596524158}
+  - component: {fileID: 1596524159}
+  - component: {fileID: 1596524161}
   - component: {fileID: 1596524157}
+  - component: {fileID: 1596524160}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -11242,8 +11245,8 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1596524158}
-        m_TargetAssemblyTypeName: PlayerInputSystem, Assembly-CSharp
-        m_MethodName: OnInteration
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnInteraction
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11320,7 +11323,19 @@ MonoBehaviour:
     m_ActionId: 66310263-b021-4664-9db9-a6c35d9878c5
     m_ActionName: PlayerAction/Portal[/Keyboard/w]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1596524158}
+        m_TargetAssemblyTypeName: PlayerInputSystem, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 158c64d0-fd27-43c8-b9d0-dc120ad5f319
     m_ActionName: PlayerAction/Move[/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
@@ -11356,6 +11371,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 636380d2dea609347830e3f101d3b0ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1596524159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596524155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58bd27164eba77e489644721062596ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpriteRen: {fileID: 64676171}
+  moveSpeed: 10
+--- !u!50 &1596524160
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596524155}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1596524161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596524155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71debd39efc702448b6707f39232375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 64676172}
 --- !u!1 &1598785453
 GameObject:
   m_ObjectHideFlags: 0
