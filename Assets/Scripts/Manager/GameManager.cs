@@ -1,6 +1,4 @@
 //게임 매니저
-
-using System;
 using Constants;
 using UnityEngine;
 using UnityEngine.SceneManagement;
