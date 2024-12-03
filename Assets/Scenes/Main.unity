@@ -11421,10 +11421,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1596524155}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c71debd39efc702448b6707f39232375, type: 3}
+  m_Script: {fileID: 11500000, guid: 680faca72dc5f0745814a1f9c65f948d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 64676172}
+  animator: {fileID: 64676172}
 --- !u!1 &1598785453
 GameObject:
   m_ObjectHideFlags: 0

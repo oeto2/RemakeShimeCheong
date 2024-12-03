@@ -6,25 +6,37 @@ public class PlayerController : MonoBehaviour
 {
     private PlayerInput _playerInput;
     private PlayerMovement _playerMovement;
-
+    private PlayerAnimator _playerAnimator;
+    private readonly PlayerAnimationData _playerAnimationData = new PlayerAnimationData();    
+    
     private void Awake()
     {
+        Init();
+    }
+
+    //초기 설정
+    private void Init()
+    {
         _playerMovement = GetComponent<PlayerMovement>();
+        _playerAnimator = GetComponent<PlayerAnimator>();
+        _playerAnimationData.Init(); //게임에 사용될 애니메이션 파라미터 해쉬 변환
     }
 
     //플레이어 이동키 입력
     public void OnMove(InputAction.CallbackContext context)
     {
+        //입력 시작
         if (context.started)
         {
-            //플레이어 이동 방향 설정
-            _playerMovement.ApplyMoveVelocity(context.ReadValue<Vector2>());
+            _playerMovement.ApplyMoveVelocity(context.ReadValue<Vector2>()); //플레이어 이동
+            _playerAnimator.StartAnimation(_playerAnimationData.MoveParameterHash); //이동 애니메이션 시작
         }
 
+        //입력 종료
         if (context.canceled)
         {
-            //플레이어 이동 정지
-            _playerMovement.ApplyMoveVelocity(Vector2.zero);
+            _playerMovement.ApplyMoveVelocity(Vector2.zero); //플레이어 이동
+            _playerAnimator.StopAnimation(_playerAnimationData.MoveParameterHash); //이동 애니메이션 정지
         }
     }
 
