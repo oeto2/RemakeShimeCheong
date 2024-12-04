@@ -1,3 +1,6 @@
+using System;
+using Cinemachine;
+using Constants;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +11,12 @@ public class PlayerController : MonoBehaviour
     private PlayerMovement _playerMovement;
     private PlayerAnimator _playerAnimator;
     private readonly PlayerAnimationData _playerAnimationData = new PlayerAnimationData();    
+    
+    //변수 : 포탈 관련
+    public CinemachineConfiner2D cinemachineConfiner2D; //카메라 영역 제한
+    private GameObject _usePortal;
+    private IPortalable _portalScr;
+    
     
     private void Awake()
     {
@@ -20,6 +29,26 @@ public class PlayerController : MonoBehaviour
         _playerMovement = GetComponent<PlayerMovement>();
         _playerAnimator = GetComponent<PlayerAnimator>();
         _playerAnimationData.Init(); //게임에 사용될 애니메이션 파라미터 해쉬 변환
+    }
+
+    //플레이어와 콜라이더 충돌 처리
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        //포탈
+        if (other.gameObject.layer == ObjectLayer.PortalLayer)
+        {
+            _usePortal = other.gameObject; //사용할 포탈 등록
+        }
+    }
+
+    //플레이어와 콜라이더 충돌 해제
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        //포탈
+        if (other.gameObject.layer == ObjectLayer.PortalLayer)
+        {
+            _usePortal = null; //사용할 포탈 해제
+        }
     }
 
     //플레이어 이동키 입력
@@ -72,7 +101,18 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            ConsoleLogger.Log("포탈 버튼 입력");
+            if (_usePortal != null)
+            {
+                if (_usePortal.TryGetComponent(out _portalScr))
+                {
+                    transform.position = _portalScr.GetDestination(); //플레이어 포탈 이동 
+                    cinemachineConfiner2D.m_BoundingShape2D = _portalScr.GetDestinationCollider(); //카메라 범위 제한
+                }
+                else
+                {
+                    ConsoleLogger.LogWarning("이동할 포탈의 인터페이스가 존재하지 않습니다.");
+                }
+            }
         }
     }
 

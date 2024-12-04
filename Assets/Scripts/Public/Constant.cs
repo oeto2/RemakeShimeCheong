@@ -16,4 +16,10 @@ namespace Constants
         public const string Cursor_Idle = "Sprites/CurSor/Brush_Idle"; //브러시 기본
         public const string Cursor_Click = "Sprites/CurSor/Brush_Click"; //브러시 클릭
     }
+    
+    //게임에 사용되는 오브젝트 레이어 이름
+    public class ObjectLayer
+    {
+        public const int PortalLayer = 6;
+    }
 }
