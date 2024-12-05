@@ -79,7 +79,17 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            ConsoleLogger.Log("지도 버튼 입력");
+            //현재 UI가 비활성화 중이라면
+            if (!UIManager.Instance.IsActiveUI<MapPopup>())
+            {
+                UIManager.Instance.ShowPopup<MapPopup>(); //지도 팝업 열기
+            }
+            
+            //현재 UI가 활성화 중이라면
+            else
+            {
+                UIManager.Instance.ClosePopup<MapPopup>(); //지도 팝업 닫기
+            }
         }
     }
 
@@ -108,6 +118,7 @@ public class PlayerController : MonoBehaviour
         {
             if (_usePortal != null)
             {
+                //이동할 포탈이 존재한다면
                 if (_usePortal.TryGetComponent(out _portalScr))
                 {
                     transform.position = _portalScr.GetDestination(); //플레이어 포탈 이동 
@@ -115,6 +126,7 @@ public class PlayerController : MonoBehaviour
                     MapManager.Instance.SetPlayerCurrentSpace(_portalScr.GetDestinationPlaceName()); //이동 장소 설정
                     _playerMovement.SetPlayerMoveRange(MapManager.Instance.GetPlayerCurrentSpaceSpriteRenderer());//플레이어의 이동 범위 제한 설정
                     _playerMovement.ApplyMoveVelocity(_playerMoveDirection); //이동 중이 였다면 계속 이동
+                    UIManager.Instance.GetUIComponent<MapPopup>().SetPinPos(_portalScr.GetDestinationPlaceName()); //지도 핀 위치 변경
                 }
                 else
                 {
@@ -129,6 +141,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
+            UIManager.Instance.CloseAllPopups();
             ConsoleLogger.Log("옵션 버튼 입력");
         }
     }

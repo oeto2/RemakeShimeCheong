@@ -55,6 +55,18 @@ public class UIManager : Singleton<UIManager>
         return ShowPopup(typeof(T).Name, parents) as T;
     }
 
+    public void ClosePopup<T>() where T : UIBase
+    {
+        string uiName = typeof(T).Name;
+
+        //해당 이름의 UI가 존재하지 않는다면
+        if (!_popups.TryGetValue(uiName, out var popup))
+        {
+            return;
+        }
+        popup.gameObject.SetActive(false);
+    }
+    
     public UIBase ShowPopupWithPrefab(GameObject prefab, string popupName, Transform parents = null)
     {
         if (parentsUI != null)
@@ -108,12 +120,34 @@ public class UIManager : Singleton<UIManager>
         //해당 이름의 UI가 존재하지 않는다면
         if (!_popups.ContainsKey(uiName))
         {
-            Debug.LogWarning($"{uiName}이 존재하지 않아 컴포넌트를 가져오지 못했습니다.");
-            return null;
+            ShowPopup<T>().gameObject.SetActive(false); //해당 팝업 생성 후 비활성화
         }
 
         var uiComponent = _popups[uiName].GetComponent<T>();
         return uiComponent;
     }
- 
+    
+    
+    //해당 UI 오브젝트가 현재 활성화 중인지
+    public bool IsActiveUI<T>() where T : UIBase
+    {
+        string uiName = typeof(T).Name;
+
+        //해당 이름의 UI가 존재하지 않는다면
+        if (!_popups.TryGetValue(uiName, out var popup))
+        {
+            return false;
+        }
+        
+        return popup.gameObject.activeSelf;
+    }
+    
+    //모든 팝업 UI 닫기
+    public void CloseAllPopups()
+    {
+        foreach (var popup in _popups)
+        {
+            popup.Value.gameObject.SetActive(false);
+        }
+    }
 }
