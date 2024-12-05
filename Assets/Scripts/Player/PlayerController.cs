@@ -1,4 +1,3 @@
-using System;
 using Cinemachine;
 using Constants;
 using UnityEngine;
@@ -16,6 +15,10 @@ public class PlayerController : MonoBehaviour
     public CinemachineConfiner2D cinemachineConfiner2D; //카메라 영역 제한
     private GameObject _usePortal;
     private IPortalable _portalScr;
+    
+    
+    //변수 : 이동관련
+    private Vector2 _playerMoveDirection; //플레이어의 이동 방향
     
     
     private void Awake()
@@ -57,14 +60,16 @@ public class PlayerController : MonoBehaviour
         //입력 시작
         if (context.started)
         {
-            _playerMovement.ApplyMoveVelocity(context.ReadValue<Vector2>()); //플레이어 이동
+            _playerMoveDirection = context.ReadValue<Vector2>();
+            _playerMovement.ApplyMoveVelocity(_playerMoveDirection); //플레이어 이동
             _playerAnimator.StartAnimation(_playerAnimationData.MoveParameterHash); //이동 애니메이션 시작
         }
 
         //입력 종료
         if (context.canceled)
         {
-            _playerMovement.ApplyMoveVelocity(Vector2.zero); //플레이어 이동
+            _playerMoveDirection = Vector2.zero;
+            _playerMovement.ApplyMoveVelocity(_playerMoveDirection); //플레이어 이동
             _playerAnimator.StopAnimation(_playerAnimationData.MoveParameterHash); //이동 애니메이션 정지
         }
     }
@@ -107,6 +112,9 @@ public class PlayerController : MonoBehaviour
                 {
                     transform.position = _portalScr.GetDestination(); //플레이어 포탈 이동 
                     cinemachineConfiner2D.m_BoundingShape2D = _portalScr.GetDestinationCollider(); //카메라 범위 제한
+                    MapManager.Instance.SetPlayerCurrentSpace(_portalScr.GetDestinationPlaceName()); //이동 장소 설정
+                    _playerMovement.SetPlayerMoveRange(MapManager.Instance.GetPlayerCurrentSpaceSpriteRenderer());//플레이어의 이동 범위 제한 설정
+                    _playerMovement.ApplyMoveVelocity(_playerMoveDirection); //이동 중이 였다면 계속 이동
                 }
                 else
                 {
