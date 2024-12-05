@@ -141,7 +141,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            UIManager.Instance.CloseAllPopups();
+            UIManager.Instance.CloseAllInteractPopups();
             ConsoleLogger.Log("옵션 버튼 입력");
         }
     }

@@ -311,6 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _closeButton: {fileID: 2837815559934002610}
+  _uiType: 1
   mapPin: {fileID: 8447449759512219532}
   pinPositions:
   - {x: -450.8, y: 149.2}

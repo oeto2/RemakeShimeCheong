@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class UIManager : Singleton<UIManager>
 {
     //부모 UI
     public Transform parentsUI = null;
     private Dictionary<string, UIBase> _popups = new Dictionary<string, UIBase>();
+    private Dictionary<string, UIBase> _interactPopups = new Dictionary<string, UIBase>();
 
     public GameObject GetPopup(string popupName)
     {
@@ -64,9 +66,10 @@ public class UIManager : Singleton<UIManager>
         {
             return;
         }
+
         popup.gameObject.SetActive(false);
     }
-    
+
     public UIBase ShowPopupWithPrefab(GameObject prefab, string popupName, Transform parents = null)
     {
         if (parentsUI != null)
@@ -82,8 +85,7 @@ public class UIManager : Singleton<UIManager>
     public UIBase ShowPopup(GameObject obj, string popupname)
     {
         var popup = obj.GetComponent<UIBase>();
-        _popups.Add(popupname, popup);
-
+        CheckUIType(popupname, popup); //UI Type에 따른 딕셔너리 분류
         obj.SetActive(true);
         return popup;
     }
@@ -126,8 +128,23 @@ public class UIManager : Singleton<UIManager>
         var uiComponent = _popups[uiName].GetComponent<T>();
         return uiComponent;
     }
-    
-    
+
+    //생성할 UI의 Type 체크 후 딕셔너리 분류
+    public void CheckUIType(string objectName, UIBase ui)
+    {
+        switch (ui._uiType)
+        {
+            case UIType.Normal:
+                _popups.Add(objectName, ui);
+                break;
+            
+            case UIType.Interact:
+                _popups.Add(objectName, ui);
+                _interactPopups.Add(objectName, ui);
+                break;
+        }
+    }
+
     //해당 UI 오브젝트가 현재 활성화 중인지
     public bool IsActiveUI<T>() where T : UIBase
     {
@@ -138,14 +155,14 @@ public class UIManager : Singleton<UIManager>
         {
             return false;
         }
-        
+
         return popup.gameObject.activeSelf;
     }
-    
-    //모든 팝업 UI 닫기
-    public void CloseAllPopups()
+
+    //모든 상호작용 팝업 UI 닫기
+    public void CloseAllInteractPopups()
     {
-        foreach (var popup in _popups)
+        foreach (var popup in _interactPopups)
         {
             popup.Value.gameObject.SetActive(false);
         }
