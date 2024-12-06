@@ -167,4 +167,18 @@ public class UIManager : Singleton<UIManager>
             popup.Value.gameObject.SetActive(false);
         }
     }
+    
+    //상호작용 팝업이 현재 하나라도 활성화 중인지
+    public bool IsActiveInteractPopup()
+    {
+        foreach (var popup in _interactPopups)
+        {
+            //상호작용 팝업이 활성화 중이라면
+            if (popup.Value.gameObject.activeSelf)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }

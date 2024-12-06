@@ -9,21 +9,23 @@ public class PlayerController : MonoBehaviour
     private PlayerInput _playerInput;
     private PlayerMovement _playerMovement;
     private PlayerAnimator _playerAnimator;
-    private readonly PlayerAnimationData _playerAnimationData = new PlayerAnimationData();    
-    
+    private readonly PlayerAnimationData _playerAnimationData = new PlayerAnimationData();
+
     //변수 : 포탈 관련
     public CinemachineConfiner2D cinemachineConfiner2D; //카메라 영역 제한
     private GameObject _usePortal;
     private IPortalable _portalScr;
-    
-    
+
+
     //변수 : 이동관련
     private Vector2 _playerMoveDirection; //플레이어의 이동 방향
-    
-    
+
+
     private void Awake()
     {
         Init();
+        GameManager.Instance.Init();
+        GameManager.Instance.playerObj = gameObject;
     }
 
     //초기 설정
@@ -31,6 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         _playerMovement = GetComponent<PlayerMovement>();
         _playerAnimator = GetComponent<PlayerAnimator>();
+        _playerInput = GetComponent<PlayerInput>();
         _playerAnimationData.Init(); //게임에 사용될 애니메이션 파라미터 해쉬 변환
     }
 
@@ -84,7 +87,7 @@ public class PlayerController : MonoBehaviour
             {
                 UIManager.Instance.ShowPopup<MapPopup>(); //지도 팝업 열기
             }
-            
+
             //현재 UI가 활성화 중이라면
             else
             {
@@ -124,9 +127,11 @@ public class PlayerController : MonoBehaviour
                     transform.position = _portalScr.GetDestination(); //플레이어 포탈 이동 
                     cinemachineConfiner2D.m_BoundingShape2D = _portalScr.GetDestinationCollider(); //카메라 범위 제한
                     MapManager.Instance.SetPlayerCurrentSpace(_portalScr.GetDestinationPlaceName()); //이동 장소 설정
-                    _playerMovement.SetPlayerMoveRange(MapManager.Instance.GetPlayerCurrentSpaceSpriteRenderer());//플레이어의 이동 범위 제한 설정
+                    _playerMovement.SetPlayerMoveRange(MapManager.Instance
+                        .GetPlayerCurrentSpaceSpriteRenderer()); //플레이어의 이동 범위 제한 설정
                     _playerMovement.ApplyMoveVelocity(_playerMoveDirection); //이동 중이 였다면 계속 이동
-                    UIManager.Instance.GetUIComponent<MapPopup>().SetPinPos(_portalScr.GetDestinationPlaceName()); //지도 핀 위치 변경
+                    UIManager.Instance.GetUIComponent<MapPopup>()
+                        .SetPinPos(_portalScr.GetDestinationPlaceName()); //지도 핀 위치 변경
                 }
                 else
                 {
@@ -141,8 +146,17 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            UIManager.Instance.CloseAllInteractPopups();
-            ConsoleLogger.Log("옵션 버튼 입력");
+            //상호작용 팝업중에 하나라도 활성화 중이라면
+            if (UIManager.Instance.IsActiveInteractPopup())
+            {
+                UIManager.Instance.CloseAllInteractPopups(); //모든 팝업 종료
+                GameManager.Instance.ReleasePauseGame(); //게임 일시정지 해제
+                ReleaseIgnoreInput(); //Input 무시 해제
+                return;
+            }
+            
+            UIManager.Instance.ShowPopup<OptionPopup>();
+            IgnoreInput(); //Input 무시
         }
     }
 
@@ -153,5 +167,27 @@ public class PlayerController : MonoBehaviour
         {
             ConsoleLogger.Log("상호작용 버튼 입력");
         }
+    }
+    
+    //입력 무시
+    public void IgnoreInput()
+    {
+        _playerInput.actions["Interaction"].Disable();
+        _playerInput.actions["Inventory"].Disable();
+        _playerInput.actions["Talk"].Disable();
+        _playerInput.actions["Portal"].Disable();
+        _playerInput.actions["Move"].Disable();
+        _playerInput.actions["Map"].Disable();
+    }
+    
+    //입력 무시 해제
+    public void ReleaseIgnoreInput()
+    {
+        _playerInput.actions["Interaction"].Enable();
+        _playerInput.actions["Inventory"].Enable();
+        _playerInput.actions["Talk"].Enable();
+        _playerInput.actions["Portal"].Enable();
+        _playerInput.actions["Move"].Enable();
+        _playerInput.actions["Map"].Enable();
     }
 }
