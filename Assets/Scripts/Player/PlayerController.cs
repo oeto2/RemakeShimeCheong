@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public CinemachineConfiner2D cinemachineConfiner2D; //카메라 영역 제한
     [SerializeField] private GameObject _usePortal;
     private IPortalable _portalScr;
+    private bool _canUsePortal = true; //포탈 사용가능 여부    
 
 
     //변수 : 이동관련
@@ -117,34 +118,40 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            //사용할 포탈 미등록 시
-            if (_usePortal == null)
+            //포탈을 사용할 수 있는 상태라면
+            if (_canUsePortal)
             {
-                DetectPortal(); //레이캐스트로 포탈 검출 후 사용할 포탈에 등록
-            }
-
-            //사용할 포탈 등록 시
-            if (_usePortal != null)
-            {
-                //포탈 이동
-                if (_usePortal.TryGetComponent(out _portalScr))
+                //사용할 포탈 미등록 시
+                if (_usePortal == null)
                 {
-                    UIManager.Instance.ShowPopup<BlinkScreenUI>(); //스크린 깜빡이기 (애니메이션)
-                    transform.position = _portalScr.GetDestination(); //플레이어 포탈 이동 
-                    cinemachineConfiner2D.m_BoundingShape2D = _portalScr.GetDestinationCollider(); //카메라 범위 제한
-                    MapManager.Instance.SetPlayerCurrentSpace(_portalScr.GetDestinationPlaceName()); //이동 장소 설정
-                    _playerMovement.SetPlayerMoveRange(MapManager.Instance
-                        .GetPlayerCurrentSpaceSpriteRenderer()); //플레이어의 이동 범위 제한 설정
-                    _playerMovement.ApplyMoveVelocity(_playerMoveDirection); //이동 중이 였다면 계속 이동
-                    cinemachineConfiner2D.transform.position = transform.position; //카메라 위치 이동
-                    UIManager.Instance.GetUIComponent<MapPopup>()
-                        .SetPinPos(_portalScr.GetDestinationPlaceName()); //지도 핀 위치 변경
+                    DetectPortal(); //레이캐스트로 포탈 검출 후 사용할 포탈에 등록
+                }
+
+                //사용할 포탈 등록 시
+                if (_usePortal != null)
+                {
+                    //포탈 이동
+                    if (_usePortal.TryGetComponent(out _portalScr))
+                    {
+                        UIManager.Instance.ShowPopup<BlinkScreenUI>(); //스크린 깜빡이기 (애니메이션)
+                        transform.position = _portalScr.GetDestination(); //플레이어 포탈 이동 
+                        cinemachineConfiner2D.m_BoundingShape2D = _portalScr.GetDestinationCollider(); //카메라 범위 제한
+                        MapManager.Instance.SetPlayerCurrentSpace(_portalScr.GetDestinationPlaceName()); //이동 장소 설정
+                        _playerMovement.SetPlayerMoveRange(MapManager.Instance
+                            .GetPlayerCurrentSpaceSpriteRenderer()); //플레이어의 이동 범위 제한 설정
+                        _playerMovement.ApplyMoveVelocity(_playerMoveDirection); //이동 중이 였다면 계속 이동
+                        FollowPlayer(); //카메라 플레이어 추적
+                        UIManager.Instance.GetUIComponent<MapPopup>()
+                            .SetPinPos(_portalScr.GetDestinationPlaceName()); //지도 핀 위치 변경
+                        _canUsePortal = false; //포탈 이용 막기
+                    }
                 }
             }
         }
 
         if (context.canceled)
         {
+            cinemachineConfiner2D.m_Damping = 0.5f;
             ReleasePortal(); //사용할 포탈 비우기
         }
     }
@@ -211,7 +218,6 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(transform.position, Vector2.up * 1f, Color.red);
         RaycastHit2D portalHit = _raycastHit2Ds.FirstOrDefault(hit =>hit.collider != null && hit.collider.gameObject.layer == ObjectLayer.PortalLayer);
        
-        
         if (portalHit.collider != null)
         {
             _usePortal = portalHit.collider.gameObject; //사용할 포탈에 등록
@@ -223,5 +229,18 @@ public class PlayerController : MonoBehaviour
     {
         _raycastHit2Ds = new RaycastHit2D[10];
         _usePortal = null;
+    }
+    
+    //포탈을 사용할 수 있게한 함수
+    public void EnablePortalUse()
+    {
+        _canUsePortal = true;
+    }
+    
+    //카메라 플레이어 추적
+    private void FollowPlayer()
+    {
+        cinemachineConfiner2D.m_Damping = 0f; 
+        cinemachineConfiner2D.transform.position = transform.position;
     }
 }
