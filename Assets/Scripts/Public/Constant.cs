@@ -1,5 +1,3 @@
-
-
 //게임 내 사용되는 변하지 않는 상수
 namespace Constants
 {
@@ -8,6 +6,13 @@ namespace Constants
     {
         Title,
         Main
+    }
+    
+    //게임내 사용되는 오브젝트 타입
+    public enum ObjectType
+    {
+        Item,
+        Clue
     }
     
     //게임에 사용되는 동적로딩 이미지 경로
