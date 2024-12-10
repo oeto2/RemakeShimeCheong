@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 
     //변수 : 포탈 관련
     public CinemachineConfiner2D cinemachineConfiner2D; //카메라 영역 제한
-    [SerializeField] private GameObject _usePortal;
+    private GameObject _usePortal;
     private IPortalable _portalScr;
     private bool _canUsePortal = true; //포탈 사용가능 여부    
 
@@ -45,13 +45,11 @@ public class PlayerController : MonoBehaviour
     //플레이어와 콜라이더 충돌 처리
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
     }
 
     //플레이어와 콜라이더 충돌 해제
     private void OnTriggerExit2D(Collider2D other)
     {
-        
     }
 
     //플레이어 이동키 입력
@@ -79,19 +77,21 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            //현재 UI가 비활성화 중이라면
-            if (!UIManager.Instance.IsActiveUI<MapPopup>())
+            //지도 팝업이 활성화 중이라면
+            if (UIManager.Instance.IsActiveUI<MapPopup>())
             {
-                UIManager.Instance.ShowPopup<MapPopup>(); //지도 팝업 열기
-                Cursor.visible = true; //커서 보이기
+                UIManager.Instance.ClosePopup<MapPopup>();
+                Cursor.visible = false; //커서 숨기기
+                return;
             }
 
-            //현재 UI가 활성화 중이라면
-            else
+            //상호작용 팝업중에 하나라도 활성화 중이라면
+            if (UIManager.Instance.IsActiveInteractPopup())
             {
-                UIManager.Instance.ClosePopup<MapPopup>(); //지도 팝업 닫기
-                Cursor.visible = false; //커서 숨기기
+                UIManager.Instance.CloseAllInteractPopups(); //모든 팝업 종료
             }
+            UIManager.Instance.ShowPopup<MapPopup>();
+            Cursor.visible = true; //커서 보이기
         }
     }
 
@@ -109,7 +109,21 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            ConsoleLogger.Log("인벤토리 버튼 입력");
+            //인벤토리 팝업이 활성화 중이라면
+            if (UIManager.Instance.IsActiveUI<InventoryPopup>())
+            {
+                UIManager.Instance.ClosePopup<InventoryPopup>();
+                Cursor.visible = false; //커서 숨기기
+                return;
+            }
+
+            //상호작용 팝업중에 하나라도 활성화 중이라면
+            if (UIManager.Instance.IsActiveInteractPopup())
+            {
+                UIManager.Instance.CloseAllInteractPopups(); //모든 팝업 종료
+            }
+            UIManager.Instance.ShowPopup<InventoryPopup>();
+            Cursor.visible = true; //커서 보이기
         }
     }
 
@@ -207,40 +221,41 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Move"].Enable();
         _playerInput.actions["Map"].Enable();
     }
-    
+
     //포탈 검출하기
     private void DetectPortal()
     {
         //레이캐스트를 활용하여 검출된 콜라이더들 가져오기
         Physics2D.RaycastNonAlloc(transform.position, Vector2.up, _raycastHit2Ds, 1f);
-        
+
         // 디버그용 드로우 레이
         Debug.DrawRay(transform.position, Vector2.up * 1f, Color.red);
-        RaycastHit2D portalHit = _raycastHit2Ds.FirstOrDefault(hit =>hit.collider != null && hit.collider.gameObject.layer == ObjectLayer.PortalLayer);
-       
+        RaycastHit2D portalHit = _raycastHit2Ds.FirstOrDefault(hit =>
+            hit.collider != null && hit.collider.gameObject.layer == ObjectLayer.PortalLayer);
+
         if (portalHit.collider != null)
         {
             _usePortal = portalHit.collider.gameObject; //사용할 포탈에 등록
         }
     }
-    
+
     //사용 포탈 해제하기
     private void ReleasePortal()
     {
         _raycastHit2Ds = new RaycastHit2D[10];
         _usePortal = null;
     }
-    
+
     //포탈을 사용할 수 있게한 함수
     public void EnablePortalUse()
     {
         _canUsePortal = true;
     }
-    
+
     //카메라 플레이어 추적
     private void FollowPlayer()
     {
-        cinemachineConfiner2D.m_Damping = 0f; 
+        cinemachineConfiner2D.m_Damping = 0f;
         cinemachineConfiner2D.transform.position = transform.position;
     }
 }

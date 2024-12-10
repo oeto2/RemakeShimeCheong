@@ -1,0 +1,100 @@
+{
+  "Item_Table": [
+    {
+      "Id": 1000,
+      "ObjectType": "Item",
+      "Name": "쌀",
+      "Comment": "밥을 짓고 남은 쌀. 양이 얼마 되지 않는다.",
+      "IsUsing": false,
+      "IndexNum": 0
+    },
+    {
+      "Id": 1001,
+      "ObjectType": "Item",
+      "Name": "장작",
+      "Comment": "작게 쪼개진 장작. 보통 땔감으로 이용한다.",
+      "IsUsing": false,
+      "IndexNum": 1
+    },
+    {
+      "Id": 1002,
+      "ObjectType": "Item",
+      "Name": "부시와 부싯돌",
+      "Comment": "불을 붙이는 도구. 부시(쇠)와 부싯돌을 부딪혀 불을 땔 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 2
+    },
+    {
+      "Id": 1003,
+      "ObjectType": "Item",
+      "Name": "바가지",
+      "Comment": "박의 껍질을 말려 만든 물건. 무언가 담을 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 3
+    },
+    {
+      "Id": 1004,
+      "ObjectType": "Item",
+      "Name": "물이 든 바가지",
+      "Comment": "물이 담긴 바가지. 물을 어딘가로 옮길 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 4
+    },
+    {
+      "Id": 1005,
+      "ObjectType": "Item",
+      "Name": "주먹밥",
+      "Comment": "아기 주먹 크기의 주먹밥. 밥을 뭉쳐 만들었다.",
+      "IsUsing": false,
+      "IndexNum": 5
+    },
+    {
+      "Id": 1006,
+      "ObjectType": "Item",
+      "Name": "비녀",
+      "Comment": "청동 비녀. 장터에서 가장 신품이다. 작지만 정말 비싸다.",
+      "IsUsing": false,
+      "IndexNum": 6
+    },
+    {
+      "Id": 1007,
+      "ObjectType": "Item",
+      "Name": "먹",
+      "Comment": "장사꾼이 홍보를 부탁한 먹. 흐릿하게 '단산오옥'이라 적혀있다.",
+      "IsUsing": false,
+      "IndexNum": 7
+    },
+    {
+      "Id": 1008,
+      "ObjectType": "Item",
+      "Name": "보리떡",
+      "Comment": "장터 아이에게 전달해야 하는 떡이다. 고소한 냄새가 나며 아직 따듯하다.",
+      "IsUsing": false,
+      "IndexNum": 8
+    },
+    {
+      "Id": 1009,
+      "ObjectType": "Item",
+      "Name": "꽃",
+      "Comment": "아이가 따온 꽃이다. 푸른빛이 감도는 게 꽤나 신비롭다.",
+      "IsUsing": false,
+      "IndexNum": 9
+    },
+    {
+      "Id": 1010,
+      "ObjectType": "Item",
+      "Name": "약초",
+      "Comment": "귀덕 어멈이 나누어 준 약초이다. 물에 달여 마시면 몸에 좋다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 10
+    },
+    {
+      "Id": 1011,
+      "ObjectType": "Item",
+      "Name": "사공의 물건",
+      "Comment": "사공에게 전해야하는 물건. 약재로 보이며 톡 쏘는 향이 난다.",
+      "IsUsing": false,
+      "IndexNum": 11
+    }
+  ]
+}
