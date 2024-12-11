@@ -12,6 +12,7 @@ public class Slot : MonoBehaviour
 
     [Header("ObjectInfo")]
     [SerializeField] public ItemData itemData;
+    [SerializeField] public ClueData clueData;
     
     private Button _slotButton;
     private Inventory _inventory;
@@ -35,7 +36,17 @@ public class Slot : MonoBehaviour
         {
             SelectSlotObj.SetActive(true);
             isUsing = true;
-            _inventory.WriteDescription(itemData.Comment);
+
+            switch (_inventory.curInventoryTab)
+            {
+                case InventoryTab.Item :
+                _inventory.WriteDescription(itemData.Comment);
+                break;
+                
+                case InventoryTab.Clue :
+                    _inventory.WriteDescription(clueData.Comment);
+                    break;
+            }
         }
 
         //선택중일 경우
@@ -52,5 +63,12 @@ public class Slot : MonoBehaviour
         itemData = itemData_;
         objectNameText.text = itemData.Name;
         objectImage.sprite = ResourceManager.Instance.Load<Sprite>(itemData.SpritePath);
+    }
+    
+    public void Init(ClueData clueData_)
+    {
+        clueData = clueData_;
+        objectNameText.text = clueData.Name;
+        objectImage.sprite = ResourceManager.Instance.Load<Sprite>(clueData.SpritePath);
     }
 }

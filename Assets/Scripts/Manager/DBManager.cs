@@ -103,16 +103,34 @@ public class DBManager : Singleton<DBManager>
         //해당 ID의 데이터가 존재하지 않다면 
         if (!CheckContainsItem(itemId))
         {
-            ConsoleLogger.LogError($"ID:{itemId}의 아이템 데이터는 존재하지 않습니다");
+            ConsoleLogger.LogError($"ID:{itemId}의 아이템 데이터를 찾을 수 없습니다.");
             return null;
         }
         
         return _itemDB[itemId];
     }
     
+    public ClueData GetClueData(int clueId)
+    {
+        //해당 ID의 데이터가 존재하지 않다면 
+        if (!CheckContainsClue(clueId))
+        {
+            ConsoleLogger.LogError($"ID:{clueId}의 단서 데이터를 찾을 수 없습니다.");
+            return null;
+        }
+        
+        return _clueDB[clueId];
+    }
+    
     //아이템이 DB에 존재하는지 확인
     public bool CheckContainsItem(int itemId)
     {
         return _itemDB.ContainsKey(itemId);
+    }
+    
+    //단서가 DB에 존재하는지 확인
+    public bool CheckContainsClue(int clueId)
+    {
+        return _clueDB.ContainsKey(clueId);
     }
 }

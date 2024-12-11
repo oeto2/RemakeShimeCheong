@@ -11,8 +11,9 @@ namespace Constants
     //게임내 사용되는 오브젝트 타입
     public enum ObjectType
     {
-        Item,
-        Clue
+        Item, //아이템
+        Clue, //단서
+        Hypothesis //가설
     }
     
     //게임에 사용되는 동적로딩 이미지 경로

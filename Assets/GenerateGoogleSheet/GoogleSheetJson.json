@@ -328,7 +328,7 @@
     },
     {
       "Id": 9001,
-      "ObjectType": "ClueClue",
+      "ObjectType": "Hypothesis",
       "Name": "공양미를 구한 방법",
       "Comment": "청이가 송나라 상인과 거래를 해 공양미 삼백 석을 마련한 것 같다. 무엇을 빌미로 거래한 걸까?",
       "IsUsing": false,
@@ -337,7 +337,7 @@
     },
     {
       "Id": 4015,
-      "ObjectType": "ClueClue",
+      "ObjectType": "Hypothesis",
       "Name": "청이가 사라진 날",
       "Comment": "청이와 향리 댁 셋째 아들이 사라진 날짜가 겹친다. 그날에는 무슨 일이 있었던 걸까?",
       "IsUsing": false,
@@ -346,7 +346,7 @@
     },
     {
       "Id": 4017,
-      "ObjectType": "ClueClue",
+      "ObjectType": "Hypothesis",
       "Name": "청이와 그의 관계",
       "Comment": "청이와 향리 댁 셋째의 관계가 궁금하다. 둘의 모습을 목격했다는데..",
       "IsUsing": false,
@@ -355,7 +355,7 @@
     },
     {
       "Id": 8032,
-      "ObjectType": "ClueClue",
+      "ObjectType": "Hypothesis",
       "Name": "함께 사라진 두 사람",
       "Comment": "청이와 향리 댁 셋째가 함께 사라진 것 같다. 과연 억측일까?",
       "IsUsing": false,
@@ -364,7 +364,7 @@
     },
     {
       "Id": 4033,
-      "ObjectType": "ClueClue",
+      "ObjectType": "Hypothesis",
       "Name": "무역의 중단",
       "Comment": "물살이 거세고, 배가 뜨지 않는다. 아마도 무역이 중단되었을 것이다.",
       "IsUsing": false,
@@ -373,7 +373,7 @@
     },
     {
       "Id": 9000,
-      "ObjectType": "ClueClue",
+      "ObjectType": "Hypothesis",
       "Name": "청이의 가출",
       "Comment": "청이가 거짓말을 했고, 짚신을 전부 샀다. 청이는 가출을 했다. …..분명 누군가의 계략일 것이다.",
       "IsUsing": false,
@@ -382,7 +382,7 @@
     },
     {
       "Id": 6045,
-      "ObjectType": "ClueClue",
+      "ObjectType": "Hypothesis",
       "Name": "바다에 바쳐질 제물",
       "Comment": "나쁜 생각은 하지 않으려 했건만, 자꾸 좋지 않은 예감이 느껴진다. 제발 아니길.",
       "IsUsing": false,
