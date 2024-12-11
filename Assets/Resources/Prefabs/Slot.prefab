@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6144279091903279538}
   - component: {fileID: 3470376132240408910}
   m_Layer: 5
-  m_Name: ItemName
+  m_Name: ObjectName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 2187305409111493318}
   - component: {fileID: 5616557190840462890}
   m_Layer: 5
-  m_Name: ItemSlot
+  m_Name: Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -273,8 +273,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUsing: 0
-  itemNameText: {fileID: 3470376132240408910}
-  SelectImageObj: {fileID: 4272080881914696953}
+  objectNameText: {fileID: 3470376132240408910}
+  objectImage: {fileID: 5880994875795347160}
+  SelectSlotObj: {fileID: 4272080881914696953}
 --- !u!1 &4272080881914696953
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,7 +364,7 @@ GameObject:
   - component: {fileID: 4491417071262267859}
   - component: {fileID: 5880994875795347160}
   m_Layer: 5
-  m_Name: ItemImage
+  m_Name: ObjectImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

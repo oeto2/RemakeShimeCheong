@@ -19,6 +19,7 @@ public class Item_Table
 	public string Comment;
 	public bool IsUsing;
 	public int IndexNum;
+	public string SpritePath;
 }
 
 [Serializable]
@@ -30,6 +31,7 @@ public class Clue_Table
 	public string Comment;
 	public bool IsUsing;
 	public int IndexNum;
+	public string SpritePath;
 }
 
 [Serializable]

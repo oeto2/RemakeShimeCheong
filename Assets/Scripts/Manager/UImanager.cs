@@ -9,23 +9,19 @@ public class UIManager : Singleton<UIManager>
     private Dictionary<string, UIBase> _popups = new Dictionary<string, UIBase>();
     private Dictionary<string, UIBase> _interactPopups = new Dictionary<string, UIBase>();
 
-    public GameObject GetPopup(string popupName)
+    public GameObject GetPopupObject<T>() where T : UIBase
     {
-        ShowPopup(popupName);
-
-        return _popups[popupName].gameObject;
-    }
-
-    public GameObject GetPopupObject(string popupName)
-    {
-        if (!_popups.ContainsKey(popupName))
+        string popupName = typeof(T).Name;
+        
+        //해당 이름의 UI가 존재하지 않는다면
+        if (!_popups.TryGetValue(popupName, out var popup))
         {
-            return null;
+            ShowPopup<T>().gameObject.SetActive(false); //팝업 생성
         }
 
         return _popups[popupName].gameObject;
     }
-
+    
     //해당 팝업이 존재하는지
     public bool ExistPopup(string _key)
     {
@@ -158,6 +154,8 @@ public class UIManager : Singleton<UIManager>
 
         return popup.gameObject.activeSelf;
     }
+    
+    
 
     //모든 상호작용 팝업 UI 닫기
     public void CloseAllInteractPopups()

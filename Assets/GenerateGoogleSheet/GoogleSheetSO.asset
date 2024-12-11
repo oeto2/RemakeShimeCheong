@@ -20,6 +20,7 @@ MonoBehaviour:
       \uB418\uC9C0 \uC54A\uB294\uB2E4."
     IsUsing: 0
     IndexNum: 0
+    SpritePath: Item/Rice2
   - Id: 1001
     ObjectType: Item
     Name: "\uC7A5\uC791"
@@ -27,6 +28,7 @@ MonoBehaviour:
       \uC774\uC6A9\uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 1
+    SpritePath: Item/Jangjack
   - Id: 1002
     ObjectType: Item
     Name: "\uBD80\uC2DC\uC640 \uBD80\uC2EF\uB3CC"
@@ -34,6 +36,7 @@ MonoBehaviour:
       \uBD80\uC2EF\uB3CC\uC744 \uBD80\uB52A\uD600 \uBD88\uC744 \uB554 \uC218 \uC788\uB2E4."
     IsUsing: 0
     IndexNum: 2
+    SpritePath: Item/FireStone
   - Id: 1003
     ObjectType: Item
     Name: "\uBC14\uAC00\uC9C0"
@@ -41,6 +44,7 @@ MonoBehaviour:
       \uBB34\uC5B8\uAC00 \uB2F4\uC744 \uC218 \uC788\uB2E4."
     IsUsing: 0
     IndexNum: 3
+    SpritePath: Item/Bagage
   - Id: 1004
     ObjectType: Item
     Name: "\uBB3C\uC774 \uB4E0 \uBC14\uAC00\uC9C0"
@@ -48,6 +52,7 @@ MonoBehaviour:
       \uC62E\uAE38 \uC218 \uC788\uB2E4."
     IsUsing: 0
     IndexNum: 4
+    SpritePath: Item/Bagage2
   - Id: 1005
     ObjectType: Item
     Name: "\uC8FC\uBA39\uBC25"
@@ -55,6 +60,7 @@ MonoBehaviour:
       \uBB49\uCCD0 \uB9CC\uB4E4\uC5C8\uB2E4."
     IsUsing: 0
     IndexNum: 5
+    SpritePath: Item/Riceball
   - Id: 1006
     ObjectType: Item
     Name: "\uBE44\uB140"
@@ -62,6 +68,7 @@ MonoBehaviour:
       \uC791\uC9C0\uB9CC \uC815\uB9D0 \uBE44\uC2F8\uB2E4."
     IsUsing: 0
     IndexNum: 6
+    SpritePath: Item/Binyeo
   - Id: 1007
     ObjectType: Item
     Name: "\uBA39"
@@ -69,6 +76,7 @@ MonoBehaviour:
       \uD750\uB9BF\uD558\uAC8C '\uB2E8\uC0B0\uC624\uC625'\uC774\uB77C \uC801\uD600\uC788\uB2E4."
     IsUsing: 0
     IndexNum: 7
+    SpritePath: Item/InkStick
   - Id: 1008
     ObjectType: Item
     Name: "\uBCF4\uB9AC\uB5A1"
@@ -77,6 +85,7 @@ MonoBehaviour:
       \uB530\uB4EF\uD558\uB2E4."
     IsUsing: 0
     IndexNum: 8
+    SpritePath: Item/BoriRicecake
   - Id: 1009
     ObjectType: Item
     Name: "\uAF43"
@@ -84,6 +93,7 @@ MonoBehaviour:
       \uAC10\uB3C4\uB294 \uAC8C \uAF64\uB098 \uC2E0\uBE44\uB86D\uB2E4."
     IsUsing: 0
     IndexNum: 9
+    SpritePath: Item/Herb
   - Id: 1010
     ObjectType: Item
     Name: "\uC57D\uCD08"
@@ -92,6 +102,7 @@ MonoBehaviour:
       \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 10
+    SpritePath: Item/Herb2
   - Id: 1011
     ObjectType: Item
     Name: "\uC0AC\uACF5\uC758 \uBB3C\uAC74"
@@ -99,6 +110,7 @@ MonoBehaviour:
       \uC57D\uC7AC\uB85C \uBCF4\uC774\uBA70 \uD1A1 \uC3D8\uB294 \uD5A5\uC774 \uB09C\uB2E4."
     IsUsing: 0
     IndexNum: 11
+    SpritePath: Item/RiverManItem
   Clue_TableList:
   - Id: 2000
     ObjectType: Clue
@@ -107,6 +119,7 @@ MonoBehaviour:
       \uC218\uC591\uB538\uB85C \uB4E4\uC5B4\uAC14\uB2E4."
     IsUsing: 0
     IndexNum: 0
+    SpritePath: Clue/Clue
   - Id: 2001
     ObjectType: Clue
     Name: "\uCCAD\uC774\uC758 \uAC70\uC9D3\uB9D0"
@@ -114,6 +127,7 @@ MonoBehaviour:
       \uB4E4\uC5B4\uAC04\uB2E4\uB294 \uAC70\uC9D3\uB9D0\uC744 \uD588\uB2E4."
     IsUsing: 0
     IndexNum: 1
+    SpritePath: Clue/Clue
   - Id: 2002
     ObjectType: Clue
     Name: "\uCCAD\uC774\uC758 \uD589\uBC29"
@@ -122,6 +136,7 @@ MonoBehaviour:
       \uBA38\uBB3C\uB800\uC744\uC9C0 \uCC3E\uC544\uBCF4\uC790."
     IsUsing: 0
     IndexNum: 2
+    SpritePath: Clue/Clue
   - Id: 2003
     ObjectType: Clue
     Name: "\uCCAD\uC774\uC640 \uC7A5\uD130"
@@ -130,6 +145,7 @@ MonoBehaviour:
       \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 3
+    SpritePath: Clue/Clue
   - Id: 2004
     ObjectType: Clue
     Name: "\uCCAD\uC774\uC640 \uC0AC\uB0B4"
@@ -137,6 +153,7 @@ MonoBehaviour:
       \uC0AC\uB0B4\uC640 \uC790\uC8FC \uD568\uAED8 \uC788\uC5C8\uB2E4\uACE0 \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 4
+    SpritePath: Clue/Clue
   - Id: 2005
     ObjectType: Clue
     Name: "\uB204\uAD70\uAC00\uC758 \uC544\uB4E4"
@@ -145,6 +162,7 @@ MonoBehaviour:
       \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 5
+    SpritePath: Clue/Clue
   - Id: 2006
     ObjectType: Clue
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778\uACFC \uCCAD\uC774"
@@ -153,6 +171,7 @@ MonoBehaviour:
       \uBCF4\uC558\uB2E4\uACE0 \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 6
+    SpritePath: Clue/Clue
   - Id: 2007
     ObjectType: Clue
     Name: "\uC2B9\uB824\uC640 \uCCAD\uC774"
@@ -161,6 +180,7 @@ MonoBehaviour:
       \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 7
+    SpritePath: Clue/Clue
   - Id: 2008
     ObjectType: Clue
     Name: "\uC2B9\uB824\uC758 \uB9C8\uC74C"
@@ -169,6 +189,7 @@ MonoBehaviour:
       \uBCF4\uC558\uB2E4\uACE0 \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 8
+    SpritePath: Clue/Clue
   - Id: 2009
     ObjectType: Clue
     Name: "\uCCAD\uC774\uC758 \uB3C4\uC6C0"
@@ -177,6 +198,7 @@ MonoBehaviour:
       \uBC1B\uC740 \uAC78\uAE4C?"
     IsUsing: 0
     IndexNum: 9
+    SpritePath: Clue/Clue
   - Id: 2010
     ObjectType: Clue
     Name: "\uACF5\uC591\uBBF8 \uC0BC\uBC31 \uC11D"
@@ -185,6 +207,7 @@ MonoBehaviour:
       \uB208\uC740 \uC5B8\uC81C \uB730 \uC218 \uC788\uB294\uC9C0.."
     IsUsing: 0
     IndexNum: 10
+    SpritePath: Clue/Clue
   - Id: 2011
     ObjectType: Clue
     Name: "\uACF5\uC591\uBBF8\uC758 \uCD9C\uCC98"
@@ -193,6 +216,7 @@ MonoBehaviour:
       \uAD6C\uD55C \uAC83\uC77C\uAE4C.."
     IsUsing: 0
     IndexNum: 11
+    SpritePath: Clue/Clue
   - Id: 2012
     ObjectType: Clue
     Name: "\uCCAD\uC774\uC758 \uAC70\uB798"
@@ -201,6 +225,7 @@ MonoBehaviour:
       \uD55C\uB2E4. \uCCAD\uC774\uAC00 \uC300\uC744 \uC694\uAD6C\uD588\uB2E4\uB294\uB370\u2026"
     IsUsing: 0
     IndexNum: 12
+    SpritePath: Clue/Clue
   - Id: 2013
     ObjectType: Clue
     Name: "\uD5A5\uB9AC \uB301 \uC14B\uC9F8 \uC544\uB4E4"
@@ -209,6 +234,7 @@ MonoBehaviour:
       \uBCF4\uB7EC \uB5A0\uB0AC\uB2E4\uACE0 \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 13
+    SpritePath: Clue/Clue
   - Id: 2014
     ObjectType: Clue
     Name: "\uC7A0\uC7A0\uD574\uC838\uC57C \uD560 \uBB3C\uC0B4"
@@ -216,6 +242,7 @@ MonoBehaviour:
       \uBB3C\uC0B4\uC774 \uC7A0\uC7A0\uD574\uC9C0\uAE38 \uBC14\uB77C\uACE0 \uC788\uB2E4."
     IsUsing: 0
     IndexNum: 14
+    SpritePath: Clue/Clue
   - Id: 2015
     ObjectType: Clue
     Name: "\uCCAD\uC774\uAC00 \uC0AC\uAC04 \uAC83"
@@ -224,6 +251,7 @@ MonoBehaviour:
       \uAC70\uB798\uB97C \uD574\uBCF4\uC790."
     IsUsing: 0
     IndexNum: 15
+    SpritePath: Clue/Clue
   - Id: 2016
     ObjectType: Clue
     Name: "\uC9DA\uC2E0\uC744 \uC0AC\uAC04 \uCCAD\uC774"
@@ -231,6 +259,7 @@ MonoBehaviour:
       \uC9DA\uC2E0\uC744 \uC804\uBD80 \uC0C0\uB2E4\uACE0 \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 16
+    SpritePath: Clue/Clue
   - Id: 2017
     ObjectType: Clue
     Name: "\uBC30\uC758 \uCD9C\uD56D"
@@ -239,6 +268,7 @@ MonoBehaviour:
       \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 17
+    SpritePath: Clue/Clue
   - Id: 2018
     ObjectType: Clue
     Name: "\uB178\uC810\uC758 \uB2E8\uACE8"
@@ -246,6 +276,7 @@ MonoBehaviour:
       \uB178\uC810\uC758 \uB2E8\uACE8\uC774\uB77C\uACE0 \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 18
+    SpritePath: Clue/Clue
   - Id: 2019
     ObjectType: Clue
     Name: "\uB728\uC9C0 \uC54A\uB294 \uBC30"
@@ -254,6 +285,7 @@ MonoBehaviour:
       \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 19
+    SpritePath: Clue/Clue
   - Id: 2020
     ObjectType: Clue
     Name: "\uC0AC\uACF5\uC5D0\uAC8C \uC788\uC5C8\uB358 \uC77C"
@@ -262,6 +294,7 @@ MonoBehaviour:
       \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 20
+    SpritePath: Clue/Clue
   - Id: 2021
     ObjectType: Clue
     Name: "\uC0AC\uACF5\uC758 \uBB3C\uAC74"
@@ -269,6 +302,7 @@ MonoBehaviour:
       \uBB3C\uAC74\uC744 \uCC3E\uC544\uC640\uB2EC\uB77C\uACE0 \uD588\uB2E4."
     IsUsing: 0
     IndexNum: 21
+    SpritePath: Clue/Clue
   - Id: 2022
     ObjectType: Clue
     Name: "\uBC43\uAE38\uC744 \uC7A0\uC7AC\uC6B8 \uBC29\uBC95"
@@ -277,6 +311,7 @@ MonoBehaviour:
       \uAC19\uB2E4\uACE0 \uD55C\uB2E4."
     IsUsing: 0
     IndexNum: 22
+    SpritePath: Clue/Clue
   - Id: 2023
     ObjectType: Clue
     Name: "3\uC6D4 \uBCF4\uB984\uB0A0"
@@ -285,6 +320,7 @@ MonoBehaviour:
       \uBAB8\uC744 \uC0AC\uB9AC\uB77C\uACE0 \uD588\uB2E4."
     IsUsing: 0
     IndexNum: 23
+    SpritePath: Clue/Clue
   - Id: 9001
     ObjectType: ClueClue
     Name: "\uACF5\uC591\uBBF8\uB97C \uAD6C\uD55C \uBC29\uBC95"
@@ -293,6 +329,7 @@ MonoBehaviour:
       \uAC19\uB2E4. \uBB34\uC5C7\uC744 \uBE4C\uBBF8\uB85C \uAC70\uB798\uD55C \uAC78\uAE4C?"
     IsUsing: 0
     IndexNum: 24
+    SpritePath: Clue/Clue
   - Id: 4015
     ObjectType: ClueClue
     Name: "\uCCAD\uC774\uAC00 \uC0AC\uB77C\uC9C4 \uB0A0"
@@ -301,6 +338,7 @@ MonoBehaviour:
       \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB358 \uAC78\uAE4C?"
     IsUsing: 0
     IndexNum: 25
+    SpritePath: Clue/Clue
   - Id: 4017
     ObjectType: ClueClue
     Name: "\uCCAD\uC774\uC640 \uADF8\uC758 \uAD00\uACC4"
@@ -308,6 +346,7 @@ MonoBehaviour:
       \uAD81\uAE08\uD558\uB2E4. \uB458\uC758 \uBAA8\uC2B5\uC744 \uBAA9\uACA9\uD588\uB2E4\uB294\uB370.."
     IsUsing: 0
     IndexNum: 26
+    SpritePath: Clue/Clue
   - Id: 8032
     ObjectType: ClueClue
     Name: "\uD568\uAED8 \uC0AC\uB77C\uC9C4 \uB450 \uC0AC\uB78C"
@@ -315,6 +354,7 @@ MonoBehaviour:
       \uC0AC\uB77C\uC9C4 \uAC83 \uAC19\uB2E4. \uACFC\uC5F0 \uC5B5\uCE21\uC77C\uAE4C?"
     IsUsing: 0
     IndexNum: 27
+    SpritePath: Clue/Clue
   - Id: 4033
     ObjectType: ClueClue
     Name: "\uBB34\uC5ED\uC758 \uC911\uB2E8"
@@ -322,6 +362,7 @@ MonoBehaviour:
       \uC544\uB9C8\uB3C4 \uBB34\uC5ED\uC774 \uC911\uB2E8\uB418\uC5C8\uC744 \uAC83\uC774\uB2E4."
     IsUsing: 0
     IndexNum: 28
+    SpritePath: Clue/Clue
   - Id: 9000
     ObjectType: ClueClue
     Name: "\uCCAD\uC774\uC758 \uAC00\uCD9C"
@@ -330,6 +371,7 @@ MonoBehaviour:
       \u2026..\uBD84\uBA85 \uB204\uAD70\uAC00\uC758 \uACC4\uB7B5\uC77C \uAC83\uC774\uB2E4."
     IsUsing: 0
     IndexNum: 29
+    SpritePath: Clue/Clue
   - Id: 6045
     ObjectType: ClueClue
     Name: "\uBC14\uB2E4\uC5D0 \uBC14\uCCD0\uC9C8 \uC81C\uBB3C"
@@ -338,6 +380,7 @@ MonoBehaviour:
       \uC81C\uBC1C \uC544\uB2C8\uAE38."
     IsUsing: 0
     IndexNum: 30
+    SpritePath: Clue/Clue
   Dialogue_TableList:
   - Id: 4999
     SpeakerType: Npc

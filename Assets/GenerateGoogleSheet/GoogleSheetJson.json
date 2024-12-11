@@ -6,7 +6,8 @@
       "Name": "쌀",
       "Comment": "밥을 짓고 남은 쌀. 양이 얼마 되지 않는다.",
       "IsUsing": false,
-      "IndexNum": 0
+      "IndexNum": 0,
+      "SpritePath": "Item/Rice2"
     },
     {
       "Id": 1001,
@@ -14,7 +15,8 @@
       "Name": "장작",
       "Comment": "작게 쪼개진 장작. 보통 땔감으로 이용한다.",
       "IsUsing": false,
-      "IndexNum": 1
+      "IndexNum": 1,
+      "SpritePath": "Item/Jangjack"
     },
     {
       "Id": 1002,
@@ -22,7 +24,8 @@
       "Name": "부시와 부싯돌",
       "Comment": "불을 붙이는 도구. 부시(쇠)와 부싯돌을 부딪혀 불을 땔 수 있다.",
       "IsUsing": false,
-      "IndexNum": 2
+      "IndexNum": 2,
+      "SpritePath": "Item/FireStone"
     },
     {
       "Id": 1003,
@@ -30,7 +33,8 @@
       "Name": "바가지",
       "Comment": "박의 껍질을 말려 만든 물건. 무언가 담을 수 있다.",
       "IsUsing": false,
-      "IndexNum": 3
+      "IndexNum": 3,
+      "SpritePath": "Item/Bagage"
     },
     {
       "Id": 1004,
@@ -38,7 +42,8 @@
       "Name": "물이 든 바가지",
       "Comment": "물이 담긴 바가지. 물을 어딘가로 옮길 수 있다.",
       "IsUsing": false,
-      "IndexNum": 4
+      "IndexNum": 4,
+      "SpritePath": "Item/Bagage2"
     },
     {
       "Id": 1005,
@@ -46,7 +51,8 @@
       "Name": "주먹밥",
       "Comment": "아기 주먹 크기의 주먹밥. 밥을 뭉쳐 만들었다.",
       "IsUsing": false,
-      "IndexNum": 5
+      "IndexNum": 5,
+      "SpritePath": "Item/Riceball"
     },
     {
       "Id": 1006,
@@ -54,7 +60,8 @@
       "Name": "비녀",
       "Comment": "청동 비녀. 장터에서 가장 신품이다. 작지만 정말 비싸다.",
       "IsUsing": false,
-      "IndexNum": 6
+      "IndexNum": 6,
+      "SpritePath": "Item/Binyeo"
     },
     {
       "Id": 1007,
@@ -62,7 +69,8 @@
       "Name": "먹",
       "Comment": "장사꾼이 홍보를 부탁한 먹. 흐릿하게 '단산오옥'이라 적혀있다.",
       "IsUsing": false,
-      "IndexNum": 7
+      "IndexNum": 7,
+      "SpritePath": "Item/InkStick"
     },
     {
       "Id": 1008,
@@ -70,7 +78,8 @@
       "Name": "보리떡",
       "Comment": "장터 아이에게 전달해야 하는 떡이다. 고소한 냄새가 나며 아직 따듯하다.",
       "IsUsing": false,
-      "IndexNum": 8
+      "IndexNum": 8,
+      "SpritePath": "Item/BoriRicecake"
     },
     {
       "Id": 1009,
@@ -78,7 +87,8 @@
       "Name": "꽃",
       "Comment": "아이가 따온 꽃이다. 푸른빛이 감도는 게 꽤나 신비롭다.",
       "IsUsing": false,
-      "IndexNum": 9
+      "IndexNum": 9,
+      "SpritePath": "Item/Herb"
     },
     {
       "Id": 1010,
@@ -86,7 +96,8 @@
       "Name": "약초",
       "Comment": "귀덕 어멈이 나누어 준 약초이다. 물에 달여 마시면 몸에 좋다고 한다.",
       "IsUsing": false,
-      "IndexNum": 10
+      "IndexNum": 10,
+      "SpritePath": "Item/Herb2"
     },
     {
       "Id": 1011,
@@ -94,7 +105,8 @@
       "Name": "사공의 물건",
       "Comment": "사공에게 전해야하는 물건. 약재로 보이며 톡 쏘는 향이 난다.",
       "IsUsing": false,
-      "IndexNum": 11
+      "IndexNum": 11,
+      "SpritePath": "Item/RiverManItem"
     }
   ],
   "Clue_Table": [
@@ -104,7 +116,8 @@
       "Name": "향리 댁의 수양딸",
       "Comment": "심청이가 이틀 전에 향리 댁의 수양딸로 들어갔다.",
       "IsUsing": false,
-      "IndexNum": 0
+      "IndexNum": 0,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2001,
@@ -112,7 +125,8 @@
       "Name": "청이의 거짓말",
       "Comment": "심청이가 향리 댁의 수양딸로 들어간다는 거짓말을 했다.",
       "IsUsing": false,
-      "IndexNum": 1
+      "IndexNum": 1,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2002,
@@ -120,7 +134,8 @@
       "Name": "청이의 행방",
       "Comment": "거지가 이르기를, 청이를 못 본 지 이틀이 되었다고 한다. 어디에 머물렀을지 찾아보자.",
       "IsUsing": false,
-      "IndexNum": 2
+      "IndexNum": 2,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2003,
@@ -128,7 +143,8 @@
       "Name": "청이와 장터",
       "Comment": "귀덕 어멈 이르기를, 청이가 사라지기 전 장터에 자주 머물렀다고 한다.",
       "IsUsing": false,
-      "IndexNum": 3
+      "IndexNum": 3,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2004,
@@ -136,7 +152,8 @@
       "Name": "청이와 사내",
       "Comment": "거지가 이르기를, 청이가 어떤 사내와 자주 함께 있었다고 한다.",
       "IsUsing": false,
-      "IndexNum": 4
+      "IndexNum": 4,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2005,
@@ -144,7 +161,8 @@
       "Name": "누군가의 아들",
       "Comment": "거지가 이르기를, 청이가 함께 있던 남자는 누군가의 아들이라고 한다.",
       "IsUsing": false,
-      "IndexNum": 5
+      "IndexNum": 5,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2006,
@@ -152,7 +170,8 @@
       "Name": "송나라 상인과 청이",
       "Comment": "뺑덕 어멈이 이르기를, 청이가 송나라 상인과 이야기하는 것을 보았다고 한다.",
       "IsUsing": false,
-      "IndexNum": 6
+      "IndexNum": 6,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2007,
@@ -160,7 +179,8 @@
       "Name": "승려와 청이",
       "Comment": "귀덕 어멈이 이르기를, 승려와 청이가 이야기하는 것을 보았다고 한다.",
       "IsUsing": false,
-      "IndexNum": 7
+      "IndexNum": 7,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2008,
@@ -168,7 +188,8 @@
       "Name": "승려의 마음",
       "Comment": "뺑덕 어멈이 이르기를, 청이가 송나라 상인과 이야기하는 것을 보았다고 한다.",
       "IsUsing": false,
-      "IndexNum": 8
+      "IndexNum": 8,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2009,
@@ -176,7 +197,8 @@
       "Name": "청이의 도움",
       "Comment": "송나라 상인이 이르기를, 청이에게 고마워한다. 청이에게 무슨 도움을 받은 걸까?",
       "IsUsing": false,
-      "IndexNum": 9
+      "IndexNum": 9,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2010,
@@ -184,7 +206,8 @@
       "Name": "공양미 삼백 석",
       "Comment": "승려에게 인사를 했더니, 공양미 삼백 석을 시주해 고맙다고 하였다. 눈은 언제 뜰 수 있는지..",
       "IsUsing": false,
-      "IndexNum": 10
+      "IndexNum": 10,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2011,
@@ -192,7 +215,8 @@
       "Name": "공양미의 출처",
       "Comment": "청이가 나를 위해 공양미를 마련했다. 그 많은 쌀을 어디서 구한 것일까..",
       "IsUsing": false,
-      "IndexNum": 11
+      "IndexNum": 11,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2012,
@@ -200,7 +224,8 @@
       "Name": "청이의 거래",
       "Comment": "뱃사공이 이르기를, 청이와 송나라 상인의 거래 장면을 목격했다고 한다. 청이가 쌀을 요구했다는데…",
       "IsUsing": false,
-      "IndexNum": 12
+      "IndexNum": 12,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2013,
@@ -208,7 +233,8 @@
       "Name": "향리 댁 셋째 아들",
       "Comment": "향리 댁 부인이 이르기를, 셋째 아들은 이틀 전에 과거 시험을 보러 떠났다고 한다.",
       "IsUsing": false,
-      "IndexNum": 13
+      "IndexNum": 13,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2014,
@@ -216,7 +242,8 @@
       "Name": "잠잠해져야 할 물살",
       "Comment": "송나라 상인이 이르기를, 얼른 물살이 잠잠해지길 바라고 있다.",
       "IsUsing": false,
-      "IndexNum": 14
+      "IndexNum": 14,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2015,
@@ -224,7 +251,8 @@
       "Name": "청이가 사간 것",
       "Comment": "장사꾼이 이르기를, 청이가 무언가 샀다고 한다. 장사꾼과 거래를 해보자.",
       "IsUsing": false,
-      "IndexNum": 15
+      "IndexNum": 15,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2016,
@@ -232,7 +260,8 @@
       "Name": "짚신을 사간 청이",
       "Comment": "장사꾼이 이르기를, 청이가 짚신을 전부 샀다고 한다.",
       "IsUsing": false,
-      "IndexNum": 16
+      "IndexNum": 16,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2017,
@@ -240,7 +269,8 @@
       "Name": "배의 출항",
       "Comment": "향리 댁 부인이 이르기를, 배가 다시 뜨는 때를 알아봐달라고 한다.",
       "IsUsing": false,
-      "IndexNum": 17
+      "IndexNum": 17,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2018,
@@ -248,7 +278,8 @@
       "Name": "노점의 단골",
       "Comment": "장사꾼이 이르기를, 셋째 아들이 노점의 단골이라고 한다.",
       "IsUsing": false,
-      "IndexNum": 18
+      "IndexNum": 18,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2019,
@@ -256,7 +287,8 @@
       "Name": "뜨지 않는 배",
       "Comment": "뱃사공이 이르기를, 물살로 인해 지금은 배가 뜰 수 없다고 한다.",
       "IsUsing": false,
-      "IndexNum": 19
+      "IndexNum": 19,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2020,
@@ -264,7 +296,8 @@
       "Name": "사공에게 있었던 일",
       "Comment": "귀덕 어멈이 이르기를, 이틀 전에 사공이 큰 소리를 쳤다고 한다.",
       "IsUsing": false,
-      "IndexNum": 20
+      "IndexNum": 20,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2021,
@@ -272,7 +305,8 @@
       "Name": "사공의 물건",
       "Comment": "뱃사공이 상인들에게서 자신의 물건을 찾아와달라고 했다.",
       "IsUsing": false,
-      "IndexNum": 21
+      "IndexNum": 21,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2022,
@@ -280,7 +314,8 @@
       "Name": "뱃길을 잠재울 방법",
       "Comment": "뱃사공이 이르기를, 송 상인들이 뱃길을 잠재울 방법을 아는 것 같다고 한다.",
       "IsUsing": false,
-      "IndexNum": 22
+      "IndexNum": 22,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 2023,
@@ -288,7 +323,8 @@
       "Name": "3월 보름날",
       "Comment": "귀덕 어멈이 주막 뒷간에서 엿들은 이야기이다. 위험해보이니 몸을 사리라고 했다.",
       "IsUsing": false,
-      "IndexNum": 23
+      "IndexNum": 23,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 9001,
@@ -296,7 +332,8 @@
       "Name": "공양미를 구한 방법",
       "Comment": "청이가 송나라 상인과 거래를 해 공양미 삼백 석을 마련한 것 같다. 무엇을 빌미로 거래한 걸까?",
       "IsUsing": false,
-      "IndexNum": 24
+      "IndexNum": 24,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 4015,
@@ -304,7 +341,8 @@
       "Name": "청이가 사라진 날",
       "Comment": "청이와 향리 댁 셋째 아들이 사라진 날짜가 겹친다. 그날에는 무슨 일이 있었던 걸까?",
       "IsUsing": false,
-      "IndexNum": 25
+      "IndexNum": 25,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 4017,
@@ -312,7 +350,8 @@
       "Name": "청이와 그의 관계",
       "Comment": "청이와 향리 댁 셋째의 관계가 궁금하다. 둘의 모습을 목격했다는데..",
       "IsUsing": false,
-      "IndexNum": 26
+      "IndexNum": 26,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 8032,
@@ -320,7 +359,8 @@
       "Name": "함께 사라진 두 사람",
       "Comment": "청이와 향리 댁 셋째가 함께 사라진 것 같다. 과연 억측일까?",
       "IsUsing": false,
-      "IndexNum": 27
+      "IndexNum": 27,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 4033,
@@ -328,7 +368,8 @@
       "Name": "무역의 중단",
       "Comment": "물살이 거세고, 배가 뜨지 않는다. 아마도 무역이 중단되었을 것이다.",
       "IsUsing": false,
-      "IndexNum": 28
+      "IndexNum": 28,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 9000,
@@ -336,7 +377,8 @@
       "Name": "청이의 가출",
       "Comment": "청이가 거짓말을 했고, 짚신을 전부 샀다. 청이는 가출을 했다. …..분명 누군가의 계략일 것이다.",
       "IsUsing": false,
-      "IndexNum": 29
+      "IndexNum": 29,
+      "SpritePath": "Clue/Clue"
     },
     {
       "Id": 6045,
@@ -344,7 +386,8 @@
       "Name": "바다에 바쳐질 제물",
       "Comment": "나쁜 생각은 하지 않으려 했건만, 자꾸 좋지 않은 예감이 느껴진다. 제발 아니길.",
       "IsUsing": false,
-      "IndexNum": 30
+      "IndexNum": 30,
+      "SpritePath": "Clue/Clue"
     }
   ],
   "Dialogue_Table": [
