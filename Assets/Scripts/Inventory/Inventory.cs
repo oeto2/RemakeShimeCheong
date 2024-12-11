@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -34,13 +35,13 @@ public class Inventory : MonoBehaviour
 
         _playerEquipment = GameManager.Instance.playerObj.GetComponent<PlayerEquipment>();
     }
-        
+    
     //아이템 탭 클릭시
     private void ClickItemTap()
     {
         curInventoryTab = InventoryTab.Item;
-        // ClearDescription(); //설명 창 비우기
-        // DisableSelectSlot(); //현재 선택된 슬롯 비활성화
+        ClearDescription(); //설명 창 비우기
+        DisableSelectSlot(); //현재 선택된 슬롯 비활성화
 
 
         //슬롯의 갯수가 보유중인 아이템 수 보다 적다면, 부족한 만큼 슬롯 생성
@@ -71,8 +72,8 @@ public class Inventory : MonoBehaviour
     private void ClickClueTap()
     {
         curInventoryTab = InventoryTab.Clue;
-        // ClearDescription(); //설명 창 비우기
-        // DisableSelectSlot(); //현재 선택된 슬롯 비활성화
+        ClearDescription(); //설명 창 비우기
+        DisableSelectSlot(); //현재 선택된 슬롯 비활성화
         
         //슬롯의 갯수가 보유중인 단서 수 보다 적다면, 부족한 만큼 슬롯 생성
         for (int i = slots.Count; i < InventoryClues.Count; i++)
@@ -174,13 +175,20 @@ public class Inventory : MonoBehaviour
             slot.SelectSlotObj.SetActive(false);
             slot.isUsing = false;
         }
+        
+        _playerEquipment.UnEquip(); //장착 해제
     }
     
     //아이템 장착하기
     public void EquipItem(ItemData itemData)
-    {
-        
+    { 
+        _playerEquipment.EquipItem(itemData);
     }
     
+    //단서 장착하기
+    public void EquipClue(ClueData clueData)
+    { 
+        _playerEquipment.EquipClue(clueData);
+    }
 }
 

@@ -4,8 +4,8 @@ using UnityEngine;
 public class PlayerEquipment : MonoBehaviour
 {
     public ObjectType equipType; //장착중인 오브젝트 타입
-    public ItemData equipItemData; //장착중인 아이템
-    public ClueData equipClueData; //장착중인 단서
+    [SerializeField] private ItemData equipItemData; //장착중인 아이템
+    [SerializeField] private ClueData equipClueData; //장착중인 단서
 
     public void EquipItem(ItemData itemData)
     {

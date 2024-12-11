@@ -43,11 +43,13 @@ public class Slot : MonoBehaviour
             {
                 case InventoryTab.Item :
                 _inventory.WriteDescription(itemData.Comment);
+                _inventory.EquipItem(itemData); //아이템 장착
                 break;
                 
                 
                 case InventoryTab.Clue :
                     _inventory.WriteDescription(clueData.Comment);
+                    _inventory.EquipClue(clueData); //단서 장착
                     break;
             }
         }
@@ -55,8 +57,7 @@ public class Slot : MonoBehaviour
         //선택중일 경우
         else
         {
-            SelectSlotObj.SetActive(false);
-            isUsing = false;
+            _inventory.DisableSelectSlot();
             _inventory.ClearDescription();
         }
     }
