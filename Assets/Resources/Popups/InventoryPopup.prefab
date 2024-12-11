@@ -466,11 +466,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044eec3a55cfcb74082da700839e4265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slots: {fileID: 6215357075301797790}
+  slotsObject: {fileID: 6215357075301797790}
   descriptionText: {fileID: 6852808084106172758}
-  curInventoryTab: 0
   itemTab: {fileID: 1303021118698523611}
   clueTab: {fileID: 5818168896915280512}
+  curInventoryTab: 0
+  slots: []
 --- !u!1 &5138440939601071116
 GameObject:
   m_ObjectHideFlags: 0

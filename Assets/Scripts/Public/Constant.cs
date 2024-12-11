@@ -13,7 +13,8 @@ namespace Constants
     {
         Item, //아이템
         Clue, //단서
-        Hypothesis //가설
+        Hypothesis, //가설
+        None
     }
     
     //게임에 사용되는 동적로딩 이미지 경로

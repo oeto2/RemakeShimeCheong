@@ -34,6 +34,8 @@ public class Slot : MonoBehaviour
         //선택중이 아닐 경우
         if (!isUsing)
         {
+            _inventory.DisableSelectSlot(); //현재 선택중인 슬롯 비활성화
+            
             SelectSlotObj.SetActive(true);
             isUsing = true;
 
@@ -42,6 +44,7 @@ public class Slot : MonoBehaviour
                 case InventoryTab.Item :
                 _inventory.WriteDescription(itemData.Comment);
                 break;
+                
                 
                 case InventoryTab.Clue :
                     _inventory.WriteDescription(clueData.Comment);
