@@ -28,5 +28,6 @@ namespace Constants
     public class ObjectLayer
     {
         public const int PortalLayer = 6;
+        public const int ItemLayer = 7;
     }
 }
