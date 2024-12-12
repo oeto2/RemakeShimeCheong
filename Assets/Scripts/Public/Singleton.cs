@@ -41,6 +41,6 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 
     public virtual void Init()
     {
-        ConsoleLogger.Log(transform.name + "is Init");
+        // ConsoleLogger.Log(transform.name + "is Init");
     }
 }

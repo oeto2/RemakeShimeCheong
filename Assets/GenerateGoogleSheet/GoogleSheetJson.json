@@ -1,0 +1,7355 @@
+{
+  "Item_Table": [
+    {
+      "Id": 1000,
+      "ObjectType": "Item",
+      "Name": "쌀",
+      "Comment": "밥을 짓고 남은 쌀. 양이 얼마 되지 않는다.",
+      "IsUsing": false,
+      "IndexNum": 0,
+      "SpritePath": "Item/Rice2"
+    },
+    {
+      "Id": 1001,
+      "ObjectType": "Item",
+      "Name": "장작",
+      "Comment": "작게 쪼개진 장작. 보통 땔감으로 이용한다.",
+      "IsUsing": false,
+      "IndexNum": 1,
+      "SpritePath": "Item/Jangjack"
+    },
+    {
+      "Id": 1002,
+      "ObjectType": "Item",
+      "Name": "부시와 부싯돌",
+      "Comment": "불을 붙이는 도구. 부시(쇠)와 부싯돌을 부딪혀 불을 땔 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 2,
+      "SpritePath": "Item/FireStone"
+    },
+    {
+      "Id": 1003,
+      "ObjectType": "Item",
+      "Name": "바가지",
+      "Comment": "박의 껍질을 말려 만든 물건. 무언가 담을 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 3,
+      "SpritePath": "Item/Bagage"
+    },
+    {
+      "Id": 1004,
+      "ObjectType": "Item",
+      "Name": "물이 든 바가지",
+      "Comment": "물이 담긴 바가지. 물을 어딘가로 옮길 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 4,
+      "SpritePath": "Item/Bagage2"
+    },
+    {
+      "Id": 1005,
+      "ObjectType": "Item",
+      "Name": "주먹밥",
+      "Comment": "아기 주먹 크기의 주먹밥. 밥을 뭉쳐 만들었다.",
+      "IsUsing": false,
+      "IndexNum": 5,
+      "SpritePath": "Item/Riceball"
+    },
+    {
+      "Id": 1006,
+      "ObjectType": "Item",
+      "Name": "비녀",
+      "Comment": "청동 비녀. 장터에서 가장 신품이다. 작지만 정말 비싸다.",
+      "IsUsing": false,
+      "IndexNum": 6,
+      "SpritePath": "Item/Binyeo"
+    },
+    {
+      "Id": 1007,
+      "ObjectType": "Item",
+      "Name": "먹",
+      "Comment": "장사꾼이 홍보를 부탁한 먹. 흐릿하게 '단산오옥'이라 적혀있다.",
+      "IsUsing": false,
+      "IndexNum": 7,
+      "SpritePath": "Item/InkStick"
+    },
+    {
+      "Id": 1008,
+      "ObjectType": "Item",
+      "Name": "보리떡",
+      "Comment": "장터 아이에게 전달해야 하는 떡이다. 고소한 냄새가 나며 아직 따듯하다.",
+      "IsUsing": false,
+      "IndexNum": 8,
+      "SpritePath": "Item/BoriRicecake"
+    },
+    {
+      "Id": 1009,
+      "ObjectType": "Item",
+      "Name": "꽃",
+      "Comment": "아이가 따온 꽃이다. 푸른빛이 감도는 게 꽤나 신비롭다.",
+      "IsUsing": false,
+      "IndexNum": 9,
+      "SpritePath": "Item/Herb"
+    },
+    {
+      "Id": 1010,
+      "ObjectType": "Item",
+      "Name": "약초",
+      "Comment": "귀덕 어멈이 나누어 준 약초이다. 물에 달여 마시면 몸에 좋다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 10,
+      "SpritePath": "Item/Herb2"
+    },
+    {
+      "Id": 1011,
+      "ObjectType": "Item",
+      "Name": "사공의 물건",
+      "Comment": "사공에게 전해야하는 물건. 약재로 보이며 톡 쏘는 향이 난다.",
+      "IsUsing": false,
+      "IndexNum": 11,
+      "SpritePath": "Item/RiverManItem"
+    }
+  ],
+  "Clue_Table": [
+    {
+      "Id": 2000,
+      "ObjectType": "Clue",
+      "Name": "향리 댁의 수양딸",
+      "Comment": "심청이가 이틀 전에 향리 댁의 수양딸로 들어갔다.",
+      "IsUsing": false,
+      "IndexNum": 0,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2001,
+      "ObjectType": "Clue",
+      "Name": "청이의 거짓말",
+      "Comment": "심청이가 향리 댁의 수양딸로 들어간다는 거짓말을 했다.",
+      "IsUsing": false,
+      "IndexNum": 1,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2002,
+      "ObjectType": "Clue",
+      "Name": "청이의 행방",
+      "Comment": "거지가 이르기를, 청이를 못 본 지 이틀이 되었다고 한다. 어디에 머물렀을지 찾아보자.",
+      "IsUsing": false,
+      "IndexNum": 2,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2003,
+      "ObjectType": "Clue",
+      "Name": "청이와 장터",
+      "Comment": "귀덕 어멈 이르기를, 청이가 사라지기 전 장터에 자주 머물렀다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 3,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2004,
+      "ObjectType": "Clue",
+      "Name": "청이와 사내",
+      "Comment": "거지가 이르기를, 청이가 어떤 사내와 자주 함께 있었다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 4,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2005,
+      "ObjectType": "Clue",
+      "Name": "누군가의 아들",
+      "Comment": "거지가 이르기를, 청이가 함께 있던 남자는 누군가의 아들이라고 한다.",
+      "IsUsing": false,
+      "IndexNum": 5,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2006,
+      "ObjectType": "Clue",
+      "Name": "송나라 상인과 청이",
+      "Comment": "뺑덕 어멈이 이르기를, 청이가 송나라 상인과 이야기하는 것을 보았다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 6,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2007,
+      "ObjectType": "Clue",
+      "Name": "승려와 청이",
+      "Comment": "귀덕 어멈이 이르기를, 승려와 청이가 이야기하는 것을 보았다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 7,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2008,
+      "ObjectType": "Clue",
+      "Name": "승려의 마음",
+      "Comment": "뺑덕 어멈이 이르기를, 청이가 송나라 상인과 이야기하는 것을 보았다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 8,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2009,
+      "ObjectType": "Clue",
+      "Name": "청이의 도움",
+      "Comment": "송나라 상인이 이르기를, 청이에게 고마워한다. 청이에게 무슨 도움을 받은 걸까?",
+      "IsUsing": false,
+      "IndexNum": 9,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2010,
+      "ObjectType": "Clue",
+      "Name": "공양미 삼백 석",
+      "Comment": "승려에게 인사를 했더니, 공양미 삼백 석을 시주해 고맙다고 하였다. 눈은 언제 뜰 수 있는지..",
+      "IsUsing": false,
+      "IndexNum": 10,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2011,
+      "ObjectType": "Clue",
+      "Name": "공양미의 출처",
+      "Comment": "청이가 나를 위해 공양미를 마련했다. 그 많은 쌀을 어디서 구한 것일까..",
+      "IsUsing": false,
+      "IndexNum": 11,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2012,
+      "ObjectType": "Clue",
+      "Name": "청이의 거래",
+      "Comment": "뱃사공이 이르기를, 청이와 송나라 상인의 거래 장면을 목격했다고 한다. 청이가 쌀을 요구했다는데…",
+      "IsUsing": false,
+      "IndexNum": 12,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2013,
+      "ObjectType": "Clue",
+      "Name": "향리 댁 셋째 아들",
+      "Comment": "향리 댁 부인이 이르기를, 셋째 아들은 이틀 전에 과거 시험을 보러 떠났다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 13,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2014,
+      "ObjectType": "Clue",
+      "Name": "잠잠해져야 할 물살",
+      "Comment": "송나라 상인이 이르기를, 얼른 물살이 잠잠해지길 바라고 있다.",
+      "IsUsing": false,
+      "IndexNum": 14,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2015,
+      "ObjectType": "Clue",
+      "Name": "청이가 사간 것",
+      "Comment": "장사꾼이 이르기를, 청이가 무언가 샀다고 한다. 장사꾼과 거래를 해보자.",
+      "IsUsing": false,
+      "IndexNum": 15,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2016,
+      "ObjectType": "Clue",
+      "Name": "짚신을 사간 청이",
+      "Comment": "장사꾼이 이르기를, 청이가 짚신을 전부 샀다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 16,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2017,
+      "ObjectType": "Clue",
+      "Name": "배의 출항",
+      "Comment": "향리 댁 부인이 이르기를, 배가 다시 뜨는 때를 알아봐달라고 한다.",
+      "IsUsing": false,
+      "IndexNum": 17,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2018,
+      "ObjectType": "Clue",
+      "Name": "노점의 단골",
+      "Comment": "장사꾼이 이르기를, 셋째 아들이 노점의 단골이라고 한다.",
+      "IsUsing": false,
+      "IndexNum": 18,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2019,
+      "ObjectType": "Clue",
+      "Name": "뜨지 않는 배",
+      "Comment": "뱃사공이 이르기를, 물살로 인해 지금은 배가 뜰 수 없다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 19,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2020,
+      "ObjectType": "Clue",
+      "Name": "사공에게 있었던 일",
+      "Comment": "귀덕 어멈이 이르기를, 이틀 전에 사공이 큰 소리를 쳤다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 20,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2021,
+      "ObjectType": "Clue",
+      "Name": "사공의 물건",
+      "Comment": "뱃사공이 상인들에게서 자신의 물건을 찾아와달라고 했다.",
+      "IsUsing": false,
+      "IndexNum": 21,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2022,
+      "ObjectType": "Clue",
+      "Name": "뱃길을 잠재울 방법",
+      "Comment": "뱃사공이 이르기를, 송 상인들이 뱃길을 잠재울 방법을 아는 것 같다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 22,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 2023,
+      "ObjectType": "Clue",
+      "Name": "3월 보름날",
+      "Comment": "귀덕 어멈이 주막 뒷간에서 엿들은 이야기이다. 위험해보이니 몸을 사리라고 했다.",
+      "IsUsing": false,
+      "IndexNum": 23,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 9001,
+      "ObjectType": "Hypothesis",
+      "Name": "공양미를 구한 방법",
+      "Comment": "청이가 송나라 상인과 거래를 해 공양미 삼백 석을 마련한 것 같다. 무엇을 빌미로 거래한 걸까?",
+      "IsUsing": false,
+      "IndexNum": 24,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 4015,
+      "ObjectType": "Hypothesis",
+      "Name": "청이가 사라진 날",
+      "Comment": "청이와 향리 댁 셋째 아들이 사라진 날짜가 겹친다. 그날에는 무슨 일이 있었던 걸까?",
+      "IsUsing": false,
+      "IndexNum": 25,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 4017,
+      "ObjectType": "Hypothesis",
+      "Name": "청이와 그의 관계",
+      "Comment": "청이와 향리 댁 셋째의 관계가 궁금하다. 둘의 모습을 목격했다는데..",
+      "IsUsing": false,
+      "IndexNum": 26,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 8032,
+      "ObjectType": "Hypothesis",
+      "Name": "함께 사라진 두 사람",
+      "Comment": "청이와 향리 댁 셋째가 함께 사라진 것 같다. 과연 억측일까?",
+      "IsUsing": false,
+      "IndexNum": 27,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 4033,
+      "ObjectType": "Hypothesis",
+      "Name": "무역의 중단",
+      "Comment": "물살이 거세고, 배가 뜨지 않는다. 아마도 무역이 중단되었을 것이다.",
+      "IsUsing": false,
+      "IndexNum": 28,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 9000,
+      "ObjectType": "Hypothesis",
+      "Name": "청이의 가출",
+      "Comment": "청이가 거짓말을 했고, 짚신을 전부 샀다. 청이는 가출을 했다. …..분명 누군가의 계략일 것이다.",
+      "IsUsing": false,
+      "IndexNum": 29,
+      "SpritePath": "Clue/Clue"
+    },
+    {
+      "Id": 6045,
+      "ObjectType": "Hypothesis",
+      "Name": "바다에 바쳐질 제물",
+      "Comment": "나쁜 생각은 하지 않으려 했건만, 자꾸 좋지 않은 예감이 느껴진다. 제발 아니길.",
+      "IsUsing": false,
+      "IndexNum": 30,
+      "SpritePath": "Clue/Clue"
+    }
+  ],
+  "Dialogue_Table": [
+    {
+      "Id": 4999,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓡ공양미 삼백 석은 몽운사로 잘 시주 받았습니다. ⓦ부처님께서 어엿비 여기시어 조만간 눈을 뜨실 수 있으실겁니다.",
+      "IsUsing": false,
+      "IndexNum": 0
+    },
+    {
+      "Id": 5000,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 1
+    },
+    {
+      "Id": 5001,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "혼자서라도 거뜬히 살아야 해.",
+      "IsUsing": false,
+      "IndexNum": 2
+    },
+    {
+      "Id": 5002,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "여기는 어쩐 일이오?",
+      "IsUsing": false,
+      "IndexNum": 3
+    },
+    {
+      "Id": 5003,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 4
+    },
+    {
+      "Id": 5004,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 5
+    },
+    {
+      "Id": 5005,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "(꼬르륵)...배고프다..",
+      "IsUsing": false,
+      "IndexNum": 6
+    },
+    {
+      "Id": 5006,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 7
+    },
+    {
+      "Id": 5007,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 8
+    },
+    {
+      "Id": 5010,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ청이가 이틀 동안 얼굴도 비추지 않았나요? 향리 댁 규수가 되었다고 모른 체하는 건지.. 딸은 키워봤자라니까!",
+      "IsUsing": false,
+      "IndexNum": 9
+    },
+    {
+      "Id": 5011,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이는 향리 댁의 양녀로 들어가지 않았수?",
+      "IsUsing": false,
+      "IndexNum": 10
+    },
+    {
+      "Id": 5012,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ청이에게 수양딸로 들어오라는 말은 했지만, 청이는 한사코 거절했소. ⓡ듣도 보도 못한 말이오.",
+      "IsUsing": false,
+      "IndexNum": 11
+    },
+    {
+      "Id": 5013,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 12
+    },
+    {
+      "Id": 5014,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 13
+    },
+    {
+      "Id": 5015,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ청이 누님을 못 본 지 이틀 되었나...ⓡ누님이 요 근래 저잣거리를 자주 돌아다녔습니다.",
+      "IsUsing": false,
+      "IndexNum": 14
+    },
+    {
+      "Id": 5016,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 15
+    },
+    {
+      "Id": 5017,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 16
+    },
+    {
+      "Id": 5018,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ그리고 청이 누님은 항상 제게 ⓡ주먹밥ⓦ을 가져다주셨지요.. 배가 고프네요.",
+      "IsUsing": false,
+      "IndexNum": 17
+    },
+    {
+      "Id": 5019,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ와 밥이다!! 감사합니다!",
+      "IsUsing": false,
+      "IndexNum": 18
+    },
+    {
+      "Id": 5020,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ주먹밥을 허겁지겁 먹는다. 아이가 밥을 다 먹으면 말을 걸어야겠다.",
+      "IsUsing": false,
+      "IndexNum": 19
+    },
+    {
+      "Id": 5021,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ아, 맛있게 잘 먹었습니다. 청이 누님 이야기를 하고 있었지요? ⓡ청이 누님이 요즘 어떤 남정네와 자주 얘기를 나누는 모습을 보았습니다.",
+      "IsUsing": false,
+      "IndexNum": 20
+    },
+    {
+      "Id": 5022,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ그 사람이 누군지는 기억이 잘 안 납니다. 별로 관심이 가지도 않았는걸요.",
+      "IsUsing": false,
+      "IndexNum": 21
+    },
+    {
+      "Id": 5030,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ얌전한 괴앙이가 붓두막에 일찍 오른다더니! 괘씸한 것.",
+      "IsUsing": false,
+      "IndexNum": 22
+    },
+    {
+      "Id": 5031,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이가 향리 댁으로 간 게 아니라는 말이지?? 알겠네. 나도 찾아봄세.",
+      "IsUsing": false,
+      "IndexNum": 23
+    },
+    {
+      "Id": 5032,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ내가 그 아이를 단단히 잘못 봤네..",
+      "IsUsing": false,
+      "IndexNum": 24
+    },
+    {
+      "Id": 5033,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(말을 걸어봐도 대답하지 않는다.)",
+      "IsUsing": false,
+      "IndexNum": 25
+    },
+    {
+      "Id": 5034,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ따님이 거짓을 고하고 사라졌다는 말씀이십니까? 믿어지지 않는군요.",
+      "IsUsing": false,
+      "IndexNum": 26
+    },
+    {
+      "Id": 5035,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ청이 누님이 향리 댁으로 들어간 게 아니라는 것이지요? 어디로 가셨을지 걱정됩니다.",
+      "IsUsing": false,
+      "IndexNum": 27
+    },
+    {
+      "Id": 5036,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ귀한 딸 단속도 안 하고 무엇했나.",
+      "IsUsing": false,
+      "IndexNum": 28
+    },
+    {
+      "Id": 5037,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 29
+    },
+    {
+      "Id": 5050,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ청이가 뭘 하고 다녔는지 저는 모릅니다. 오비삼척이오!",
+      "IsUsing": false,
+      "IndexNum": 30
+    },
+    {
+      "Id": 5051,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓡ청이가 장터에 자주 머무르긴 했는데.. ⓦ향리 댁에 들어가기 전 채비를 한다고 생각했지.",
+      "IsUsing": false,
+      "IndexNum": 31
+    },
+    {
+      "Id": 5052,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ그 어린아이가 어딜 간 겐지...",
+      "IsUsing": false,
+      "IndexNum": 32
+    },
+    {
+      "Id": 5053,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ댁의 딸을 왜 이리 와서 찾소?",
+      "IsUsing": false,
+      "IndexNum": 33
+    },
+    {
+      "Id": 5054,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ따님은 좋은 곳으로 향하였을 겁니다. 기운이 좋군요.",
+      "IsUsing": false,
+      "IndexNum": 34
+    },
+    {
+      "Id": 5055,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ누님이 어디로 갔을지는 모르겠어요. 아 배고파…",
+      "IsUsing": false,
+      "IndexNum": 35
+    },
+    {
+      "Id": 5056,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 36
+    },
+    {
+      "Id": 5057,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(말을 걸어보았지만 눈길도 주지 않는다.)",
+      "IsUsing": false,
+      "IndexNum": 37
+    },
+    {
+      "Id": 5070,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ이번에 들여온 비녀가 그렇게 예쁘던데,,,",
+      "IsUsing": false,
+      "IndexNum": 38
+    },
+    {
+      "Id": 5071,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이가 장터에 자주 머물렀었어. 장터로 가보셔.",
+      "IsUsing": false,
+      "IndexNum": 39
+    },
+    {
+      "Id": 5072,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ그것과 내가 무슨 상관이 있나. 잘 모르겠네.",
+      "IsUsing": false,
+      "IndexNum": 40
+    },
+    {
+      "Id": 5073,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ요즘 그 아기씨가 여기서 서성거리긴 했지요. 무엇을 사 갔는지 궁금하십니까? ⓡ객의 정보는 함부로 제공하면 안 됩니다. ⓦ그게 설령 가족이어도 말이지요. 거래라면 모를까.",
+      "IsUsing": false,
+      "IndexNum": 41
+    },
+    {
+      "Id": 5074,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ저잣거리는 달에 한 번 갑니다. 견물생심이기에 항상 속세를 경계해야 합니다.",
+      "IsUsing": false,
+      "IndexNum": 42
+    },
+    {
+      "Id": 5075,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ누님이 자주 오셔서 먹을 것을 챙겨주셨습니다.",
+      "IsUsing": false,
+      "IndexNum": 43
+    },
+    {
+      "Id": 5076,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ보통 주막에만 있으니... 난 모르오.",
+      "IsUsing": false,
+      "IndexNum": 44
+    },
+    {
+      "Id": 5077,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(많이 바빠보인다.)",
+      "IsUsing": false,
+      "IndexNum": 45
+    },
+    {
+      "Id": 5090,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ뭔가를 보긴 했는데, 맨입으로는 알려드리기 힘듭니다~ 제가 ⓡ원하는 걸ⓦ 가져오신다면 알려드리겠소~",
+      "IsUsing": false,
+      "IndexNum": 46
+    },
+    {
+      "Id": 5091,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ요즈음 ⓡ승려와 이야기하는 걸 몇 번 봤는데… ⓦ한번 승려에게 가보셔.",
+      "IsUsing": false,
+      "IndexNum": 47
+    },
+    {
+      "Id": 5092,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ허언을 하고 어딜 간 겐지.. 쯧쯧… 관심 없다네!",
+      "IsUsing": false,
+      "IndexNum": 48
+    },
+    {
+      "Id": 5093,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 49
+    },
+    {
+      "Id": 5094,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ마음 깊이 불공드리면 조만간 부처의 덕으로 눈을 뜰 수 있을 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 50
+    },
+    {
+      "Id": 5095,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓡ어느 댁 아드님이란 걸 들었던 것 같은데 ⓦ얼굴을 가려 기억이 잘 안 나요.",
+      "IsUsing": false,
+      "IndexNum": 51
+    },
+    {
+      "Id": 5096,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이제 막 쉬는 참이오. 방해하지 마시오.",
+      "IsUsing": false,
+      "IndexNum": 52
+    },
+    {
+      "Id": 5097,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(주변의 소음에 나의 말소리가 묻힌다.)",
+      "IsUsing": false,
+      "IndexNum": 53
+    },
+    {
+      "Id": 5098,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ정말로 갖고싶었던 것이옵니다~ 너무 마음에 들어요! 낭군님 하시렵니까?",
+      "IsUsing": false,
+      "IndexNum": 54
+    },
+    {
+      "Id": 5099,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ나의 팔에 매달리려는 뺑덕 어멈을 살짝 피했다.",
+      "IsUsing": false,
+      "IndexNum": 55
+    },
+    {
+      "Id": 5100,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ아, 그렇지. ⓡ청이가 송나라 상인들과 떠드는 걸 보았소. ⓦ송에서 신품이라도 들어왔나...",
+      "IsUsing": false,
+      "IndexNum": 56
+    },
+    {
+      "Id": 5110,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ우리 뺑덕이는 어릴 적 보낸 거 누구보다 잘 알지 않소? 왜 아픈 구석을 후벼파시오!",
+      "IsUsing": false,
+      "IndexNum": 57
+    },
+    {
+      "Id": 5111,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ귀덕이는 옆 마을로 장가 들은 지 오래지…",
+      "IsUsing": false,
+      "IndexNum": 58
+    },
+    {
+      "Id": 5112,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ첫째 둘째는 벼슬길에 올랐고, ⓡ셋째는 이틀 전에 과거를 보러 갔소.",
+      "IsUsing": false,
+      "IndexNum": 59
+    },
+    {
+      "Id": 5113,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ우리 아들은 이제 열 살이지요. 아들 안부는 왜 묻는 거요?",
+      "IsUsing": false,
+      "IndexNum": 60
+    },
+    {
+      "Id": 5114,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ제게 아들이 있을리가요. 하하하.",
+      "IsUsing": false,
+      "IndexNum": 61
+    },
+    {
+      "Id": 5115,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ기억이 안 나요... 생각해 볼게요.",
+      "IsUsing": false,
+      "IndexNum": 62
+    },
+    {
+      "Id": 5116,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ아들은 없고 딸만 셋이오. 누구 놀리시오?",
+      "IsUsing": false,
+      "IndexNum": 63
+    },
+    {
+      "Id": 5117,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ예, 저도 송에 세 살 난 아들이 있지요. 얼른 보고 싶군요. 그러려면 ⓡ얼른 물살이 잠잠해져야 할 텐데...",
+      "IsUsing": false,
+      "IndexNum": 64
+    },
+    {
+      "Id": 5130,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ청이가 송 사람과 자주 얘기하더라니까!",
+      "IsUsing": false,
+      "IndexNum": 65
+    },
+    {
+      "Id": 5131,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이가 타인에게 워낙 잘했으니 말이야.. 그럴 법도 하지.",
+      "IsUsing": false,
+      "IndexNum": 66
+    },
+    {
+      "Id": 5132,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ나는 모르는 일일세.",
+      "IsUsing": false,
+      "IndexNum": 67
+    },
+    {
+      "Id": 5133,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ송에서 온 물품들에 관심이 많았나봅니다.",
+      "IsUsing": false,
+      "IndexNum": 68
+    },
+    {
+      "Id": 5134,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ장터에는 관심이 없어 잘 알지 못합니다.",
+      "IsUsing": false,
+      "IndexNum": 69
+    },
+    {
+      "Id": 5135,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ그 사람들이 무서워 강변 쪽에는 가지도 않아요.",
+      "IsUsing": false,
+      "IndexNum": 70
+    },
+    {
+      "Id": 5136,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그 계집아이.. 송에서 온 치들이랑 달포 전부터 자주 떠들던데, 그런 당돌한 계집은 처음 보았소.",
+      "IsUsing": false,
+      "IndexNum": 71
+    },
+    {
+      "Id": 5137,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓡ심청 아기씨 말씀이신가요? 저희에게 참으로 고마운 분이죠. ⓦ그 덕에 한시름 놓았습니다... 아이고, 바쁘네요. 그럼 조심히 들어가시지요.",
+      "IsUsing": false,
+      "IndexNum": 72
+    },
+    {
+      "Id": 5138,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ아, 당신이 아비되는 사람이오..? 이런, 말 실수했군. 미안하오.",
+      "IsUsing": false,
+      "IndexNum": 73
+    },
+    {
+      "Id": 5139,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓡ당신네 딸이 그들과 거래를 했소. ⓦ무엇을 내놓은지 모르겠으나 그들에게 삼백 석을 요구하는 걸 엿들었소. 굉장히 귀한 걸 팔아치운 모양이오.",
+      "IsUsing": false,
+      "IndexNum": 74
+    },
+    {
+      "Id": 5140,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그 치들이야 장사에 눈과 귀가 멀어서 그렇다쳐도... 그런데 당신은 누구시오? 내가 말해 줄 이유가 없잖소?",
+      "IsUsing": false,
+      "IndexNum": 75
+    },
+    {
+      "Id": 5141,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ어서 가시오! 성가시게 하지말고.",
+      "IsUsing": false,
+      "IndexNum": 76
+    },
+    {
+      "Id": 5142,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ다시 말을 걸어도 대답이 없다. 내일 다시 이 주제로 말을 걸어봐야겠다.",
+      "IsUsing": false,
+      "IndexNum": 77
+    },
+    {
+      "Id": 5150,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ승려가 마을에 자주 내려오는 걸 보니 땡중이오. ⓡ청이에게 연정을 품은 건 아니오?",
+      "IsUsing": false,
+      "IndexNum": 78
+    },
+    {
+      "Id": 5151,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ승려에게 가보라니까…",
+      "IsUsing": false,
+      "IndexNum": 79
+    },
+    {
+      "Id": 5152,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ불공이라도 드리려 한 건지..",
+      "IsUsing": false,
+      "IndexNum": 80
+    },
+    {
+      "Id": 5153,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ장사 방해하지 마시오!",
+      "IsUsing": false,
+      "IndexNum": 81
+    },
+    {
+      "Id": 5154,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ공양미를 바친다면 정말로 아버지가 눈을 뜰 수 있는지 몇 번이고 물었습니다. 시주 책도 확인했더랬죠.",
+      "IsUsing": false,
+      "IndexNum": 82
+    },
+    {
+      "Id": 5155,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ아 배고파…",
+      "IsUsing": false,
+      "IndexNum": 83
+    },
+    {
+      "Id": 5156,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(주막에 앉아서 늘어지게 쉬고 있다.)",
+      "IsUsing": false,
+      "IndexNum": 84
+    },
+    {
+      "Id": 5157,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 85
+    },
+    {
+      "Id": 5170,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ아무래도 승려가 수상하오.",
+      "IsUsing": false,
+      "IndexNum": 86
+    },
+    {
+      "Id": 5171,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ뺑덕네가 한 말이지..? ...허튼소리 믿지 마세.",
+      "IsUsing": false,
+      "IndexNum": 87
+    },
+    {
+      "Id": 5172,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ너무 허무맹랑하여 듣고 싶지 않군...",
+      "IsUsing": false,
+      "IndexNum": 88
+    },
+    {
+      "Id": 5173,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 89
+    },
+    {
+      "Id": 5174,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ제 신분에 누군가를 마음에 품을 수 있겠습니까? 하하, 절 남자로서 바라봐 주시니 고맙군요.",
+      "IsUsing": false,
+      "IndexNum": 90
+    },
+    {
+      "Id": 5175,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ...음..그건 좀 아닌 것 같아요.",
+      "IsUsing": false,
+      "IndexNum": 91
+    },
+    {
+      "Id": 5176,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ..진정 말이 된다고 생각하시오?",
+      "IsUsing": false,
+      "IndexNum": 92
+    },
+    {
+      "Id": 5177,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 93
+    },
+    {
+      "Id": 5190,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ흠,,청이가 대가 없이 막 도와주고 그러지는 않는데.. 뭘 얼마나 받았대요?",
+      "IsUsing": false,
+      "IndexNum": 94
+    },
+    {
+      "Id": 5191,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ상인들이 청이에게 고마워한다고? 청이가 뭔가 할 땐 똑 부러지지..",
+      "IsUsing": false,
+      "IndexNum": 95
+    },
+    {
+      "Id": 5192,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ청이가 상인들에게 도움을 주었다. 그렇군.. 일전에 상인들이 방문했었네.",
+      "IsUsing": false,
+      "IndexNum": 96
+    },
+    {
+      "Id": 5193,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 97
+    },
+    {
+      "Id": 5194,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 98
+    },
+    {
+      "Id": 5195,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ누님이 얼핏 무뚝뚝해 보여도, 참 마음이 따뜻한 분입니다. 이곳저곳 도움을 주셨나 보네요.",
+      "IsUsing": false,
+      "IndexNum": 99
+    },
+    {
+      "Id": 5196,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그 댁 따님이 저들이랑 종종 떠드는 것을 보았소. 제대로는 모르오.",
+      "IsUsing": false,
+      "IndexNum": 100
+    },
+    {
+      "Id": 5197,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ정말 단순한 도움을 받았습니다. 제가 말씀드릴 의무도 이유도 없으니 신경 쓰지 마시지요.",
+      "IsUsing": false,
+      "IndexNum": 101
+    },
+    {
+      "Id": 5198,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ우리 가문과 비단 같은 걸 직접 거래하는데 몇 날 뒤 바로 배를 띄울 것이라 보고했네. 정확한 날짜는 알려주지않더군.",
+      "IsUsing": false,
+      "IndexNum": 102
+    },
+    {
+      "Id": 5199,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ그래서 말인데, ⓡ배가 다시 송으로 가는 때를 알아봐줄 수 있는가? ⓦ이유는 나중에 말해주겠네.",
+      "IsUsing": false,
+      "IndexNum": 103
+    },
+    {
+      "Id": 5210,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ300석이나 시주했다고요? 시주를 뭣 하려 합니까? 당장 가져오시지요! 저렇게 갑갑하다니까.",
+      "IsUsing": false,
+      "IndexNum": 104
+    },
+    {
+      "Id": 5211,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓡ청이가 아비 눈을 꼭 뜰 수 있게 해야 한다고 어찌나 고민이던지... ⓦ결국 어떻게든 구했나 보네...",
+      "IsUsing": false,
+      "IndexNum": 105
+    },
+    {
+      "Id": 5212,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ금시초문일세.. 그런 큰돈을 왜 궁금해하는지 궁금하군.",
+      "IsUsing": false,
+      "IndexNum": 106
+    },
+    {
+      "Id": 5213,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ나 같으면 공양은 안 합니다. 나 살기도 바쁜데,,",
+      "IsUsing": false,
+      "IndexNum": 107
+    },
+    {
+      "Id": 5214,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ덕분에 정토에 더욱 가까워졌습니다. *정토 : 불교 신자가 죽으면 도달하는 곳",
+      "IsUsing": false,
+      "IndexNum": 108
+    },
+    {
+      "Id": 5215,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ공양미가 뭐에요??? 쌀이요?..배고프다...",
+      "IsUsing": false,
+      "IndexNum": 109
+    },
+    {
+      "Id": 5216,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 110
+    },
+    {
+      "Id": 5217,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 111
+    },
+    {
+      "Id": 5218,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 어디서 공양미를 구한 것일까..",
+      "IsUsing": false,
+      "IndexNum": 112
+    },
+    {
+      "Id": 5230,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(또 화를 낼 것 같아 이야기하고 싶지 않다.)",
+      "IsUsing": false,
+      "IndexNum": 113
+    },
+    {
+      "Id": 5231,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이가 그 많은 쌀을 어디에서 구했는지는 나도 모르네...",
+      "IsUsing": false,
+      "IndexNum": 114
+    },
+    {
+      "Id": 5232,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(재물에 관련된 일이라 별로 이야기하고 싶지 않다..)",
+      "IsUsing": false,
+      "IndexNum": 115
+    },
+    {
+      "Id": 5233,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(재물에 관련된 일이라 별로 이야기하고 싶지 않다..)",
+      "IsUsing": false,
+      "IndexNum": 116
+    },
+    {
+      "Id": 5234,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ아.. 저는 어디서 난 쌀인지는 모릅니다. 그저 댁의 이름 석 자로 몽운사에 시주가 들어왔으니까요. 그게 따님이 해내신 일이었군요. 참 든든한 딸을 두셨습니다.",
+      "IsUsing": false,
+      "IndexNum": 117
+    },
+    {
+      "Id": 5235,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(이야기해 봤자 알지 못할 것이다.)",
+      "IsUsing": false,
+      "IndexNum": 118
+    },
+    {
+      "Id": 5236,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(별로 이야기하고 싶지 않다.)",
+      "IsUsing": false,
+      "IndexNum": 119
+    },
+    {
+      "Id": 5237,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(별로 이야기하고 싶지 않다.)",
+      "IsUsing": false,
+      "IndexNum": 120
+    },
+    {
+      "Id": 5250,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ고 계집이 무언가를 팔아치웠나 보구먼.. 집에 사라진 것 없나 찾아보시오!",
+      "IsUsing": false,
+      "IndexNum": 121
+    },
+    {
+      "Id": 5251,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이가 팔아치울 귀한 것이 뭐가 있을는지..",
+      "IsUsing": false,
+      "IndexNum": 122
+    },
+    {
+      "Id": 5252,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ요망한 것. 알면 알수록 더 마음에 들지 않는군. 그 댁 딸 이야기 더 이상 듣기 싫소.",
+      "IsUsing": false,
+      "IndexNum": 123
+    },
+    {
+      "Id": 5253,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ보통.. 값어치가 나가는 것이라 하면,,, 사람의 몸값이 가장 비싸지요.. 하하하 농입니다!! 진지하게 생각 마쇼.",
+      "IsUsing": false,
+      "IndexNum": 124
+    },
+    {
+      "Id": 5254,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.;마음 깊이 불공드리면 조만간 부처의 덕으로 눈을 뜰 수 있을 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 125
+    },
+    {
+      "Id": 5255,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ누님께서 품을 팔던 것을 제하면 평소에 팔았던 건 짚신과 새끼줄이었어요.",
+      "IsUsing": false,
+      "IndexNum": 126
+    },
+    {
+      "Id": 5256,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ난 이야기한 게 전부요. 더 이상 할 말 없소.",
+      "IsUsing": false,
+      "IndexNum": 127
+    },
+    {
+      "Id": 5257,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ따님에게 직접 들으시지요. 바빠서 이만 실례하겠습니다.",
+      "IsUsing": false,
+      "IndexNum": 128
+    },
+    {
+      "Id": 5270,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ그 댁 셋째 아들 말이지요, 여자 깨나 울릴 것 같던데... 그나저나 왜 찾으세요?",
+      "IsUsing": false,
+      "IndexNum": 129
+    },
+    {
+      "Id": 5271,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ혼자서라도 거뜬히 살아야 해.",
+      "IsUsing": false,
+      "IndexNum": 130
+    },
+    {
+      "Id": 5272,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ우리 막내는 장차 큰일을 할 것이네.",
+      "IsUsing": false,
+      "IndexNum": 131
+    },
+    {
+      "Id": 5273,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓡ그분은 우리 점포 단골입니다! ⓦ워낙에 꾸미개들을 많이 사 가지요..",
+      "IsUsing": false,
+      "IndexNum": 132
+    },
+    {
+      "Id": 5274,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 133
+    },
+    {
+      "Id": 5275,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ그분이 가끔 떡을 주셨는데...",
+      "IsUsing": false,
+      "IndexNum": 134
+    },
+    {
+      "Id": 5276,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(주막에 앉아서 늘어지게 쉬고 있다.)",
+      "IsUsing": false,
+      "IndexNum": 135
+    },
+    {
+      "Id": 5277,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 136
+    },
+    {
+      "Id": 5290,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 137
+    },
+    {
+      "Id": 5291,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ물살이 빠르면 빨래할 때 좋지..",
+      "IsUsing": false,
+      "IndexNum": 138
+    },
+    {
+      "Id": 5292,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ그런 이야기는 물에 대해 잘 아는 사람에게나 물어보게.",
+      "IsUsing": false,
+      "IndexNum": 139
+    },
+    {
+      "Id": 5293,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ거센 물이 흐르듯 객이나 들어왔으면..",
+      "IsUsing": false,
+      "IndexNum": 140
+    },
+    {
+      "Id": 5294,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ물길은 거세지기도, 약해지기도 하지요.",
+      "IsUsing": false,
+      "IndexNum": 141
+    },
+    {
+      "Id": 5295,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ물가엔 잘 가지 않아요.",
+      "IsUsing": false,
+      "IndexNum": 142
+    },
+    {
+      "Id": 5296,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ물살이 가라앉아야 배가 뜰 수 있소. ⓡ지금은 배가 뜨질 못하네..",
+      "IsUsing": false,
+      "IndexNum": 143
+    },
+    {
+      "Id": 5297,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ지금 물길이 거센 시기입니다.",
+      "IsUsing": false,
+      "IndexNum": 144
+    },
+    {
+      "Id": 5310,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ걔가 집으로 사 오는 게, 먹을 것 말고 뭐가 있었나요?",
+      "IsUsing": false,
+      "IndexNum": 145
+    },
+    {
+      "Id": 5311,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이가 아비 수발드느라 온갖 생필품은 다 사러 다녔을 텐데, 무엇이 궁금하셔?",
+      "IsUsing": false,
+      "IndexNum": 146
+    },
+    {
+      "Id": 5312,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(청이 이야기를 더 해봤자 기분만 상할 것이다..)",
+      "IsUsing": false,
+      "IndexNum": 147
+    },
+    {
+      "Id": 5313,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ흠흠.. 그, 뭐 이번에 단산오옥이라 부르는 먹을 들여왔는데.. 넌지시 홍보 좀 해주시죠.",
+      "IsUsing": false,
+      "IndexNum": 148
+    },
+    {
+      "Id": 5314,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ무엇을 위해 따님의 물건에 집착을 하시는 겁니까? 내려놓으면 편해지는 것을...",
+      "IsUsing": false,
+      "IndexNum": 149
+    },
+    {
+      "Id": 5315,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ누님은 항상 이것저것 들고 다니셨습니다.. 그게 궁금하다면 물건을 판 사람에게 가보세요.",
+      "IsUsing": false,
+      "IndexNum": 150
+    },
+    {
+      "Id": 5316,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그런 걸 왜 내게 물으시오?",
+      "IsUsing": false,
+      "IndexNum": 151
+    },
+    {
+      "Id": 5317,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ무슨 말인지 도통 모르겠군요.",
+      "IsUsing": false,
+      "IndexNum": 152
+    },
+    {
+      "Id": 5318,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ감사합니다. 다녀오셨군요! 하던 얘기를 해드리죠.",
+      "IsUsing": false,
+      "IndexNum": 153
+    },
+    {
+      "Id": 5319,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ댁네 따님이 짚신을 크기 상관없이 여러 켤레를 사 갔는데, ⓡ짚신을 있는 대로 다 가져갔습니다. ⓦ무슨 일인지 궁금하긴 했지요.",
+      "IsUsing": false,
+      "IndexNum": 154
+    },
+    {
+      "Id": 5330,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ들어보니 그 계집이 아주 작정하고 도망친 거네!! 갑갑해라 정말!",
+      "IsUsing": false,
+      "IndexNum": 155
+    },
+    {
+      "Id": 5331,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ아니, 청이는 짚신을 삼아 내다 팔았었는데 도리어 사들이다니.. 희한한 일이네.",
+      "IsUsing": false,
+      "IndexNum": 156
+    },
+    {
+      "Id": 5332,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(청이 이야기를 더 해봤자 기분만 상할 것이다..)",
+      "IsUsing": false,
+      "IndexNum": 157
+    },
+    {
+      "Id": 5333,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ내 말을 못 믿겠소? 그래도 이게 사실이오.",
+      "IsUsing": false,
+      "IndexNum": 158
+    },
+    {
+      "Id": 5334,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 159
+    },
+    {
+      "Id": 5335,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ누님께서 짚신을 잔뜩..? 내게도 한 켤레 주시긴 했는데.. 어쩐지 기분이 안 좋아요. 오랫동안 누님을 뵙지 못할 것 같은 기분이에요.",
+      "IsUsing": false,
+      "IndexNum": 160
+    },
+    {
+      "Id": 5336,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 161
+    },
+    {
+      "Id": 5337,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!",
+      "IsUsing": false,
+      "IndexNum": 162
+    },
+    {
+      "Id": 5350,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ나는 그쪽엔 관심도 없네요~ 때 되면 되겠죠~",
+      "IsUsing": false,
+      "IndexNum": 163
+    },
+    {
+      "Id": 5351,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ주막은 바빠지고 일손은 없어서 그런데 일 좀 돕겠는가? 이야기는 일단 그 뒤에 하세.",
+      "IsUsing": false,
+      "IndexNum": 164
+    },
+    {
+      "Id": 5352,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ개울은 항시 잔잔하지만, 바다는 아니지요. 바다는 태어나 딱 한 번 보았습니다.. 도움이 못 되어드려 죄송하군요.",
+      "IsUsing": false,
+      "IndexNum": 165
+    },
+    {
+      "Id": 5353,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ배는 항상 뜨는 게 아닌가요?",
+      "IsUsing": false,
+      "IndexNum": 166
+    },
+    {
+      "Id": 5354,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ배가 다시 뜨는 때를 알아봐 주게.",
+      "IsUsing": false,
+      "IndexNum": 167
+    },
+    {
+      "Id": 5355,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ얼른 배가 출항 좀 했으면 좋겠수다.",
+      "IsUsing": false,
+      "IndexNum": 168
+    },
+    {
+      "Id": 5356,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ파도가 거셀 때 배를 띄우는 사공은 없지. 미친 게 아니고서야.",
+      "IsUsing": false,
+      "IndexNum": 169
+    },
+    {
+      "Id": 5357,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ배는 날씨가 잔잔해지면 띄울 것입니다. 언제가 될지는 아무도 모르지요.",
+      "IsUsing": false,
+      "IndexNum": 170
+    },
+    {
+      "Id": 5358,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ배의 출항 날? 그걸 왜 궁금해하는진 모르겠으나 도와줄 순 있지. 주막에 오는 객들의 대화를 엿들어보겠네.",
+      "IsUsing": false,
+      "IndexNum": 171
+    },
+    {
+      "Id": 5359,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ대신 너무 바빠서 그런데 이 음식 좀 장터 아이에게 갖다 줄 수 있겠나?? 꽤 오래 굶었을 게야.",
+      "IsUsing": false,
+      "IndexNum": 172
+    },
+    {
+      "Id": 5360,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ와, 귀한 떡이네요!! 정말 감사합니다! 아주머니께는 매번 얻어먹네요..",
+      "IsUsing": false,
+      "IndexNum": 173
+    },
+    {
+      "Id": 5361,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ꽃이 예뻐보여 뒷산에서 한 줌 따왔는데 아주머니께 전해주시겠어요?? 저는 이제 벗들과 이 떡을 나누어야해서요.",
+      "IsUsing": false,
+      "IndexNum": 174
+    },
+    {
+      "Id": 5362,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ다녀왔는가? 오, 그 아이가 이것을 가져다달라고 했다고?",
+      "IsUsing": false,
+      "IndexNum": 175
+    },
+    {
+      "Id": 5363,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ냉증에 좋은 약초구만!! 기특한 것. 많이도 가져왔네. 심씨에게도 좀 나눠주겠네. 물에 달여 마시면 몸에 좋을게야.",
+      "IsUsing": false,
+      "IndexNum": 176
+    },
+    {
+      "Id": 5364,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ그리고, 아직 너무 바빠 그런데, 다른 일 좀 보고 한가해지면 다시 오게.",
+      "IsUsing": false,
+      "IndexNum": 177
+    },
+    {
+      "Id": 5365,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ귀덕 어멈은 너무 바빠 보인다. 아직인듯싶다. 청이의 행방에 관련하여 더 알아보자.",
+      "IsUsing": false,
+      "IndexNum": 178
+    },
+    {
+      "Id": 5366,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ스토리 진행에 필요한 단서가 없습니다. 다른 방향으로 탐색해주세요.",
+      "IsUsing": false,
+      "IndexNum": 179
+    },
+    {
+      "Id": 5367,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ아, 그리고 뒷간에 갔다가 은밀히 대화를 나누는 걸 엿들었네. ⓡ3월 보름날을 누군가에게 얘기하면 ⓦ일이 진행된단 이야기를 들었어.",
+      "IsUsing": false,
+      "IndexNum": 180
+    },
+    {
+      "Id": 5368,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ이 정도면 도움이 되었지? 근데 몸조심하게. 느낌이 좀 그러네.. 여기저기 떠들다간 위험할 것 같아.",
+      "IsUsing": false,
+      "IndexNum": 181
+    },
+    {
+      "Id": 5370,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ옴마나.. 역시 그 댁 셋째는 여색을 좋아하나 보옵니다. 내가 십 년만 젊었어도... 농이여요~ 홍홍홍홍~~",
+      "IsUsing": false,
+      "IndexNum": 182
+    },
+    {
+      "Id": 5371,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ혼자서라도 거뜬히 살아야 해.",
+      "IsUsing": false,
+      "IndexNum": 183
+    },
+    {
+      "Id": 5372,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ막내가 우리 집 종들을 어엿비 여겨 꾸미개를 하나씩 장만해 줬소. 종들의 차림새도 신경 쓰는 아이지. 참으로 기특하지 않소?",
+      "IsUsing": false,
+      "IndexNum": 184
+    },
+    {
+      "Id": 5373,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ그분 덕분에 이 일대에서 꾸미개 신품도 여기 점포가 제일 빨리 들어오지요!",
+      "IsUsing": false,
+      "IndexNum": 185
+    },
+    {
+      "Id": 5374,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 186
+    },
+    {
+      "Id": 5375,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(꼬르륵)...배고프다..",
+      "IsUsing": false,
+      "IndexNum": 187
+    },
+    {
+      "Id": 5376,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ나도 재물만 많았다면 그곳의 단골이 되었을 텐데 아쉽군.",
+      "IsUsing": false,
+      "IndexNum": 188
+    },
+    {
+      "Id": 5377,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ예, 그 단골 객 덕분에 꾸미개는 많이 들여오는 편입니다.",
+      "IsUsing": false,
+      "IndexNum": 189
+    },
+    {
+      "Id": 5390,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ뱃사람들 사정은 관심 없어요~",
+      "IsUsing": false,
+      "IndexNum": 190
+    },
+    {
+      "Id": 5391,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ혼자서라도 거뜬히 살아야 해.",
+      "IsUsing": false,
+      "IndexNum": 191
+    },
+    {
+      "Id": 5392,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ그것을 왜 내게 얘기하는 겐가?",
+      "IsUsing": false,
+      "IndexNum": 192
+    },
+    {
+      "Id": 5393,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ물품의 수출 때문에 저도 누구보다 배가 뜨길 바라고 있습죠.",
+      "IsUsing": false,
+      "IndexNum": 193
+    },
+    {
+      "Id": 5394,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ마음 깊이 불공드리면 조만간 부처의 덕으로 눈을 뜰 수 있을 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 194
+    },
+    {
+      "Id": 5395,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(꼬르륵)...배고프다..",
+      "IsUsing": false,
+      "IndexNum": 195
+    },
+    {
+      "Id": 5396,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ덕분에 길게 쉬게 됐소.. 국밥이나 많이 먹어야겠군.",
+      "IsUsing": false,
+      "IndexNum": 196
+    },
+    {
+      "Id": 5397,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 197
+    },
+    {
+      "Id": 5398,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ분명히 배가 출항하는 때가 정확히 있을 걸세.. 다시 알아봐 주게.",
+      "IsUsing": false,
+      "IndexNum": 198
+    },
+    {
+      "Id": 5410,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 199
+    },
+    {
+      "Id": 5411,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ사공에게 가보시오.",
+      "IsUsing": false,
+      "IndexNum": 200
+    },
+    {
+      "Id": 5412,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ난 관계없네.",
+      "IsUsing": false,
+      "IndexNum": 201
+    },
+    {
+      "Id": 5413,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ그걸 왜 나한테 물으쇼? 나는 모르는 일입니다.",
+      "IsUsing": false,
+      "IndexNum": 202
+    },
+    {
+      "Id": 5414,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 203
+    },
+    {
+      "Id": 5415,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ잘 모르겠어요. 뱃사공 아저씨께 물어보세요.",
+      "IsUsing": false,
+      "IndexNum": 204
+    },
+    {
+      "Id": 5416,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓡ…잡화상에게 물건을 부탁해놨는데, ⓦ그것을 가져다주면 얘기해 주겠네.",
+      "IsUsing": false,
+      "IndexNum": 205
+    },
+    {
+      "Id": 5417,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ사공의 일이라면 사공에게 가보세요.",
+      "IsUsing": false,
+      "IndexNum": 206
+    },
+    {
+      "Id": 5430,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(장사꾼에게 물건을 찾으러 가자.)",
+      "IsUsing": false,
+      "IndexNum": 207
+    },
+    {
+      "Id": 5431,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ(장사꾼에게 물건을 찾으러 가자.)",
+      "IsUsing": false,
+      "IndexNum": 208
+    },
+    {
+      "Id": 5432,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(장사꾼에게 물건을 찾으러 가자.)",
+      "IsUsing": false,
+      "IndexNum": 209
+    },
+    {
+      "Id": 5433,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ사공의 물건 말이지요? 구해놨습죠..그런데 철이 철인지라 어렵사리 구했지요.",
+      "IsUsing": false,
+      "IndexNum": 210
+    },
+    {
+      "Id": 5434,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ(장사꾼에게 물건을 찾으러 가자.)",
+      "IsUsing": false,
+      "IndexNum": 211
+    },
+    {
+      "Id": 5435,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(장사꾼에게 물건을 찾으러 가자.)",
+      "IsUsing": false,
+      "IndexNum": 212
+    },
+    {
+      "Id": 5436,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ물건을 받아왔소?? 가져왔다면 어서 건네주게.",
+      "IsUsing": false,
+      "IndexNum": 213
+    },
+    {
+      "Id": 5437,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(장사꾼에게 물건을 찾으러 가자.)",
+      "IsUsing": false,
+      "IndexNum": 214
+    },
+    {
+      "Id": 5438,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ때문에 값을 더 받아야겠는데, 댁이 이 상자를 열어준다면 물건을 드리겠수다.",
+      "IsUsing": false,
+      "IndexNum": 215
+    },
+    {
+      "Id": 5439,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ무역상에게 선물 받은 장난감인데, 진짜 선물은 이 상자 안에 있습죠.. 나는 이런 것엔 영 재주가 없어서... 부탁 좀 하겠수다.",
+      "IsUsing": false,
+      "IndexNum": 216
+    },
+    {
+      "Id": 5440,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ도르륵 구슬이 굴러가는 소리와 함께 상자가 덜컥였다.",
+      "IsUsing": false,
+      "IndexNum": 217
+    },
+    {
+      "Id": 5441,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ고맙습니다! 덕분에 이제서야 상자 안을 확인하네요!",
+      "IsUsing": false,
+      "IndexNum": 218
+    },
+    {
+      "Id": 5442,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ장사꾼은 상자 안을 확인하더니, 책을 꺼내들고선 한숨을 푹 내쉬었다.",
+      "IsUsing": false,
+      "IndexNum": 219
+    },
+    {
+      "Id": 5443,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ하이고, 글도 못 하는데 책이라니..... 일단 사공의 물건을 받으시지요. 중요한 물건이니 꼭! 잘 전달해 주셔야 합니다.",
+      "IsUsing": false,
+      "IndexNum": 220
+    },
+    {
+      "Id": 5450,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ이번에 들여온 비녀가 그렇게 예쁘던데,,,",
+      "IsUsing": false,
+      "IndexNum": 221
+    },
+    {
+      "Id": 5451,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ혼자서라도 거뜬히 살아야 해.",
+      "IsUsing": false,
+      "IndexNum": 222
+    },
+    {
+      "Id": 5452,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ뱃길을 잠재우는 방법이라.. 가끔 하늘에 제를 지내면 된다는 말도 있던데.. 제대로는 잘 모르겠군.",
+      "IsUsing": false,
+      "IndexNum": 223
+    },
+    {
+      "Id": 5453,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 224
+    },
+    {
+      "Id": 5454,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 225
+    },
+    {
+      "Id": 5455,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(꼬르륵)...배고프다.",
+      "IsUsing": false,
+      "IndexNum": 226
+    },
+    {
+      "Id": 5456,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ굳이 알려 하지 않았으면 좋겠군. 때가 되면 알게 될 것이오.",
+      "IsUsing": false,
+      "IndexNum": 227
+    },
+    {
+      "Id": 5457,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ저희가 무역을 하며 쓰는 방법이 따로 있지요. 업계 사람이 아니라면 이야기해드릴 수 없습니다.",
+      "IsUsing": false,
+      "IndexNum": 228
+    },
+    {
+      "Id": 5470,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(귀덕 어멈의 말을 듣자.)",
+      "IsUsing": false,
+      "IndexNum": 229
+    },
+    {
+      "Id": 5471,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ어서 가보게. 몸조심하고!",
+      "IsUsing": false,
+      "IndexNum": 230
+    },
+    {
+      "Id": 5472,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ고맙네. 일전에 내가 출항 날을 알아와달라는 부탁을 들어주었구려. 여기서부턴 내가 알아서 처리하겠네.",
+      "IsUsing": false,
+      "IndexNum": 231
+    },
+    {
+      "Id": 5473,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(귀덕 어멈의 말을 듣자.)",
+      "IsUsing": false,
+      "IndexNum": 232
+    },
+    {
+      "Id": 5474,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ(귀덕 어멈의 말을 듣자.)",
+      "IsUsing": false,
+      "IndexNum": 233
+    },
+    {
+      "Id": 5475,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(귀덕 어멈의 말을 듣자.)",
+      "IsUsing": false,
+      "IndexNum": 234
+    },
+    {
+      "Id": 5476,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ이야기를 들은 사공이 목소리를 낮추어 속삭였다.",
+      "IsUsing": false,
+      "IndexNum": 235
+    },
+    {
+      "Id": 5477,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그건 또 어디서 들었소?! 이 이야기를 섣불리 꺼냈다간 큰일이 날 것이오.",
+      "IsUsing": false,
+      "IndexNum": 236
+    },
+    {
+      "Id": 5478,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ3월 보름날, 그 치들이 바다에서 일을 꾸민다고 했소. 나는 그것을 막으러 가야 하오. 함께 하겠소?",
+      "IsUsing": false,
+      "IndexNum": 237
+    },
+    {
+      "Id": 5479,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ원인 모를 이끌림에, 나는 비장하게 고개를 끄덕였다.",
+      "IsUsing": false,
+      "IndexNum": 238
+    },
+    {
+      "Id": 5480,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ채비를 마친 뒤 선착장에 있는 나를 찾아오면 바로 출발하겠소.",
+      "IsUsing": false,
+      "IndexNum": 239
+    },
+    {
+      "Id": 5481,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그러면 이제 출발하겠소. 그리고 우리와 함께할 사람도 먼저 타있소. 나룻배에 타시오.",
+      "IsUsing": false,
+      "IndexNum": 240
+    },
+    {
+      "Id": 5482,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ나룻배에 탑승하니, 흐릿한 시야 사이에 인영이 보였다.",
+      "IsUsing": false,
+      "IndexNum": 241
+    },
+    {
+      "Id": 5483,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ그는 내 앞으로 천천히 다가오더니 먼저 입을 열었다.",
+      "IsUsing": false,
+      "IndexNum": 242
+    },
+    {
+      "Id": 5484,
+      "SpeakerType": "Npc",
+      "Name": "???",
+      "Comment": "ⓦ반갑습니다. 청이 아버님. 이렇게 뵙게 되는군요.",
+      "IsUsing": false,
+      "IndexNum": 243
+    },
+    {
+      "Id": 5485,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ저는 청이와 교제 중인 장 지언이라고 합니다.",
+      "IsUsing": false,
+      "IndexNum": 244
+    },
+    {
+      "Id": 5486,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ그의 얼굴을 가까이 바라보니, 향리 댁 셋째 아들이었다.",
+      "IsUsing": false,
+      "IndexNum": 245
+    },
+    {
+      "Id": 5487,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ묻고 싶은 게 오만가지였지만 그런 나의 마음을 알아챘는지 그가 이야기를 이어갔다.",
+      "IsUsing": false,
+      "IndexNum": 246
+    },
+    {
+      "Id": 5488,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ제게 물어보고 싶으신 게 꽤 많으실 겁니다. 천천히 물어보시지요.",
+      "IsUsing": false,
+      "IndexNum": 247
+    },
+    {
+      "Id": 5489,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ다 알고 오셨나요? 함께해 주신다니 영광이군요. 당신 식구에게는 역시 고귀한 마음이 흐르나 봅니다.",
+      "IsUsing": false,
+      "IndexNum": 248
+    },
+    {
+      "Id": 5700,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ춥지 않은 집으로 만들어주겠다 매혹하는 것이오?? 앙큼하셔요~ 호호.",
+      "IsUsing": false,
+      "IndexNum": 249
+    },
+    {
+      "Id": 5701,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ아궁이에 넣고 불을 지피시오.",
+      "IsUsing": false,
+      "IndexNum": 250
+    },
+    {
+      "Id": 5702,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ여기는 어쩐 일이오?",
+      "IsUsing": false,
+      "IndexNum": 251
+    },
+    {
+      "Id": 5703,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 252
+    },
+    {
+      "Id": 5704,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 253
+    },
+    {
+      "Id": 5705,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(꼬르륵)...배고프다..",
+      "IsUsing": false,
+      "IndexNum": 254
+    },
+    {
+      "Id": 5706,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 255
+    },
+    {
+      "Id": 5707,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 256
+    },
+    {
+      "Id": 5708,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 257
+    },
+    {
+      "Id": 5709,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ혼자서라도 거뜬히 살아야 해.",
+      "IsUsing": false,
+      "IndexNum": 258
+    },
+    {
+      "Id": 5710,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ여기는 어쩐 일이오?",
+      "IsUsing": false,
+      "IndexNum": 259
+    },
+    {
+      "Id": 5711,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 260
+    },
+    {
+      "Id": 5712,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 261
+    },
+    {
+      "Id": 5713,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(꼬르륵)...배고프다..",
+      "IsUsing": false,
+      "IndexNum": 262
+    },
+    {
+      "Id": 5714,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 263
+    },
+    {
+      "Id": 5715,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 264
+    },
+    {
+      "Id": 5716,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ먼저 장작을 넣어야한다.",
+      "IsUsing": false,
+      "IndexNum": 265
+    },
+    {
+      "Id": 5717,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 266
+    },
+    {
+      "Id": 5718,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ개울가에서 z를 누르면 물을 뜰 수 있소!",
+      "IsUsing": false,
+      "IndexNum": 267
+    },
+    {
+      "Id": 5719,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ여기는 어쩐 일이오?",
+      "IsUsing": false,
+      "IndexNum": 268
+    },
+    {
+      "Id": 5720,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 269
+    },
+    {
+      "Id": 5721,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 270
+    },
+    {
+      "Id": 5722,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(꼬르륵)...배고프다..",
+      "IsUsing": false,
+      "IndexNum": 271
+    },
+    {
+      "Id": 5723,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 272
+    },
+    {
+      "Id": 5724,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 273
+    },
+    {
+      "Id": 5725,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 274
+    },
+    {
+      "Id": 5726,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ혼자서라도 거뜬히 살아야 해.",
+      "IsUsing": false,
+      "IndexNum": 275
+    },
+    {
+      "Id": 5727,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ여기는 어쩐 일이오?",
+      "IsUsing": false,
+      "IndexNum": 276
+    },
+    {
+      "Id": 5728,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 277
+    },
+    {
+      "Id": 5729,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 278
+    },
+    {
+      "Id": 5730,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(꼬르륵)...배고프다..",
+      "IsUsing": false,
+      "IndexNum": 279
+    },
+    {
+      "Id": 5731,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 280
+    },
+    {
+      "Id": 5732,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 281
+    },
+    {
+      "Id": 5733,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "쌀이 있어야 밥을 만들 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 282
+    },
+    {
+      "Id": 5734,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ누굴 배곯고 다니는 거지로 아시오? 이걸 누구 코에 붙인담.. 도로 가져가셔요!",
+      "IsUsing": false,
+      "IndexNum": 283
+    },
+    {
+      "Id": 5735,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ밥 짓는 법도 몰라서 그러는가? 아궁이에 불을 때고 쌀과 물을 솥에 올리면 된다네. 청이 없으면 어찌 살려는지 원...",
+      "IsUsing": false,
+      "IndexNum": 284
+    },
+    {
+      "Id": 5736,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ한 줌은 될지 모르겠소.",
+      "IsUsing": false,
+      "IndexNum": 285
+    },
+    {
+      "Id": 5737,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ이 정도 쌀로는 우리 노점에서 아무것도 못 바꿉디다!",
+      "IsUsing": false,
+      "IndexNum": 286
+    },
+    {
+      "Id": 5738,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ시주는 한 가마니부터 받고 있습니다. 마음만은 감사히 받지요.",
+      "IsUsing": false,
+      "IndexNum": 287
+    },
+    {
+      "Id": 5739,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ와! 쌀이다.. 배고파요. 그치만 생쌀은 먹어도 배가 안차요.",
+      "IsUsing": false,
+      "IndexNum": 288
+    },
+    {
+      "Id": 5740,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ굶주릴 땐 여기 도화촌 주막이 종종 생각나곤 하지..",
+      "IsUsing": false,
+      "IndexNum": 289
+    },
+    {
+      "Id": 5741,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 290
+    },
+    {
+      "Id": 5742,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ쌀이 타기 전에 물을 붓자.",
+      "IsUsing": false,
+      "IndexNum": 291
+    },
+    {
+      "Id": 5743,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ저는 이런 것보단, 좀 더 반짝거리는 것이 좋습니다. 호호호~",
+      "IsUsing": false,
+      "IndexNum": 292
+    },
+    {
+      "Id": 5744,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ이제 밥 짓는 법을 좀 알겠소? 배 곯고 다니지 마시오.",
+      "IsUsing": false,
+      "IndexNum": 293
+    },
+    {
+      "Id": 5745,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ허허, 잘 챙겨드시오.",
+      "IsUsing": false,
+      "IndexNum": 294
+    },
+    {
+      "Id": 5746,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ여기서 식자재는 팔지않소.",
+      "IsUsing": false,
+      "IndexNum": 295
+    },
+    {
+      "Id": 5747,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ하하 식사도 챙겨주시는겁니까? 감사드리지요. 마음만 받겠습니다.",
+      "IsUsing": false,
+      "IndexNum": 296
+    },
+    {
+      "Id": 5748,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ잘 챙겨 먹는게 제일이오.",
+      "IsUsing": false,
+      "IndexNum": 297
+    },
+    {
+      "Id": 5749,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 298
+    },
+    {
+      "Id": 5750,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ정말로 갖고 싶었던 것이옵니다~ 너무 마음에 들어요! 낭군님 하시렵니까?",
+      "IsUsing": false,
+      "IndexNum": 299
+    },
+    {
+      "Id": 5751,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ내게 주는 것이오?? 갖다 팔고 집안 살림에나 보태게.",
+      "IsUsing": false,
+      "IndexNum": 300
+    },
+    {
+      "Id": 5752,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ여기는 어쩐 일이오?",
+      "IsUsing": false,
+      "IndexNum": 301
+    },
+    {
+      "Id": 5753,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ언제 훔쳤수?! 이런 도적 놈을 봤나!! 향리님께 데려가 혼구녕을 내주겠다!! 여기 누가 *순검 좀 불러주게! *순찰대",
+      "IsUsing": false,
+      "IndexNum": 302
+    },
+    {
+      "Id": 5754,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 303
+    },
+    {
+      "Id": 5755,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ절 주시는 건가요? 필요 없어요. 먹을 거로 주세요.",
+      "IsUsing": false,
+      "IndexNum": 304
+    },
+    {
+      "Id": 5756,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ내 형편이 넉넉했다면 딸들한테 하나씩 해줬을 텐데.. *도산 주려는 것이오? 좋겠군. *선물의 옛말",
+      "IsUsing": false,
+      "IndexNum": 305
+    },
+    {
+      "Id": 5757,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ이번에 들여온 꾸미개군요. 참 곱지요? 다음엔 더 좋은 걸 들여오겠습니다.",
+      "IsUsing": false,
+      "IndexNum": 306
+    },
+    {
+      "Id": 5758,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ먹?? 호호. 글씨 쓰는 사내는 멋들어지지요.",
+      "IsUsing": false,
+      "IndexNum": 307
+    },
+    {
+      "Id": 5759,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ우리 귀덕이 공부 시킬 때 잿물을 대신 썼는데.. 추억이구먼.",
+      "IsUsing": false,
+      "IndexNum": 308
+    },
+    {
+      "Id": 5760,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ단산에서 올라온 먹이라고.. 한번 써보겠네. 품질이 좋아 보이는군.",
+      "IsUsing": false,
+      "IndexNum": 309
+    },
+    {
+      "Id": 5761,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ다녀오십쇼! 만약 달라면 줘도 됩니다. 다음에 값을 받으면 되니까요.",
+      "IsUsing": false,
+      "IndexNum": 310
+    },
+    {
+      "Id": 5762,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ하하, 참 좋아 보이는 먹입니다. 저는 괜찮습니다.",
+      "IsUsing": false,
+      "IndexNum": 311
+    },
+    {
+      "Id": 5763,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ헤헤, 그게 뭐예요? 모양이 먹기 좋게 생겼어요.",
+      "IsUsing": false,
+      "IndexNum": 312
+    },
+    {
+      "Id": 5764,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ부유한 문반들이나 쓰지, 나 같은 상놈은 괜찮소.",
+      "IsUsing": false,
+      "IndexNum": 313
+    },
+    {
+      "Id": 5765,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ오, 이제까지 보아온 먹 중에 가장 좋아 보입니다. 나중에 제가 직접 구매하겠습니다.",
+      "IsUsing": false,
+      "IndexNum": 314
+    },
+    {
+      "Id": 5766,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 315
+    },
+    {
+      "Id": 5767,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ(주막에 온 객들을 맞이하느라 매우 바쁜 것 같다. 얼른 거지 아이에게 음식을 전달하자.)",
+      "IsUsing": false,
+      "IndexNum": 316
+    },
+    {
+      "Id": 5768,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ여기는 어쩐 일이오?",
+      "IsUsing": false,
+      "IndexNum": 317
+    },
+    {
+      "Id": 5769,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 318
+    },
+    {
+      "Id": 5770,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 319
+    },
+    {
+      "Id": 5771,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 320
+    },
+    {
+      "Id": 5772,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 321
+    },
+    {
+      "Id": 5773,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(귀덕 어멈에게 전달해야한다.)",
+      "IsUsing": false,
+      "IndexNum": 322
+    },
+    {
+      "Id": 5774,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ다녀왔는가? 오, 그 아이가 이것을 가져다달라고 했다고? 약초구만!! 기특한 것. 많이도 가져왔구만. 심씨에게도 좀 나눠주겠네. 물에 달여 마시면 몸에 좋을게야.",
+      "IsUsing": false,
+      "IndexNum": 323
+    },
+    {
+      "Id": 5775,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(귀덕 어멈에게 전달해야한다.)",
+      "IsUsing": false,
+      "IndexNum": 324
+    },
+    {
+      "Id": 5776,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(귀덕 어멈에게 전달해야한다.)",
+      "IsUsing": false,
+      "IndexNum": 325
+    },
+    {
+      "Id": 5777,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ(귀덕 어멈에게 전달해야한다.)",
+      "IsUsing": false,
+      "IndexNum": 326
+    },
+    {
+      "Id": 5778,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ제가 보기엔 예쁜 꽃이지만, 아주머니가 좋아하실지는 모르겠어요.",
+      "IsUsing": false,
+      "IndexNum": 327
+    },
+    {
+      "Id": 5779,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(귀덕 어멈에게 전달해야한다.)",
+      "IsUsing": false,
+      "IndexNum": 328
+    },
+    {
+      "Id": 5780,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(귀덕 어멈에게 전달해야한다.)",
+      "IsUsing": false,
+      "IndexNum": 329
+    },
+    {
+      "Id": 5781,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 330
+    },
+    {
+      "Id": 5782,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ혼자서라도 거뜬히 살아야 해.",
+      "IsUsing": false,
+      "IndexNum": 331
+    },
+    {
+      "Id": 5783,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ여기는 어쩐 일이오?",
+      "IsUsing": false,
+      "IndexNum": 332
+    },
+    {
+      "Id": 5784,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 333
+    },
+    {
+      "Id": 5785,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 334
+    },
+    {
+      "Id": 5786,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(꼬르륵)...배고프다..",
+      "IsUsing": false,
+      "IndexNum": 335
+    },
+    {
+      "Id": 5787,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 336
+    },
+    {
+      "Id": 5788,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 337
+    },
+    {
+      "Id": 5789,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(사공의 것이다. 다른 사람에게 건네선 안된다.)",
+      "IsUsing": false,
+      "IndexNum": 338
+    },
+    {
+      "Id": 5790,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ(사공의 것이다. 다른 사람에게 건네선 안된다.)",
+      "IsUsing": false,
+      "IndexNum": 339
+    },
+    {
+      "Id": 5791,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(사공의 것이다. 다른 사람에게 건네선 안된다.)",
+      "IsUsing": false,
+      "IndexNum": 340
+    },
+    {
+      "Id": 5792,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(사공의 것이다. 다른 사람에게 건네선 안된다.)",
+      "IsUsing": false,
+      "IndexNum": 341
+    },
+    {
+      "Id": 5793,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ으음, 이 특이한 향. 아편이네요.. 어디 병자가 있나보군요.",
+      "IsUsing": false,
+      "IndexNum": 342
+    },
+    {
+      "Id": 5794,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ달달하고 톡쏘는 냄새가 나요. 뭔가 맛있는 냄새예요.",
+      "IsUsing": false,
+      "IndexNum": 343
+    },
+    {
+      "Id": 5795,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ고맙소. 부탁을 들어주었으니 내 이야기를 해주겠네.",
+      "IsUsing": false,
+      "IndexNum": 344
+    },
+    {
+      "Id": 5796,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ지난해 오월부터 송나라 상인들 배의 *도사공이었소. 우리 막내 딸아이가 병에 걸려 일을 쉬면 안되는 처지인데, 삼월이 되자마자 일감을 잃었지.",
+      "IsUsing": false,
+      "IndexNum": 345
+    },
+    {
+      "Id": 5797,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ요즘 사는게 팍팍해 그런지 엊그제는 술에 취해 주막에서 실수를 했군.. 하소연이 길었소. 이제 호기심은 해결되셨소? *우두머리 사공",
+      "IsUsing": false,
+      "IndexNum": 346
+    },
+    {
+      "Id": 5798,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(사공의 것이다. 다른 사람에게 건네선 안된다.)",
+      "IsUsing": false,
+      "IndexNum": 347
+    },
+    {
+      "Id": 5799,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ몸이 달아오른다. 쑤시던 무릎이 개운해졌다. 눈도 밝아진 기분이다.",
+      "IsUsing": false,
+      "IndexNum": 348
+    },
+    {
+      "Id": 6010,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 349
+    },
+    {
+      "Id": 6011,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 350
+    },
+    {
+      "Id": 6012,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 351
+    },
+    {
+      "Id": 6013,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 352
+    },
+    {
+      "Id": 6014,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 353
+    },
+    {
+      "Id": 6015,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 354
+    },
+    {
+      "Id": 6016,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 355
+    },
+    {
+      "Id": 6017,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 356
+    },
+    {
+      "Id": 6030,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ어제 반찬도 기억이 안 나는데 그때 일이 기억이 나겠어요?",
+      "IsUsing": false,
+      "IndexNum": 357
+    },
+    {
+      "Id": 6031,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ그날이었나,, ⓡ뱃사공이 큰 소리를 쳤던 일이 있소. ⓦ사공에게 한번 가보시오.",
+      "IsUsing": false,
+      "IndexNum": 358
+    },
+    {
+      "Id": 6032,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ셋째가 이틀 전에 태의감으로 향했지.. 또 무슨 일이 있었소?",
+      "IsUsing": false,
+      "IndexNum": 359
+    },
+    {
+      "Id": 6033,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 360
+    },
+    {
+      "Id": 6034,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 361
+    },
+    {
+      "Id": 6035,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ,,,주막이 소란스러웠던 걸로 기억해요. 자세히는 모르니 주막으로 가보세요.",
+      "IsUsing": false,
+      "IndexNum": 362
+    },
+    {
+      "Id": 6036,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ신경 쓰고 싶지 않소. 저리 가시오.",
+      "IsUsing": false,
+      "IndexNum": 363
+    },
+    {
+      "Id": 6037,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 364
+    },
+    {
+      "Id": 6050,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ남녀 둘이 친하면 하나 밖에 없지. 명약관화요.",
+      "IsUsing": false,
+      "IndexNum": 365
+    },
+    {
+      "Id": 6051,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ그 둘이 함께 있는걸 나도 보긴 봤소. 그저 친우 사이 아니오?",
+      "IsUsing": false,
+      "IndexNum": 366
+    },
+    {
+      "Id": 6052,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ지금 우리 아들이랑 그 댁 따님하고 엮는 것이오?? 실례라는 생각은 안드시오?",
+      "IsUsing": false,
+      "IndexNum": 367
+    },
+    {
+      "Id": 6053,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 368
+    },
+    {
+      "Id": 6054,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 369
+    },
+    {
+      "Id": 6055,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ둘이 친우보다는 가까워 보였어요.",
+      "IsUsing": false,
+      "IndexNum": 370
+    },
+    {
+      "Id": 6056,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그 둘이 친한 것과 내게 질문을 하는 것이 무슨 관계가 있소?",
+      "IsUsing": false,
+      "IndexNum": 371
+    },
+    {
+      "Id": 6057,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 372
+    },
+    {
+      "Id": 6070,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ둘 다 이틀 전에 사라졌다고요? 난리났네.",
+      "IsUsing": false,
+      "IndexNum": 373
+    },
+    {
+      "Id": 6071,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이와 향리 댁 막내아들이 함께 사라졌단 말이시오? 말에 어폐가 있소. 어디 가서 그런 소리 하다가 봉변 당하기 딱 좋겠소. 조심하시오.",
+      "IsUsing": false,
+      "IndexNum": 374
+    },
+    {
+      "Id": 6072,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ우리 셋째는 분명히 태의감으로 갔소. 또 허튼 소리 하다간 비명횡사할 줄 아시오.",
+      "IsUsing": false,
+      "IndexNum": 375
+    },
+    {
+      "Id": 6073,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ나는 관심 없으니 장사 방해 말고 저리 비키십쇼.",
+      "IsUsing": false,
+      "IndexNum": 376
+    },
+    {
+      "Id": 6074,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 377
+    },
+    {
+      "Id": 6075,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ저는 모르겠어요.",
+      "IsUsing": false,
+      "IndexNum": 378
+    },
+    {
+      "Id": 6076,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ심청 아기씨와 그 댁 도령이 함께 사라졌다는 말씀이십니까? 아닙니다. 심청 아가씨는 반드시 돌아올 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 379
+    },
+    {
+      "Id": 6077,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 380
+    },
+    {
+      "Id": 6090,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ옴마, 지금 무역이 중단 되었다는 말씀이시오? 그럼 당분간 비단은 못 보겠네..",
+      "IsUsing": false,
+      "IndexNum": 381
+    },
+    {
+      "Id": 6091,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ어쩐지, 뱃사람들이 주막에 오래 머무른다더니,,, 그런 연유였구만..",
+      "IsUsing": false,
+      "IndexNum": 382
+    },
+    {
+      "Id": 6092,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ한동안 사절은 안 오겠군..",
+      "IsUsing": false,
+      "IndexNum": 383
+    },
+    {
+      "Id": 6093,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ무역이 중단 된 지는 얼마되지않았습죠. 한 사흘은 되었나? 물건을 내리느라 상인들이 마을에 자주 옵니다.",
+      "IsUsing": false,
+      "IndexNum": 384
+    },
+    {
+      "Id": 6094,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ무슨 말인지 잘 모르겠어요..",
+      "IsUsing": false,
+      "IndexNum": 385
+    },
+    {
+      "Id": 6095,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ다 부처의 뜻일 겁니다.",
+      "IsUsing": false,
+      "IndexNum": 386
+    },
+    {
+      "Id": 6096,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그건 또 어디서 전해들은 것이오? ..알고 왔으니 얘기해줘야겠군.",
+      "IsUsing": false,
+      "IndexNum": 387
+    },
+    {
+      "Id": 6097,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ무역이 중단된 일을 어떻게 아시나요? 그러나 조만간 다시 재개될 것 입니다. 걱정마세요.",
+      "IsUsing": false,
+      "IndexNum": 388
+    },
+    {
+      "Id": 6098,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ매해 이맘때, 송에서 오가는 뱃길이 거세지기에 무역이 중단되었소. 그러나 ⓡ송나라 사람들이 뱃길을 잠잠하게 만드는 법을 안다더군.",
+      "IsUsing": false,
+      "IndexNum": 389
+    },
+    {
+      "Id": 6099,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그들이 알아서 하겠지. 이제 나랑은 상관없다네.",
+      "IsUsing": false,
+      "IndexNum": 390
+    },
+    {
+      "Id": 6110,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 391
+    },
+    {
+      "Id": 6111,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 392
+    },
+    {
+      "Id": 6112,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 393
+    },
+    {
+      "Id": 6113,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 394
+    },
+    {
+      "Id": 6114,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 395
+    },
+    {
+      "Id": 6115,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 396
+    },
+    {
+      "Id": 6116,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 397
+    },
+    {
+      "Id": 6117,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 398
+    },
+    {
+      "Id": 6500,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "이번에 들여온 비녀가 그렇게 예쁘던데,,,",
+      "IsUsing": false,
+      "IndexNum": 399
+    },
+    {
+      "Id": 6501,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "어려움 있으면 말해봅세.",
+      "IsUsing": false,
+      "IndexNum": 400
+    },
+    {
+      "Id": 6502,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "(노비와 대화를 나눈다.)",
+      "IsUsing": false,
+      "IndexNum": 401
+    },
+    {
+      "Id": 6503,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "살 것 없으면 좀 비키시오! 객 쫓겠네.",
+      "IsUsing": false,
+      "IndexNum": 402
+    },
+    {
+      "Id": 6504,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "저거 맛있겠다..",
+      "IsUsing": false,
+      "IndexNum": 403
+    },
+    {
+      "Id": 6505,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "(주막에 앉아서 늘어지게 쉬고 있다.)",
+      "IsUsing": false,
+      "IndexNum": 404
+    },
+    {
+      "Id": 6506,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "(이쪽은 쳐다도 보지 않는다.)",
+      "IsUsing": false,
+      "IndexNum": 405
+    },
+    {
+      "Id": 6507,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "(몹시 바빠 보인다.)",
+      "IsUsing": false,
+      "IndexNum": 406
+    },
+    {
+      "Id": 6508,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "마음 깊이 불공드리면 조만간 부처의 덕으로 눈을 뜰 수 있을 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 407
+    },
+    {
+      "Id": 6509,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(주막에 앉아서 늘어지게 쉬고 있다.)",
+      "IsUsing": false,
+      "IndexNum": 408
+    },
+    {
+      "Id": 6510,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(이쪽은 쳐다도 보지 않는다.)",
+      "IsUsing": false,
+      "IndexNum": 409
+    },
+    {
+      "Id": 7000,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ'태형에 처할 줄 아시오!!'",
+      "IsUsing": false,
+      "IndexNum": 410
+    },
+    {
+      "Id": 7001,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ장사꾼이 연신 소리쳤다.",
+      "IsUsing": false,
+      "IndexNum": 411
+    },
+    {
+      "Id": 7002,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ장사꾼에게 팔뚝을 붙잡혀 있는 새에, 군인들이 달려와 끈으로 내 몸통을 묶었고, 나는 끌려가고 있었다.",
+      "IsUsing": false,
+      "IndexNum": 412
+    },
+    {
+      "Id": 7003,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[양상군자]",
+      "IsUsing": false,
+      "IndexNum": 413
+    },
+    {
+      "Id": 7004,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ내가 단단히 경고 했지않소? 자초한 줄 아시오.",
+      "IsUsing": false,
+      "IndexNum": 414
+    },
+    {
+      "Id": 7005,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ부인이 하인의 하얀 천을 걷어내더니, 그 속에서 칼을 꺼내들었다.",
+      "IsUsing": false,
+      "IndexNum": 415
+    },
+    {
+      "Id": 7006,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ칼날에 반사된 빛이 눈에 들어와 질끈 감은 찰나, 이미 복부에 따듯함이 퍼졌다.",
+      "IsUsing": false,
+      "IndexNum": 416
+    },
+    {
+      "Id": 7007,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ상황을 파악하기도 전에 내 몸은 저택 안으로 끌려가고 있었다.",
+      "IsUsing": false,
+      "IndexNum": 417
+    },
+    {
+      "Id": 7008,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[구화지문]",
+      "IsUsing": false,
+      "IndexNum": 418
+    },
+    {
+      "Id": 7009,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ꿀떡꿀떡, 약초물을 모조리 목으로 넘겼다.",
+      "IsUsing": false,
+      "IndexNum": 419
+    },
+    {
+      "Id": 7010,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ역시 이 약초가 내 몸에 잘 맞는지, 몸이 좋아지는 기분이었다.",
+      "IsUsing": false,
+      "IndexNum": 420
+    },
+    {
+      "Id": 7011,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ뜨끈함에 기분도 나른해진 찰나였다.",
+      "IsUsing": false,
+      "IndexNum": 421
+    },
+    {
+      "Id": 7012,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ몸이 계속 뜨거워지며 숨이 옥죄어왔고, 자꾸만 헛구역질이 나왔다.",
+      "IsUsing": false,
+      "IndexNum": 422
+    },
+    {
+      "Id": 7013,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ내 몸을 뉘인 바닥은 이젠 안락하게만 느껴졌다.",
+      "IsUsing": false,
+      "IndexNum": 423
+    },
+    {
+      "Id": 7014,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[과유불급]",
+      "IsUsing": false,
+      "IndexNum": 424
+    },
+    {
+      "Id": 7015,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ갑자기 뒤통수에 둔탁한 소리가 울렸다.",
+      "IsUsing": false,
+      "IndexNum": 425
+    },
+    {
+      "Id": 7016,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ정신을 차리니 몸은 꽁꽁 묶여있었고 앞은 보이지 않았다. 그때, 누군가의 중얼거림이 들렸다.",
+      "IsUsing": false,
+      "IndexNum": 426
+    },
+    {
+      "Id": 7017,
+      "SpeakerType": "Npc",
+      "Name": "???",
+      "Comment": "ⓦ........어두운 아비 눈을 밝게 띄워 주옵소서...",
+      "IsUsing": false,
+      "IndexNum": 427
+    },
+    {
+      "Id": 7018,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ첨벙 소리가 났고, 뒤이어 웅성이는 소리가 귓가에 들려왔다.",
+      "IsUsing": false,
+      "IndexNum": 428
+    },
+    {
+      "Id": 7019,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ생생한 흉몽임에 틀림없다. 고약하게 풍기는 물 비린내를 뒤로하며 쏟아지는 잠에 몸을 맡겼다.",
+      "IsUsing": false,
+      "IndexNum": 429
+    },
+    {
+      "Id": 7020,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[취생몽사]",
+      "IsUsing": false,
+      "IndexNum": 430
+    },
+    {
+      "Id": 7021,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ3월 보름날이 밝았다. 어찌 된 일인지 궁금하여 향리 댁을 갔으나 부인은 온데간데없었다..",
+      "IsUsing": false,
+      "IndexNum": 431
+    },
+    {
+      "Id": 7022,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ다음날도, 또 그 다음날에도.",
+      "IsUsing": false,
+      "IndexNum": 432
+    },
+    {
+      "Id": 7023,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ부인이 없는 향리 댁의 대문은 그저 척박한 모양새였다.",
+      "IsUsing": false,
+      "IndexNum": 433
+    },
+    {
+      "Id": 7024,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ이윽고, 남아있던 송나라 상인들도 모두 마을을 떴고, 고요함 속에서 나는 그저 하릴없이 청이를 기다릴 뿐이었다.",
+      "IsUsing": false,
+      "IndexNum": 434
+    },
+    {
+      "Id": 7025,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓑ[연경학망]",
+      "IsUsing": false,
+      "IndexNum": 435
+    },
+    {
+      "Id": 7026,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이 정도 거리면 저쪽에서 보이지 않을 것이오.",
+      "IsUsing": false,
+      "IndexNum": 436
+    },
+    {
+      "Id": 7027,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ거리를 두어 송 상인들의 배를 좇고 있었다.",
+      "IsUsing": false,
+      "IndexNum": 437
+    },
+    {
+      "Id": 7028,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ돛을 접고 닻을 내리는 것 같습니다.",
+      "IsUsing": false,
+      "IndexNum": 438
+    },
+    {
+      "Id": 7029,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이제 배를 붙이겠소.",
+      "IsUsing": false,
+      "IndexNum": 439
+    },
+    {
+      "Id": 7030,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공과 지언의 이야기로 상황을 가늠하는 찰나, 배가 다시 출렁였다.",
+      "IsUsing": false,
+      "IndexNum": 440
+    },
+    {
+      "Id": 7031,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ커다란 송나라 상인들의 배에 딱 붙어 있었다.",
+      "IsUsing": false,
+      "IndexNum": 441
+    },
+    {
+      "Id": 7032,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ뿌연 시야 끝에 거대한 무언가가 있다는 건 확실하게 느껴졌다.",
+      "IsUsing": false,
+      "IndexNum": 442
+    },
+    {
+      "Id": 7033,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ거센 너울에 배가 자꾸만 휘청거렸고 그보다 거친 바람에 눈은 뜨지도 못하였다.",
+      "IsUsing": false,
+      "IndexNum": 443
+    },
+    {
+      "Id": 7034,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ귓가를 강하게 때리는 바람 소리 사이에, 희미하게 북소리가 둥둥둥 울렸다.",
+      "IsUsing": false,
+      "IndexNum": 444
+    },
+    {
+      "Id": 7035,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시각이 급하니 어서 바삐 물에 들어가십시오.",
+      "IsUsing": false,
+      "IndexNum": 445
+    },
+    {
+      "Id": 7036,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ들리는 소리에 의하여 청이가 물에 들길 주저하는 듯싶다.",
+      "IsUsing": false,
+      "IndexNum": 446
+    },
+    {
+      "Id": 7037,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ비나이다, 비나이다. 죽는 일은 추호라도 서럽지 아니하여도, 아버지 깊은 한을 풀려 이 죽음을 당하오니 부처께서 감동 하사 어두운 아비 눈을 밝게 띄워 주옵소서.",
+      "IsUsing": false,
+      "IndexNum": 447
+    },
+    {
+      "Id": 7038,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ배를 좀 더 붙이겠소.",
+      "IsUsing": false,
+      "IndexNum": 448
+    },
+    {
+      "Id": 7039,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공이 나룻배를 청이가 있는 쪽으로 붙여갔고, 청이의 목소리가 점점 크게 들려왔다.",
+      "IsUsing": false,
+      "IndexNum": 449
+    },
+    {
+      "Id": 7040,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ고개를 쳐드니 청이의 흔적이 느껴졌다. 닷새 만에 보는 청이의 인영은 굉장히 홀쭉해져있었다.",
+      "IsUsing": false,
+      "IndexNum": 450
+    },
+    {
+      "Id": 7041,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ거세게 치는 풍랑 위에서 청이의 깊은 한숨 소리, 치마폭이 쓸리는 소리가 옅게 들렸고 코앞에서의 풍덩 소리가 정신을 잡아먹었다.",
+      "IsUsing": false,
+      "IndexNum": 451
+    },
+    {
+      "Id": 7042,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ기분 나쁜 예감이 관자놀이에 스며들었다.",
+      "IsUsing": false,
+      "IndexNum": 452
+    },
+    {
+      "Id": 7043,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아버님!!!",
+      "IsUsing": false,
+      "IndexNum": 453
+    },
+    {
+      "Id": 7044,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ고민할 새도 없이 바다에 뛰어들었다.",
+      "IsUsing": false,
+      "IndexNum": 454
+    },
+    {
+      "Id": 7045,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ정신없이 팔을 휘적이니 손목에 무언가 휘감겼고, 있는 힘을 다해 그것을 수면 위로 끌어당겼다.",
+      "IsUsing": false,
+      "IndexNum": 455
+    },
+    {
+      "Id": 7046,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ당긴 물체가 청이었기를 기도하며 내 몸은 힘없이 깊은 곳으로 가라앉았다.",
+      "IsUsing": false,
+      "IndexNum": 456
+    },
+    {
+      "Id": 7047,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓑ[분골쇄신]",
+      "IsUsing": false,
+      "IndexNum": 457
+    },
+    {
+      "Id": 7048,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ지언이 단단히 일러둔 대로 나룻배 끄트머리에서 떨어지지 않았다.",
+      "IsUsing": false,
+      "IndexNum": 458
+    },
+    {
+      "Id": 7049,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ배에 있던 누군가가 바닷물로 뛰어들었고 그 반동으로 배는 크게 기울었다.",
+      "IsUsing": false,
+      "IndexNum": 459
+    },
+    {
+      "Id": 7050,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ지언과 나는 침묵 속에서 사공을 기다렸다.",
+      "IsUsing": false,
+      "IndexNum": 460
+    },
+    {
+      "Id": 7051,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ얼마 동안의 시간이 흘렀을까, 곧이어 청이가 먼저 나룻배에 올랐고, 사공도 무사히 올랐다.",
+      "IsUsing": false,
+      "IndexNum": 461
+    },
+    {
+      "Id": 7052,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이가 돌아왔다는 것을 듣자마자 딸아이를 안았다. 가까이서 본 청이는 한껏 파리한 안색이었다.",
+      "IsUsing": false,
+      "IndexNum": 462
+    },
+    {
+      "Id": 7053,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ아버지가 왜 여기에...",
+      "IsUsing": false,
+      "IndexNum": 463
+    },
+    {
+      "Id": 7054,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이가 내 팔을 뿌리치며 응얼댔다.",
+      "IsUsing": false,
+      "IndexNum": 464
+    },
+    {
+      "Id": 7055,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ아버지께선 역시 제가 어떤 생각을 하는지는 안중에도 없으십니다.",
+      "IsUsing": false,
+      "IndexNum": 465
+    },
+    {
+      "Id": 7056,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 설핏 웃어 보이더니, 공허한 눈으로 나를 쏘아보았다.",
+      "IsUsing": false,
+      "IndexNum": 466
+    },
+    {
+      "Id": 7057,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ되려 편합니다. 아버지.",
+      "IsUsing": false,
+      "IndexNum": 467
+    },
+    {
+      "Id": 7058,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ눈을 뜨시어 밝은 세상 보시고, 착한 사람 구하셔서 후사를 전하여 오래오래 평안히 계십시오.",
+      "IsUsing": false,
+      "IndexNum": 468
+    },
+    {
+      "Id": 7059,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ처음 보는 청이의 비릿한 표정에 멍해져있던 찰나였다.",
+      "IsUsing": false,
+      "IndexNum": 469
+    },
+    {
+      "Id": 7060,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 눈을 감고 바다에 누웠다.",
+      "IsUsing": false,
+      "IndexNum": 470
+    },
+    {
+      "Id": 7061,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청아!!",
+      "IsUsing": false,
+      "IndexNum": 471
+    },
+    {
+      "Id": 7062,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이보게!!",
+      "IsUsing": false,
+      "IndexNum": 472
+    },
+    {
+      "Id": 7063,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ이보시오, 사공 양반!! 어떻게든 해보시오! 나는 수영을 모른단 말이오!!",
+      "IsUsing": false,
+      "IndexNum": 473
+    },
+    {
+      "Id": 7064,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ나도 방금까지 물에 있었소!! 이제 기운이 바닥났단 말이오! 사람 구하려다 나도 죽게 생겼소!",
+      "IsUsing": false,
+      "IndexNum": 474
+    },
+    {
+      "Id": 7065,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ승강이를 하는 둘의 사이에서 나는 그저 허망할 뿐이었다.",
+      "IsUsing": false,
+      "IndexNum": 475
+    },
+    {
+      "Id": 7066,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ마음마저 깜깜해졌다.",
+      "IsUsing": false,
+      "IndexNum": 476
+    },
+    {
+      "Id": 7067,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ마을로 다시 돌아가는 뱃길에 결국 후회만 가득했다.",
+      "IsUsing": false,
+      "IndexNum": 477
+    },
+    {
+      "Id": 7068,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ여태껏 딸의 맘을 알아주지 못한 나 자신이 미워, 사죄를 뱉어냈다.",
+      "IsUsing": false,
+      "IndexNum": 478
+    },
+    {
+      "Id": 7069,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ....아버지",
+      "IsUsing": false,
+      "IndexNum": 479
+    },
+    {
+      "Id": 7070,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 공허한 눈으로 나를 쏘아보았다.",
+      "IsUsing": false,
+      "IndexNum": 480
+    },
+    {
+      "Id": 7071,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ아버지께 사과를 받는다면 마음이 편해지리라 믿어왔는데, 오히려 떫습니다.",
+      "IsUsing": false,
+      "IndexNum": 481
+    },
+    {
+      "Id": 7072,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ이미 돌이킬 수 없이 멀리왔나봅니다.",
+      "IsUsing": false,
+      "IndexNum": 482
+    },
+    {
+      "Id": 7073,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ눈을 뜨시어 밝은 세상 보시고, 좋은 사람 구하셔서 후사를 전하시고, 오래오래 평안하십시오.",
+      "IsUsing": false,
+      "IndexNum": 483
+    },
+    {
+      "Id": 7074,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ다시 한번 청이를 안으려 팔을 휘둘렀지만, 청이는 이미 바닷속으로 사라지고 난 뒤였다.",
+      "IsUsing": false,
+      "IndexNum": 484
+    },
+    {
+      "Id": 7075,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 눈을 감고 바다에 누웠다.",
+      "IsUsing": false,
+      "IndexNum": 485
+    },
+    {
+      "Id": 7076,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청아!!",
+      "IsUsing": false,
+      "IndexNum": 486
+    },
+    {
+      "Id": 7077,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이보게!!",
+      "IsUsing": false,
+      "IndexNum": 487
+    },
+    {
+      "Id": 7078,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ이보시오, 사공 양반!! 어떻게든 해보시오! 나는 수영을 모른단 말이오!!",
+      "IsUsing": false,
+      "IndexNum": 488
+    },
+    {
+      "Id": 7079,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ나도 방금까지 물에 있었소!! 이제 기운이 바닥났단 말이오! 사람 구하려다 나도 죽게 생겼소!",
+      "IsUsing": false,
+      "IndexNum": 489
+    },
+    {
+      "Id": 7080,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ승강이를 하는 둘의 사이에서 나는 그저 허망할 뿐이었다.",
+      "IsUsing": false,
+      "IndexNum": 490
+    },
+    {
+      "Id": 7081,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ마음마저 깜깜해졌다.",
+      "IsUsing": false,
+      "IndexNum": 491
+    },
+    {
+      "Id": 7082,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ마을로 다시 돌아가는 뱃길에 결국 후회만 가득했다.",
+      "IsUsing": false,
+      "IndexNum": 492
+    },
+    {
+      "Id": 7083,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ나는 아무 말도 할 수 없어 침묵을 지켰다.",
+      "IsUsing": false,
+      "IndexNum": 493
+    },
+    {
+      "Id": 7084,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ왜 아무 말씀도 없으신지요.",
+      "IsUsing": false,
+      "IndexNum": 494
+    },
+    {
+      "Id": 7085,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ끔벅끔벅하며 청이는 나를 바라보았다.",
+      "IsUsing": false,
+      "IndexNum": 495
+    },
+    {
+      "Id": 7086,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이의 모든 행동에, 이유가 있었을 테고.",
+      "IsUsing": false,
+      "IndexNum": 496
+    },
+    {
+      "Id": 7087,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이를 그렇게 몰아넣은 건 바로 나 자신일 테니.",
+      "IsUsing": false,
+      "IndexNum": 497
+    },
+    {
+      "Id": 7088,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ입이 떨어지지 않았다.",
+      "IsUsing": false,
+      "IndexNum": 498
+    },
+    {
+      "Id": 7089,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ말도 잃으셨습니까? 무슨 말이라도 해보십시오, 아버지!!",
+      "IsUsing": false,
+      "IndexNum": 499
+    },
+    {
+      "Id": 7090,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청아. 진정하거라.",
+      "IsUsing": false,
+      "IndexNum": 500
+    },
+    {
+      "Id": 7091,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ날 붙잡고 흔드는 청이를 지언이 막아섰다.",
+      "IsUsing": false,
+      "IndexNum": 501
+    },
+    {
+      "Id": 7092,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ지언이 청이의 양어깨를 꼬옥 감싸 안으니, 청이는 점차 진정하였다.",
+      "IsUsing": false,
+      "IndexNum": 502
+    },
+    {
+      "Id": 7093,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 긴장이 풀리자마자 바다에 몇 번이고 속을 게워냈다.",
+      "IsUsing": false,
+      "IndexNum": 503
+    },
+    {
+      "Id": 7094,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ달밤이 지나 새벽이 오는 하늘만 바라보다 청이가 입을 열었다.",
+      "IsUsing": false,
+      "IndexNum": 504
+    },
+    {
+      "Id": 7095,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ처음엔 다른 집 규수들과는 달리 흉한 손이 미웠습니다.",
+      "IsUsing": false,
+      "IndexNum": 505
+    },
+    {
+      "Id": 7096,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ좋은 음식, 물건을 봐도 셈이 먼저인 제 머리가 싫었습니다.",
+      "IsUsing": false,
+      "IndexNum": 506
+    },
+    {
+      "Id": 7097,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ그저 세상모르게 일만 하는 제 자신이 싫었습니다.",
+      "IsUsing": false,
+      "IndexNum": 507
+    },
+    {
+      "Id": 7098,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ그러다 어느새, 제가 싫어진 만큼 아버지가 원망스러웠습니다.",
+      "IsUsing": false,
+      "IndexNum": 508
+    },
+    {
+      "Id": 7099,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ도화촌에 돌아가면.. 지언과 함께 떠날 작정입니다.",
+      "IsUsing": false,
+      "IndexNum": 509
+    },
+    {
+      "Id": 7100,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ어느 날, 깨끗한 마음이 들 때. 그때 뵈러 오겠습니다.",
+      "IsUsing": false,
+      "IndexNum": 510
+    },
+    {
+      "Id": 7101,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ그래도 이제껏 키워주신 은혜 덕에 열심히 일할 수 있었습니다.",
+      "IsUsing": false,
+      "IndexNum": 511
+    },
+    {
+      "Id": 7102,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ감사합니다. 아버지.",
+      "IsUsing": false,
+      "IndexNum": 512
+    },
+    {
+      "Id": 7103,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ모두가 이야기를 잠자코 듣고 있었다.",
+      "IsUsing": false,
+      "IndexNum": 513
+    },
+    {
+      "Id": 7104,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ초연한 청이의 표정에, 나는 그저 고개를 끄덕일 수밖에 없었다.",
+      "IsUsing": false,
+      "IndexNum": 514
+    },
+    {
+      "Id": 7105,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ도화촌으로 돌아온 뒤, 청이와 지언은 도화촌을 떠났다.",
+      "IsUsing": false,
+      "IndexNum": 515
+    },
+    {
+      "Id": 7106,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ자의였든, 타의였든. 부모 그늘에 눈이 가려졌던 지난날이 퍽 아쉬워 보였다.",
+      "IsUsing": false,
+      "IndexNum": 516
+    },
+    {
+      "Id": 7107,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ몇 달이 지나고, 귀덕 어멈이 이르기를 송나라 상인들이 삼월 풍랑에 돌아오지 못했다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 517
+    },
+    {
+      "Id": 7108,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ대신 보부상들이 장터 자리를 꿰찼고 이전보다 더 활기차졌다.",
+      "IsUsing": false,
+      "IndexNum": 518
+    },
+    {
+      "Id": 7109,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ장작을 아궁이에 넣었다.",
+      "IsUsing": false,
+      "IndexNum": 519
+    },
+    {
+      "Id": 7110,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ부시와 부싯돌로 불을 붙였다.",
+      "IsUsing": false,
+      "IndexNum": 520
+    },
+    {
+      "Id": 7111,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ바가지로 물을 떴다.",
+      "IsUsing": false,
+      "IndexNum": 521
+    },
+    {
+      "Id": 7112,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ물이 든 바가지를 솥에 부었다.",
+      "IsUsing": false,
+      "IndexNum": 522
+    },
+    {
+      "Id": 7113,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ쌀을 솥에 넣었다.",
+      "IsUsing": false,
+      "IndexNum": 523
+    },
+    {
+      "Id": 7114,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ주먹밥을 만들었다.",
+      "IsUsing": false,
+      "IndexNum": 524
+    },
+    {
+      "Id": 7115,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ주먹밥을 건넸다.",
+      "IsUsing": false,
+      "IndexNum": 525
+    },
+    {
+      "Id": 7116,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ비녀를 건넸다.",
+      "IsUsing": false,
+      "IndexNum": 526
+    },
+    {
+      "Id": 7117,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ먹을 건넸다.",
+      "IsUsing": false,
+      "IndexNum": 527
+    },
+    {
+      "Id": 7118,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ보리떡을 건넸다.",
+      "IsUsing": false,
+      "IndexNum": 528
+    },
+    {
+      "Id": 7119,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ꽃을 건넸다.",
+      "IsUsing": false,
+      "IndexNum": 529
+    },
+    {
+      "Id": 7120,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ약초를 솥에 넣었다.",
+      "IsUsing": false,
+      "IndexNum": 530
+    },
+    {
+      "Id": 7121,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공의 물건을 건넸다.",
+      "IsUsing": false,
+      "IndexNum": 531
+    },
+    {
+      "Id": 7122,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ향리 댁의 수양딸에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 532
+    },
+    {
+      "Id": 7123,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이의 거짓말에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 533
+    },
+    {
+      "Id": 7124,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이의 행방에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 534
+    },
+    {
+      "Id": 7125,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이와 장터에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 535
+    },
+    {
+      "Id": 7126,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이와 사내에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 536
+    },
+    {
+      "Id": 7127,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ누군가의 아들에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 537
+    },
+    {
+      "Id": 7128,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ송나라 상인과 청이에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 538
+    },
+    {
+      "Id": 7129,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ승려와 청이에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 539
+    },
+    {
+      "Id": 7130,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ승려의 마음에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 540
+    },
+    {
+      "Id": 7131,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이의 도움에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 541
+    },
+    {
+      "Id": 7132,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ공양미 삼백 석에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 542
+    },
+    {
+      "Id": 7133,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ공양미의 출처에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 543
+    },
+    {
+      "Id": 7134,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이의 거래에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 544
+    },
+    {
+      "Id": 7135,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ향리 댁 셋째 아들에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 545
+    },
+    {
+      "Id": 7136,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ잠잠해져야 할 물살에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 546
+    },
+    {
+      "Id": 7137,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이가 사간 것에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 547
+    },
+    {
+      "Id": 7138,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ짚신을 사간 청이에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 548
+    },
+    {
+      "Id": 7139,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ배의 출항에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 549
+    },
+    {
+      "Id": 7140,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ노점의 단골에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 550
+    },
+    {
+      "Id": 7141,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ뜨지 않는 배에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 551
+    },
+    {
+      "Id": 7142,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공에게 있었던 일에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 552
+    },
+    {
+      "Id": 7143,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공의 물건에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 553
+    },
+    {
+      "Id": 7144,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ뱃길을 잠재울 방법에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 554
+    },
+    {
+      "Id": 7145,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ3월 보름날에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 555
+    },
+    {
+      "Id": 7146,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ공양미를 구한 방법에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 556
+    },
+    {
+      "Id": 7147,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이가 사라진 날에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 557
+    },
+    {
+      "Id": 7148,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이와 그의 관계에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 558
+    },
+    {
+      "Id": 7149,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ함께 사라진 두 사람에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 559
+    },
+    {
+      "Id": 7150,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ무역의 중단에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 560
+    },
+    {
+      "Id": 7151,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이의 가출에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 561
+    },
+    {
+      "Id": 7152,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ바다에 바쳐질 제물에 대하여 말을 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 562
+    },
+    {
+      "Id": 7153,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ예, 어머니께서는 청이를 참 좋아하셨습니다. 언제나 성실히 일하는 모습과 자신의 처지에 비관 한번 하지 않는 묵묵한 모습이 저희 어머니의 마음을 사로잡았지요.",
+      "IsUsing": false,
+      "IndexNum": 563
+    },
+    {
+      "Id": 7154,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ문제는, 제 마음도 함께 사로잡혔다는 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 564
+    },
+    {
+      "Id": 7155,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청이가 거짓말을 하게 된 것은 제 탓입니다. 정말 송구스럽습니다.",
+      "IsUsing": false,
+      "IndexNum": 565
+    },
+    {
+      "Id": 7156,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청이가 아버님과 잠시 멀리 있기를 원했습니다. 저는 그것을 도왔을 뿐입니다.",
+      "IsUsing": false,
+      "IndexNum": 566
+    },
+    {
+      "Id": 7157,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아까도 말씀드렸지만 저와 청이는 교제 중입니다. 아버님과의 첫 만남이 이렇게 되어 너무나 아쉽습니다.",
+      "IsUsing": false,
+      "IndexNum": 567
+    },
+    {
+      "Id": 7158,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ저는 도화촌 향리 댁의 셋째 아들입니다. 어릴 적에는 제 부모가 족쇄가 될 거라곤 꿈에도 몰랐지요.",
+      "IsUsing": false,
+      "IndexNum": 568
+    },
+    {
+      "Id": 7159,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아버님께서 승려와 약속한 공양미를 대신 바치기 위하여 청이는 간절했습니다. 위험해 보이는 그들과 이상한 거래까지 할 만큼..",
+      "IsUsing": false,
+      "IndexNum": 569
+    },
+    {
+      "Id": 7160,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ..참 터무니없는 이야기긴 하군요. 제가 보기로서는 승려는 그저 극락왕생 말고는 관심이 없어 보였습니다.",
+      "IsUsing": false,
+      "IndexNum": 570
+    },
+    {
+      "Id": 7161,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ얼토당토않은 이야기라 할 말이 없습니다.",
+      "IsUsing": false,
+      "IndexNum": 571
+    },
+    {
+      "Id": 7162,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ송나라 상인들은 자꾸만 청이에게 도움을 받았다고 표현을 하던데, 그러면 본인들의 마음이 좀 편해지는 것인지…",
+      "IsUsing": false,
+      "IndexNum": 572
+    },
+    {
+      "Id": 7163,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아시다시피 책임감이 똘똘 뭉쳐있는 청이로서는, 아버님이 승려와 하신 약속이 청이에게 나름의 부담이었나 봅니다.. 공양미를 마련할 수밖에 없었던 것 같네요.",
+      "IsUsing": false,
+      "IndexNum": 573
+    },
+    {
+      "Id": 7164,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ달포 전부터 송나라 상인들은 동네 처자들에게 은밀히 접근했습니다. 그러나 미치지 않고서야 그 누가 목숨을 바치겠습니까?",
+      "IsUsing": false,
+      "IndexNum": 574
+    },
+    {
+      "Id": 7165,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ ...청이가 미쳤다는 소리는 아닙니다.",
+      "IsUsing": false,
+      "IndexNum": 575
+    },
+    {
+      "Id": 7166,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청이는 일이 어떻게 진행되는지 제대로 알기 위해서 부지런히 돌아다녔습니다. 마을 사람들에게 눈에 띄었나 봅니다.",
+      "IsUsing": false,
+      "IndexNum": 576
+    },
+    {
+      "Id": 7167,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ절 찾아다니셨나 보네요. 어머니께서는 제가 과거를 보러 태의감으로 향한 줄 아십니다.",
+      "IsUsing": false,
+      "IndexNum": 577
+    },
+    {
+      "Id": 7168,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ어머니께서 제게 거는 기대가 참 많으신데 저는 꽤 다른 일을 하고 싶습니다.",
+      "IsUsing": false,
+      "IndexNum": 578
+    },
+    {
+      "Id": 7169,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ뱃사공의 이야기로는, 물이 항상 거세지는 때라고 합니다. 조금만 기다리면 다시 잠잠해질 텐데 물의 흐름을 사람의 힘으로 거스를 수 있겠습니까?",
+      "IsUsing": false,
+      "IndexNum": 579
+    },
+    {
+      "Id": 7170,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ입을 것, 먹을 것, 잠들 것..이렇게 챙겨왔었죠.",
+      "IsUsing": false,
+      "IndexNum": 580
+    },
+    {
+      "Id": 7171,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청이가 짚신을 많이 챙긴 건, 아무래도 앞으로의 여정에 대한 두려움이 작용해서 같습니다.",
+      "IsUsing": false,
+      "IndexNum": 581
+    },
+    {
+      "Id": 7172,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청이는 매번 아무렇지 않게 행동해왔지만.. 실상은 다르겠지요.",
+      "IsUsing": false,
+      "IndexNum": 582
+    },
+    {
+      "Id": 7173,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ...출항일을 물어보신 건.. 어머니께서 오랫동안 준비해 온, 송으로의 망명에 적기라고 생각하신 것 같습니다.",
+      "IsUsing": false,
+      "IndexNum": 583
+    },
+    {
+      "Id": 7174,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아버지와 어머니는 복잡한 나랏일에 끼지 않고 조용히 살고 싶어 하시거든요.",
+      "IsUsing": false,
+      "IndexNum": 584
+    },
+    {
+      "Id": 7175,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ저는 청이의 곁에 남을 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 585
+    },
+    {
+      "Id": 7176,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ네. 그 잡화상과 매번 거래합니다. 제가 장신구에 관심이 많거든요. 훗날 장신구를 만드는 장인이 되고 싶습니다.",
+      "IsUsing": false,
+      "IndexNum": 586
+    },
+    {
+      "Id": 7177,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ강해진 물살 탓에 그런 것으로 알고 있습니다.",
+      "IsUsing": false,
+      "IndexNum": 587
+    },
+    {
+      "Id": 7178,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ사공에게 들었는데, 사공의 일을 이어받은 다른 이가 아픈 딸을 들먹이며 비아냥거렸다더군요.",
+      "IsUsing": false,
+      "IndexNum": 588
+    },
+    {
+      "Id": 7179,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아무리 돈이 급해도 안 할 짓이 있는 것인데 말입니다. 그 누가 생사람을 바다에 빠트리는 일에 가담하고 싶겠습니까?",
+      "IsUsing": false,
+      "IndexNum": 589
+    },
+    {
+      "Id": 7180,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ보셨다시피 사공의 따님에게 쓰일 약입니다. 절 도와주는 대가로 제가 더 마련해 주기로 했습니다. 송에서 들여오는 약이 더 잘 듣는다 하더군요.",
+      "IsUsing": false,
+      "IndexNum": 590
+    },
+    {
+      "Id": 7181,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ물이 잔잔할 때가 있는 만큼, 거센 때도 있을진데 제물을 바친다고 잠잠해진다는 건 웃기지도 않는 소리입니다.",
+      "IsUsing": false,
+      "IndexNum": 591
+    },
+    {
+      "Id": 7182,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ송나라 상인들의 작정은 3월 보름날에 인당수에서 제물을 바치는 것입니다. 이번 제물은 청이입니다.",
+      "IsUsing": false,
+      "IndexNum": 592
+    },
+    {
+      "Id": 7183,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ생각하신 대로, 청이가 인당수에 제물로 바쳐지는 대가로 공양미를 약속받았습니다. 청이가 뛰어들면 저희가 건져낼 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 593
+    },
+    {
+      "Id": 7184,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ그 날은 주막에서 하루를 지냈습니다. 주막에서 조금 도움을 주셨지요.",
+      "IsUsing": false,
+      "IndexNum": 594
+    },
+    {
+      "Id": 7185,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아까도 말씀드렸지만 저와 청이는 교제 중입니다. 제가 오래도록 구애했지요.",
+      "IsUsing": false,
+      "IndexNum": 595
+    },
+    {
+      "Id": 7186,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청이가 저와 함께 사라진 것이 맞습니다. 큰일을 치루기 전, 잠시 한숨 돌릴 시간이 필요했습니다. 걱정이 많으셨을텐데 정말 송구합니다.",
+      "IsUsing": false,
+      "IndexNum": 596
+    },
+    {
+      "Id": 7187,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ배가 뜨지 못하니, 무역의 중단은 자연스러운 일입니다.",
+      "IsUsing": false,
+      "IndexNum": 597
+    },
+    {
+      "Id": 7188,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ그동안 청이는 안전한 곳에 머무르게 했습니다. 오늘 아침까지는요...",
+      "IsUsing": false,
+      "IndexNum": 598
+    },
+    {
+      "Id": 7189,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청이는 인당수에 바쳐질 제물로 팔려갔지요. 저희는 그걸 구하러 가는 겁니다.",
+      "IsUsing": false,
+      "IndexNum": 599
+    },
+    {
+      "Id": 7190,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아버님께서는 저희 계획에 없었지만.. 계속 마을을 떠돌아다니시다가 봉변을 당할까 싶어 사공에게 부탁해 함께 가는 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 600
+    },
+    {
+      "Id": 7191,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ예정대로 청이가 인당수에 뛰어들면, 그 뒤에 바로 저희 배가 청이를 건질 것 입니다.",
+      "IsUsing": false,
+      "IndexNum": 601
+    },
+    {
+      "Id": 7192,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ위험천만한 일이니 섣불리 행동하지 마시고 조심하십시오. ⓡ무슨 일이 있더라도 아버님이 뛰어드시면 안 됩니다.",
+      "IsUsing": false,
+      "IndexNum": 602
+    },
+    {
+      "Id": 7193,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "제게 물어보고 싶으신 게 꽤 많으실 겁니다. 천천히 물어보시지요.",
+      "IsUsing": false,
+      "IndexNum": 603
+    },
+    {
+      "Id": 7194,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ노 젓기를 도와준다.",
+      "IsUsing": false,
+      "IndexNum": 604
+    },
+    {
+      "Id": 7195,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 605
+    },
+    {
+      "Id": 7196,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 606
+    },
+    {
+      "Id": 7197,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 607
+    },
+    {
+      "Id": 7198,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 608
+    },
+    {
+      "Id": 7199,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 609
+    },
+    {
+      "Id": 7200,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 610
+    },
+    {
+      "Id": 7201,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 611
+    },
+    {
+      "Id": 7202,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(단서를 더 조합해 보자.)",
+      "IsUsing": false,
+      "IndexNum": 612
+    },
+    {
+      "Id": 7203,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ어제 반찬도 기억이 안 나는데 그때 일이 기억이 나겠어요?",
+      "IsUsing": false,
+      "IndexNum": 613
+    },
+    {
+      "Id": 7204,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ그날이었나,, 뱃사공이 큰 소리를 쳤던 일이 있소. 사공에게 한번 가보시오.",
+      "IsUsing": false,
+      "IndexNum": 614
+    },
+    {
+      "Id": 7205,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ셋째가 이틀 전에 태의감으로 향했지.. 또 무슨 일이 있었소?",
+      "IsUsing": false,
+      "IndexNum": 615
+    },
+    {
+      "Id": 7206,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?;살 것 없으면 좀 비키시오! 객 쫓겠네.",
+      "IsUsing": false,
+      "IndexNum": 616
+    },
+    {
+      "Id": 7207,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.;마음 깊이 불공드리면 조만간 부처의 덕으로 눈을 뜰 수 있을 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 617
+    },
+    {
+      "Id": 7208,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ,,,주막이 소란스러웠던 걸로 기억해요. 자세히는 모르니 주막으로 가보세요.",
+      "IsUsing": false,
+      "IndexNum": 618
+    },
+    {
+      "Id": 7209,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ신경 쓰고 싶지 않소. 저리 가시오.",
+      "IsUsing": false,
+      "IndexNum": 619
+    },
+    {
+      "Id": 7210,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.);(이쪽은 쳐다도 보지 않는다.);(몹시 바빠 보인다.)",
+      "IsUsing": false,
+      "IndexNum": 620
+    },
+    {
+      "Id": 7211,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ남녀 둘이 친하면 하나 밖에 없지. 명약관화요.",
+      "IsUsing": false,
+      "IndexNum": 621
+    },
+    {
+      "Id": 7212,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ그 둘이 함께 있는걸 나도 보긴 봤소. 그저 친우 사이 아니오?",
+      "IsUsing": false,
+      "IndexNum": 622
+    },
+    {
+      "Id": 7213,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ지금 우리 아들이랑 그 댁 따님하고 엮는 것이오?? 실례라는 생각은 안드시오?",
+      "IsUsing": false,
+      "IndexNum": 623
+    },
+    {
+      "Id": 7214,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?;살 것 없으면 좀 비키시오! 객 쫓겠네.",
+      "IsUsing": false,
+      "IndexNum": 624
+    },
+    {
+      "Id": 7215,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.;마음 깊이 불공드리면 조만간 부처의 덕으로 눈을 뜰 수 있을 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 625
+    },
+    {
+      "Id": 7216,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ둘이 친우보다는 가까워 보였어요.",
+      "IsUsing": false,
+      "IndexNum": 626
+    },
+    {
+      "Id": 7217,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그 둘이 친한 것과 내게 질문을 하는 것이 무슨 관계가 있소?",
+      "IsUsing": false,
+      "IndexNum": 627
+    },
+    {
+      "Id": 7218,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.);(이쪽은 쳐다도 보지 않는다.);(몹시 바빠 보인다.)",
+      "IsUsing": false,
+      "IndexNum": 628
+    },
+    {
+      "Id": 7219,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ둘 다 이틀 전에 사라졌다고요? 난리났네.",
+      "IsUsing": false,
+      "IndexNum": 629
+    },
+    {
+      "Id": 7220,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ청이와 향리 댁 막내아들이 함께 사라졌단 말이시오? 말에 어폐가 있소. 어디 가서 그런 소리 하다가 봉변 당하기 딱 좋겠소. 조심하시오.",
+      "IsUsing": false,
+      "IndexNum": 630
+    },
+    {
+      "Id": 7221,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ우리 셋째는 분명히 태의감으로 갔소. 또 허튼 소리 하다간 비명횡사할 줄 아시오.",
+      "IsUsing": false,
+      "IndexNum": 631
+    },
+    {
+      "Id": 7222,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ나는 관심 없으니 장사 방해 말고 저리 비키십쇼.",
+      "IsUsing": false,
+      "IndexNum": 632
+    },
+    {
+      "Id": 7223,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.;마음 깊이 불공드리면 조만간 부처의 덕으로 눈을 뜰 수 있을 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 633
+    },
+    {
+      "Id": 7224,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ저는 모르겠어요.",
+      "IsUsing": false,
+      "IndexNum": 634
+    },
+    {
+      "Id": 7225,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ심청 아기씨와 그 댁 도령이 함께 사라졌다는 말씀이십니까? 아닙니다. 심청 아가씨는 반드시 돌아올 것입니다.",
+      "IsUsing": false,
+      "IndexNum": 635
+    },
+    {
+      "Id": 7226,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.;(주막에 앉아서 늘어지게 쉬고 있다.)",
+      "IsUsing": false,
+      "IndexNum": 636
+    },
+    {
+      "Id": 7227,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ옴마, 지금 무역이 중단 되었다는 말씀이시오? 그럼 당분간 비단은 못 보겠네..",
+      "IsUsing": false,
+      "IndexNum": 637
+    },
+    {
+      "Id": 7228,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ어쩐지, 뱃사람들이 주막에 오래 머무른다더니,,, 그런 연유였구만..",
+      "IsUsing": false,
+      "IndexNum": 638
+    },
+    {
+      "Id": 7229,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ한동안 사절은 안 오겠군..",
+      "IsUsing": false,
+      "IndexNum": 639
+    },
+    {
+      "Id": 7230,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ무역이 중단 된 지는 얼마되지않았습죠. 한 사흘은 되었나? 물건을 내리느라 상인들이 마을에 자주 옵니다.",
+      "IsUsing": false,
+      "IndexNum": 640
+    },
+    {
+      "Id": 7231,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ무슨 말인지 잘 모르겠어요..",
+      "IsUsing": false,
+      "IndexNum": 641
+    },
+    {
+      "Id": 7232,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ다 부처의 뜻일 겁니다.",
+      "IsUsing": false,
+      "IndexNum": 642
+    },
+    {
+      "Id": 7233,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그건 또 어디서 전해들은 것이오? ..알고 왔으니 얘기해줘야겠군.",
+      "IsUsing": false,
+      "IndexNum": 643
+    },
+    {
+      "Id": 7234,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ무역이 중단된 일을 어떻게 아시나요? 그러나 조만간 다시 재개될 것 입니다. 걱정마세요.",
+      "IsUsing": false,
+      "IndexNum": 644
+    },
+    {
+      "Id": 7235,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ매해 이맘때, 송에서 오가는 뱃길이 거세지기에 무역이 중단되었소. 그러나 송나라 사람들이 뱃길을 잠잠하게 만드는 법을 안다더군.",
+      "IsUsing": false,
+      "IndexNum": 645
+    },
+    {
+      "Id": 7236,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그들이 알아서 하겠지. 이제 나랑은 상관없다네.",
+      "IsUsing": false,
+      "IndexNum": 646
+    },
+    {
+      "Id": 7237,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 647
+    },
+    {
+      "Id": 7238,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 648
+    },
+    {
+      "Id": 7239,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 649
+    },
+    {
+      "Id": 7240,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 650
+    },
+    {
+      "Id": 7241,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 651
+    },
+    {
+      "Id": 7242,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 652
+    },
+    {
+      "Id": 7243,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 653
+    },
+    {
+      "Id": 7244,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ(마음이 수치스러워 어디에도 물어볼 수 없다.)",
+      "IsUsing": false,
+      "IndexNum": 654
+    },
+    {
+      "Id": 7245,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ'태형에 처할 줄 아시오!!'",
+      "IsUsing": false,
+      "IndexNum": 655
+    },
+    {
+      "Id": 7246,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ장사꾼이 연신 소리쳤다.",
+      "IsUsing": false,
+      "IndexNum": 656
+    },
+    {
+      "Id": 7247,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ장사꾼에게 팔뚝을 붙잡혀 있는 새에, 군인들이 달려와 끈으로 내 몸통을 묶었고, 나는 끌려가고 있었다.",
+      "IsUsing": false,
+      "IndexNum": 657
+    },
+    {
+      "Id": 7248,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[양상군자]",
+      "IsUsing": false,
+      "IndexNum": 658
+    },
+    {
+      "Id": 7249,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ내가 단단히 경고 했지않소? 자초한 줄 아시오.",
+      "IsUsing": false,
+      "IndexNum": 659
+    },
+    {
+      "Id": 7250,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ부인이 하인의 하얀 천을 걷어내더니, 그 속에서 칼을 꺼내들었다.",
+      "IsUsing": false,
+      "IndexNum": 660
+    },
+    {
+      "Id": 7251,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ칼날에 반사된 빛이 눈에 들어와 질끈 감은 찰나, 이미 복부에 따듯함이 퍼졌다.",
+      "IsUsing": false,
+      "IndexNum": 661
+    },
+    {
+      "Id": 7252,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ상황을 파악하기도 전에 내 몸은 저택 안으로 끌려가고 있었다.",
+      "IsUsing": false,
+      "IndexNum": 662
+    },
+    {
+      "Id": 7253,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[구화지문]",
+      "IsUsing": false,
+      "IndexNum": 663
+    },
+    {
+      "Id": 7254,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ꿀떡꿀떡, 약초물을 모조리 목으로 넘겼다.",
+      "IsUsing": false,
+      "IndexNum": 664
+    },
+    {
+      "Id": 7255,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ역시 이 약초가 내 몸에 잘 맞는지, 몸이 좋아지는 기분이었다.",
+      "IsUsing": false,
+      "IndexNum": 665
+    },
+    {
+      "Id": 7256,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ뜨끈함에 기분도 나른해진 찰나였다.",
+      "IsUsing": false,
+      "IndexNum": 666
+    },
+    {
+      "Id": 7257,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ몸이 계속 뜨거워지며 숨이 옥죄어왔고, 자꾸만 헛구역질이 나왔다.",
+      "IsUsing": false,
+      "IndexNum": 667
+    },
+    {
+      "Id": 7258,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ내 몸을 뉘인 바닥은 이젠 안락하게만 느껴졌다.",
+      "IsUsing": false,
+      "IndexNum": 668
+    },
+    {
+      "Id": 7259,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[과유불급]",
+      "IsUsing": false,
+      "IndexNum": 669
+    },
+    {
+      "Id": 7260,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ갑자기 뒤통수에 둔탁한 소리가 울렸다.",
+      "IsUsing": false,
+      "IndexNum": 670
+    },
+    {
+      "Id": 7261,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ정신을 차리니 몸은 꽁꽁 묶여있었고 앞은 보이지 않았다. 그때, 누군가의 중얼거림이 들렸다.",
+      "IsUsing": false,
+      "IndexNum": 671
+    },
+    {
+      "Id": 7262,
+      "SpeakerType": "Npc",
+      "Name": "???",
+      "Comment": "ⓦ........어두운 아비 눈을 밝게 띄워 주옵소서...",
+      "IsUsing": false,
+      "IndexNum": 672
+    },
+    {
+      "Id": 7263,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ첨벙 소리가 났고, 뒤이어 웅성이는 소리가 귓가에 들려왔다.",
+      "IsUsing": false,
+      "IndexNum": 673
+    },
+    {
+      "Id": 7264,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ생생한 흉몽임에 틀림없다. 고약하게 풍기는 물 비린내를 뒤로하며 쏟아지는 잠에 몸을 맡겼다.",
+      "IsUsing": false,
+      "IndexNum": 674
+    },
+    {
+      "Id": 7265,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[취생몽사]",
+      "IsUsing": false,
+      "IndexNum": 675
+    },
+    {
+      "Id": 7266,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ3월 보름날이 밝았다. 어찌 된 일인지 궁금하여 향리 댁을 갔으나 부인은 온데간데없었다..",
+      "IsUsing": false,
+      "IndexNum": 676
+    },
+    {
+      "Id": 7267,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ다음날도, 또 그 다음날에도.",
+      "IsUsing": false,
+      "IndexNum": 677
+    },
+    {
+      "Id": 7268,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ부인이 없는 향리 댁의 대문은 그저 척박한 모양새였다.",
+      "IsUsing": false,
+      "IndexNum": 678
+    },
+    {
+      "Id": 7269,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ이윽고, 남아있던 송나라 상인들도 모두 마을을 떴고, 고요함 속에서 나는 그저 하릴없이 청이를 기다릴 뿐이었다.",
+      "IsUsing": false,
+      "IndexNum": 679
+    },
+    {
+      "Id": 7270,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓑ[연경학망]",
+      "IsUsing": false,
+      "IndexNum": 680
+    },
+    {
+      "Id": 7271,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이 정도 거리면 저쪽에서 보이지 않을 것이오.",
+      "IsUsing": false,
+      "IndexNum": 681
+    },
+    {
+      "Id": 7272,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ거리를 두어 송 상인들의 배를 좇고 있었다.",
+      "IsUsing": false,
+      "IndexNum": 682
+    },
+    {
+      "Id": 7273,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ돛을 접고 닻을 내리는 것 같습니다.",
+      "IsUsing": false,
+      "IndexNum": 683
+    },
+    {
+      "Id": 7274,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이제 배를 붙이겠소.",
+      "IsUsing": false,
+      "IndexNum": 684
+    },
+    {
+      "Id": 7275,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공과 지언의 이야기로 상황을 가늠하는 찰나, 배가 다시 출렁였다.",
+      "IsUsing": false,
+      "IndexNum": 685
+    },
+    {
+      "Id": 7276,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ커다란 송나라 상인들의 배에 딱 붙어 있었다.",
+      "IsUsing": false,
+      "IndexNum": 686
+    },
+    {
+      "Id": 7277,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ뿌연 시야 끝에 거대한 무언가가 있다는 건 확실하게 느껴졌다.",
+      "IsUsing": false,
+      "IndexNum": 687
+    },
+    {
+      "Id": 7278,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ거센 너울에 배가 자꾸만 휘청거렸고 그보다 거친 바람에 눈은 뜨지도 못하였다.",
+      "IsUsing": false,
+      "IndexNum": 688
+    },
+    {
+      "Id": 7279,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ귓가를 강하게 때리는 바람 소리 사이에, 희미하게 북소리가 둥둥둥 울렸다.",
+      "IsUsing": false,
+      "IndexNum": 689
+    },
+    {
+      "Id": 7280,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시각이 급하니 어서 바삐 물에 들어가십시오.",
+      "IsUsing": false,
+      "IndexNum": 690
+    },
+    {
+      "Id": 7281,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ들리는 소리에 의하여 청이가 물에 들길 주저하는 듯싶다.",
+      "IsUsing": false,
+      "IndexNum": 691
+    },
+    {
+      "Id": 7282,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ비나이다, 비나이다. 죽는 일은 추호라도 서럽지 아니하여도, 아버지 깊은 한을 풀려 이 죽음을 당하오니 부처께서 감동 하사 어두운 아비 눈을 밝게 띄워 주옵소서.",
+      "IsUsing": false,
+      "IndexNum": 692
+    },
+    {
+      "Id": 7283,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ배를 좀 더 붙이겠소.",
+      "IsUsing": false,
+      "IndexNum": 693
+    },
+    {
+      "Id": 7284,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공이 나룻배를 청이가 있는 쪽으로 붙여갔고, 청이의 목소리가 점점 크게 들려왔다.",
+      "IsUsing": false,
+      "IndexNum": 694
+    },
+    {
+      "Id": 7285,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ고개를 쳐드니 청이의 흔적이 느껴졌다. 닷새 만에 보는 청이의 인영은 굉장히 홀쭉해져있었다.",
+      "IsUsing": false,
+      "IndexNum": 695
+    },
+    {
+      "Id": 7286,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ거세게 치는 풍랑 위에서 청이의 깊은 한숨 소리, 치마폭이 쓸리는 소리가 옅게 들렸고 코앞에서의 풍덩 소리가 정신을 잡아먹었다.",
+      "IsUsing": false,
+      "IndexNum": 696
+    },
+    {
+      "Id": 7287,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ기분 나쁜 예감이 관자놀이에 스며들었다.",
+      "IsUsing": false,
+      "IndexNum": 697
+    },
+    {
+      "Id": 7288,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ아버님!!!",
+      "IsUsing": false,
+      "IndexNum": 698
+    },
+    {
+      "Id": 7289,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ고민할 새도 없이 바다에 뛰어들었다.",
+      "IsUsing": false,
+      "IndexNum": 699
+    },
+    {
+      "Id": 7290,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ정신없이 팔을 휘적이니 손목에 무언가 휘감겼고, 있는 힘을 다해 그것을 수면 위로 끌어당겼다.",
+      "IsUsing": false,
+      "IndexNum": 700
+    },
+    {
+      "Id": 7291,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ당긴 물체가 청이었기를 기도하며 내 몸은 힘없이 깊은 곳으로 가라앉았다.",
+      "IsUsing": false,
+      "IndexNum": 701
+    },
+    {
+      "Id": 7292,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓑ[분골쇄신]",
+      "IsUsing": false,
+      "IndexNum": 702
+    },
+    {
+      "Id": 7293,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ지언이 단단히 일러둔 대로 나룻배 끄트머리에서 떨어지지 않았다.",
+      "IsUsing": false,
+      "IndexNum": 703
+    },
+    {
+      "Id": 7294,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ배에 있던 누군가가 바닷물로 뛰어들었고 그 반동으로 배는 크게 기울었다.",
+      "IsUsing": false,
+      "IndexNum": 704
+    },
+    {
+      "Id": 7295,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ지언과 나는 침묵 속에서 사공을 기다렸다.",
+      "IsUsing": false,
+      "IndexNum": 705
+    },
+    {
+      "Id": 7296,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ얼마 동안의 시간이 흘렀을까, 곧이어 청이가 먼저 나룻배에 올랐고, 사공도 무사히 올랐다.",
+      "IsUsing": false,
+      "IndexNum": 706
+    },
+    {
+      "Id": 7297,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이가 돌아왔다는 것을 듣자마자 딸아이를 안았다. 가까이서 본 청이는 한껏 파리한 안색이었다.",
+      "IsUsing": false,
+      "IndexNum": 707
+    },
+    {
+      "Id": 7298,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ아버지가 왜 여기에...",
+      "IsUsing": false,
+      "IndexNum": 708
+    },
+    {
+      "Id": 7299,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이가 내 팔을 뿌리치며 응얼댔다.",
+      "IsUsing": false,
+      "IndexNum": 709
+    },
+    {
+      "Id": 7300,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ아버지께선 역시 제가 어떤 생각을 하는지는 안중에도 없으십니다.",
+      "IsUsing": false,
+      "IndexNum": 710
+    },
+    {
+      "Id": 7301,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 설핏 웃어 보이더니, 공허한 눈으로 나를 쏘아보았다.",
+      "IsUsing": false,
+      "IndexNum": 711
+    },
+    {
+      "Id": 7302,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ되려 편합니다. 아버지.",
+      "IsUsing": false,
+      "IndexNum": 712
+    },
+    {
+      "Id": 7303,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ눈을 뜨시어 밝은 세상 보시고, 착한 사람 구하셔서 후사를 전하여 오래오래 평안히 계십시오.",
+      "IsUsing": false,
+      "IndexNum": 713
+    },
+    {
+      "Id": 7304,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ처음 보는 청이의 비릿한 표정에 멍해져있던 찰나였다.",
+      "IsUsing": false,
+      "IndexNum": 714
+    },
+    {
+      "Id": 7305,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 눈을 감고 바다에 누웠다.",
+      "IsUsing": false,
+      "IndexNum": 715
+    },
+    {
+      "Id": 7306,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청아!!",
+      "IsUsing": false,
+      "IndexNum": 716
+    },
+    {
+      "Id": 7307,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이보게!!",
+      "IsUsing": false,
+      "IndexNum": 717
+    },
+    {
+      "Id": 7308,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ이보시오, 사공 양반!! 어떻게든 해보시오! 나는 수영을 모른단 말이오!!",
+      "IsUsing": false,
+      "IndexNum": 718
+    },
+    {
+      "Id": 7309,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ나도 방금까지 물에 있었소!! 이제 기운이 바닥났단 말이오! 사람 구하려다 나도 죽게 생겼소!",
+      "IsUsing": false,
+      "IndexNum": 719
+    },
+    {
+      "Id": 7310,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ승강이를 하는 둘의 사이에서 나는 그저 허망할 뿐이었다.",
+      "IsUsing": false,
+      "IndexNum": 720
+    },
+    {
+      "Id": 7311,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ마음마저 깜깜해졌다.",
+      "IsUsing": false,
+      "IndexNum": 721
+    },
+    {
+      "Id": 7312,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ마을로 다시 돌아가는 뱃길에 결국 후회만 가득했다.",
+      "IsUsing": false,
+      "IndexNum": 722
+    },
+    {
+      "Id": 7313,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ여태껏 딸의 맘을 알아주지 못한 나 자신이 미워, 사죄를 뱉어냈다.",
+      "IsUsing": false,
+      "IndexNum": 723
+    },
+    {
+      "Id": 7314,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ....아버지",
+      "IsUsing": false,
+      "IndexNum": 724
+    },
+    {
+      "Id": 7315,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 공허한 눈으로 나를 쏘아보았다.",
+      "IsUsing": false,
+      "IndexNum": 725
+    },
+    {
+      "Id": 7316,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ아버지께 사과를 받는다면 마음이 편해지리라 믿어왔는데, 오히려 떫습니다.",
+      "IsUsing": false,
+      "IndexNum": 726
+    },
+    {
+      "Id": 7317,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ이미 돌이킬 수 없이 멀리왔나봅니다.",
+      "IsUsing": false,
+      "IndexNum": 727
+    },
+    {
+      "Id": 7318,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ눈을 뜨시어 밝은 세상 보시고, 좋은 사람 구하셔서 후사를 전하시고, 오래오래 평안하십시오.",
+      "IsUsing": false,
+      "IndexNum": 728
+    },
+    {
+      "Id": 7319,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ다시 한번 청이를 안으려 팔을 휘둘렀지만, 청이는 이미 바닷속으로 사라지고 난 뒤였다.",
+      "IsUsing": false,
+      "IndexNum": 729
+    },
+    {
+      "Id": 7320,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 눈을 감고 바다에 누웠다.",
+      "IsUsing": false,
+      "IndexNum": 730
+    },
+    {
+      "Id": 7321,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청아!!",
+      "IsUsing": false,
+      "IndexNum": 731
+    },
+    {
+      "Id": 7322,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이보게!!",
+      "IsUsing": false,
+      "IndexNum": 732
+    },
+    {
+      "Id": 7323,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ이보시오, 사공 양반!! 어떻게든 해보시오! 나는 수영을 모른단 말이오!!",
+      "IsUsing": false,
+      "IndexNum": 733
+    },
+    {
+      "Id": 7324,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ나도 방금까지 물에 있었소!! 이제 기운이 바닥났단 말이오! 사람 구하려다 나도 죽게 생겼소!",
+      "IsUsing": false,
+      "IndexNum": 734
+    },
+    {
+      "Id": 7325,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ승강이를 하는 둘의 사이에서 나는 그저 허망할 뿐이었다.",
+      "IsUsing": false,
+      "IndexNum": 735
+    },
+    {
+      "Id": 7326,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ마음마저 깜깜해졌다.",
+      "IsUsing": false,
+      "IndexNum": 736
+    },
+    {
+      "Id": 7327,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ마을로 다시 돌아가는 뱃길에 결국 후회만 가득했다.",
+      "IsUsing": false,
+      "IndexNum": 737
+    },
+    {
+      "Id": 7328,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ나는 아무 말도 할 수 없어 침묵을 지켰다.",
+      "IsUsing": false,
+      "IndexNum": 738
+    },
+    {
+      "Id": 7329,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ왜 아무 말씀도 없으신지요.",
+      "IsUsing": false,
+      "IndexNum": 739
+    },
+    {
+      "Id": 7330,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ끔벅끔벅하며 청이는 나를 바라보았다.",
+      "IsUsing": false,
+      "IndexNum": 740
+    },
+    {
+      "Id": 7331,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이의 모든 행동에, 이유가 있었을 테고.",
+      "IsUsing": false,
+      "IndexNum": 741
+    },
+    {
+      "Id": 7332,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이를 그렇게 몰아넣은 건 바로 나 자신일 테니.",
+      "IsUsing": false,
+      "IndexNum": 742
+    },
+    {
+      "Id": 7333,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ입이 떨어지지 않았다.",
+      "IsUsing": false,
+      "IndexNum": 743
+    },
+    {
+      "Id": 7334,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ말도 잃으셨습니까? 무슨 말이라도 해보십시오, 아버지!!",
+      "IsUsing": false,
+      "IndexNum": 744
+    },
+    {
+      "Id": 7335,
+      "SpeakerType": "Npc",
+      "Name": "장지언",
+      "Comment": "ⓦ청아. 진정하거라.",
+      "IsUsing": false,
+      "IndexNum": 745
+    },
+    {
+      "Id": 7336,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ날 붙잡고 흔드는 청이를 지언이 막아섰다.",
+      "IsUsing": false,
+      "IndexNum": 746
+    },
+    {
+      "Id": 7337,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ지언이 청이의 양어깨를 꼬옥 감싸 안으니, 청이는 점차 진정하였다.",
+      "IsUsing": false,
+      "IndexNum": 747
+    },
+    {
+      "Id": 7338,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이는 긴장이 풀리자마자 바다에 몇 번이고 속을 게워냈다.",
+      "IsUsing": false,
+      "IndexNum": 748
+    },
+    {
+      "Id": 7339,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ달밤이 지나 새벽이 오는 하늘만 바라보다 청이가 입을 열었다.",
+      "IsUsing": false,
+      "IndexNum": 749
+    },
+    {
+      "Id": 7340,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ처음엔 다른 집 규수들과는 달리 흉한 손이 미웠습니다.",
+      "IsUsing": false,
+      "IndexNum": 750
+    },
+    {
+      "Id": 7341,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ좋은 음식, 물건을 봐도 셈이 먼저인 제 머리가 싫었습니다.",
+      "IsUsing": false,
+      "IndexNum": 751
+    },
+    {
+      "Id": 7342,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ그저 세상모르게 일만 하는 제 자신이 싫었습니다.",
+      "IsUsing": false,
+      "IndexNum": 752
+    },
+    {
+      "Id": 7343,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ그러다 어느새, 제가 싫어진 만큼 아버지가 원망스러웠습니다.",
+      "IsUsing": false,
+      "IndexNum": 753
+    },
+    {
+      "Id": 7344,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ도화촌에 돌아가면.. 지언과 함께 떠날 작정입니다.",
+      "IsUsing": false,
+      "IndexNum": 754
+    },
+    {
+      "Id": 7345,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ어느 날, 깨끗한 마음이 들 때. 그때 뵈러 오겠습니다.",
+      "IsUsing": false,
+      "IndexNum": 755
+    },
+    {
+      "Id": 7346,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ그래도 이제껏 키워주신 은혜 덕에 열심히 일할 수 있었습니다.",
+      "IsUsing": false,
+      "IndexNum": 756
+    },
+    {
+      "Id": 7347,
+      "SpeakerType": "Npc",
+      "Name": "심청",
+      "Comment": "ⓦ감사합니다. 아버지.",
+      "IsUsing": false,
+      "IndexNum": 757
+    },
+    {
+      "Id": 7348,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ모두가 이야기를 잠자코 듣고 있었다.",
+      "IsUsing": false,
+      "IndexNum": 758
+    },
+    {
+      "Id": 7349,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ초연한 청이의 표정에, 나는 그저 고개를 끄덕일 수밖에 없었다.",
+      "IsUsing": false,
+      "IndexNum": 759
+    },
+    {
+      "Id": 7350,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ도화촌으로 돌아온 뒤, 청이와 지언은 도화촌을 떠났다.",
+      "IsUsing": false,
+      "IndexNum": 760
+    },
+    {
+      "Id": 7351,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ자의였든, 타의였든. 부모 그늘에 눈이 가려졌던 지난날이 퍽 아쉬워 보였다.",
+      "IsUsing": false,
+      "IndexNum": 761
+    },
+    {
+      "Id": 7352,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ몇 달이 지나고, 귀덕 어멈이 이르기를 송나라 상인들이 삼월 풍랑에 돌아오지 못했다고 한다.",
+      "IsUsing": false,
+      "IndexNum": 762
+    },
+    {
+      "Id": 7353,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ대신 보부상들이 장터 자리를 꿰찼고 이전보다 더 활기차졌다.",
+      "IsUsing": false,
+      "IndexNum": 763
+    },
+    {
+      "Id": 7354,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ단서에 대해 향리 댁 부인과 대화를 해보자.",
+      "IsUsing": false,
+      "IndexNum": 764
+    },
+    {
+      "Id": 7355,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그러면 이제 출발하겠소.",
+      "IsUsing": false,
+      "IndexNum": 765
+    },
+    {
+      "Id": 7356,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ이 밤에 배를 타시는 건가요?",
+      "IsUsing": false,
+      "IndexNum": 766
+    },
+    {
+      "Id": 7357,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ배에 올라타려는데, 아이의 목소리가 들려왔다.",
+      "IsUsing": false,
+      "IndexNum": 767
+    },
+    {
+      "Id": 7358,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이런,, 이 시간에 웬 아이가..",
+      "IsUsing": false,
+      "IndexNum": 768
+    },
+    {
+      "Id": 7359,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ배를 타실 건가 봐요.",
+      "IsUsing": false,
+      "IndexNum": 769
+    },
+    {
+      "Id": 7360,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ아이의 목소리가 꽤나 음산하게 느껴졌다.",
+      "IsUsing": false,
+      "IndexNum": 770
+    },
+    {
+      "Id": 7361,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ...아이야. 오늘 밤은 위험하니 얼른 집으로 가거라.",
+      "IsUsing": false,
+      "IndexNum": 771
+    },
+    {
+      "Id": 7362,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ상인 아저씨들이 오늘 배를 타는 사람은 나쁜 사람이랬어요.",
+      "IsUsing": false,
+      "IndexNum": 772
+    },
+    {
+      "Id": 7363,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ나쁜 사람들을 잡으면 맛있는 걸 잔뜩 준다고 하셨어요.",
+      "IsUsing": false,
+      "IndexNum": 773
+    },
+    {
+      "Id": 7364,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ조용한 시간에 소란이었나 주변에 마을 사람이 한 둘 나타났다.",
+      "IsUsing": false,
+      "IndexNum": 774
+    },
+    {
+      "Id": 7365,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ왠지 조금 이상한 것 같소.",
+      "IsUsing": false,
+      "IndexNum": 775
+    },
+    {
+      "Id": 7366,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공이 내게 속삭이자마자 사람 셋이 달려들었다.",
+      "IsUsing": false,
+      "IndexNum": 776
+    },
+    {
+      "Id": 7367,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ달아난 뱃사공을 두 사람이 좇아갔고, 나는 너무나 쉽게 잡혀버렸다.",
+      "IsUsing": false,
+      "IndexNum": 777
+    },
+    {
+      "Id": 7368,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ나는 그 이후로 청이를 다신 볼 수 없었다.",
+      "IsUsing": false,
+      "IndexNum": 778
+    },
+    {
+      "Id": 7369,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓑ[계란유골]",
+      "IsUsing": false,
+      "IndexNum": 779
+    },
+    {
+      "Id": 7370,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ그러면 이제 출발하겠소. 그리고 우리와 함께할 사람도 먼저 타있소. 나룻배에 타시오.",
+      "IsUsing": false,
+      "IndexNum": 780
+    },
+    {
+      "Id": 7371,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ이 밤에 배를 타시는 건가요?",
+      "IsUsing": false,
+      "IndexNum": 781
+    },
+    {
+      "Id": 7372,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ배에 올라타려는데, 아이의 목소리가 들려왔다.",
+      "IsUsing": false,
+      "IndexNum": 782
+    },
+    {
+      "Id": 7373,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ이런,, 이 시간에 웬 아이가..",
+      "IsUsing": false,
+      "IndexNum": 783
+    },
+    {
+      "Id": 7374,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ배를 타실 건가 봐요.",
+      "IsUsing": false,
+      "IndexNum": 784
+    },
+    {
+      "Id": 7375,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ아이의 목소리가 꽤나 음산하게 느껴졌다.",
+      "IsUsing": false,
+      "IndexNum": 785
+    },
+    {
+      "Id": 7376,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ...아이야. 오늘 밤은 위험하니 얼른 집으로 가거라.",
+      "IsUsing": false,
+      "IndexNum": 786
+    },
+    {
+      "Id": 7377,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ상인 아저씨들이 오늘 배를 타는 사람은 나쁜 사람이랬어요.",
+      "IsUsing": false,
+      "IndexNum": 787
+    },
+    {
+      "Id": 7378,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ나쁜 사람들을 잡으면 맛있는 걸 잔뜩 준다고 하셨어요.",
+      "IsUsing": false,
+      "IndexNum": 788
+    },
+    {
+      "Id": 7379,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ조용한 시간에 소란이었나 주변에 마을 사람이 한 둘 나타났다.",
+      "IsUsing": false,
+      "IndexNum": 789
+    },
+    {
+      "Id": 7380,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ왠지 조금 이상한 것 같소.",
+      "IsUsing": false,
+      "IndexNum": 790
+    },
+    {
+      "Id": 7381,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공이 내게 속삭이자마자 사람 셋이 달려들었다.",
+      "IsUsing": false,
+      "IndexNum": 791
+    },
+    {
+      "Id": 7382,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ달아난 뱃사공과 어떤 사내를 두 사람이 좇아갔고, 나는 너무나 쉽게 잡혀버렸다.",
+      "IsUsing": false,
+      "IndexNum": 792
+    },
+    {
+      "Id": 7383,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ나는 그 이후로 청이를 다신 볼 수 없었다.",
+      "IsUsing": false,
+      "IndexNum": 793
+    },
+    {
+      "Id": 7384,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓑ[계란유골]",
+      "IsUsing": false,
+      "IndexNum": 794
+    },
+    {
+      "Id": 7385,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ그만 좀 물어보게!! 댁도 이젠 알지 않소? 청이 찾기 힘들걸세.",
+      "IsUsing": false,
+      "IndexNum": 795
+    },
+    {
+      "Id": 7386,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ청이 누님이 보고 싶어요. 정말 찾으시는 건 맞아요?",
+      "IsUsing": false,
+      "IndexNum": 796
+    },
+    {
+      "Id": 7387,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ따님이 어디 멀리 간다고 이야기했던 것은 아닙니까? 저는 아는 건 다 말씀드렸수다.",
+      "IsUsing": false,
+      "IndexNum": 797
+    },
+    {
+      "Id": 7388,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ하아암~ 이제 그만하시어요. 나 바빠요.",
+      "IsUsing": false,
+      "IndexNum": 798
+    },
+    {
+      "Id": 7389,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ신경을 일찍 썼어야지. 내게 다신 말 걸지 마시오.",
+      "IsUsing": false,
+      "IndexNum": 799
+    },
+    {
+      "Id": 7390,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처의 뜻에 답이 있습니다.",
+      "IsUsing": false,
+      "IndexNum": 800
+    },
+    {
+      "Id": 7391,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사람들이 날 싸늘하게 대한다. 나는 청이 없이는 아무것도 아닌 걸까..",
+      "IsUsing": false,
+      "IndexNum": 801
+    },
+    {
+      "Id": 7392,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청아.. 내 딸 심청아..",
+      "IsUsing": false,
+      "IndexNum": 802
+    },
+    {
+      "Id": 7393,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청이를 찾기 위해 마을 바깥으로 걸었다.",
+      "IsUsing": false,
+      "IndexNum": 803
+    },
+    {
+      "Id": 7394,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ얼마나 걸었을까, 언제부터인지 발이 쓰라리지 않았다.",
+      "IsUsing": false,
+      "IndexNum": 804
+    },
+    {
+      "Id": 7395,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ먹지 않아도 고프지 않았고 목도 타들어가지 않는다.",
+      "IsUsing": false,
+      "IndexNum": 805
+    },
+    {
+      "Id": 7396,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ청아.. 심청아.. 청아.. 내 딸 심청아...",
+      "IsUsing": false,
+      "IndexNum": 806
+    },
+    {
+      "Id": 7397,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓡ[고립무원]",
+      "IsUsing": false,
+      "IndexNum": 807
+    },
+    {
+      "Id": 7398,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ약초를 달이려면 물도 필요하다.",
+      "IsUsing": false,
+      "IndexNum": 808
+    },
+    {
+      "Id": 7399,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ어머!!! 이게 무슨 짓이에요!! 조심 좀 하셔요! 분칠이 다 녹았네...",
+      "IsUsing": false,
+      "IndexNum": 809
+    },
+    {
+      "Id": 7400,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ물이 다 쏟아졌다. 다시 떠야겠다.",
+      "IsUsing": false,
+      "IndexNum": 810
+    },
+    {
+      "Id": 7401,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ이런!! 잘 좀 보고..! 아니야...조심히 다니시오! 다 젖었네...",
+      "IsUsing": false,
+      "IndexNum": 811
+    },
+    {
+      "Id": 7402,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ물이 다 쏟아졌다. 다시 떠야겠다.",
+      "IsUsing": false,
+      "IndexNum": 812
+    },
+    {
+      "Id": 7403,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ승려는 엎어지는 물을 빠르게 피했다.",
+      "IsUsing": false,
+      "IndexNum": 813
+    },
+    {
+      "Id": 7404,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ음. 장난기가 있으시군요. 하하하.",
+      "IsUsing": false,
+      "IndexNum": 814
+    },
+    {
+      "Id": 7405,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ....물이 다 쏟아졌다. 다시 떠야겠다.",
+      "IsUsing": false,
+      "IndexNum": 815
+    },
+    {
+      "Id": 7406,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ앗 차가워!! 으아.. 제게 왜 이러세요..? 그래도 나름 시원한 것 같네요..",
+      "IsUsing": false,
+      "IndexNum": 816
+    },
+    {
+      "Id": 7407,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ물이 다 쏟아졌다. 다시 떠야겠다.",
+      "IsUsing": false,
+      "IndexNum": 817
+    },
+    {
+      "Id": 7408,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ엎어지는 바가지를 장사꾼이 잡아챘다. 덕분에 물을 쏟지 않았다.",
+      "IsUsing": false,
+      "IndexNum": 818
+    },
+    {
+      "Id": 7409,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ조심하시오!! 물건들을 다 망칠 셈이오?!",
+      "IsUsing": false,
+      "IndexNum": 819
+    },
+    {
+      "Id": 7410,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ물이라면 질색이오. 냇물 냄새부터 역하군. 다가오지 마시오.",
+      "IsUsing": false,
+      "IndexNum": 820
+    },
+    {
+      "Id": 7411,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ사공이 엄포를 놓는 바람에, 근처에도 가지 않았다.",
+      "IsUsing": false,
+      "IndexNum": 821
+    },
+    {
+      "Id": 7412,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ하인이 부인을 감싸 물을 정통으로 맞았다.",
+      "IsUsing": false,
+      "IndexNum": 822
+    },
+    {
+      "Id": 7413,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ...조심하시게..우리 승냥이는 성질이 온온하지않으니..",
+      "IsUsing": false,
+      "IndexNum": 823
+    },
+    {
+      "Id": 7414,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ물이 다 쏟아졌다. 다시 떠야겠다.",
+      "IsUsing": false,
+      "IndexNum": 824
+    },
+    {
+      "Id": 7415,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ무슨 짓이죠? 너무 차갑군요.. 혹여나 제게 앙심이라도 품으신 건 아니시겠죠? 조심하시지요.",
+      "IsUsing": false,
+      "IndexNum": 825
+    },
+    {
+      "Id": 7416,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ웃는 표정이 어딘가 섬뜩하다. 물이 다 쏟아졌으니, 다시 떠야겠다.",
+      "IsUsing": false,
+      "IndexNum": 826
+    },
+    {
+      "Id": 7417,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ귓가에 어떤 소리가 맴돈다.",
+      "IsUsing": false,
+      "IndexNum": 827
+    },
+    {
+      "Id": 7418,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓥ타인을 너무 쉽게 믿지 말자.",
+      "IsUsing": false,
+      "IndexNum": 828
+    },
+    {
+      "Id": 7419,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ귓가에 어떤 소리가 맴돈다.",
+      "IsUsing": false,
+      "IndexNum": 829
+    },
+    {
+      "Id": 7420,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓥ급할수록 차분해야 한다. 끝까지 주변과 소통해 보자.",
+      "IsUsing": false,
+      "IndexNum": 830
+    },
+    {
+      "Id": 7421,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ귓가에 어떤 소리가 맴돈다.",
+      "IsUsing": false,
+      "IndexNum": 831
+    },
+    {
+      "Id": 7422,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓥ청이의 단서들에 대해 더 생각해 보자.",
+      "IsUsing": false,
+      "IndexNum": 832
+    },
+    {
+      "Id": 7423,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ귓가에 어떤 소리가 맴돈다.",
+      "IsUsing": false,
+      "IndexNum": 833
+    },
+    {
+      "Id": 7424,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓥ*사공을 끝까지 도와주자.*",
+      "IsUsing": false,
+      "IndexNum": 834
+    },
+    {
+      "Id": 7425,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ제대로 계산한 것이오? 내가 눈대중으로 봐도 그 값은 아닐진데,,,",
+      "IsUsing": false,
+      "IndexNum": 835
+    },
+    {
+      "Id": 7426,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ부탁 하나만 해도 되겠는가? 미안하네. 혹시 집에 남는 ⓡ새끼줄 ⓦ있는가? 만약 있다면 왼새끼로 부탁하네.",
+      "IsUsing": false,
+      "IndexNum": 836
+    },
+    {
+      "Id": 7427,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ지금 별채에 일이 있어서 당장 왼새끼가 필요한데 우리 집 하인 하나가 실수를 해서 곳간에 둬야 할 볏짚까지 팔아버렸네.",
+      "IsUsing": false,
+      "IndexNum": 837
+    },
+    {
+      "Id": 7428,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ이건 오른새끼지 않은가... 그래도 고맙네.",
+      "IsUsing": false,
+      "IndexNum": 838
+    },
+    {
+      "Id": 7429,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ오, 정말 고맙네! 내가 조만간 꼭 사례하도록 하지.",
+      "IsUsing": false,
+      "IndexNum": 839
+    },
+    {
+      "Id": 7430,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ아, 물어볼게 있다고 하였는가? 어서 물어보게.",
+      "IsUsing": false,
+      "IndexNum": 840
+    },
+    {
+      "Id": 7431,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ새끼줄을 꼬았다.",
+      "IsUsing": false,
+      "IndexNum": 841
+    },
+    {
+      "Id": 7432,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ새끼줄을 건넸다.",
+      "IsUsing": false,
+      "IndexNum": 842
+    },
+    {
+      "Id": 7433,
+      "SpeakerType": "Player",
+      "Name": "심학규",
+      "Comment": "ⓦ볏짚을 건넸다.",
+      "IsUsing": false,
+      "IndexNum": 843
+    },
+    {
+      "Id": 7434,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ볏짚이 있다면 집 안에 ⓡ베틀ⓦ에서 새끼줄을 만들어주게.",
+      "IsUsing": false,
+      "IndexNum": 844
+    },
+    {
+      "Id": 7435,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ설마 볏짚을 꼬아달라는 거예요? 고생 시키는 남자는 딱 질색이네요!!",
+      "IsUsing": false,
+      "IndexNum": 845
+    },
+    {
+      "Id": 7436,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ볏짚을 아주 잘 말려놨구만. 심청이가 지 어미를 닮아서 일은 똑 부러지네.",
+      "IsUsing": false,
+      "IndexNum": 846
+    },
+    {
+      "Id": 7437,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ심씨 댁에 베틀에서 새끼를 꼬아다주게.",
+      "IsUsing": false,
+      "IndexNum": 847
+    },
+    {
+      "Id": 7438,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ뭐 살 것 있소?",
+      "IsUsing": false,
+      "IndexNum": 848
+    },
+    {
+      "Id": 7439,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 849
+    },
+    {
+      "Id": 7440,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ볏짚이 굉장히 잘 말랐네요! 덮고 자면 딱 따뜻할 것 같아요.",
+      "IsUsing": false,
+      "IndexNum": 850
+    },
+    {
+      "Id": 7441,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ오랜만에 밟는 땅이요. 쉬고 싶소.",
+      "IsUsing": false,
+      "IndexNum": 851
+    },
+    {
+      "Id": 7442,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ시간이 명줄이오! 빨리 움직이십시오!!(퍽 겸손한 말씨로 바삐 일한다.)",
+      "IsUsing": false,
+      "IndexNum": 852
+    },
+    {
+      "Id": 7443,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 853
+    },
+    {
+      "Id": 7444,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ이건 오른새끼네.. 열심히 새끼 꼬아서 살림 피자고.",
+      "IsUsing": false,
+      "IndexNum": 854
+    },
+    {
+      "Id": 7445,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ이건 오른새끼지 않은가... 그래도 고맙네.",
+      "IsUsing": false,
+      "IndexNum": 855
+    },
+    {
+      "Id": 7446,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ새끼줄을 팔러 왔소? 다른 상인 찾아보십쇼.",
+      "IsUsing": false,
+      "IndexNum": 856
+    },
+    {
+      "Id": 7447,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ부처께 지성으로 불공드린다면 근심이 없어진답니다.",
+      "IsUsing": false,
+      "IndexNum": 857
+    },
+    {
+      "Id": 7448,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ이게 뭐예요? 새끼줄?? 짚신이라도 만드시게요?",
+      "IsUsing": false,
+      "IndexNum": 858
+    },
+    {
+      "Id": 7449,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ새끼줄이군.. 내 안사람이 새끼줄을 잘 꼬았었지.",
+      "IsUsing": false,
+      "IndexNum": 859
+    },
+    {
+      "Id": 7450,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ여기 사람들의 새끼줄은 참 촘촘합니다. 잘 끊어지질 않지요.",
+      "IsUsing": false,
+      "IndexNum": 860
+    },
+    {
+      "Id": 7451,
+      "SpeakerType": "Npc",
+      "Name": "뺑덕 어멈",
+      "Comment": "ⓦ호호, 무슨 일이신가요??",
+      "IsUsing": false,
+      "IndexNum": 861
+    },
+    {
+      "Id": 7452,
+      "SpeakerType": "Npc",
+      "Name": "귀덕 어멈",
+      "Comment": "ⓦ만져보면 알잖는가. 왼새끼일세. 딱히 지금 필요한 곳이 있나?",
+      "IsUsing": false,
+      "IndexNum": 862
+    },
+    {
+      "Id": 7453,
+      "SpeakerType": "Npc",
+      "Name": "향리 댁 부인",
+      "Comment": "ⓦ오, 정말 고맙네! 내가 조만간 꼭 사례하도록 하지.",
+      "IsUsing": false,
+      "IndexNum": 863
+    },
+    {
+      "Id": 7454,
+      "SpeakerType": "Npc",
+      "Name": "장사꾼",
+      "Comment": "ⓦ왼새끼는 보통 잘 안 팝니다. 다들 직접 만들어 쓰니까요.",
+      "IsUsing": false,
+      "IndexNum": 864
+    },
+    {
+      "Id": 7455,
+      "SpeakerType": "Npc",
+      "Name": "승려",
+      "Comment": "ⓦ왼새끼는 저희 몽운사에서도 많이 필요해서 제가 자주 만들지요.",
+      "IsUsing": false,
+      "IndexNum": 865
+    },
+    {
+      "Id": 7456,
+      "SpeakerType": "Npc",
+      "Name": "거지",
+      "Comment": "ⓦ이게 뭐예요? 새끼줄?? 짚신이라도 만드시게요?",
+      "IsUsing": false,
+      "IndexNum": 866
+    },
+    {
+      "Id": 7457,
+      "SpeakerType": "Npc",
+      "Name": "뱃사공",
+      "Comment": "ⓦ새끼줄이군.. 내 안사람이 새끼줄을 잘 꼬았었지.",
+      "IsUsing": false,
+      "IndexNum": 867
+    },
+    {
+      "Id": 7458,
+      "SpeakerType": "Npc",
+      "Name": "송나라 상인",
+      "Comment": "ⓦ여기 사람들의 새끼줄은 참 촘촘합니다. 잘 끊어지질 않지요.",
+      "IsUsing": false,
+      "IndexNum": 868
+    },
+    {
+      "Id": 7433,
+      "SpeakerType": "Npc",
+      "Name": "임시",
+      "Comment": "ⓦ임시",
+      "IsUsing": false,
+      "IndexNum": 869
+    }
+  ]
+}

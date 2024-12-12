@@ -10,6 +10,9 @@ public class GameManager : Singleton<GameManager>
     public Texture2D cursorTexture_Click;
     private CursorMode cursorMode = CursorMode.ForceSoftware;
     private Vector2 hotSpot = Vector2.zero;
+    
+    //플레이어 오브젝트
+    public GameObject playerObj;
 
     private void Awake()
     {
@@ -61,5 +64,19 @@ public class GameManager : Singleton<GameManager>
     {
         ConsoleLogger.Log("게임 종료");
         Application.Quit();
+    }
+    
+    //게임 일시정지
+    public void PauseGame()
+    {
+        ConsoleLogger.Log("게임 일시 정지");
+        Time.timeScale = 0f;
+    }
+    
+    //게임 일시 정지 해제
+    public void ReleasePauseGame()
+    {
+        ConsoleLogger.Log("게임 일시정지 해제");
+        Time.timeScale = 1f;
     }
 }

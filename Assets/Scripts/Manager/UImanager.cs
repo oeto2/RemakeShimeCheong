@@ -1,29 +1,27 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class UIManager : Singleton<UIManager>
 {
     //부모 UI
     public Transform parentsUI = null;
     private Dictionary<string, UIBase> _popups = new Dictionary<string, UIBase>();
+    private Dictionary<string, UIBase> _interactPopups = new Dictionary<string, UIBase>();
 
-    public GameObject GetPopup(string popupName)
+    public GameObject GetPopupObject<T>() where T : UIBase
     {
-        ShowPopup(popupName);
-
-        return _popups[popupName].gameObject;
-    }
-
-    public GameObject GetPopupObject(string popupName)
-    {
-        if (!_popups.ContainsKey(popupName))
+        string popupName = typeof(T).Name;
+        
+        //해당 이름의 UI가 존재하지 않는다면
+        if (!_popups.TryGetValue(popupName, out var popup))
         {
-            return null;
+            ShowPopup<T>().gameObject.SetActive(false); //팝업 생성
         }
 
         return _popups[popupName].gameObject;
     }
-
+    
     //해당 팝업이 존재하는지
     public bool ExistPopup(string _key)
     {
@@ -55,6 +53,19 @@ public class UIManager : Singleton<UIManager>
         return ShowPopup(typeof(T).Name, parents) as T;
     }
 
+    public void ClosePopup<T>() where T : UIBase
+    {
+        string uiName = typeof(T).Name;
+
+        //해당 이름의 UI가 존재하지 않는다면
+        if (!_popups.TryGetValue(uiName, out var popup))
+        {
+            return;
+        }
+
+        popup.gameObject.SetActive(false);
+    }
+
     public UIBase ShowPopupWithPrefab(GameObject prefab, string popupName, Transform parents = null)
     {
         if (parentsUI != null)
@@ -70,8 +81,7 @@ public class UIManager : Singleton<UIManager>
     public UIBase ShowPopup(GameObject obj, string popupname)
     {
         var popup = obj.GetComponent<UIBase>();
-        _popups.Add(popupname, popup);
-
+        CheckUIType(popupname, popup); //UI Type에 따른 딕셔너리 분류
         obj.SetActive(true);
         return popup;
     }
@@ -108,12 +118,65 @@ public class UIManager : Singleton<UIManager>
         //해당 이름의 UI가 존재하지 않는다면
         if (!_popups.ContainsKey(uiName))
         {
-            Debug.LogWarning($"{uiName}이 존재하지 않아 컴포넌트를 가져오지 못했습니다.");
-            return null;
+            ShowPopup<T>().gameObject.SetActive(false); //해당 팝업 생성 후 비활성화
         }
 
         var uiComponent = _popups[uiName].GetComponent<T>();
         return uiComponent;
     }
- 
+
+    //생성할 UI의 Type 체크 후 딕셔너리 분류
+    public void CheckUIType(string objectName, UIBase ui)
+    {
+        switch (ui._uiType)
+        {
+            case UIType.Normal:
+                _popups.Add(objectName, ui);
+                break;
+            
+            case UIType.Interact:
+                _popups.Add(objectName, ui);
+                _interactPopups.Add(objectName, ui);
+                break;
+        }
+    }
+
+    //해당 UI 오브젝트가 현재 활성화 중인지
+    public bool IsActiveUI<T>() where T : UIBase
+    {
+        string uiName = typeof(T).Name;
+
+        //해당 이름의 UI가 존재하지 않는다면
+        if (!_popups.TryGetValue(uiName, out var popup))
+        {
+            return false;
+        }
+
+        return popup.gameObject.activeSelf;
+    }
+    
+    
+
+    //모든 상호작용 팝업 UI 닫기
+    public void CloseAllInteractPopups()
+    {
+        foreach (var popup in _interactPopups)
+        {
+            popup.Value.gameObject.SetActive(false);
+        }
+    }
+    
+    //상호작용 팝업이 현재 하나라도 활성화 중인지
+    public bool IsActiveInteractPopup()
+    {
+        foreach (var popup in _interactPopups)
+        {
+            //상호작용 팝업이 활성화 중이라면
+            if (popup.Value.gameObject.activeSelf)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }
