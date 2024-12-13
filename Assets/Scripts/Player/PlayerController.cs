@@ -53,6 +53,12 @@ public class PlayerController : MonoBehaviour
         {
             _interactObject = other.gameObject.GetComponent<Iinteractable>();
         }
+        
+        //충돌한 물체가 상호작용이 가능한 오브젝트라면
+        if (other.gameObject.layer == ObjectLayer.InteractableObjectLayer)
+        {
+            _interactObject = other.gameObject.GetComponent<Iinteractable>();
+        }
     }
 
     //플레이어와 콜라이더 충돌 해제
@@ -60,6 +66,12 @@ public class PlayerController : MonoBehaviour
     {
         //충돌 해제한 물체가 아이템이라면
         if (other.gameObject.layer == ObjectLayer.ItemLayer)
+        {
+            _interactObject = null;
+        }
+        
+        //충돌한 물체가 상호작용이 가능한 오브젝트라면
+        if (other.gameObject.layer == ObjectLayer.InteractableObjectLayer)
         {
             _interactObject = null;
         }

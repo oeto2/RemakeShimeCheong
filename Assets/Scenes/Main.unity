@@ -2536,7 +2536,8 @@ GameObject:
   - component: {fileID: 266156866}
   - component: {fileID: 266156871}
   - component: {fileID: 266156870}
-  m_Layer: 0
+  - component: {fileID: 266156872}
+  m_Layer: 8
   m_Name: woodBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2588,7 +2589,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.39, y: -0.63}
@@ -2656,6 +2657,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &266156872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266156865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902482ea7ec8ff544b1c804a5d58f6e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1013
+  closeBoxSprite: {fileID: 21300000, guid: 767bb0ca699678340a3fdbc777bcb78b, type: 3}
+  openBoxSprite: {fileID: 21300000, guid: 8cc9cb97da733894eb5733050fb30ee4, type: 3}
+  openMapBoxSprite: {fileID: 21300000, guid: 8b0852aaa53f0d64dac06480bff582c3, type: 3}
+  isOpen: 0
+  hasAcquiredMap: 0
 --- !u!1 &270833813
 GameObject:
   m_ObjectHideFlags: 0
