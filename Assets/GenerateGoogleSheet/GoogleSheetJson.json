@@ -107,6 +107,24 @@
       "IsUsing": false,
       "IndexNum": 11,
       "SpritePath": "Item/RiverManItem"
+    },
+    {
+      "Id": 1012,
+      "ObjectType": "Item",
+      "Name": "봇짐",
+      "Comment": "물건을 담아서 휴대할 수 있는 봇짐. I키를 누르면 열어볼 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 12,
+      "SpritePath": "Item/Botzime"
+    },
+    {
+      "Id": 1013,
+      "ObjectType": "Item",
+      "Name": "지도",
+      "Comment": "늘 나의 눈이 되어주는 지도. M키를 누르면 확인할 수 있다.",
+      "IsUsing": false,
+      "IndexNum": 13,
+      "SpritePath": "Item/Map"
     }
   ],
   "Clue_Table": [
@@ -7350,6 +7368,56 @@
       "Comment": "ⓦ임시",
       "IsUsing": false,
       "IndexNum": 869
+    }
+  ],
+  "Event_Table": [
+    {
+      "Id": 10000,
+      "EventType": "Tutorial",
+      "Name": "등잔불 켜기",
+      "Comment": "상호작용을 통해 등잔불을 켜서 불을 밝히자.",
+      "IsClear": false,
+      "IndexNum": 0
+    },
+    {
+      "Id": 10010,
+      "EventType": "Tutorial",
+      "Name": "봇짐 획득",
+      "Comment": "봇짐을 획득하고 I키를 눌러 인벤토리 창을 열어보자.",
+      "IsClear": false,
+      "IndexNum": 1
+    },
+    {
+      "Id": 10020,
+      "EventType": "Tutorial",
+      "Name": "지도 획득",
+      "Comment": "지도를 획득하고 M키를 눌러 지도를 열어보자.",
+      "IsClear": false,
+      "IndexNum": 2
+    },
+    {
+      "Id": 10030,
+      "EventType": "Tutorial",
+      "Name": "포탈 이동",
+      "Comment": "문앞에서 윗 방향키를 입력해서 마당으로 이동하자",
+      "IsClear": false,
+      "IndexNum": 3
+    },
+    {
+      "Id": 10040,
+      "EventType": "Tutorial",
+      "Name": "향리댁과 대화하기",
+      "Comment": "향리댁과 대화를 해보자.",
+      "IsClear": false,
+      "IndexNum": ""
+    },
+    {
+      "Id": 10050,
+      "EventType": "Main",
+      "Name": "향리댁의 수양딸",
+      "Comment": "청이가 향리댁의 수양딸로 들어간 줄로만 알았다. 그런데 아니라니.. 주변을 수소문 해보자.",
+      "IsClear": false,
+      "IndexNum": ""
     }
   ]
 }

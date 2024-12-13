@@ -111,6 +111,22 @@ MonoBehaviour:
     IsUsing: 0
     IndexNum: 11
     SpritePath: Item/RiverManItem
+  - Id: 1012
+    ObjectType: Item
+    Name: "\uBD07\uC9D0"
+    Comment: "\uBB3C\uAC74\uC744 \uB2F4\uC544\uC11C \uD734\uB300\uD560 \uC218 \uC788\uB294
+      \uBD07\uC9D0. I\uD0A4\uB97C \uB204\uB974\uBA74 \uC5F4\uC5B4\uBCFC \uC218 \uC788\uB2E4."
+    IsUsing: 0
+    IndexNum: 12
+    SpritePath: Item/Botzime
+  - Id: 1013
+    ObjectType: Item
+    Name: "\uC9C0\uB3C4"
+    Comment: "\uB298 \uB098\uC758 \uB208\uC774 \uB418\uC5B4\uC8FC\uB294 \uC9C0\uB3C4.
+      M\uD0A4\uB97C \uB204\uB974\uBA74 \uD655\uC778\uD560 \uC218 \uC788\uB2E4."
+    IsUsing: 0
+    IndexNum: 13
+    SpritePath: Item/Map
   Clue_TableList:
   - Id: 2000
     ObjectType: Clue
