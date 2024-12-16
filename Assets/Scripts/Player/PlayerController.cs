@@ -59,12 +59,19 @@ public class PlayerController : MonoBehaviour
         {
             _interactObject = other.gameObject.GetComponent<Iinteractable>();
         }
+        
+        //충돌한 물체가 NPC일 경우
+        if (other.gameObject.layer == ObjectLayer.NPCLayer)
+        {
+            _interactObject = other.gameObject.GetComponent<Iinteractable>();
+        }
     }
 
     //플레이어와 콜라이더 충돌 해제
     private void OnTriggerExit2D(Collider2D other)
     {
-        //충돌 해제한 물체가 아이템이라면
+        
+        //충돌한 물체가 아이템이라면
         if (other.gameObject.layer == ObjectLayer.ItemLayer)
         {
             _interactObject = null;
@@ -72,6 +79,12 @@ public class PlayerController : MonoBehaviour
         
         //충돌한 물체가 상호작용이 가능한 오브젝트라면
         if (other.gameObject.layer == ObjectLayer.InteractableObjectLayer)
+        {
+            _interactObject = null;
+        }
+        
+        //충돌한 물체가 NPC일 경우
+        if (other.gameObject.layer == ObjectLayer.NPCLayer)
         {
             _interactObject = null;
         }
@@ -225,6 +238,10 @@ public class PlayerController : MonoBehaviour
             if (_interactObject != null)
             {
                 _interactObject.OnInteract(); //상호작용하기
+            }
+            else
+            {
+                ConsoleLogger.Log("상호작용할 물체가 없습니다");
             }
         }
     }
