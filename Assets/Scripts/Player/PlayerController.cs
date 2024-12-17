@@ -25,6 +25,9 @@ public class PlayerController : MonoBehaviour
     //변수 : 오브젝트 감지 관련
     private RaycastHit2D[] _raycastHit2Ds = new RaycastHit2D[10];
 
+    //변수 : 상호작용 관련
+    private Iinteractable _interactObject; //상호 작용 가능한 오브젝트
+
     private void Awake()
     {
         Init();
@@ -45,11 +48,46 @@ public class PlayerController : MonoBehaviour
     //플레이어와 콜라이더 충돌 처리
     private void OnTriggerEnter2D(Collider2D other)
     {
+        //충돌한 물체가 아이템이라면
+        if (other.gameObject.layer == ObjectLayer.ItemLayer)
+        {
+            _interactObject = other.gameObject.GetComponent<Iinteractable>();
+        }
+        
+        //충돌한 물체가 상호작용이 가능한 오브젝트라면
+        if (other.gameObject.layer == ObjectLayer.InteractableObjectLayer)
+        {
+            _interactObject = other.gameObject.GetComponent<Iinteractable>();
+        }
+        
+        //충돌한 물체가 NPC일 경우
+        if (other.gameObject.layer == ObjectLayer.NPCLayer)
+        {
+            _interactObject = other.gameObject.GetComponent<Iinteractable>();
+        }
     }
 
     //플레이어와 콜라이더 충돌 해제
     private void OnTriggerExit2D(Collider2D other)
     {
+        
+        //충돌한 물체가 아이템이라면
+        if (other.gameObject.layer == ObjectLayer.ItemLayer)
+        {
+            _interactObject = null;
+        }
+        
+        //충돌한 물체가 상호작용이 가능한 오브젝트라면
+        if (other.gameObject.layer == ObjectLayer.InteractableObjectLayer)
+        {
+            _interactObject = null;
+        }
+        
+        //충돌한 물체가 NPC일 경우
+        if (other.gameObject.layer == ObjectLayer.NPCLayer)
+        {
+            _interactObject = null;
+        }
     }
 
     //플레이어 이동키 입력
@@ -196,7 +234,15 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            ConsoleLogger.Log("상호작용 버튼 입력");
+            //상호작용 가능한 오브젝트가 존재할 경우
+            if (_interactObject != null)
+            {
+                _interactObject.OnInteract(); //상호작용하기
+            }
+            else
+            {
+                ConsoleLogger.Log("상호작용할 물체가 없습니다");
+            }
         }
     }
 

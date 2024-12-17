@@ -139,10 +139,10 @@ TextureImporter:
       name: Dialogue_Name_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 183
-        width: 166
-        height: 65
+        x: 42
+        y: 187
+        width: 153
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

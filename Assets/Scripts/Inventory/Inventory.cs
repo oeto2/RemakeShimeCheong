@@ -1,8 +1,6 @@
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public enum InventoryTab
@@ -189,6 +187,32 @@ public class Inventory : MonoBehaviour
     public void EquipClue(ClueData clueData)
     { 
         _playerEquipment.EquipClue(clueData);
+    }
+    
+    //인벤토리 아이템데이터 가져오기
+    public ItemData GetInventoryItemData(int id)
+    {
+        //id의 아이템을 가지고 있지 않다면
+        if (!InventoryItems.ContainsKey(id))
+        {
+            ConsoleLogger.LogWarning($"{id}의 아이템을 인벤토리에 보유하고 있지 않습니다.");
+            return null;
+        }
+
+        return InventoryItems[id];
+    }
+    
+    //인벤토리 단서 데이터 가져오기
+    public ClueData GetInventoryClueData(int id)
+    {
+        //id의 단서을 가지고 있지 않다면
+        if (!InventoryClues.ContainsKey(id))
+        {
+            ConsoleLogger.LogWarning($"{id}의 단서를 인벤토리에 보유하고 있지 않습니다.");
+            return null;
+        }
+
+        return InventoryClues[id];
     }
 }
 
