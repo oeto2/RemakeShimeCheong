@@ -17,6 +17,13 @@ namespace Constants
         None
     }
     
+    //대화시 사용되는 화자 타입
+    public enum SpeakerType
+    {
+        Npc,
+        Player
+    }
+    
     //게임에 사용되는 동적로딩 이미지 경로
     public static class ResourceImagePath
     {

@@ -59,14 +59,53 @@ public class ClueData
     }
 }
 
+[Serializable]
+public class DialogueData
+{
+    public int Id;
+    public SpeakerType SpeakerType;
+    public string Name;
+    public string Comment;
+    public bool IsUsing;
+    public int IndexNum;
+    public int NextCommentNum;
+    public int EquipCondition; //대화 조건 : 장착 아이템
+    public int EventCondition; //대화 조건 : 이벤트
+    public int StartEventID;
+    public int EndEventID;
+
+    public DialogueData()
+    {
+        
+    }
+    
+    public DialogueData(int id, SpeakerType speakerType, string name, string comment, bool isUsing, int indexNum, int nextCommentNum,
+        int equipCondition, int eventCondition, int startEventID, int endEventID)
+    {
+        Id = id;
+        SpeakerType = speakerType;
+        Name = name;
+        Comment = comment;
+        IsUsing = isUsing;
+        IndexNum = indexNum;
+        NextCommentNum = nextCommentNum;
+        EquipCondition = equipCondition;
+        EventCondition = eventCondition;
+        StartEventID = startEventID;
+        EndEventID = endEventID;
+    }
+}
+
 public class DBManager : Singleton<DBManager>
 {
     private GoogleSheetSO _dataSO; //전체 데이터
     private readonly Dictionary<int, ItemData> _itemDB = new Dictionary<int, ItemData>(); //아이템 데이터
     private readonly Dictionary<int, ClueData> _clueDB = new Dictionary<int, ClueData>(); //단서 데이터
-   
+    private readonly Dictionary<int, DialogueData> _dialogueDB = new Dictionary<int, DialogueData>(); //대화 데이터
+    
     private ItemData _itemDataTemp = new ItemData();
     private ClueData _clueDataTemp = new ClueData();
+    private DialogueData _dialogueDataTemp = new DialogueData();
 
     private void Awake()
     {
@@ -96,6 +135,17 @@ public class DBManager : Singleton<DBManager>
             
             _clueDB.Add(clueTableData.Id, _clueDataTemp);
         }
+        
+        //대화 DB 데이터 초기화
+        foreach (var dialogueTableData in _dataSO.Dialogue_TableList)
+        {
+            _dialogueDataTemp = new DialogueData(dialogueTableData.Id, Enum.Parse<SpeakerType>(dialogueTableData.SpeakerType), dialogueTableData.Name,
+                dialogueTableData.Comment,
+                dialogueTableData.IsUsing, dialogueTableData.IndexNum, dialogueTableData.NextCommentNum, dialogueTableData.EquipCondition, dialogueTableData.EventCondition,
+                dialogueTableData.StartEventID, dialogueTableData.EndEventID);
+            
+            _dialogueDB.Add(dialogueTableData.Id, _dialogueDataTemp);
+        }
     }
 
     public ItemData GetItemData(int itemId)
@@ -120,6 +170,11 @@ public class DBManager : Singleton<DBManager>
         }
         
         return _clueDB[clueId];
+    }
+
+    public Dictionary<int, DialogueData> GetDialogueDatas()
+    {
+        return _dialogueDB;
     }
     
     //아이템이 DB에 존재하는지 확인

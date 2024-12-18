@@ -43,5 +43,11 @@ public class Dialogue_Table
 	public string Comment;
 	public bool IsUsing;
 	public int IndexNum;
+	public int NextCommentNum;
+	public int EquipCondition;
+	public int EventCondition;
+	public int StartEventID;
+	public int EndEventID;
+	public int Reward;
 }
 
