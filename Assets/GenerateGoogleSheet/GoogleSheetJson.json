@@ -133,7 +133,7 @@
       "Comment": "잘 마른 볏짚이다. 이걸로 새끼줄을 만들 수 있을 것 같다.",
       "IsUsing": false,
       "IndexNum": 13,
-      "SpritePath": "Item/Map"
+      "SpritePath": "Item/Straw"
     },
     {
       "Id": 1015,
@@ -142,7 +142,7 @@
       "Comment": "오른쪽으로 꼬아진 새끼줄이다.",
       "IsUsing": false,
       "IndexNum": 13,
-      "SpritePath": "Item/Map"
+      "SpritePath": "Item/StrawRoof"
     },
     {
       "Id": 1016,
@@ -151,7 +151,7 @@
       "Comment": "왼쪽으로 꼬아진 새끼줄이다.",
       "IsUsing": false,
       "IndexNum": 13,
-      "SpritePath": "Item/Map"
+      "SpritePath": "Item/StrawRoof"
     }
   ],
   "Clue_Table": [
@@ -9493,7 +9493,7 @@
     {
       "Id": 10040,
       "EventType": "Tutorial",
-      "Name": "향리댁과 대화하기",
+      "Name": "향리댁과 대화",
       "Comment": "향리댁과 대화를 해보자.",
       "Discription": "",
       "IsClear": false,
