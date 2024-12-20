@@ -140,11 +140,6 @@ public class PlayerController : MonoBehaviour
             ConsoleLogger.Log("대화 버튼 입력");
             DialogueManager.Instance.PrintNextContext(); //다음대사 출력
         }
-
-        if (context.canceled)
-        {
-            DialogueManager.Instance.StopNextContext(); //다음대사 출력 멈추기
-        }
     }
 
     //인벤토리 단축키 입력

@@ -62,10 +62,10 @@ public class DialogueManager : MonoBehaviour
         {
             _talkList.Enqueue(_dialogueDatas[_findData.Id + i]);
         }
-
+        
         //입력 제한
         _playerController.TalkIgnoreInput();
-
+        
         //모든 대사를 출력할때까지 반복
         while (_talkList.Count > 0)
         {
@@ -78,7 +78,7 @@ public class DialogueManager : MonoBehaviour
                 yield return null;
             }
         }
-        
+
         EndTalk(); //대화 종료
         
         yield return null;
@@ -89,6 +89,7 @@ public class DialogueManager : MonoBehaviour
     {
         context.text = ""; //대사 비우기
         printAllcontext = false; //대사 모두 출력 off
+        _isNext = false; //다음대사 출력 off
 
         _tempDialogueData = _talkList.Dequeue(); //이번에 출력할 대사 뽑기
         dialoguePanel.SetActive(true);
