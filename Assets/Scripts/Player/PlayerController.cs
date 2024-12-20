@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
     private IPortalable _portalScr;
     private bool _canUsePortal = true; //포탈 사용가능 여부    
 
-
     //변수 : 이동관련
     private Vector2 _playerMoveDirection; //플레이어의 이동 방향
 
@@ -27,7 +26,7 @@ public class PlayerController : MonoBehaviour
 
     //변수 : 상호작용 관련
     private Iinteractable _interactObject; //상호 작용 가능한 오브젝트
-
+    
     private void Awake()
     {
         Init();
@@ -139,6 +138,12 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             ConsoleLogger.Log("대화 버튼 입력");
+            DialogueManager.Instance.PrintNextContext(); //다음대사 출력
+        }
+
+        if (context.canceled)
+        {
+            DialogueManager.Instance.StopNextContext(); //다음대사 출력 멈추기
         }
     }
 
@@ -267,6 +272,28 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Move"].Enable();
         _playerInput.actions["Map"].Enable();
     }
+    
+    //대화상태일 경우 입력 무시
+    public void TalkIgnoreInput()
+    {
+        _playerInput.actions["Interaction"].Disable();
+        _playerInput.actions["Inventory"].Disable();
+        _playerInput.actions["Option"].Disable();
+        _playerInput.actions["Portal"].Disable();
+        _playerInput.actions["Move"].Disable();
+        _playerInput.actions["Map"].Disable();
+    }
+    
+    //대화상태일 경우 입력 무시 해제
+    public void ReleaseTalkIgnoreInput()
+    {
+        _playerInput.actions["Interaction"].Enable();
+        _playerInput.actions["Inventory"].Enable();
+        _playerInput.actions["Option"].Enable();
+        _playerInput.actions["Portal"].Enable();
+        _playerInput.actions["Move"].Enable();
+        _playerInput.actions["Map"].Enable();
+    }
 
     //포탈 검출하기
     private void DetectPortal()
@@ -278,7 +305,7 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(transform.position, Vector2.up * 1f, Color.red);
         RaycastHit2D portalHit = _raycastHit2Ds.FirstOrDefault(hit =>
             hit.collider != null && hit.collider.gameObject.layer == ObjectLayer.PortalLayer);
-
+        
         if (portalHit.collider != null)
         {
             _usePortal = portalHit.collider.gameObject; //사용할 포탈에 등록
