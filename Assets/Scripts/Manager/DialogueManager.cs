@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using TMPro;
 using UnityEngine;
 
@@ -26,6 +27,7 @@ public class DialogueManager : MonoBehaviour
     //변수 : 대화관련
     private DialogueData _tempDialogueData;
     private bool printAllcontext; //모든 대사 출력하기
+    private StringBuilder _contextSb = new StringBuilder();//대사 출력용 스트링빌더
 
 
     private void Awake()
@@ -105,10 +107,27 @@ public class DialogueManager : MonoBehaviour
                 break;
             }
             
-            context.text += _tempDialogueData.Comment[i];
+            //컬러 기호가 있는지 체크하기
+            switch (_tempDialogueData.Comment[i])
+            {
+                default:
+                    _contextSb.Append(_tempDialogueData.Comment[i]);
+                    break;
+                
+                case 'ⓦ' :
+                    _contextSb.Append("</b>").Append("<color=#ffffff>");
+                    break;
+                
+                case 'ⓡ' :
+                    _contextSb.Append("<color=#850000>").Append("<b>");
+                    break;
+            }
+            
+            context.text = _contextSb.ToString();
             yield return _textWaitForSeconds; //텍스트 딜레이
         }
 
+        _contextSb.Clear();
         yield return null;
     }
 
@@ -174,5 +193,11 @@ public class DialogueManager : MonoBehaviour
         }
 
         return _findData;
+    }
+
+    //컬러기호 텍스트 색 변경하기
+    private string ReplaceColorMark(string context_)
+    {
+        return null;
     }
 }
