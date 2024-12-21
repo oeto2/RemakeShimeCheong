@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -16,7 +17,10 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI context;
     public TextMeshProUGUI nameText;
     public float textDelay = 0.1f;
-
+    public Image portrait_Left;
+    public Image portrait_Right;
+    public Sprite[] portraits;
+    
     private WaitForSeconds _textWaitForSeconds;
 
     private Queue<DialogueData> _talkList = new Queue<DialogueData>(); //대화 목록
@@ -28,8 +32,12 @@ public class DialogueManager : MonoBehaviour
     private DialogueData _tempDialogueData;
     private bool printAllcontext; //모든 대사 출력하기
     private StringBuilder _contextSb = new StringBuilder();//대사 출력용 스트링빌더
-
-
+    private string _replaceText; //컬러코드 적용 후 텍스트
+    
+    //변수 : 초상화 관련
+    private Color32 darkPortraitColor = new Color32(90,90,90,255);
+    private Color32 originPortraitColor = new Color32(255,255,255,255);
+    
     private void Awake()
     {
         if (Instance == null)
@@ -94,6 +102,8 @@ public class DialogueManager : MonoBehaviour
         _isNext = false; //다음대사 출력 off
 
         _tempDialogueData = _talkList.Dequeue(); //이번에 출력할 대사 뽑기
+        ChangePortrait(_tempDialogueData.Name); //인물 초상화 변경
+        _replaceText = GetReplaceColorMarkText(_tempDialogueData.Comment);
         dialoguePanel.SetActive(true);
         nameText.text = _tempDialogueData.Name;
 
@@ -103,7 +113,7 @@ public class DialogueManager : MonoBehaviour
             //대사 전부 출력 기능
             if (printAllcontext)
             {
-                context.text = _tempDialogueData.Comment;
+                context.text = _replaceText;
                 break;
             }
             
@@ -158,7 +168,7 @@ public class DialogueManager : MonoBehaviour
     public void PrintNextContext()
     {
         //대사가 모두 출력되었다면
-        if (context.text == _tempDialogueData.Comment)
+        if (context.text == _replaceText)
         {
             _isNext = true; //다음대사 출력
         }
@@ -194,10 +204,124 @@ public class DialogueManager : MonoBehaviour
 
         return _findData;
     }
-
-    //컬러기호 텍스트 색 변경하기
-    private string ReplaceColorMark(string context_)
+    
+    
+    //컬러코드 변환 대사값 반환
+    private string GetReplaceColorMarkText(string text_)
     {
-        return null;
+        _replaceText = text_;
+        _replaceText = _replaceText.Replace("ⓦ", "</b><color=#ffffff>");
+        _replaceText = _replaceText.Replace("ⓡ", "<color=#850000><b>");
+        
+        return _replaceText;
+    }
+    
+    //인물 초상화 변경하기
+    private void ChangePortrait(string name_)
+    {
+        
+        switch (name_)
+        {
+            case "뺑덕 어멈":
+                portrait_Right.sprite = portraits[0];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(1000, 1000);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "거지":
+                portrait_Right.sprite = portraits[1];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(700, 800);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "승려":
+                portrait_Right.sprite = portraits[2];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(850, 1000);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "귀덕어멈":
+                portrait_Right.sprite = portraits[3];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(1100, 950);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "장사꾼":
+                portrait_Right.sprite = portraits[4];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(950, 950);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "향리 댁 부인":
+                portrait_Right.sprite = portraits[5];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(1000, 1000);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "뱃사공":
+                portrait_Right.sprite = portraits[6];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(780, 780);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "심청":
+                portrait_Right.sprite = portraits[7];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(750, 950);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "송나라 상인":
+                portrait_Right.sprite = portraits[8];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(850, 1100);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "장지언":
+                portrait_Right.sprite = portraits[9];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(750, 950);
+                DarkenLeftPortrait(); //왼쪽 초상화 어둡게
+                ResetRightPortraitColor(); //오른쪽 초상화 색 복구
+                break;
+            
+            case "심학규":
+                portrait_Right.sprite = portraits[10];
+                portrait_Right.rectTransform.sizeDelta = new Vector2(1000, 1000);
+                DarkenRightPortrait(); //오른쪽 초상화 어둡게
+                ResetLeftPortraitColor(); //왼쪽 초상화 색 복구
+                break;
+        }
+    }
+    
+    //왼쪽 초상화 어둡게 설정
+    private void DarkenLeftPortrait()
+    {
+        portrait_Left.color = darkPortraitColor;
+    }
+    
+    //오른쪽 초상화 어둡게 설정
+    private void DarkenRightPortrait()
+    {
+        portrait_Right.color = darkPortraitColor;
+    }
+    
+    //왼쪽 초상화 색 복구
+    private void ResetLeftPortraitColor()
+    {
+        portrait_Left.color = originPortraitColor;
+    }
+    
+    //오른쪽 초상화 색 복구
+    private void ResetRightPortraitColor()
+    {
+        portrait_Right.color = originPortraitColor;
     }
 }

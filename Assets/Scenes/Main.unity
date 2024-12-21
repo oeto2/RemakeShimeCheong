@@ -5063,6 +5063,20 @@ MonoBehaviour:
   context: {fileID: 594681066}
   nameText: {fileID: 1241910512}
   textDelay: 0.02
+  portrait_Left: {fileID: 391067881}
+  portrait_Right: {fileID: 562133218}
+  portraits:
+  - {fileID: 21300000, guid: 95720d30c4fa2b247b85e235ef5860ed, type: 3}
+  - {fileID: 21300000, guid: 1f255b1e70be3f64aa0c63177102dbb6, type: 3}
+  - {fileID: 21300000, guid: 38c9a7e4e86ab04468cf01a939a845c0, type: 3}
+  - {fileID: 21300000, guid: ccd33beeb8b457647bf9b80d4b409d4b, type: 3}
+  - {fileID: 21300000, guid: efcacd1a9b0045d419b5dd2215f5f485, type: 3}
+  - {fileID: 21300000, guid: 3fe7ea992f29a9647bb87e5eea569988, type: 3}
+  - {fileID: 21300000, guid: edde6c8f2a8c46a40aca68be1e726cd1, type: 3}
+  - {fileID: 21300000, guid: 45602b487d3af9941a031483afbfe344, type: 3}
+  - {fileID: 21300000, guid: a27fd3b3262a22649a97516478b81c15, type: 3}
+  - {fileID: 21300000, guid: ea697676cae3d2d4d8c2a95b6d40c5a4, type: 3}
+  - {fileID: 21300000, guid: a5b9f94b401ecaf45ae536d201a10b67, type: 3}
 --- !u!1 &490697752
 GameObject:
   m_ObjectHideFlags: 0
