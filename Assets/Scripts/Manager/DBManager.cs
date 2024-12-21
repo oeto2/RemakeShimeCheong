@@ -73,6 +73,7 @@ public class DialogueData
     public int EventCondition; //대화 조건 : 이벤트
     public int StartEventID;
     public int EndEventID;
+    public int RewardID;
 
     public DialogueData()
     {
@@ -80,7 +81,7 @@ public class DialogueData
     }
     
     public DialogueData(int id, SpeakerType speakerType, string name, string comment, bool isUsing, int indexNum, int nextCommentNum,
-        int equipCondition, int eventCondition, int startEventID, int endEventID)
+        int equipCondition, int eventCondition, int startEventID, int endEventID, int rewardID)
     {
         Id = id;
         SpeakerType = speakerType;
@@ -93,6 +94,7 @@ public class DialogueData
         EventCondition = eventCondition;
         StartEventID = startEventID;
         EndEventID = endEventID;
+        RewardID = rewardID;
     }
 }
 
@@ -142,7 +144,7 @@ public class DBManager : Singleton<DBManager>
             _dialogueDataTemp = new DialogueData(dialogueTableData.Id, Enum.Parse<SpeakerType>(dialogueTableData.SpeakerType), dialogueTableData.Name,
                 dialogueTableData.Comment,
                 dialogueTableData.IsUsing, dialogueTableData.IndexNum, dialogueTableData.NextCommentNum, dialogueTableData.EquipCondition, dialogueTableData.EventCondition,
-                dialogueTableData.StartEventID, dialogueTableData.EndEventID);
+                dialogueTableData.StartEventID, dialogueTableData.EndEventID, dialogueTableData.RewardID);
             
             _dialogueDB.Add(dialogueTableData.Id, _dialogueDataTemp);
         }

@@ -48,6 +48,6 @@ public class Dialogue_Table
 	public int EventCondition;
 	public int StartEventID;
 	public int EndEventID;
-	public int Reward;
+	public int RewardID;
 }
 

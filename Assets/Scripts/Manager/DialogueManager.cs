@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager Instance = null;
     private PlayerEquipment _playerEquipment;
     private PlayerController _playerController;
+    private Inventory _inventory;
     private Dictionary<int, DialogueData> _dialogueDatas;
 
     [Header("설정")] public GameObject dialoguePanel;
@@ -58,6 +59,7 @@ public class DialogueManager : MonoBehaviour
         _dialogueDatas = new(DBManager.Instance.GetDialogueDatas());
         _playerEquipment = GameManager.Instance.playerObj.GetComponent<PlayerEquipment>();
         _playerController = GameManager.Instance.playerObj.GetComponent<PlayerController>();
+        _inventory = UIManager.Instance.GetPopupObject<InventoryPopup>().GetComponent<Inventory>();
         _textWaitForSeconds = new WaitForSeconds(textDelay);
     }
 
@@ -103,6 +105,7 @@ public class DialogueManager : MonoBehaviour
 
         _tempDialogueData = _talkList.Dequeue(); //이번에 출력할 대사 뽑기
         ChangePortrait(_tempDialogueData.Name); //인물 초상화 변경
+        _inventory.GetClue(_tempDialogueData.RewardID); //단서 획득
         _replaceText = GetReplaceColorMarkText(_tempDialogueData.Comment);
         dialoguePanel.SetActive(true);
         nameText.text = _tempDialogueData.Name;

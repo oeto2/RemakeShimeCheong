@@ -127,6 +127,11 @@ public class Inventory : MonoBehaviour
     //단서 획득
     public void GetClue(int clueId)
     {
+        if (clueId == 0)
+        {
+            return;
+        }
+        
         //해당 ID의 단서 데이터 존재하지 않거나
         if (!DBManager.Instance.CheckContainsClue(clueId))
         {
@@ -205,6 +210,11 @@ public class Inventory : MonoBehaviour
     //인벤토리 단서 데이터 가져오기
     public ClueData GetInventoryClueData(int id)
     {
+        if (id != 0)
+        {
+            return null;
+        }
+        
         //id의 단서을 가지고 있지 않다면
         if (!InventoryClues.ContainsKey(id))
         {
