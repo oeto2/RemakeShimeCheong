@@ -245,6 +245,30 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    
+    //퀘스트 단축키 입력
+    public void OnQuest(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            //퀘스트 팝업이 활성화 중이라면
+            if (UIManager.Instance.IsActiveUI<QuestPopup>())
+            {
+                UIManager.Instance.ClosePopup<QuestPopup>();
+                Cursor.visible = false; //커서 숨기기
+                return;
+            }
+
+            //퀘스트 팝업중에 하나라도 활성화 중이라면
+            if (UIManager.Instance.IsActiveInteractPopup())
+            {
+                UIManager.Instance.CloseAllInteractPopups(); //모든 팝업 종료
+            }
+
+            UIManager.Instance.ShowPopup<QuestPopup>();
+            Cursor.visible = true; //커서 보이기
+        }
+    }
 
     //입력 무시
     public void IgnoreInput()
@@ -255,6 +279,7 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Portal"].Disable();
         _playerInput.actions["Move"].Disable();
         _playerInput.actions["Map"].Disable();
+        _playerInput.actions["Quest"].Disable();
     }
 
     //입력 무시 해제
@@ -266,6 +291,7 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Portal"].Enable();
         _playerInput.actions["Move"].Enable();
         _playerInput.actions["Map"].Enable();
+        _playerInput.actions["Quest"].Enable();
     }
     
     //대화상태일 경우 입력 무시
@@ -277,6 +303,7 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Portal"].Disable();
         _playerInput.actions["Move"].Disable();
         _playerInput.actions["Map"].Disable();
+        _playerInput.actions["Quest"].Disable();
     }
     
     //대화상태일 경우 입력 무시 해제
@@ -288,6 +315,7 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Portal"].Enable();
         _playerInput.actions["Move"].Enable();
         _playerInput.actions["Map"].Enable();
+        _playerInput.actions["Quest"].Enable();
     }
 
     //포탈 검출하기
