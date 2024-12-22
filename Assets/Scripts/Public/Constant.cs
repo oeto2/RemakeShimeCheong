@@ -24,6 +24,13 @@ namespace Constants
         Player
     }
     
+    //이벤트 타입
+    public enum EventType
+    {
+        Tutorial,
+        Main
+    }
+    
     //게임에 사용되는 동적로딩 이미지 경로
     public static class ResourceImagePath
     {

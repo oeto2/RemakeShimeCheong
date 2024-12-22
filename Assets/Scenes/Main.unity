@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAccessGoogleSheet: 1
   googleSheetUrl: https://script.google.com/macros/s/AKfycbzsOZtbjXApC41N7zrzQk2YzdVwINHB5wbpxZlV1yV93cA8kZyVb1wdClafnNOuMicw/exec
-  availSheets: Item_Table/Clue_Table/Dialogue_Table
+  availSheets: Item_Table/Clue_Table/Dialogue_Table/Event_Table
   generateFolderPath: /GenerateGoogleSheet
   googleSheetSO: {fileID: 11400000, guid: d708d9259816de14bbf3e840709f6c2f, type: 2}
 --- !u!4 &131390502

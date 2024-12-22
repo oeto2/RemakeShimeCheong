@@ -15,10 +15,10 @@ public class ItemData
 
     public ItemData()
     {
-        
     }
-    
-    public ItemData(int id, ObjectType objectType, string name, string comment, bool isUsing, int indexNum, string spritePath)
+
+    public ItemData(int id, ObjectType objectType, string name, string comment, bool isUsing, int indexNum,
+        string spritePath)
     {
         Id = id;
         ObjectType = objectType;
@@ -44,10 +44,10 @@ public class ClueData
 
     public ClueData()
     {
-        
     }
-    
-    public ClueData(int id, ObjectType objectType, string name, string comment, bool isUsing, int indexNum, string spritePath)
+
+    public ClueData(int id, ObjectType objectType, string name, string comment, bool isUsing, int indexNum,
+        string spritePath)
     {
         Id = id;
         ObjectType = objectType;
@@ -77,10 +77,10 @@ public class DialogueData
 
     public DialogueData()
     {
-        
     }
-    
-    public DialogueData(int id, SpeakerType speakerType, string name, string comment, bool isUsing, int indexNum, int nextCommentNum,
+
+    public DialogueData(int id, SpeakerType speakerType, string name, string comment, bool isUsing, int indexNum,
+        int nextCommentNum,
         int equipCondition, int eventCondition, int startEventID, int endEventID, int rewardID)
     {
         Id = id;
@@ -98,21 +98,51 @@ public class DialogueData
     }
 }
 
+[Serializable]
+public class EventData
+{
+    public int Id;
+    public EventType EventType;
+    public string Name;
+    public string Comment;
+    public string Description;
+    public bool IsClear;
+    public int IndexNum;
+
+    public EventData()
+    {
+    }
+
+    public EventData(int id, EventType eventType, string name, string comment, string description, bool isClear,
+        int indexNum)
+    {
+        Id = id;
+        EventType = eventType;
+        Name = name;
+        Comment = comment;
+        Description = description;
+        IsClear = isClear;
+        IndexNum = indexNum;
+    }
+}
+
 public class DBManager : Singleton<DBManager>
 {
     private GoogleSheetSO _dataSO; //전체 데이터
     private readonly Dictionary<int, ItemData> _itemDB = new Dictionary<int, ItemData>(); //아이템 데이터
     private readonly Dictionary<int, ClueData> _clueDB = new Dictionary<int, ClueData>(); //단서 데이터
     private readonly Dictionary<int, DialogueData> _dialogueDB = new Dictionary<int, DialogueData>(); //대화 데이터
-    
+    private readonly Dictionary<int, EventData> _eventDB = new Dictionary<int, EventData>(); //이벤트 데이터
+
     private ItemData _itemDataTemp = new ItemData();
     private ClueData _clueDataTemp = new ClueData();
     private DialogueData _dialogueDataTemp = new DialogueData();
+    private EventData _eventDataTemp = new EventData();
 
     private void Awake()
     {
         _dataSO = ResourceManager.Instance.Load<GoogleSheetSO>("DataSO/GoogleSheetSO");
-        
+
         Init();
     }
 
@@ -121,32 +151,47 @@ public class DBManager : Singleton<DBManager>
         //아이템 DB 데이터 초기화
         foreach (var itemTableData in _dataSO.Item_TableList)
         {
-            _itemDataTemp = new ItemData(itemTableData.Id, Enum.Parse<ObjectType>(itemTableData.ObjectType), itemTableData.Name,
+            _itemDataTemp = new ItemData(itemTableData.Id, Enum.Parse<ObjectType>(itemTableData.ObjectType),
+                itemTableData.Name,
                 itemTableData.Comment,
                 itemTableData.IsUsing, itemTableData.IndexNum, itemTableData.SpritePath);
-            
+
             _itemDB.Add(itemTableData.Id, _itemDataTemp);
         }
-        
+
         //단서 DB 데이터 초기화
         foreach (var clueTableData in _dataSO.Clue_TableList)
         {
-            _clueDataTemp = new ClueData(clueTableData.Id, Enum.Parse<ObjectType>(clueTableData.ObjectType), clueTableData.Name,
+            _clueDataTemp = new ClueData(clueTableData.Id, Enum.Parse<ObjectType>(clueTableData.ObjectType),
+                clueTableData.Name,
                 clueTableData.Comment,
                 clueTableData.IsUsing, clueTableData.IndexNum, clueTableData.SpritePath);
-            
+
             _clueDB.Add(clueTableData.Id, _clueDataTemp);
         }
-        
+
         //대화 DB 데이터 초기화
         foreach (var dialogueTableData in _dataSO.Dialogue_TableList)
         {
-            _dialogueDataTemp = new DialogueData(dialogueTableData.Id, Enum.Parse<SpeakerType>(dialogueTableData.SpeakerType), dialogueTableData.Name,
+            _dialogueDataTemp = new DialogueData(dialogueTableData.Id,
+                Enum.Parse<SpeakerType>(dialogueTableData.SpeakerType), dialogueTableData.Name,
                 dialogueTableData.Comment,
-                dialogueTableData.IsUsing, dialogueTableData.IndexNum, dialogueTableData.NextCommentNum, dialogueTableData.EquipCondition, dialogueTableData.EventCondition,
+                dialogueTableData.IsUsing, dialogueTableData.IndexNum, dialogueTableData.NextCommentNum,
+                dialogueTableData.EquipCondition, dialogueTableData.EventCondition,
                 dialogueTableData.StartEventID, dialogueTableData.EndEventID, dialogueTableData.RewardID);
-            
+
             _dialogueDB.Add(dialogueTableData.Id, _dialogueDataTemp);
+        }
+
+        //이벤트 DB 데이터 초기화
+        foreach (var eventTableData in _dataSO.Event_TableList)
+        {
+            _eventDataTemp = new EventData(eventTableData.Id, Enum.Parse<EventType>(eventTableData.EventType),
+                eventTableData.Name, eventTableData.Comment,
+                eventTableData.Description, eventTableData.IsClear,
+                eventTableData.IndexNum);
+
+            _eventDB.Add(eventTableData.Id, _eventDataTemp);
         }
     }
 
@@ -158,10 +203,10 @@ public class DBManager : Singleton<DBManager>
             ConsoleLogger.LogError($"ID:{itemId}의 아이템 데이터를 찾을 수 없습니다.");
             return null;
         }
-        
+
         return _itemDB[itemId];
     }
-    
+
     public ClueData GetClueData(int clueId)
     {
         //해당 ID의 데이터가 존재하지 않다면 
@@ -170,7 +215,7 @@ public class DBManager : Singleton<DBManager>
             ConsoleLogger.LogError($"ID:{clueId}의 단서 데이터를 찾을 수 없습니다.");
             return null;
         }
-        
+
         return _clueDB[clueId];
     }
 
@@ -178,13 +223,13 @@ public class DBManager : Singleton<DBManager>
     {
         return _dialogueDB;
     }
-    
+
     //아이템이 DB에 존재하는지 확인
     public bool CheckContainsItem(int itemId)
     {
         return _itemDB.ContainsKey(itemId);
     }
-    
+
     //단서가 DB에 존재하는지 확인
     public bool CheckContainsClue(int clueId)
     {
