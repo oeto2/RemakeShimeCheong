@@ -38,6 +38,12 @@ namespace Constants
         public const string Cursor_Click = "Sprites/CurSor/Brush_Click"; //브러시 클릭
     }
     
+    //게임에 사용되는 동적로딩 프리팹 경로
+    public static class ResourcePrefabPath
+    {
+        public const string QuestTextBox = "QuestText";
+    }
+    
     //게임에 사용되는 오브젝트 레이어 이름
     public class ObjectLayer
     {

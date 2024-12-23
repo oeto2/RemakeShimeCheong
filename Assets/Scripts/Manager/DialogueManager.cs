@@ -106,6 +106,7 @@ public class DialogueManager : MonoBehaviour
         _tempDialogueData = _talkList.Dequeue(); //이번에 출력할 대사 뽑기
         ChangePortrait(_tempDialogueData.Name); //인물 초상화 변경
         _inventory.GetClue(_tempDialogueData.RewardID); //단서 획득
+        EventManager.Instance.ActiveEvent(DBManager.Instance.GetEventData(_tempDialogueData.StartEventID)); //이벤트 시작
         _replaceText = GetReplaceColorMarkText(_tempDialogueData.Comment);
         dialoguePanel.SetActive(true);
         nameText.text = _tempDialogueData.Name;

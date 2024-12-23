@@ -10618,7 +10618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6678a177875d07547b178f1b1720b470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speakerName: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+  speakerName: "\uAC70\uC9C0"
 --- !u!1 &1363300886
 GameObject:
   m_ObjectHideFlags: 0

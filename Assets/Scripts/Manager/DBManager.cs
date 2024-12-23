@@ -224,6 +224,23 @@ public class DBManager : Singleton<DBManager>
         return _dialogueDB;
     }
 
+    public EventData GetEventData(int id)
+    {
+        //0은 더미데이터
+        if (id == 0)
+        {
+            return null;
+        }
+        
+        if (!_eventDB.ContainsKey(id))
+        {
+            ConsoleLogger.LogError($"{id}번 이벤트는 데이터상 존재하지 않습니다.");
+            return null;
+        }
+        
+        return _eventDB[id];
+    }
+
     //아이템이 DB에 존재하는지 확인
     public bool CheckContainsItem(int itemId)
     {
