@@ -18,6 +18,11 @@ public class UIManager : Singleton<UIManager>
             ShowPopup<T>().gameObject.SetActive(false); //팝업 생성
         }
 
+        if (_popups[popupName] == null)
+        {
+            ConsoleLogger.LogError($"{_popups[popupName]}은 존재 사전에 존재하지 않습니다.");
+        }
+        
         return _popups[popupName].gameObject;
     }
     
@@ -118,6 +123,11 @@ public class UIManager : Singleton<UIManager>
         if (!_popups.ContainsKey(uiName))
         {
             ShowPopup<T>().gameObject.SetActive(false); //해당 팝업 생성 후 비활성화
+        }
+        
+        if (_popups[uiName] == null)
+        {
+            ConsoleLogger.LogError($"{_popups[uiName]}은 존재 사전에 존재하지 않습니다.");
         }
 
         var uiComponent = _popups[uiName].GetComponent<T>();

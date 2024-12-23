@@ -6,13 +6,7 @@ using UnityEngine;
 public class EventManager : Singleton<EventManager>
 {
     private Dictionary<int, EventData> _curActiveEvent = new Dictionary<int, EventData>(); //현재 진행중인 이벤트
-    [SerializeField] private QuestPopup _questPopup;
-
-    private void Start()
-    {
-        _questPopup = UIManager.Instance.GetPopupObject<QuestPopup>().GetComponent<QuestPopup>();
-    }
-
+ 
     //이벤트 활성화
     public void ActiveEvent(EventData event_)
     {
@@ -30,9 +24,9 @@ public class EventManager : Singleton<EventManager>
             
             return;
         }
-        
         _curActiveEvent.Add(event_.Id, event_);
-        _questPopup.AddQuest(event_); //퀘스트창 갱신
+        
+        UIManager.Instance.GetUIComponent<QuestPopup>().AddQuest(event_); //퀘스트창 갱신
     }
     
     //현재 진행중인 이벤트가 있는지 확인
