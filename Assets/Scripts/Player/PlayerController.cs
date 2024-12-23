@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         Init();
         GameManager.Instance.Init();
         GameManager.Instance.playerObj = gameObject;
-        // Cursor.visible = false; //커서 숨기기
+        Cursor.visible = false; //커서 숨기기
     }
 
     //초기 설정

@@ -231,17 +231,32 @@ public class DBManager : Singleton<DBManager>
         {
             return null;
         }
-        
+
         if (!_eventDB.ContainsKey(id))
         {
             ConsoleLogger.LogError($"{id}번 이벤트는 데이터상 존재하지 않습니다.");
             return null;
         }
-        
+
         return _eventDB[id];
     }
 
-    //아이템이 DB에 존재하는지 확인
+    public Queue<EventData> GetTutorialEvents()
+    {
+        Queue<EventData> tutorialEvents = new Queue<EventData>();
+        
+        foreach (var eventData in _eventDB)
+        {
+            if (eventData.Value.EventType == EventType.Tutorial)
+            {
+                tutorialEvents.Enqueue(eventData.Value);
+            }
+        }
+
+        return tutorialEvents;
+    }
+
+//아이템이 DB에 존재하는지 확인
     public bool CheckContainsItem(int itemId)
     {
         return _itemDB.ContainsKey(itemId);
