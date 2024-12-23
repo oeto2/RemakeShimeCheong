@@ -63,16 +63,24 @@ public class DialogueManager : MonoBehaviour
         _textWaitForSeconds = new WaitForSeconds(textDelay);
     }
 
-    //다이얼로그 보여주기
-    public IEnumerator StartTalk(string speakerName)
+    //대화 코루틴 호출
+    public void StartTalk(string speakerName)
     {
-        //상황에 맞는 대사 찾기
-        _findData = FindDialogueData(speakerName);
+        StartCoroutine(StartTalkCoroutine(FindDialogueData(speakerName)));
+    }
 
+    public void StartTalk(int dialogueId)
+    {
+        StartCoroutine(StartTalkCoroutine(_dialogueDatas[dialogueId]));
+    }
+    
+    //다이얼로그 보여주기
+    private IEnumerator StartTalkCoroutine(DialogueData dialogueData)
+    {
         //대사 넣기
-        for (int i = 0; i < _findData.NextCommentNum + 1; i++)
+        for (int i = 0; i < dialogueData.NextCommentNum + 1; i++)
         {
-            _talkList.Enqueue(_dialogueDatas[_findData.Id + i]);
+            _talkList.Enqueue(_dialogueDatas[dialogueData.Id + i]);
         }
         
         //입력 제한
@@ -95,7 +103,7 @@ public class DialogueManager : MonoBehaviour
         
         yield return null;
     }
-
+  
     //대사 출력
     private IEnumerator TypeWriter()
     {
@@ -297,9 +305,16 @@ public class DialogueManager : MonoBehaviour
                 break;
             
             case "심학규":
-                portrait_Right.sprite = portraits[10];
-                portrait_Right.rectTransform.sizeDelta = new Vector2(1000, 1000);
+                portrait_Left.sprite = portraits[10];
+                portrait_Left.rectTransform.sizeDelta = new Vector2(1000, 1000);
                 DarkenRightPortrait(); //오른쪽 초상화 어둡게
+                ResetLeftPortraitColor(); //왼쪽 초상화 색 복구
+                break;
+            
+            case "독백":
+                portrait_Left.sprite = portraits[10];
+                portrait_Left.rectTransform.sizeDelta = new Vector2(1000, 1000);
+                portrait_Right.gameObject.SetActive(false); // 오른쪽 초상화 비활성화
                 ResetLeftPortraitColor(); //왼쪽 초상화 색 복구
                 break;
         }
@@ -308,24 +323,28 @@ public class DialogueManager : MonoBehaviour
     //왼쪽 초상화 어둡게 설정
     private void DarkenLeftPortrait()
     {
+        portrait_Left.gameObject.SetActive(true);
         portrait_Left.color = darkPortraitColor;
     }
     
     //오른쪽 초상화 어둡게 설정
     private void DarkenRightPortrait()
     {
+        portrait_Right.gameObject.SetActive(true);
         portrait_Right.color = darkPortraitColor;
     }
     
     //왼쪽 초상화 색 복구
     private void ResetLeftPortraitColor()
     {
+        portrait_Left.gameObject.SetActive(true);
         portrait_Left.color = originPortraitColor;
     }
     
     //오른쪽 초상화 색 복구
     private void ResetRightPortraitColor()
     {
+        portrait_Right.gameObject.SetActive(true);
         portrait_Right.color = originPortraitColor;
     }
 }

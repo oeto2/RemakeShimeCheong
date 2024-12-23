@@ -22,6 +22,12 @@ public class DeungJan : MonoBehaviour, Iinteractable
     {
         if (!isLightOn)
         {
+            //등잔불 퀘스트 진행중일 경우 완료하기
+            if (EventManager.Instance.CheckActiveEvent(10000))
+            {
+                EventManager.Instance.ClearEvent(10000);
+            }
+            
             _animator.SetBool(LightOnParamaterHash, true); //애니메이션 시작
             lightObject.SetActive(true); //불빛 켜기
             isLightOn = true;

@@ -16,6 +16,7 @@ public class FirstEvent : MonoBehaviour
         {
             _playerController.ReleaseIgnoreInput(); //플레이어 입력제한 해제
             UIManager.Instance.ShowPopup<PlayPopup>(); //플레이 팝업 띄우기
+            DialogueManager.Instance.StartTalk(7000); //독백 시작
             gameObject.SetActive(false);
         }
     }
