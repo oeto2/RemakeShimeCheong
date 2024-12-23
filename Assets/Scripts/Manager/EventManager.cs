@@ -44,4 +44,27 @@ public class EventManager : Singleton<EventManager>
 
         return false;
     }
+    
+    //현재 id의 이벤트를 진행중인지 확인
+    public bool CheckActiveEvent(int id)
+    {
+        if (!_curActiveEvent.ContainsKey(id))
+        {
+            return false;
+        }
+
+        return true;
+    }
+    
+    //이벤트 클리어하기
+    public void ClearEvent(int id)
+    {
+        if (!_curActiveEvent.ContainsKey(id))
+        {
+            ConsoleLogger.LogWarning("해당 퀘스트는 진행중이지 않습니다.");
+            return;
+        }
+
+        _curActiveEvent[id].IsClear = true;
+    }
 }
