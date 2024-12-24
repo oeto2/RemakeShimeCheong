@@ -1,6 +1,7 @@
+using System.Collections.Generic;
+using Constants;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class PlayPopup : UIBase
@@ -12,6 +13,7 @@ public class PlayPopup : UIBase
     public GameObject eventTextBox;
     public GameObject timePanel;
 
+    private Dictionary<string, GameObject> eventTexts = new Dictionary<string, GameObject>();
 
     //아이템 장착 UI 새로고침
     public void SetEquipItemUI(string spritePath, string itemName)
@@ -31,5 +33,19 @@ public class PlayPopup : UIBase
     public void ShowTimeBox()
     {
         timePanel.SetActive(true);
+    }
+    
+    //이벤트 텍스트 추가
+    public void AddEventText(string eventName)
+    {
+        eventTexts.Add(eventName, ResourceManager.Instance.Instantiate(ResourcePrefabPath.EventTextBox, eventTextBox.transform));
+        eventTexts[eventName].GetComponent<TextMeshProUGUI>().text = $"- {eventName}";
+    }
+    
+    //이벤트 텍스트 제거
+    public void DeleteEventText(string eventName)
+    {
+        Destroy(eventTexts[eventName]);
+        eventTexts.Remove(eventName);
     }
 }

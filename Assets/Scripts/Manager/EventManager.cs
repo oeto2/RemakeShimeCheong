@@ -35,6 +35,7 @@ public class EventManager : Singleton<EventManager>
         _curActiveEvent.Add(event_.Id, event_);
 
         UIManager.Instance.GetUIComponent<QuestPopup>().AddQuest(event_); //퀘스트창 갱신
+        UIManager.Instance.GetUIComponent<PlayPopup>().AddEventText(_curActiveEvent[event_.Id].Name);
         
         switch (event_.Id)
         {
@@ -93,6 +94,7 @@ public class EventManager : Singleton<EventManager>
 
         _curActiveEvent[id].IsClear = true; //클리어
         UIManager.Instance.GetUIComponent<QuestPopup>().ClearQuest(id); //퀘스트창 갱신
+        UIManager.Instance.GetUIComponent<PlayPopup>().DeleteEventText(_curActiveEvent[id].Name);
         
         switch (id)
         {

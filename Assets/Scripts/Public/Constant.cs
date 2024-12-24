@@ -42,6 +42,7 @@ namespace Constants
     public static class ResourcePrefabPath
     {
         public const string QuestTextBox = "QuestText";
+        public const string EventTextBox = "EventText";
     }
     
     //게임에 사용되는 오브젝트 레이어 이름
