@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using Cinemachine;
 using Constants;
@@ -26,6 +27,9 @@ public class PlayerController : MonoBehaviour
 
     //변수 : 상호작용 관련
     private Iinteractable _interactObject; //상호 작용 가능한 오브젝트
+    
+    //이벤트
+    public event Action OnQuestPopupEvent;
     
     private void Awake()
     {
@@ -265,6 +269,7 @@ public class PlayerController : MonoBehaviour
                 UIManager.Instance.CloseAllInteractPopups(); //모든 팝업 종료
             }
 
+            CallOnQuestPopupEvent();
             UIManager.Instance.ShowPopup<QuestPopup>();
             Cursor.visible = true; //커서 보이기
         }
@@ -368,5 +373,17 @@ public class PlayerController : MonoBehaviour
     {
         cinemachineConfiner2D.m_Damping = 0f;
         cinemachineConfiner2D.transform.position = transform.position;
+    }
+    
+    //봇짐 획득
+    public void GetBotzime()
+    {
+        _playerAnimator.StartAnimation(_playerAnimationData.GetBotzimeParameterHash);
+    }
+    
+    //퀘스트 팝업 이벤트 호출
+    public void CallOnQuestPopupEvent()
+    {
+        OnQuestPopupEvent?.Invoke();
     }
 }

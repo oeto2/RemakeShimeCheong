@@ -6,7 +6,7 @@ using UnityEngine;
 public class EventManager : Singleton<EventManager>
 {
     private Dictionary<int, EventData> _curActiveEvent = new Dictionary<int, EventData>(); //현재 진행중인 이벤트
-
+    
     //이벤트 활성화
     public void ActiveEvent(EventData event_)
     {
@@ -28,7 +28,6 @@ public class EventManager : Singleton<EventManager>
         _curActiveEvent.Add(event_.Id, event_);
 
         UIManager.Instance.GetUIComponent<QuestPopup>().AddQuest(event_); //퀘스트창 갱신
-        
         
         switch (event_.Id)
         {
@@ -86,7 +85,8 @@ public class EventManager : Singleton<EventManager>
         }
 
         _curActiveEvent[id].IsClear = true; //클리어
-
+        UIManager.Instance.GetUIComponent<QuestPopup>().ClearQuest(id); //퀘스트창 갱신
+        
         switch (id)
         {
             //등잔불 켜기
@@ -112,6 +112,7 @@ public class EventManager : Singleton<EventManager>
             //향리댁과 대화하기
             case 10040:
                 Navigation.Instance.gameObject.SetActive(false);
+                DialogueManager.Instance.StartTalk(7060);
                 break;
         }
     }

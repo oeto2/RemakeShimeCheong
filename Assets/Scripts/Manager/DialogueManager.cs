@@ -106,7 +106,7 @@ public class DialogueManager : MonoBehaviour
         }
         
         EndTalk(); //대화 종료
-        
+        EventManager.Instance.ClearEvent(_tempDialogueData.EndEventID); //이벤트 클리어
         yield return null;
     }
   
@@ -128,8 +128,6 @@ public class DialogueManager : MonoBehaviour
          _inventory.GetClue(_tempDialogueData.RewardID); //단서 획득하기
         
         EventManager.Instance.ActiveEvent(DBManager.Instance.GetEventData(_tempDialogueData.StartEventID)); //이벤트 시작
-        EventManager.Instance.ClearEvent(_tempDialogueData.EndEventID); //이벤트 클리어
-
         //한 글자씩 대사 출력
         for (int i = 0; i < _tempDialogueData.Comment.Length; i++)
         {
