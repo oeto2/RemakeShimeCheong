@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,6 +39,10 @@ public class DialogueManager : MonoBehaviour
     //변수 : 초상화 관련
     private Color32 darkPortraitColor = new Color32(90,90,90,255);
     private Color32 originPortraitColor = new Color32(255,255,255,255);
+    
+    //변수 : 이벤트
+    public event Action DialogueStartEvent;
+    public event Action DialogueEndEvent;
     
     private void Awake()
     {
@@ -107,6 +112,8 @@ public class DialogueManager : MonoBehaviour
     //대사 출력
     private IEnumerator TypeWriter()
     {
+        CallDialogueStartEvent(); //대화 시작 후 이벤트 호출
+        
         context.text = ""; //대사 비우기
         printAllcontext = false; //대사 모두 출력 off
         _isNext = false; //다음대사 출력 off
@@ -201,6 +208,7 @@ public class DialogueManager : MonoBehaviour
     //대화 종료
     public void EndTalk()
     {
+        CallDialogueEndEvent(); //대화 종료 후 이벤트 호출
         dialoguePanel.SetActive(false); //대화창 끄기
         _playerController.ReleaseTalkIgnoreInput();//입력무시 해제
     }
@@ -346,5 +354,17 @@ public class DialogueManager : MonoBehaviour
     {
         portrait_Right.gameObject.SetActive(true);
         portrait_Right.color = originPortraitColor;
+    }
+    
+    //이벤트 호출
+    private void CallDialogueStartEvent()
+    {
+        DialogueStartEvent?.Invoke();
+    }
+    
+    //이벤트 호출
+    private void CallDialogueEndEvent()
+    {
+        DialogueEndEvent?.Invoke();
     }
 }
