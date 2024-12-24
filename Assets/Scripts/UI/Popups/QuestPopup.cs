@@ -39,6 +39,12 @@ public class QuestPopup : UIBase
             EventManager.Instance.ClearEvent(id); //이벤트 완료하기
         }
         
+        //존재하지 않는 이벤트일 경우
+        if (!_curActiveQuest.ContainsKey(id))
+        {
+            return;
+        }
+        
         Destroy(_curActiveQuest[id]);
         _curActiveQuest.Remove(id);
     }

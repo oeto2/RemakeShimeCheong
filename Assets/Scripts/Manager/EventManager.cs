@@ -7,6 +7,13 @@ public class EventManager : Singleton<EventManager>
 {
     private Dictionary<int, EventData> _curActiveEvent = new Dictionary<int, EventData>(); //현재 진행중인 이벤트
     
+    //이벤트
+    public event Action StartGetBotzimeEvent;  //봇짐 획득 이벤트 시작
+    public event Action StartGetMapEvent; //지도 획득; 이벤트 시작 
+    
+    //일회성 이벤트 관리
+    private bool _tutorialEnd; //튜토리얼 끝났는지
+    
     //이벤트 활성화
     public void ActiveEvent(EventData event_)
     {
@@ -91,11 +98,13 @@ public class EventManager : Singleton<EventManager>
         {
             //등잔불 켜기
             case 10000:
+                StartGetBotzimeEvent?.Invoke(); 
                 Navigation.Instance.NextNavigation();
                 break;
             
             //봇짐 획득하기
             case 10010:
+                StartGetMapEvent?.Invoke();
                 Navigation.Instance.NextNavigation();
                 break;
             
@@ -112,7 +121,13 @@ public class EventManager : Singleton<EventManager>
             //향리댁과 대화하기
             case 10040:
                 Navigation.Instance.gameObject.SetActive(false);
-                DialogueManager.Instance.StartTalk(7060);
+
+                if (!_tutorialEnd)
+                {
+                    DialogueManager.Instance.StartTalk(7060);
+                    UIManager.Instance.GetUIComponent<PlayPopup>().ShowTimeBox(); //시간 표시하기
+                    _tutorialEnd = true;
+                }
                 break;
         }
     }

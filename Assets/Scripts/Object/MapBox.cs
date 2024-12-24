@@ -1,11 +1,12 @@
 using System;
+using UnityEditor.Searcher;
 using UnityEngine;
 
 public class MapBox : MonoBehaviour, Iinteractable
 {
     private SpriteRenderer _spriteRenderer;
     private Inventory _inventory;
-    
+    private BoxCollider2D _boxCollider2D; 
     
     [Header("Setting")] public int itemId; //획득할 아이템 id
     public Sprite closeBoxSprite; //닫힌 상자 스프라이트
@@ -19,11 +20,18 @@ public class MapBox : MonoBehaviour, Iinteractable
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     private void Start()
     {
+        EventManager.Instance.StartGetMapEvent += EnableGetMap;
         _inventory = UIManager.Instance.GetPopupObject<InventoryPopup>().GetComponent<Inventory>();
+    }
+
+    private void OnDisable()
+    {
+        EventManager.Instance.StartGetMapEvent -= EnableGetMap;
     }
 
     //상호작용 시 
@@ -80,5 +88,11 @@ public class MapBox : MonoBehaviour, Iinteractable
     public void OnPlayerCollision()
     {
         
+    }
+    
+    //지도 획득 가능
+    private void EnableGetMap()
+    {
+        _boxCollider2D.isTrigger = true;
     }
 }

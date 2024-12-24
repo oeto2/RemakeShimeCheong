@@ -9663,7 +9663,7 @@
       "Id": 10010,
       "EventType": "Tutorial",
       "Name": "봇짐 획득",
-      "Comment": "봇짐을 획득해보자. I키를 누르면 봇짐을 열어볼 수 있다.",
+      "Comment": "장롱에서 [F]를 눌러 봇짐을 획득해보자.\n봇짐 획득 후 [I]를 누르면 인벤토리 창을 열 수 있다.",
       "Description": "방안의 장롱에 있는 봇짐을 획득하고 I키를 눌러 인벤토리 창을 열어보자.",
       "IsClear": false,
       "IndexNum": 1
@@ -9672,7 +9672,7 @@
       "Id": 10020,
       "EventType": "Tutorial",
       "Name": "지도 획득",
-      "Comment": "지도를 획득해보자. M키를 눌러 지도를 열어볼 수 있다.",
+      "Comment": "나무상자 앞에서 [F]를 눌러 지도를 획득해보자.\n지도 획득 후 [M]을 누르면 지도를 열 수 있다.",
       "Description": "방안의 나무상자에 지도를 넣었던 기억이 있다. 지도를 획득하고 M키를 눌러 마을 풍경을 확인하자.",
       "IsClear": false,
       "IndexNum": 2
@@ -9681,7 +9681,7 @@
       "Id": 10030,
       "EventType": "Tutorial",
       "Name": "포탈 이동",
-      "Comment": "문앞에서 윗 방향키를 입력하면 맵을 이동할 수 있습니다.",
+      "Comment": "문 앞에서 [W] 또는 [↑]를 입력하면 맵을 이동할 수 있습니다.",
       "Description": "문앞에서 윗방향키를 누르면 맵을 이동할 수 있다. 어서 마당으로 이동하자.",
       "IsClear": false,
       "IndexNum": 4
