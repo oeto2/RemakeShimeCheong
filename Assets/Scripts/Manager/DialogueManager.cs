@@ -173,6 +173,13 @@ public class DialogueManager : MonoBehaviour
             //장착중인 아이템 ID와 같고 대화자 이름이 같은 데이터를 가져옴
             findData = _dialogueDatas.Where(x => x.Value.EquipCondition == _playerEquipment.GetEquipDataID()
                                                  && x.Value.Name == speakerName).Select(x => x.Value).FirstOrDefault();
+            
+            //만약 찾는 데이터가 없을 경우 기본 대사
+            if (findData == null)
+            {
+                findData = _dialogueDatas.Where(x => x.Value.EquipCondition == 100
+                                                     && x.Value.Name == speakerName).Select(x => x.Value).FirstOrDefault();
+            }
         }
 
         //플레이어가 장착한 아이템이 없는 경우
@@ -246,7 +253,7 @@ public class DialogueManager : MonoBehaviour
         {
             case "뺑덕 어멈":
                 portrait_Right.sprite = portraits[0];
-                portrait_Right.rectTransform.transform.position = new Vector3(0, 0, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(1000, 1000);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
@@ -254,7 +261,7 @@ public class DialogueManager : MonoBehaviour
             
             case "거지":
                 portrait_Right.sprite = portraits[1];
-                portrait_Right.rectTransform.transform.position = new Vector3(-43, -132, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(-43, -132, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(700, 800);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
@@ -262,15 +269,15 @@ public class DialogueManager : MonoBehaviour
             
             case "승려":
                 portrait_Right.sprite = portraits[2];
-                portrait_Right.rectTransform.transform.position = new Vector3(0, 0, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(850, 1000);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
                 break;
             
-            case "귀덕어멈":
+            case "귀덕 어멈":
                 portrait_Right.sprite = portraits[3];
-                portrait_Right.rectTransform.transform.position = new Vector3(153, -21, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(153, -21, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(1100, 950);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
@@ -278,7 +285,7 @@ public class DialogueManager : MonoBehaviour
             
             case "장사꾼":
                 portrait_Right.sprite = portraits[4];
-                portrait_Right.rectTransform.transform.position = new Vector3(0, 0, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(950, 950);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
@@ -286,7 +293,7 @@ public class DialogueManager : MonoBehaviour
             
             case "향리 댁 부인":
                 portrait_Right.sprite = portraits[5];
-                portrait_Right.rectTransform.transform.position = new Vector3(0, 0, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(1000, 1000);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
@@ -294,7 +301,7 @@ public class DialogueManager : MonoBehaviour
             
             case "뱃사공":
                 portrait_Right.sprite = portraits[6];
-                portrait_Right.rectTransform.transform.position = new Vector3(0, 0, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(780, 780);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
@@ -302,7 +309,7 @@ public class DialogueManager : MonoBehaviour
             
             case "심청":
                 portrait_Right.sprite = portraits[7];
-                portrait_Right.rectTransform.transform.position = new Vector3(0, 0, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(750, 950);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
@@ -310,7 +317,7 @@ public class DialogueManager : MonoBehaviour
             
             case "송나라 상인":
                 portrait_Right.sprite = portraits[8];
-                portrait_Right.rectTransform.transform.position = new Vector3(0, 0, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(850, 1100);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
@@ -318,7 +325,7 @@ public class DialogueManager : MonoBehaviour
             
             case "장지언":
                 portrait_Right.sprite = portraits[9];
-                portrait_Right.rectTransform.transform.position = new Vector3(0, 0, 0); 
+                portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(750, 950);
                 DarkenLeftPortrait(); //왼쪽 초상화 어둡게
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구

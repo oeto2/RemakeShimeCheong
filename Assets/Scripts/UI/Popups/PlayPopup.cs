@@ -45,6 +45,9 @@ public class PlayPopup : UIBase
     //이벤트 텍스트 제거
     public void DeleteEventText(string eventName)
     {
+        if (!eventTexts.ContainsKey(eventName))
+            return;
+        
         Destroy(eventTexts[eventName]);
         eventTexts.Remove(eventName);
     }
