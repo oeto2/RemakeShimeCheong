@@ -574,8 +574,8 @@ MonoBehaviour:
     NextCommentNum: 0
     EquipCondition: 2000
     EventCondition: 0
-    StartEventID: 0
-    EndEventID: 0
+    StartEventID: 10050
+    EndEventID: 10040
     RewardID: 2001
   - Id: 5012
     SpeakerType: Npc
@@ -8931,12 +8931,134 @@ MonoBehaviour:
     StartEventID: 10000
     EndEventID: 0
     RewardID: 0
+  - Id: 7010
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E6\uCCAD\uC774\uB97C \uC548\uBCF8\uC9C0 \uC774\uD2C0\uC774 \uC9C0\uB0AC\uB2E4,
+      \uAC04\uB9CC\uC758 \uC678\uCD9C\uC774\uB2C8 \uB098\uAC08 \uCC44\uBE44\uB97C
+      \uD574\uBCF4\uC790."
+    IsUsing: 0
+    IndexNum: 871
+    NextCommentNum: 1
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 0
+    RewardID: 0
+  - Id: 7011
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E6\uC6B0\uC120 \uBD07\uC9D0\uC744 \uBA3C\uC800 \uCC59\uACA8\uC57C\uACA0\uB2E4.
+      \u24E1\uBD07\uC9D0\uC740 \uC7A5\uB871\uC5D0 \uC788\uB2E4."
+    IsUsing: 0
+    IndexNum: 872
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 10010
+    EndEventID: 0
+    RewardID: 0
+  - Id: 7020
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E1I\uD0A4\uB97C \uB204\uB974\uBA74 \u24E6\uD68D\uB4DD\uD55C \uBB3C\uAC74
+      \uD639\uC740 \uB300\uD654\uB97C \uD1B5\uD574 \uC5BB\uC740 \uB2E8\uC11C\uB97C
+      \uBD07\uC9D0\uC744 \uC5F4\uC5B4\uC11C \uD655\uC778\uD560 \uC218 \uC788\uB2E4."
+    IsUsing: 0
+    IndexNum: 873
+    NextCommentNum: 1
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 0
+    RewardID: 0
+  - Id: 7021
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E6\uB2E4\uC74C\uC740 \uC9C0\uB3C4\uB97C \uCC59\uAE30\uC790. \uC9C0\uB3C4\uB294
+      \u24E1\uBC29\uC548\uC758 \uC0C1\uC790\uC548\uC5D0 \uC788\uB2E4."
+    IsUsing: 0
+    IndexNum: 874
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 10020
+    EndEventID: 0
+    RewardID: 0
+  - Id: 7030
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E6\uBAA8\uB4E0 \uCC44\uBE44\uB97C \uB9C8\uCCE4\uB2E4. \uC774\uC81C
+      \uB9C8\uB2F9\uC73C\uB85C \uC774\uB3D9\uD558\uC790."
+    IsUsing: 0
+    IndexNum: 875
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 10030
+    EndEventID: 0
+    RewardID: 0
+  - Id: 7040
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E6\uCCAD\uC774\uAC00 \uD5A5\uB9AC\uB301\uC5D0 \uC218\uC591\uB538\uB85C
+      \uB4E4\uC5B4\uAC00\uB2E4\uB2C8..\n\uD5A5\uB9AC\uB301 \uBD80\uC778\uACFC \uB300\uD654\uB97C
+      \uD574\uBD10\uC57C\uD560 \uAC83 \uAC19\uB2E4."
+    IsUsing: 0
+    IndexNum: 876
+    NextCommentNum: 1
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 0
+    RewardID: 0
+  - Id: 7041
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E1\uD5A5\uB9AC\uB301\uC740 \uB9C8\uC744 \uC88C\uCE21\uC5D0 \uC788\uB2E4."
+    IsUsing: 0
+    IndexNum: 877
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 10040
+    EndEventID: 0
+    RewardID: 0
+  - Id: 7050
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E6\uBD07\uC9D0\uC5D0\uC11C \uBB3C\uAC74 \uB610\uB294 \uB2E8\uC11C\uB97C
+      \uC120\uD0DD\uD574\uC11C \u24E1\uB300\uD654\uD560 \uC8FC\uC81C\uB97C \uACE0\uB97C
+      \uC218 \uC788\uB2E4."
+    IsUsing: 0
+    IndexNum: 878
+    NextCommentNum: 1
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 0
+    RewardID: 0
+  - Id: 7051
+    SpeakerType: Npc
+    Name: "\uB3C5\uBC31"
+    Comment: "\u24E6 \uC120\uD0DD\uB41C \uB300\uD654 \uC8FC\uC81C\uB294 \uC88C\uCE21
+      \uD558\uB2E8 UI\uB97C \uD1B5\uD574 \uD655\uC778 \uD560 \uC218 \uC788\uB2E4.\n\u24E1\uC9C0\uAE08\uC740
+      \uD5A5\uB9AC\uB301 \uC218\uC591\uB538 \uB2E8\uC11C\uB97C \uC8FC\uC81C\uB85C
+      \uB300\uD654\uD574\uBCF4\uC790. "
+    IsUsing: 0
+    IndexNum: 879
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 0
+    RewardID: 0
   - Id: 10000
     SpeakerType: Npc
     Name: "\uC784\uC2DC"
     Comment: "\u24E6\uC784\uC2DC"
     IsUsing: 0
-    IndexNum: 871
+    IndexNum: 880
     NextCommentNum: 0
     EquipCondition: 0
     EventCondition: 0
@@ -8947,7 +9069,7 @@ MonoBehaviour:
   - Id: 10000
     EventType: Tutorial
     Name: "\uB4F1\uC794\uBD88 \uCF1C\uAE30"
-    Comment: "\uB4F1\uC794\uBD88\uC744 \uCC3E\uC544\uC11C \uC0C1\uD638\uC791\uC6A9
+    Comment: "\uB4F1\uC794\uBD88\uC744 \uCC3E\uC544\uC11C \uC0C1\uD638\uC791\uC6A9[F]
       \uD574\uBCF4\uC790."
     Description: "\uB4F1\uC794\uBD88\uC744 \uCF1C\uC11C \uCCAD\uC774\uAC00 \uB0A8\uACA8
       \uB193\uC740 \uCABD\uC9C0\uB97C \uD655\uC778\uD574\uBCF4\uC790."
@@ -8956,8 +9078,8 @@ MonoBehaviour:
   - Id: 10010
     EventType: Tutorial
     Name: "\uBD07\uC9D0 \uD68D\uB4DD"
-    Comment: "\uBD07\uC9D0\uC744 \uD68D\uB4DD\uD558\uACE0 I\uD0A4\uB97C \uB20C\uB7EC
-      \uC778\uBCA4\uD1A0\uB9AC \uCC3D\uC744 \uC5F4\uC5B4\uBCF4\uC790."
+    Comment: "\uBD07\uC9D0\uC744 \uD68D\uB4DD\uD574\uBCF4\uC790. I\uD0A4\uB97C \uB204\uB974\uBA74
+      \uBD07\uC9D0\uC744 \uC5F4\uC5B4\uBCFC \uC218 \uC788\uB2E4."
     Description: "\uBC29\uC548\uC758 \uC7A5\uB871\uC5D0 \uC788\uB294 \uBD07\uC9D0\uC744
       \uD68D\uB4DD\uD558\uACE0 I\uD0A4\uB97C \uB20C\uB7EC \uC778\uBCA4\uD1A0\uB9AC
       \uCC3D\uC744 \uC5F4\uC5B4\uBCF4\uC790."
@@ -8966,8 +9088,8 @@ MonoBehaviour:
   - Id: 10020
     EventType: Tutorial
     Name: "\uC9C0\uB3C4 \uD68D\uB4DD"
-    Comment: "\uC9C0\uB3C4\uB97C \uD68D\uB4DD\uD558\uACE0 M\uD0A4\uB97C \uB20C\uB7EC
-      \uC9C0\uB3C4\uB97C \uC5F4\uC5B4\uBCF4\uC790."
+    Comment: "\uC9C0\uB3C4\uB97C \uD68D\uB4DD\uD574\uBCF4\uC790. M\uD0A4\uB97C \uB20C\uB7EC
+      \uC9C0\uB3C4\uB97C \uC5F4\uC5B4\uBCFC \uC218 \uC788\uB2E4."
     Description: "\uBC29\uC548\uC758 \uB098\uBB34\uC0C1\uC790\uC5D0 \uC9C0\uB3C4\uB97C
       \uB123\uC5C8\uB358 \uAE30\uC5B5\uC774 \uC788\uB2E4. \uC9C0\uB3C4\uB97C \uD68D\uB4DD\uD558\uACE0
       M\uD0A4\uB97C \uB20C\uB7EC \uB9C8\uC744 \uD48D\uACBD\uC744 \uD655\uC778\uD558\uC790."
@@ -8976,8 +9098,8 @@ MonoBehaviour:
   - Id: 10030
     EventType: Tutorial
     Name: "\uD3EC\uD0C8 \uC774\uB3D9"
-    Comment: "\uBB38\uC55E\uC5D0\uC11C \uC717 \uBC29\uD5A5\uD0A4\uB97C \uC785\uB825\uD574\uC11C
-      \uB9C8\uB2F9\uC73C\uB85C \uC774\uB3D9\uD558\uC790"
+    Comment: "\uBB38\uC55E\uC5D0\uC11C \uC717 \uBC29\uD5A5\uD0A4\uB97C \uC785\uB825\uD558\uBA74
+      \uB9F5\uC744 \uC774\uB3D9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
     Description: "\uBB38\uC55E\uC5D0\uC11C \uC717\uBC29\uD5A5\uD0A4\uB97C \uB204\uB974\uBA74
       \uB9F5\uC744 \uC774\uB3D9\uD560 \uC218 \uC788\uB2E4. \uC5B4\uC11C \uB9C8\uB2F9\uC73C\uB85C
       \uC774\uB3D9\uD558\uC790."
@@ -8986,7 +9108,8 @@ MonoBehaviour:
   - Id: 10040
     EventType: Tutorial
     Name: "\uD5A5\uB9AC\uB301\uACFC \uB300\uD654"
-    Comment: "\uD5A5\uB9AC\uB301\uACFC \uB300\uD654\uB97C \uD574\uBCF4\uC790."
+    Comment: "\uBD07\uC9D0\uC744 \uC5F4\uACE0[I], \uB2E8\uC11C \uD0ED\uC5D0\uC11C
+      \uD5A5\uB9AC\uB301 \uC218\uC591\uB538\uC744 \uC120\uD0DD \uD6C4 \uB300\uD654\uD574\uBCF4\uC790."
     Description: "\uD5A5\uB9AC\uB301\uC774\uB77C\uBA74 \uCCAD\uC774\uAC00 \uC5B4\uB514\uB85C
       \uAC14\uB294\uC9C0 \uC54C\uACE0 \uC788\uC9C0 \uC54A\uC744\uAE4C?"
     IsClear: 0

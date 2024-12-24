@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 2592108970356957278}
   - component: {fileID: 6004204007468339990}
   - component: {fileID: 2701507429204013763}
-  - component: {fileID: 5376856923731557618}
-  - component: {fileID: 859882883464375235}
   m_Layer: 5
   m_Name: InventoryPanel
   m_TagString: Untagged
@@ -82,38 +80,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5376856923731557618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862662399763227797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13babb49cf766474588c3c14bae8623c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _closeButton: {fileID: 4902476750726468846}
-  _uiType: 1
---- !u!114 &859882883464375235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862662399763227797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 044eec3a55cfcb74082da700839e4265, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slotsObject: {fileID: 4442427242110931421}
-  descriptionText: {fileID: 6990776362103953302}
-  itemTab: {fileID: 6535454302331811070}
-  clueTab: {fileID: 2888058873911274909}
-  curInventoryTab: 0
-  slots: []
 --- !u!1 &954621114454661235
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,7 +865,7 @@ RectTransform:
   m_Children:
   - {fileID: 2592108970356957278}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

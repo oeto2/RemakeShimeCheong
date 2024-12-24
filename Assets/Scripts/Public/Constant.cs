@@ -51,5 +51,6 @@ namespace Constants
         public const int ItemLayer = 7;
         public const int InteractableObjectLayer = 8;
         public const int NPCLayer = 9;
+        public const int PlayerLayer = 10;
     }
 }

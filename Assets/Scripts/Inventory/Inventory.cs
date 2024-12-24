@@ -141,7 +141,6 @@ public class Inventory : MonoBehaviour
         //이미 보유중이라면
         if (InventoryClues.ContainsKey(clueId))
         {
-            ConsoleLogger.LogWarning($"{clueId}번 단서를 이미 보유하고 있습니다");
             return;
         }
         

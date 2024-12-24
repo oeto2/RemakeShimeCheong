@@ -49,6 +49,12 @@ public class MapBox : MonoBehaviour, Iinteractable
                 $"{itemData.Name} 획득");
             _toastMessage.StartOnMessageAnimation();
             
+            
+            //대화 시작
+            DialogueManager.Instance.StartTalk(7030);
+            //이벤트 클리어
+            EventManager.Instance.ClearEvent(10030);
+            
             //중복 획득 방지
             hasAcquiredMap = true;
             

@@ -74,6 +74,11 @@ public class EventManager : Singleton<EventManager>
     //이벤트 클리어하기
     public void ClearEvent(int id)
     {
+        if (id == 0)
+        {
+            return;
+        }
+         
         if (!_curActiveEvent.ContainsKey(id))
         {
             ConsoleLogger.LogWarning("해당 퀘스트는 진행중이지 않습니다.");
@@ -106,6 +111,7 @@ public class EventManager : Singleton<EventManager>
             
             //향리댁과 대화하기
             case 10040:
+                Navigation.Instance.gameObject.SetActive(false);
                 break;
         }
     }

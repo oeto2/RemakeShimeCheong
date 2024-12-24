@@ -103,7 +103,6 @@ public class DialogueManager : MonoBehaviour
                 yield return null;
             }
         }
-
         EndTalk(); //대화 종료
         
         yield return null;
@@ -120,11 +119,14 @@ public class DialogueManager : MonoBehaviour
 
         _tempDialogueData = _talkList.Dequeue(); //이번에 출력할 대사 뽑기
         ChangePortrait(_tempDialogueData.Name); //인물 초상화 변경
-        _inventory.GetClue(_tempDialogueData.RewardID); //단서 획득
-        EventManager.Instance.ActiveEvent(DBManager.Instance.GetEventData(_tempDialogueData.StartEventID)); //이벤트 시작
+        
         _replaceText = GetReplaceColorMarkText(_tempDialogueData.Comment);
         dialoguePanel.SetActive(true);
-        nameText.text = _tempDialogueData.Name;
+        ChangeDialogueSpeakerName(_tempDialogueData.Name); //다이얼로그 이름 변경
+        
+        _inventory.GetClue(_tempDialogueData.RewardID); //단서 획득
+        EventManager.Instance.ActiveEvent(DBManager.Instance.GetEventData(_tempDialogueData.StartEventID)); //이벤트 시작
+        EventManager.Instance.ClearEvent(_tempDialogueData.EndEventID); //이벤트 클리어
 
         //한 글자씩 대사 출력
         for (int i = 0; i < _tempDialogueData.Comment.Length; i++)
@@ -208,9 +210,9 @@ public class DialogueManager : MonoBehaviour
     //대화 종료
     public void EndTalk()
     {
-        CallDialogueEndEvent(); //대화 종료 후 이벤트 호출
         dialoguePanel.SetActive(false); //대화창 끄기
         _playerController.ReleaseTalkIgnoreInput();//입력무시 해제
+        CallDialogueEndEvent(); //대화 종료 후 이벤트 호출
     }
 
     //현재 진행중인 대화 데이터 얻기
@@ -366,5 +368,17 @@ public class DialogueManager : MonoBehaviour
     private void CallDialogueEndEvent()
     {
         DialogueEndEvent?.Invoke();
+    }
+    
+    //다이얼로그 이름 변경
+    private void ChangeDialogueSpeakerName(string speakerName)
+    {
+        if (speakerName == "독백")
+        {
+            nameText.text = "심학규";
+            return;
+        }
+        
+        nameText.text = speakerName;
     }
 }

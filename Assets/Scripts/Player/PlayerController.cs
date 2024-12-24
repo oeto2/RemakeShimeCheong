@@ -281,6 +281,12 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Map"].Disable();
         _playerInput.actions["Quest"].Disable();
     }
+    
+    //입력 무시하기
+    public void IgnoreInput(string inputName)
+    {
+        _playerInput.actions[inputName].Disable();
+    }
 
     //입력 무시 해제
     public void ReleaseIgnoreInput()
@@ -292,6 +298,12 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Move"].Enable();
         _playerInput.actions["Map"].Enable();
         _playerInput.actions["Quest"].Enable();
+    }
+    
+    //입력 무시 해제
+    public void ReleaseIgnoreInput(string inputName)
+    {
+        _playerInput.actions[inputName].Enable();
     }
     
     //대화상태일 경우 입력 무시
@@ -317,6 +329,9 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Map"].Enable();
         _playerInput.actions["Quest"].Enable();
     }
+    
+    
+   
 
     //포탈 검출하기
     private void DetectPortal()

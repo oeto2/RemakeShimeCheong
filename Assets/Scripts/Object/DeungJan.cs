@@ -26,6 +26,7 @@ public class DeungJan : MonoBehaviour, Iinteractable
             if (EventManager.Instance.CheckActiveEvent(10000))
             {
                 EventManager.Instance.ClearEvent(10000);
+                UIManager.Instance.ShowPopup<NotePopup>();
             }
             
             _animator.SetBool(LightOnParamaterHash, true); //애니메이션 시작
