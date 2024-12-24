@@ -5,7 +5,6 @@ public class MapBox : MonoBehaviour, Iinteractable
 {
     private SpriteRenderer _spriteRenderer;
     private Inventory _inventory;
-    private ToastMessagePopup _toastMessage;
     
     
     [Header("Setting")] public int itemId; //획득할 아이템 id
@@ -25,7 +24,6 @@ public class MapBox : MonoBehaviour, Iinteractable
     private void Start()
     {
         _inventory = UIManager.Instance.GetPopupObject<InventoryPopup>().GetComponent<Inventory>();
-        _toastMessage = UIManager.Instance.GetUIComponent<ToastMessagePopup>();
     }
 
     //상호작용 시 
@@ -42,14 +40,6 @@ public class MapBox : MonoBehaviour, Iinteractable
             _inventory.GetItem(itemId);
             ItemData itemData = _inventory.GetInventoryItemData(itemId);
 
-            //토스트 메세지
-            UIManager.Instance.ShowPopup<ToastMessagePopup>();
-            _toastMessage.StartHideMessageAnimation();
-            _toastMessage.SetToastMessage(ResourceManager.Instance.Load<Sprite>(itemData.SpritePath), itemData.Name,
-                $"{itemData.Name} 획득");
-            _toastMessage.StartOnMessageAnimation();
-            
-            
             //대화 시작
             DialogueManager.Instance.StartTalk(7030);
             //이벤트 클리어

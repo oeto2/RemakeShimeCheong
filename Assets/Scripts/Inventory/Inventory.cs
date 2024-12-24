@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -26,14 +27,17 @@ public class Inventory : MonoBehaviour
 
     private PlayerEquipment _playerEquipment; //플레이어 장비
 
+    private ToastMessagePopup _toastMessage;
     private void Awake()
     {
         itemTab?.onClick.AddListener(ClickItemTap);
         clueTab?.onClick.AddListener(ClickClueTap);
 
         _playerEquipment = GameManager.Instance.playerObj.GetComponent<PlayerEquipment>();
+        _toastMessage = UIManager.Instance.GetUIComponent<ToastMessagePopup>();
+
     }
-    
+
     //아이템 탭 클릭시
     private void ClickItemTap()
     {
@@ -122,6 +126,13 @@ public class Inventory : MonoBehaviour
             slots.Add(slot.GetComponent<Slot>()); //슬롯 추가
             slot.GetComponent<Slot>().Init(InventoryItems[itemId]); //슬롯 세팅    
         }
+        
+        //토스트 메세지
+        UIManager.Instance.ShowPopup<ToastMessagePopup>();
+        _toastMessage.StartHideMessageAnimation();
+        _toastMessage.SetToastMessage(ResourceManager.Instance.Load<Sprite>(InventoryItems[itemId].SpritePath), InventoryItems[itemId].Name,
+            $"{InventoryItems[itemId].Name} 획득");
+        _toastMessage.StartOnMessageAnimation();
     }
     
     //단서 획득
@@ -153,6 +164,14 @@ public class Inventory : MonoBehaviour
             slots.Add(slot.GetComponent<Slot>()); //슬롯 추가
             slot.GetComponent<Slot>().Init(InventoryClues[clueId]); //슬롯 세팅    
         }
+        
+        
+        //토스트 메세지
+        UIManager.Instance.ShowPopup<ToastMessagePopup>();
+        _toastMessage.StartHideMessageAnimation();
+        _toastMessage.SetToastMessage(ResourceManager.Instance.Load<Sprite>(InventoryClues[clueId].SpritePath), InventoryClues[clueId].Name,
+            $"{InventoryClues[clueId].Name} 획득");
+        _toastMessage.StartOnMessageAnimation();
     }
     
     //설명란 텍스트 작성하기

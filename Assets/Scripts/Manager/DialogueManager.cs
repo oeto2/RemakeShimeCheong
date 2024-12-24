@@ -35,6 +35,7 @@ public class DialogueManager : MonoBehaviour
     private bool printAllcontext; //모든 대사 출력하기
     private StringBuilder _contextSb = new StringBuilder();//대사 출력용 스트링빌더
     private string _replaceText; //컬러코드 적용 후 텍스트
+    private int _getClueID; //획득할 단서 ID
     
     //변수 : 초상화 관련
     private Color32 darkPortraitColor = new Color32(90,90,90,255);
@@ -103,6 +104,7 @@ public class DialogueManager : MonoBehaviour
                 yield return null;
             }
         }
+        
         EndTalk(); //대화 종료
         
         yield return null;
@@ -123,8 +125,8 @@ public class DialogueManager : MonoBehaviour
         _replaceText = GetReplaceColorMarkText(_tempDialogueData.Comment);
         dialoguePanel.SetActive(true);
         ChangeDialogueSpeakerName(_tempDialogueData.Name); //다이얼로그 이름 변경
+         _inventory.GetClue(_tempDialogueData.RewardID); //단서 획득하기
         
-        _inventory.GetClue(_tempDialogueData.RewardID); //단서 획득
         EventManager.Instance.ActiveEvent(DBManager.Instance.GetEventData(_tempDialogueData.StartEventID)); //이벤트 시작
         EventManager.Instance.ClearEvent(_tempDialogueData.EndEventID); //이벤트 클리어
 
