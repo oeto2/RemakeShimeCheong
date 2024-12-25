@@ -120,7 +120,7 @@ public class EventManager : Singleton<EventManager>
                 Navigation.Instance.NextNavigation();
                 break;
             
-            //향리댁과 대화하기
+            //장 승상댁과 대화하기
             case 10040:
                 Navigation.Instance.gameObject.SetActive(false);
 

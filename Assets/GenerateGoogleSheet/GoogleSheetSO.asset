@@ -152,16 +152,16 @@ MonoBehaviour:
   Clue_TableList:
   - Id: 2000
     ObjectType: Clue
-    Name: "\uD5A5\uB9AC \uB301\uC758 \uC218\uC591\uB538"
-    Comment: "\uC2EC\uCCAD\uC774\uAC00 \uC774\uD2C0 \uC804\uC5D0 \uD5A5\uB9AC \uB301\uC758
-      \uC218\uC591\uB538\uB85C \uB4E4\uC5B4\uAC14\uB2E4."
+    Name: "\uC7A5 \uC2B9\uC0C1 \uB301\uC758 \uC218\uC591\uB538"
+    Comment: "\uC2EC\uCCAD\uC774\uAC00 \uC774\uD2C0 \uC804\uC5D0 \uC7A5 \uC2B9\uC0C1
+      \uB301\uC758 \uC218\uC591\uB538\uB85C \uB4E4\uC5B4\uAC14\uB2E4."
     IsUsing: 0
     IndexNum: 0
     SpritePath: Clue/Clue
   - Id: 2001
     ObjectType: Clue
     Name: "\uCCAD\uC774\uC758 \uAC70\uC9D3\uB9D0"
-    Comment: "\uC2EC\uCCAD\uC774\uAC00 \uD5A5\uB9AC \uB301\uC758 \uC218\uC591\uB538\uB85C
+    Comment: "\uC2EC\uCCAD\uC774\uAC00 \uC7A5 \uC2B9\uC0C1 \uB301\uC758 \uC218\uC591\uB538\uB85C
       \uB4E4\uC5B4\uAC04\uB2E4\uB294 \uAC70\uC9D3\uB9D0\uC744 \uD588\uB2E4."
     IsUsing: 0
     IndexNum: 1
@@ -266,8 +266,8 @@ MonoBehaviour:
     SpritePath: Clue/Clue
   - Id: 2013
     ObjectType: Clue
-    Name: "\uD5A5\uB9AC \uB301 \uC14B\uC9F8 \uC544\uB4E4"
-    Comment: "\uD5A5\uB9AC \uB301 \uBD80\uC778\uC774 \uC774\uB974\uAE30\uB97C, \uC14B\uC9F8
+    Name: "\uC7A5 \uC2B9\uC0C1 \uB301 \uC14B\uC9F8 \uC544\uB4E4"
+    Comment: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778\uC774 \uC774\uB974\uAE30\uB97C, \uC14B\uC9F8
       \uC544\uB4E4\uC740 \uC774\uD2C0 \uC804\uC5D0 \uACFC\uAC70 \uC2DC\uD5D8\uC744
       \uBCF4\uB7EC \uB5A0\uB0AC\uB2E4\uACE0 \uD55C\uB2E4."
     IsUsing: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
   - Id: 2017
     ObjectType: Clue
     Name: "\uBC30\uC758 \uCD9C\uD56D"
-    Comment: "\uD5A5\uB9AC \uB301 \uBD80\uC778\uC774 \uC774\uB974\uAE30\uB97C, \uBC30\uAC00
+    Comment: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778\uC774 \uC774\uB974\uAE30\uB97C, \uBC30\uAC00
       \uB2E4\uC2DC \uB728\uB294 \uB54C\uB97C \uC54C\uC544\uBD10\uB2EC\uB77C\uACE0
       \uD55C\uB2E4."
     IsUsing: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
   - Id: 4015
     ObjectType: Hypothesis
     Name: "\uCCAD\uC774\uAC00 \uC0AC\uB77C\uC9C4 \uB0A0"
-    Comment: "\uCCAD\uC774\uC640 \uD5A5\uB9AC \uB301 \uC14B\uC9F8 \uC544\uB4E4\uC774
+    Comment: "\uCCAD\uC774\uC640 \uC7A5 \uC2B9\uC0C1 \uB301 \uC14B\uC9F8 \uC544\uB4E4\uC774
       \uC0AC\uB77C\uC9C4 \uB0A0\uC9DC\uAC00 \uACB9\uCE5C\uB2E4. \uADF8\uB0A0\uC5D0\uB294
       \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB358 \uAC78\uAE4C?"
     IsUsing: 0
@@ -380,7 +380,7 @@ MonoBehaviour:
   - Id: 4017
     ObjectType: Hypothesis
     Name: "\uCCAD\uC774\uC640 \uADF8\uC758 \uAD00\uACC4"
-    Comment: "\uCCAD\uC774\uC640 \uD5A5\uB9AC \uB301 \uC14B\uC9F8\uC758 \uAD00\uACC4\uAC00
+    Comment: "\uCCAD\uC774\uC640 \uC7A5 \uC2B9\uC0C1 \uB301 \uC14B\uC9F8\uC758 \uAD00\uACC4\uAC00
       \uAD81\uAE08\uD558\uB2E4. \uB458\uC758 \uBAA8\uC2B5\uC744 \uBAA9\uACA9\uD588\uB2E4\uB294\uB370.."
     IsUsing: 0
     IndexNum: 26
@@ -388,7 +388,7 @@ MonoBehaviour:
   - Id: 8032
     ObjectType: Hypothesis
     Name: "\uD568\uAED8 \uC0AC\uB77C\uC9C4 \uB450 \uC0AC\uB78C"
-    Comment: "\uCCAD\uC774\uC640 \uD5A5\uB9AC \uB301 \uC14B\uC9F8\uAC00 \uD568\uAED8
+    Comment: "\uCCAD\uC774\uC640 \uC7A5 \uC2B9\uC0C1 \uB301 \uC14B\uC9F8\uAC00 \uD568\uAED8
       \uC0AC\uB77C\uC9C4 \uAC83 \uAC19\uB2E4. \uACFC\uC5F0 \uC5B5\uCE21\uC77C\uAE4C?"
     IsUsing: 0
     IndexNum: 27
@@ -460,7 +460,7 @@ MonoBehaviour:
     RewardID: 0
   - Id: 5003
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC5EC\uAE30\uB294 \uC5B4\uCA50 \uC77C\uC774\uC624?"
     IsUsing: 0
     IndexNum: 3
@@ -565,19 +565,72 @@ MonoBehaviour:
     RewardID: 0
   - Id: 5011
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
-    Comment: "\u24E6\uCCAD\uC774\uC5D0\uAC8C \uC218\uC591\uB538\uB85C \uB4E4\uC5B4\uC624\uB77C\uB294
-      \uB9D0\uC740 \uD588\uC9C0\uB9CC, \uCCAD\uC774\uB294 \uD55C\uC0AC\uCF54 \uAC70\uC808\uD588\uC18C.
-      \u24E1\uB4E3\uB3C4 \uBCF4\uB3C4 \uBABB\uD55C \uB9D0\uC774\uC624."
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
+    Comment: "\u24E6\uC7A5 \uC2B9\uC0C1 \uB301\uC758 \uC218\uC591\uB538\uC5D0 \uB300\uD558\uC5EC
+      \uB9D0\uC744 \uAC78\uC5C8\uB2E4."
     IsUsing: 0
-    IndexNum: 11
-    NextCommentNum: 0
+    IndexNum: 10
+    NextCommentNum: 4
     EquipCondition: 2000
     EventCondition: 0
     StartEventID: 10050
-    EndEventID: 10040
-    RewardID: 2001
+    EndEventID: 0
+    RewardID: 0
   - Id: 5012
+    SpeakerType: Npc
+    Name: "\uC2EC\uD559\uADDC"
+    Comment: "\u24E6\uC7A5 \uC2B9\uC0C1 \uBD80\uC778, \uC6B0\uB9AC \uB538 \uCCAD\uC774\uAC00
+      \uC774\uD2C0 \uC804 \uBD80\uD130 \uBCF4\uC774\uC9C8 \uC54A\uC18C.\n\uD639\uC2DC
+      \uC6B0\uB9AC \uCCAD\uC774\uB97C \uC591\uB140\uB85C \uB4E4\uC778 \uAC83\uC774\uC624?"
+    IsUsing: 0
+    IndexNum: 10
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 0
+    RewardID: 0
+  - Id: 5013
+    SpeakerType: Npc
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
+    Comment: "\u24E6\uADF8\uAC8C \uBB34\uC2A8 \uB9D0\uC778\uAC00? \uB0B4, \uCCAD\uC774\uC5D0\uAC8C
+      \uC218\uC591\uB538\uB85C \uB4E4\uC5B4\uC624\uB77C\uB294 \uB9D0\uC740 \uD588\uC9C0\uB9CC,\n\u24E1\uCCAD\uC774\uB294
+      \uD55C\uC0AC\uCF54 \uAC70\uC808\uD588\uC18C."
+    IsUsing: 0
+    IndexNum: 10
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 0
+    RewardID: 2001
+  - Id: 5014
+    SpeakerType: Npc
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
+    Comment: "\u24E6\uADF8\uB7EC\uACE0 \uBCF4\uB2C8 \uCD5C\uADFC \uCCAD\uC774\uC758
+      \uBAA8\uC2B5\uC774 \uBCF4\uC774\uC9C0 \uC54A\uB354\uB77C\uB2C8..\n\uD639\uC5EC
+      \uD070\uC77C\uC744 \uB2F9\uD55C \uAC74 \uC544\uB2CC\uC9C0 \uAC71\uC815\uC774\uB124."
+    IsUsing: 0
+    IndexNum: 10
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 0
+    RewardID: 0
+  - Id: 5015
+    SpeakerType: Npc
+    Name: "\uC2EC\uD559\uADDC"
+    Comment: "\u24E6(\uB9C8\uC74C\uC774 \uBD88\uC548 \uD574\uC84C\uB2E4)"
+    IsUsing: 0
+    IndexNum: 10
+    NextCommentNum: 0
+    EquipCondition: 0
+    EventCondition: 0
+    StartEventID: 0
+    EndEventID: 10040
+    RewardID: 0
+  - Id: 5016
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uBB50 \uC0B4 \uAC83 \uC788\uC18C?"
@@ -589,7 +642,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5013
+  - Id: 5017
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uCCAD\uC774 \uB204\uB2D8\uC744 \uBABB \uBCF8 \uC9C0 \uC774\uD2C0
@@ -603,7 +656,7 @@ MonoBehaviour:
     StartEventID: 10080
     EndEventID: 10050
     RewardID: 2002
-  - Id: 5014
+  - Id: 5018
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uADF8\uB9AC\uACE0 \uCCAD\uC774 \uB204\uB2D8\uC740 \uD56D\uC0C1
@@ -617,7 +670,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5015
+  - Id: 5019
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC58C\uC804\uD55C \uAD34\uC559\uC774\uAC00 \uBD93\uB450\uB9C9\uC5D0
@@ -630,7 +683,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5016
+  - Id: 5020
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uD5A5\uB9AC \uB301\uC73C\uB85C \uAC04 \uAC8C
@@ -644,9 +697,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5017
+  - Id: 5021
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uB0B4\uAC00 \uADF8 \uC544\uC774\uB97C \uB2E8\uB2E8\uD788 \uC798\uBABB
       \uBD24\uB124.."
     IsUsing: 0
@@ -657,7 +710,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5018
+  - Id: 5022
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6(\uB9D0\uC744 \uAC78\uC5B4\uBD10\uB3C4 \uB300\uB2F5\uD558\uC9C0
@@ -670,7 +723,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5019
+  - Id: 5023
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uB530\uB2D8\uC774 \uAC70\uC9D3\uC744 \uACE0\uD558\uACE0 \uC0AC\uB77C\uC84C\uB2E4\uB294
@@ -683,7 +736,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5020
+  - Id: 5024
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uCCAD\uC774 \uB204\uB2D8\uC774 \uD5A5\uB9AC \uB301\uC73C\uB85C
@@ -697,7 +750,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5021
+  - Id: 5025
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADC0\uD55C \uB538 \uB2E8\uC18D\uB3C4 \uC548 \uD558\uACE0 \uBB34\uC5C7\uD588\uB098."
@@ -709,7 +762,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5022
+  - Id: 5026
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uBB58 \uD558\uACE0 \uB2E4\uB154\uB294\uC9C0
@@ -722,7 +775,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5023
+  - Id: 5027
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E1\uCCAD\uC774\uAC00 \uC7A5\uD130\uC5D0 \uC790\uC8FC \uBA38\uBB34\uB974\uAE34
@@ -736,9 +789,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2003
-  - Id: 5024
+  - Id: 5028
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uADF8 \uC5B4\uB9B0\uC544\uC774\uAC00 \uC5B4\uB51C \uAC04 \uAC90\uC9C0..."
     IsUsing: 0
     IndexNum: 32
@@ -748,7 +801,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5025
+  - Id: 5029
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uB301\uC758 \uB538\uC744 \uC65C \uC774\uB9AC \uC640\uC11C \uCC3E\uC18C?"
@@ -760,7 +813,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5026
+  - Id: 5030
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uB530\uB2D8\uC740 \uC88B\uC740 \uACF3\uC73C\uB85C \uD5A5\uD558\uC600\uC744
@@ -773,7 +826,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5027
+  - Id: 5031
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB204\uB2D8\uC774 \uC5B4\uB514\uB85C \uAC14\uC744\uC9C0\uB294
@@ -786,7 +839,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5028
+  - Id: 5032
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uB9D0\uC744 \uAC78\uC5B4\uBCF4\uC558\uC9C0\uB9CC \uB208\uAE38\uB3C4
@@ -799,7 +852,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5029
+  - Id: 5033
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC774\uBC88\uC5D0 \uB4E4\uC5EC\uC628 \uBE44\uB140\uAC00 \uADF8\uB807\uAC8C
@@ -812,7 +865,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5030
+  - Id: 5034
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC7A5\uD130\uC5D0 \uC790\uC8FC \uBA38\uBB3C\uB800\uC5C8\uC5B4.
@@ -825,9 +878,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5031
+  - Id: 5035
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uADF8\uAC83\uACFC \uB0B4\uAC00 \uBB34\uC2A8 \uC0C1\uAD00\uC774
       \uC788\uB098. \uC798 \uBAA8\uB974\uACA0\uB124."
     IsUsing: 0
@@ -838,7 +891,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5032
+  - Id: 5036
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC694\uC998 \uADF8 \uC544\uAE30\uC528\uAC00 \uC5EC\uAE30\uC11C
@@ -855,7 +908,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5033
+  - Id: 5037
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC800\uC7A3\uAC70\uB9AC\uB294 \uB2EC\uC5D0 \uD55C \uBC88 \uAC11\uB2C8\uB2E4.
@@ -869,7 +922,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5034
+  - Id: 5038
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB204\uB2D8\uC774 \uC790\uC8FC \uC624\uC154\uC11C \uBA39\uC744
@@ -882,7 +935,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5035
+  - Id: 5039
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uBCF4\uD1B5 \uC8FC\uB9C9\uC5D0\uB9CC \uC788\uC73C\uB2C8... \uB09C
@@ -895,7 +948,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5036
+  - Id: 5040
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uB9CE\uC774 \uBC14\uBE60\uBCF4\uC778\uB2E4.)"
@@ -907,7 +960,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5037
+  - Id: 5041
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uBB54\uAC00\uB97C \uBCF4\uAE34 \uD588\uB294\uB370, \uB9E8\uC785\uC73C\uB85C\uB294
@@ -921,7 +974,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5038
+  - Id: 5042
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC694\uC988\uC74C \u24E1\uC2B9\uB824\uC640 \uC774\uC57C\uAE30\uD558\uB294
@@ -935,9 +988,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5039
+  - Id: 5043
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uD5C8\uC5B8\uC744 \uD558\uACE0 \uC5B4\uB51C \uAC04 \uAC90\uC9C0..
       \uCBE7\uCBE7\u2026 \uAD00\uC2EC \uC5C6\uB2E4\uB124!"
     IsUsing: 0
@@ -948,7 +1001,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5040
+  - Id: 5044
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uB9C8\uC74C \uAE4A\uC774 \uBD88\uACF5\uB4DC\uB9AC\uBA74 \uC870\uB9CC\uAC04
@@ -962,7 +1015,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5041
+  - Id: 5045
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E1\uC5B4\uB290 \uB301 \uC544\uB4DC\uB2D8\uC774\uB780 \uAC78 \uB4E4\uC5C8\uB358
@@ -976,7 +1029,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5042
+  - Id: 5046
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC774\uC81C \uB9C9 \uC26C\uB294 \uCC38\uC774\uC624. \uBC29\uD574\uD558\uC9C0
@@ -989,7 +1042,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5043
+  - Id: 5047
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uC8FC\uBCC0\uC758 \uC18C\uC74C\uC5D0 \uB098\uC758 \uB9D0\uC18C\uB9AC\uAC00
@@ -1002,7 +1055,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5044
+  - Id: 5048
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC6B0\uB9AC \uBE91\uB355\uC774\uB294 \uC5B4\uB9B4 \uC801 \uBCF4\uB0B8
@@ -1016,7 +1069,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5045
+  - Id: 5049
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uADC0\uB355\uC774\uB294 \uC606 \uB9C8\uC744\uB85C \uC7A5\uAC00
@@ -1029,9 +1082,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5046
+  - Id: 5050
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uBD80\uD0C1 \uD558\uB098\uB9CC \uD574\uB3C4 \uB418\uACA0\uB294\uAC00?
       \uBBF8\uC548\uD558\uB124. \uD639\uC2DC \uC9D1\uC5D0 \uB0A8\uB294 \u24E1\uC0C8\uB07C\uC904
       \u24E6\uC788\uB294\uAC00? \uB9CC\uC57D \uC788\uB2E4\uBA74 \uC67C\uC0C8\uB07C\uB85C
@@ -1044,9 +1097,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5047
+  - Id: 5051
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC9C0\uAE08 \uBCC4\uCC44\uC5D0 \uC77C\uC774 \uC788\uC5B4\uC11C
       \uB2F9\uC7A5 \uC67C\uC0C8\uB07C\uAC00 \uD544\uC694\uD55C\uB370 \uC6B0\uB9AC
       \uC9D1 \uD558\uC778 \uD558\uB098\uAC00 \uC2E4\uC218\uB97C \uD574\uC11C \uACF3\uAC04\uC5D0
@@ -1059,9 +1112,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5048
+  - Id: 5052
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uCCAB\uC9F8 \uB458\uC9F8\uB294 \uBCBC\uC2AC\uAE38\uC5D0 \uC62C\uB790\uACE0,
       \u24E1\uC14B\uC9F8\uB294 \uC774\uD2C0 \uC804\uC5D0 \uACFC\uAC70\uB97C \uBCF4\uB7EC
       \uAC14\uC18C."
@@ -1073,7 +1126,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2013
-  - Id: 5049
+  - Id: 5053
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC6B0\uB9AC \uC544\uB4E4\uC740 \uC774\uC81C \uC5F4 \uC0B4\uC774\uC9C0\uC694.
@@ -1086,7 +1139,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5050
+  - Id: 5054
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC81C\uAC8C \uC544\uB4E4\uC774 \uC788\uC744\uB9AC\uAC00\uC694.
@@ -1099,7 +1152,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5051
+  - Id: 5055
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uAE30\uC5B5\uC774 \uC548 \uB098\uC694... \uC0DD\uAC01\uD574
@@ -1112,7 +1165,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5052
+  - Id: 5056
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC544\uB4E4\uC740 \uC5C6\uACE0 \uB538\uB9CC \uC14B\uC774\uC624.
@@ -1125,7 +1178,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5053
+  - Id: 5057
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC608, \uC800\uB3C4 \uC1A1\uC5D0 \uC138 \uC0B4 \uB09C \uC544\uB4E4\uC774
@@ -1140,7 +1193,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2014
-  - Id: 5054
+  - Id: 5058
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC1A1 \uC0AC\uB78C\uACFC \uC790\uC8FC \uC598\uAE30\uD558\uB354\uB77C\uB2C8\uAE4C!"
@@ -1152,7 +1205,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5055
+  - Id: 5059
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uD0C0\uC778\uC5D0\uAC8C \uC6CC\uB099 \uC798\uD588\uC73C\uB2C8
@@ -1165,9 +1218,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5056
+  - Id: 5060
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uB098\uB294 \uBAA8\uB974\uB294 \uC77C\uC77C\uC138."
     IsUsing: 0
     IndexNum: 67
@@ -1177,7 +1230,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5057
+  - Id: 5061
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC1A1\uC5D0\uC11C \uC628 \uBB3C\uD488\uB4E4\uC5D0 \uAD00\uC2EC\uC774
@@ -1190,7 +1243,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5058
+  - Id: 5062
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC7A5\uD130\uC5D0\uB294 \uAD00\uC2EC\uC774 \uC5C6\uC5B4 \uC798
@@ -1203,7 +1256,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5059
+  - Id: 5063
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uADF8 \uC0AC\uB78C\uB4E4\uC774 \uBB34\uC11C\uC6CC \uAC15\uBCC0
@@ -1216,7 +1269,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5060
+  - Id: 5064
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E1\uC2EC\uCCAD \uC544\uAE30\uC528 \uB9D0\uC500\uC774\uC2E0\uAC00\uC694?
@@ -1232,7 +1285,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2009
-  - Id: 5061
+  - Id: 5065
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8 \uACC4\uC9D1\uC544\uC774.. \uC1A1\uC5D0\uC11C \uC628 \uCE58\uB4E4\uC774\uB791
@@ -1246,7 +1299,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5062
+  - Id: 5066
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC544, \uB2F9\uC2E0\uC774 \uC544\uBE44\uB418\uB294 \uC0AC\uB78C\uC774\uC624..?
@@ -1259,7 +1312,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5063
+  - Id: 5067
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E1\uB2F9\uC2E0\uB124 \uB538\uC774 \uADF8\uB4E4\uACFC \uAC70\uB798\uB97C
@@ -1275,7 +1328,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5064
+  - Id: 5068
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8 \uCE58\uB4E4\uC774\uC57C \uC7A5\uC0AC\uC5D0 \uB208\uACFC
@@ -1290,7 +1343,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5065
+  - Id: 5069
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC5B4\uC11C \uAC00\uC2DC\uC624! \uC131\uAC00\uC2DC\uAC8C \uD558\uC9C0\uB9D0\uACE0."
@@ -1302,7 +1355,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5066
+  - Id: 5070
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB2E4\uC2DC \uB9D0\uC744 \uAC78\uC5B4\uB3C4 \uB300\uB2F5\uC774
@@ -1316,7 +1369,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5067
+  - Id: 5071
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC2B9\uB824\uAC00 \uB9C8\uC744\uC5D0 \uC790\uC8FC \uB0B4\uB824\uC624\uB294
@@ -1330,7 +1383,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2008
-  - Id: 5068
+  - Id: 5072
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC2B9\uB824\uC5D0\uAC8C \uAC00\uBCF4\uB77C\uB2C8\uAE4C\u2026"
@@ -1342,9 +1395,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5069
+  - Id: 5073
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uBD88\uACF5\uC774\uB77C\uB3C4 \uB4DC\uB9AC\uB824 \uD55C \uAC74\uC9C0.."
     IsUsing: 0
     IndexNum: 80
@@ -1354,7 +1407,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5070
+  - Id: 5074
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC7A5\uC0AC \uBC29\uD574\uD558\uC9C0 \uB9C8\uC2DC\uC624!"
@@ -1366,7 +1419,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5071
+  - Id: 5075
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uACF5\uC591\uBBF8\uB97C \uBC14\uCE5C\uB2E4\uBA74 \uC815\uB9D0\uB85C
@@ -1381,7 +1434,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5072
+  - Id: 5076
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC544 \uBC30\uACE0\uD30C\u2026"
@@ -1393,7 +1446,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5073
+  - Id: 5077
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6(\uC8FC\uB9C9\uC5D0 \uC549\uC544\uC11C \uB298\uC5B4\uC9C0\uAC8C
@@ -1406,7 +1459,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5074
+  - Id: 5078
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC544\uBB34\uB798\uB3C4 \uC2B9\uB824\uAC00 \uC218\uC0C1\uD558\uC624."
@@ -1418,7 +1471,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5075
+  - Id: 5079
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uBE91\uB355\uB124\uAC00 \uD55C \uB9D0\uC774\uC9C0..? ...\uD5C8\uD2BC\uC18C\uB9AC
@@ -1431,9 +1484,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5076
+  - Id: 5080
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uB108\uBB34 \uD5C8\uBB34\uB9F9\uB791\uD558\uC5EC \uB4E3\uACE0
       \uC2F6\uC9C0 \uC54A\uAD70..."
     IsUsing: 0
@@ -1444,7 +1497,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5077
+  - Id: 5081
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC81C \uC2E0\uBD84\uC5D0 \uB204\uAD70\uAC00\uB97C \uB9C8\uC74C\uC5D0
@@ -1458,7 +1511,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5078
+  - Id: 5082
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6...\uC74C..\uADF8\uAC74 \uC880 \uC544\uB2CC \uAC83 \uAC19\uC544\uC694."
@@ -1470,7 +1523,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5079
+  - Id: 5083
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6..\uC9C4\uC815 \uB9D0\uC774 \uB41C\uB2E4\uACE0 \uC0DD\uAC01\uD558\uC2DC\uC624?"
@@ -1482,7 +1535,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5080
+  - Id: 5084
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uD760,,\uCCAD\uC774\uAC00 \uB300\uAC00 \uC5C6\uC774 \uB9C9 \uB3C4\uC640\uC8FC\uACE0
@@ -1495,7 +1548,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5081
+  - Id: 5085
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC0C1\uC778\uB4E4\uC774 \uCCAD\uC774\uC5D0\uAC8C \uACE0\uB9C8\uC6CC\uD55C\uB2E4\uACE0?
@@ -1508,7 +1561,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5082
+  - Id: 5086
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB204\uB2D8\uC774 \uC5BC\uD54F \uBB34\uB69D\uB69D\uD574 \uBCF4\uC5EC\uB3C4,
@@ -1522,7 +1575,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5083
+  - Id: 5087
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8 \uB301 \uB530\uB2D8\uC774 \uC800\uB4E4\uC774\uB791 \uC885\uC885
@@ -1536,7 +1589,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5084
+  - Id: 5088
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC815\uB9D0 \uB2E8\uC21C\uD55C \uB3C4\uC6C0\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4.
@@ -1550,9 +1603,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5085
+  - Id: 5089
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC0C1\uC778\uB4E4\uC5D0\uAC8C \uB3C4\uC6C0\uC744
       \uC8FC\uC5C8\uB2E4. \uADF8\uB807\uAD70.. \uC77C\uC804\uC5D0 \uC0C1\uC778\uB4E4\uC774
       \uBC29\uBB38\uD588\uC5C8\uB124."
@@ -1564,9 +1617,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5086
+  - Id: 5090
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC6B0\uB9AC \uAC00\uBB38\uACFC \uBE44\uB2E8 \uAC19\uC740 \uAC78
       \uC9C1\uC811 \uAC70\uB798\uD558\uB294\uB370 \uBA87 \uB0A0 \uB4A4 \uBC14\uB85C
       \uBC30\uB97C \uB744\uC6B8 \uAC83\uC774\uB77C \uBCF4\uACE0\uD588\uB124. \uC815\uD655\uD55C
@@ -1579,9 +1632,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5087
+  - Id: 5091
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uADF8\uB798\uC11C \uB9D0\uC778\uB370, \u24E1\uBC30\uAC00 \uB2E4\uC2DC
       \uC1A1\uC73C\uB85C \uAC00\uB294 \uB54C\uB97C \uC54C\uC544\uBD10\uC904 \uC218
       \uC788\uB294\uAC00? \u24E6\uC774\uC720\uB294 \uB098\uC911\uC5D0 \uB9D0\uD574\uC8FC\uACA0\uB124."
@@ -1593,7 +1646,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2017
-  - Id: 5088
+  - Id: 5092
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6300\uC11D\uC774\uB098 \uC2DC\uC8FC\uD588\uB2E4\uACE0\uC694? \uC2DC\uC8FC\uB97C
@@ -1607,7 +1660,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5089
+  - Id: 5093
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E1\uCCAD\uC774\uAC00 \uC544\uBE44 \uB208\uC744 \uAF2D \uB730 \uC218
@@ -1621,9 +1674,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5090
+  - Id: 5094
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uAE08\uC2DC\uCD08\uBB38\uC77C\uC138.. \uADF8\uB7F0 \uD070\uB3C8\uC744
       \uC65C \uAD81\uAE08\uD574\uD558\uB294\uC9C0 \uAD81\uAE08\uD558\uAD70."
     IsUsing: 0
@@ -1634,7 +1687,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5091
+  - Id: 5095
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uB098 \uAC19\uC73C\uBA74 \uACF5\uC591\uC740 \uC548 \uD569\uB2C8\uB2E4.
@@ -1647,7 +1700,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5092
+  - Id: 5096
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uB355\uBD84\uC5D0 \uC815\uD1A0\uC5D0 \uB354\uC6B1 \uAC00\uAE4C\uC6CC\uC84C\uC2B5\uB2C8\uB2E4.
@@ -1661,7 +1714,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5093
+  - Id: 5097
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uACF5\uC591\uBBF8\uAC00 \uBB50\uC5D0\uC694??? \uC300\uC774\uC694?..\uBC30\uACE0\uD504\uB2E4..."
@@ -1673,7 +1726,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5094
+  - Id: 5098
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uB610 \uD654\uB97C \uB0BC \uAC83 \uAC19\uC544 \uC774\uC57C\uAE30\uD558\uACE0
@@ -1686,7 +1739,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5095
+  - Id: 5099
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uADF8 \uB9CE\uC740 \uC300\uC744 \uC5B4\uB514\uC5D0\uC11C
@@ -1699,9 +1752,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5096
+  - Id: 5100
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6(\uC7AC\uBB3C\uC5D0 \uAD00\uB828\uB41C \uC77C\uC774\uB77C \uBCC4\uB85C
       \uC774\uC57C\uAE30\uD558\uACE0 \uC2F6\uC9C0 \uC54A\uB2E4..)"
     IsUsing: 0
@@ -1712,7 +1765,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5097
+  - Id: 5101
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6(\uC7AC\uBB3C\uC5D0 \uAD00\uB828\uB41C \uC77C\uC774\uB77C \uBCC4\uB85C
@@ -1725,7 +1778,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5098
+  - Id: 5102
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC544.. \uC800\uB294 \uC5B4\uB514\uC11C \uB09C \uC300\uC778\uC9C0\uB294
@@ -1741,7 +1794,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5099
+  - Id: 5103
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6(\uC774\uC57C\uAE30\uD574 \uBD24\uC790 \uC54C\uC9C0 \uBABB\uD560
@@ -1754,7 +1807,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5100
+  - Id: 5104
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6(\uBCC4\uB85C \uC774\uC57C\uAE30\uD558\uACE0 \uC2F6\uC9C0 \uC54A\uB2E4.)"
@@ -1766,7 +1819,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5101
+  - Id: 5105
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uBCC4\uB85C \uC774\uC57C\uAE30\uD558\uACE0 \uC2F6\uC9C0 \uC54A\uB2E4.)"
@@ -1778,7 +1831,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5102
+  - Id: 5106
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uACE0 \uACC4\uC9D1\uC774 \uBB34\uC5B8\uAC00\uB97C \uD314\uC544\uCE58\uC6E0\uB098
@@ -1791,7 +1844,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5103
+  - Id: 5107
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uD314\uC544\uCE58\uC6B8 \uADC0\uD55C \uAC83\uC774
@@ -1804,9 +1857,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5104
+  - Id: 5108
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC694\uB9DD\uD55C \uAC83. \uC54C\uBA74 \uC54C\uC218\uB85D \uB354
       \uB9C8\uC74C\uC5D0 \uB4E4\uC9C0 \uC54A\uB294\uAD70. \uADF8 \uB301 \uB538 \uC774\uC57C\uAE30
       \uB354 \uC774\uC0C1 \uB4E3\uAE30 \uC2EB\uC18C."
@@ -1818,7 +1871,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5105
+  - Id: 5109
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uBCF4\uD1B5.. \uAC12\uC5B4\uCE58\uAC00 \uB098\uAC00\uB294 \uAC83\uC774\uB77C
@@ -1833,7 +1886,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5106
+  - Id: 5110
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uBD80\uCC98\uAED8 \uC9C0\uC131\uC73C\uB85C \uBD88\uACF5\uB4DC\uB9B0\uB2E4\uBA74
@@ -1848,7 +1901,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5107
+  - Id: 5111
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB204\uB2D8\uAED8\uC11C \uD488\uC744 \uD314\uB358 \uAC83\uC744
@@ -1862,7 +1915,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5108
+  - Id: 5112
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB09C \uC774\uC57C\uAE30\uD55C \uAC8C \uC804\uBD80\uC694. \uB354
@@ -1875,7 +1928,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5109
+  - Id: 5113
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uB530\uB2D8\uC5D0\uAC8C \uC9C1\uC811 \uB4E4\uC73C\uC2DC\uC9C0\uC694.
@@ -1888,7 +1941,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5110
+  - Id: 5114
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uADF8 \uB301 \uC14B\uC9F8 \uC544\uB4E4 \uB9D0\uC774\uC9C0\uC694,
@@ -1902,7 +1955,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5111
+  - Id: 5115
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uD63C\uC790\uC11C\uB77C\uB3C4 \uAC70\uB72C\uD788 \uC0B4\uC544\uC57C
@@ -1915,9 +1968,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5112
+  - Id: 5116
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC6B0\uB9AC \uB9C9\uB0B4\uB294 \uC7A5\uCC28 \uD070\uC77C\uC744
       \uD560 \uAC83\uC774\uB124."
     IsUsing: 0
@@ -1928,7 +1981,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5113
+  - Id: 5117
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E1\uADF8\uBD84\uC740 \uC6B0\uB9AC \uC810\uD3EC \uB2E8\uACE8\uC785\uB2C8\uB2E4!
@@ -1942,7 +1995,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5114
+  - Id: 5118
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uBD80\uCC98\uAED8 \uC9C0\uC131\uC73C\uB85C \uBD88\uACF5\uB4DC\uB9B0\uB2E4\uBA74
@@ -1955,7 +2008,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5115
+  - Id: 5119
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uADF8\uBD84\uC774 \uAC00\uB054 \uB5A1\uC744 \uC8FC\uC168\uB294\uB370..."
@@ -1967,7 +2020,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5116
+  - Id: 5120
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uBB3C\uC0B4\uC774 \uBE60\uB974\uBA74 \uBE68\uB798\uD560 \uB54C
@@ -1980,9 +2033,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5117
+  - Id: 5121
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uADF8\uB7F0 \uC774\uC57C\uAE30\uB294 \uBB3C\uC5D0 \uB300\uD574
       \uC798 \uC544\uB294 \uC0AC\uB78C\uC5D0\uAC8C\uB098 \uBB3C\uC5B4\uBCF4\uAC8C."
     IsUsing: 0
@@ -1993,7 +2046,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5118
+  - Id: 5122
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uAC70\uC13C \uBB3C\uC774 \uD750\uB974\uB4EF \uAC1D\uC774\uB098
@@ -2006,7 +2059,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5119
+  - Id: 5123
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uBB3C\uAE38\uC740 \uAC70\uC138\uC9C0\uAE30\uB3C4, \uC57D\uD574\uC9C0\uAE30\uB3C4
@@ -2019,7 +2072,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5120
+  - Id: 5124
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uBB3C\uAC00\uC5D4 \uC798 \uAC00\uC9C0 \uC54A\uC544\uC694."
@@ -2031,7 +2084,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5121
+  - Id: 5125
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uBB3C\uC0B4\uC774 \uAC00\uB77C\uC549\uC544\uC57C \uBC30\uAC00
@@ -2045,7 +2098,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5122
+  - Id: 5126
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC9C0\uAE08 \uBB3C\uAE38\uC774 \uAC70\uC13C \uC2DC\uAE30\uC785\uB2C8\uB2E4."
@@ -2057,7 +2110,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5123
+  - Id: 5127
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uAC54\uAC00 \uC9D1\uC73C\uB85C \uC0AC \uC624\uB294 \uAC8C, \uBA39\uC744
@@ -2070,7 +2123,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5124
+  - Id: 5128
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC544\uBE44 \uC218\uBC1C\uB4DC\uB290\uB77C
@@ -2084,9 +2137,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5125
+  - Id: 5129
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6(\uCCAD\uC774 \uC774\uC57C\uAE30\uB97C \uB354 \uD574\uBD24\uC790
       \uAE30\uBD84\uB9CC \uC0C1\uD560 \uAC83\uC774\uB2E4..)"
     IsUsing: 0
@@ -2097,7 +2150,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5126
+  - Id: 5130
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uBB34\uC5C7\uC744 \uC704\uD574 \uB530\uB2D8\uC758 \uBB3C\uAC74\uC5D0
@@ -2111,7 +2164,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5127
+  - Id: 5131
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB204\uB2D8\uC740 \uD56D\uC0C1 \uC774\uAC83\uC800\uAC83 \uB4E4\uACE0
@@ -2125,7 +2178,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5128
+  - Id: 5132
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8\uB7F0 \uAC78 \uC65C \uB0B4\uAC8C \uBB3C\uC73C\uC2DC\uC624?"
@@ -2137,7 +2190,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5129
+  - Id: 5133
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uBB34\uC2A8 \uB9D0\uC778\uC9C0 \uB3C4\uD1B5 \uBAA8\uB974\uACA0\uAD70\uC694."
@@ -2149,7 +2202,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5130
+  - Id: 5134
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uD760\uD760.. \uADF8, \uBB50 \uC774\uBC88\uC5D0 \uB2E8\uC0B0\uC624\uC625\uC774\uB77C
@@ -2163,7 +2216,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5131
+  - Id: 5135
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uAC10\uC0AC\uD569\uB2C8\uB2E4. \uB2E4\uB140\uC624\uC168\uAD70\uC694!
@@ -2176,7 +2229,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5132
+  - Id: 5136
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uB301\uB124 \uB530\uB2D8\uC774 \uC9DA\uC2E0\uC744 \uD06C\uAE30
@@ -2191,7 +2244,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2016
-  - Id: 5133
+  - Id: 5137
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB4E4\uC5B4\uBCF4\uB2C8 \uADF8 \uACC4\uC9D1\uC774 \uC544\uC8FC
@@ -2205,7 +2258,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5134
+  - Id: 5138
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC544\uB2C8, \uCCAD\uC774\uB294 \uC9DA\uC2E0\uC744 \uC0BC\uC544
@@ -2219,9 +2272,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5135
+  - Id: 5139
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6(\uCCAD\uC774 \uC774\uC57C\uAE30\uB97C \uB354 \uD574\uBD24\uC790
       \uAE30\uBD84\uB9CC \uC0C1\uD560 \uAC83\uC774\uB2E4..)"
     IsUsing: 0
@@ -2232,7 +2285,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5136
+  - Id: 5140
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uB0B4 \uB9D0\uC744 \uBABB \uBBFF\uACA0\uC18C? \uADF8\uB798\uB3C4
@@ -2245,7 +2298,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5137
+  - Id: 5141
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uBD80\uCC98\uAED8 \uC9C0\uC131\uC73C\uB85C \uBD88\uACF5\uB4DC\uB9B0\uB2E4\uBA74
@@ -2258,7 +2311,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5138
+  - Id: 5142
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB204\uB2D8\uAED8\uC11C \uC9DA\uC2E0\uC744 \uC794\uB729..? \uB0B4\uAC8C\uB3C4
@@ -2273,7 +2326,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5139
+  - Id: 5143
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB098\uB294 \uADF8\uCABD\uC5D4 \uAD00\uC2EC\uB3C4 \uC5C6\uB124\uC694~
@@ -2286,7 +2339,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5140
+  - Id: 5144
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uAC1C\uC6B8\uC740 \uD56D\uC2DC \uC794\uC794\uD558\uC9C0\uB9CC,
@@ -2301,7 +2354,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5141
+  - Id: 5145
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uBC30\uB294 \uD56D\uC0C1 \uB728\uB294 \uAC8C \uC544\uB2CC\uAC00\uC694?"
@@ -2313,9 +2366,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5142
+  - Id: 5146
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uBC30\uAC00 \uB2E4\uC2DC \uB728\uB294 \uB54C\uB97C \uC54C\uC544\uBD10
       \uC8FC\uAC8C."
     IsUsing: 0
@@ -2326,7 +2379,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5143
+  - Id: 5147
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC5BC\uB978 \uBC30\uAC00 \uCD9C\uD56D \uC880 \uD588\uC73C\uBA74
@@ -2339,7 +2392,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5144
+  - Id: 5148
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uD30C\uB3C4\uAC00 \uAC70\uC140 \uB54C \uBC30\uB97C \uB744\uC6B0\uB294
@@ -2352,7 +2405,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5145
+  - Id: 5149
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uBC30\uB294 \uB0A0\uC528\uAC00 \uC794\uC794\uD574\uC9C0\uBA74
@@ -2366,7 +2419,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5146
+  - Id: 5150
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC8FC\uB9C9\uC740 \uBC14\uBE60\uC9C0\uACE0 \uC77C\uC190\uC740
@@ -2380,7 +2433,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5147
+  - Id: 5151
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uBC30\uC758 \uCD9C\uD56D \uB0A0? \uADF8\uAC78 \uC65C \uAD81\uAE08\uD574\uD558\uB294\uC9C4
@@ -2394,7 +2447,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5148
+  - Id: 5152
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB300\uC2E0 \uB108\uBB34 \uBC14\uBE60\uC11C \uADF8\uB7F0\uB370
@@ -2408,7 +2461,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 1008
-  - Id: 5149
+  - Id: 5153
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC640, \uADC0\uD55C \uB5A1\uC774\uB124\uC694!! \uC815\uB9D0
@@ -2422,7 +2475,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5150
+  - Id: 5154
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uAF43\uC774 \uC608\uBED0\uBCF4\uC5EC \uB4B7\uC0B0\uC5D0\uC11C
@@ -2436,7 +2489,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 1009
-  - Id: 5151
+  - Id: 5155
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB2E4\uB140\uC654\uB294\uAC00? \uC624, \uADF8 \uC544\uC774\uAC00
@@ -2449,7 +2502,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5152
+  - Id: 5156
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB0C9\uC99D\uC5D0 \uC88B\uC740 \uC57D\uCD08\uAD6C\uB9CC!! \uAE30\uD2B9\uD55C
@@ -2464,7 +2517,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5153
+  - Id: 5157
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uADF8\uB9AC\uACE0, \uC544\uC9C1 \uB108\uBB34 \uBC14\uBE60 \uADF8\uB7F0\uB370,
@@ -2478,7 +2531,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5154
+  - Id: 5158
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uADC0\uB355 \uC5B4\uBA48\uC740 \uB108\uBB34 \uBC14\uBE60 \uBCF4\uC778\uB2E4.
@@ -2492,7 +2545,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5155
+  - Id: 5159
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC544, \uADF8\uB9AC\uACE0 \uB4B7\uAC04\uC5D0 \uAC14\uB2E4\uAC00
@@ -2507,7 +2560,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5156
+  - Id: 5160
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC774 \uC815\uB3C4\uBA74 \uB3C4\uC6C0\uC774 \uB418\uC5C8\uC9C0?
@@ -2522,7 +2575,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5157
+  - Id: 5161
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC634\uB9C8\uB098.. \uC5ED\uC2DC \uADF8 \uB301 \uC14B\uC9F8\uB294
@@ -2536,9 +2589,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5158
+  - Id: 5162
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uB9C9\uB0B4\uAC00 \uC6B0\uB9AC \uC9D1 \uC885\uB4E4\uC744 \uC5B4\uC5FF\uBE44
       \uC5EC\uACA8 \uAFB8\uBBF8\uAC1C\uB97C \uD558\uB098\uC529 \uC7A5\uB9CC\uD574
       \uC92C\uC18C. \uC885\uB4E4\uC758 \uCC28\uB9BC\uC0C8\uB3C4 \uC2E0\uACBD \uC4F0\uB294
@@ -2551,7 +2604,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5159
+  - Id: 5163
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uADF8\uBD84 \uB355\uBD84\uC5D0 \uC774 \uC77C\uB300\uC5D0\uC11C
@@ -2565,7 +2618,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5160
+  - Id: 5164
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB098\uB3C4 \uC7AC\uBB3C\uB9CC \uB9CE\uC558\uB2E4\uBA74 \uADF8\uACF3\uC758
@@ -2578,7 +2631,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5161
+  - Id: 5165
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC608, \uADF8 \uB2E8\uACE8 \uAC1D \uB355\uBD84\uC5D0 \uAFB8\uBBF8\uAC1C\uB294
@@ -2591,7 +2644,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5162
+  - Id: 5166
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uBC43\uC0AC\uB78C\uB4E4 \uC0AC\uC815\uC740 \uAD00\uC2EC \uC5C6\uC5B4\uC694~"
@@ -2603,9 +2656,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5163
+  - Id: 5167
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uADF8\uAC83\uC744 \uC65C \uB0B4\uAC8C \uC598\uAE30\uD558\uB294
       \uAC90\uAC00?"
     IsUsing: 0
@@ -2616,7 +2669,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5164
+  - Id: 5168
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uBB3C\uD488\uC758 \uC218\uCD9C \uB54C\uBB38\uC5D0 \uC800\uB3C4
@@ -2629,7 +2682,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5165
+  - Id: 5169
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uB9C8\uC74C \uAE4A\uC774 \uBD88\uACF5\uB4DC\uB9AC\uBA74 \uC870\uB9CC\uAC04
@@ -2643,7 +2696,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5166
+  - Id: 5170
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB355\uBD84\uC5D0 \uAE38\uAC8C \uC26C\uAC8C \uB410\uC18C.. \uAD6D\uBC25\uC774\uB098
@@ -2656,9 +2709,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5167
+  - Id: 5171
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uBD84\uBA85\uD788 \uBC30\uAC00 \uCD9C\uD56D\uD558\uB294 \uB54C\uAC00
       \uC815\uD655\uD788 \uC788\uC744 \uAC78\uC138.. \uB2E4\uC2DC \uC54C\uC544\uBD10
       \uC8FC\uAC8C."
@@ -2670,7 +2723,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5168
+  - Id: 5172
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC0AC\uACF5\uC5D0\uAC8C \uAC00\uBCF4\uC2DC\uC624."
@@ -2682,9 +2735,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5169
+  - Id: 5173
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uB09C \uAD00\uACC4\uC5C6\uB124."
     IsUsing: 0
     IndexNum: 201
@@ -2694,7 +2747,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5170
+  - Id: 5174
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uADF8\uAC78 \uC65C \uB098\uD55C\uD14C \uBB3C\uC73C\uC1FC? \uB098\uB294
@@ -2707,7 +2760,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5171
+  - Id: 5175
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC798 \uBAA8\uB974\uACA0\uC5B4\uC694. \uBC43\uC0AC\uACF5 \uC544\uC800\uC528\uAED8
@@ -2720,7 +2773,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5172
+  - Id: 5176
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E1\u2026\uC7A1\uD654\uC0C1\uC5D0\uAC8C \uBB3C\uAC74\uC744 \uBD80\uD0C1\uD574\uB1A8\uB294\uB370,
@@ -2734,7 +2787,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2021
-  - Id: 5173
+  - Id: 5177
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC0AC\uACF5\uC758 \uC77C\uC774\uB77C\uBA74 \uC0AC\uACF5\uC5D0\uAC8C
@@ -2747,7 +2800,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5174
+  - Id: 5178
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uC7A5\uC0AC\uAFBC\uC5D0\uAC8C \uBB3C\uAC74\uC744 \uCC3E\uC73C\uB7EC
@@ -2760,7 +2813,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5175
+  - Id: 5179
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uC7A5\uC0AC\uAFBC\uC5D0\uAC8C \uBB3C\uAC74\uC744 \uCC3E\uC73C\uB7EC
@@ -2773,9 +2826,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5176
+  - Id: 5180
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6(\uC7A5\uC0AC\uAFBC\uC5D0\uAC8C \uBB3C\uAC74\uC744 \uCC3E\uC73C\uB7EC
       \uAC00\uC790.)"
     IsUsing: 0
@@ -2786,7 +2839,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5177
+  - Id: 5181
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6(\uC7A5\uC0AC\uAFBC\uC5D0\uAC8C \uBB3C\uAC74\uC744 \uCC3E\uC73C\uB7EC
@@ -2799,7 +2852,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5178
+  - Id: 5182
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6(\uC7A5\uC0AC\uAFBC\uC5D0\uAC8C \uBB3C\uAC74\uC744 \uCC3E\uC73C\uB7EC
@@ -2812,7 +2865,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5179
+  - Id: 5183
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uBB3C\uAC74\uC744 \uBC1B\uC544\uC654\uC18C?? \uAC00\uC838\uC654\uB2E4\uBA74
@@ -2825,7 +2878,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5180
+  - Id: 5184
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uC7A5\uC0AC\uAFBC\uC5D0\uAC8C \uBB3C\uAC74\uC744 \uCC3E\uC73C\uB7EC
@@ -2838,7 +2891,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5181
+  - Id: 5185
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC0AC\uACF5\uC758 \uBB3C\uAC74 \uB9D0\uC774\uC9C0\uC694? \uAD6C\uD574\uB1A8\uC2B5\uC8E0..\uADF8\uB7F0\uB370
@@ -2851,7 +2904,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5182
+  - Id: 5186
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uB54C\uBB38\uC5D0 \uAC12\uC744 \uB354 \uBC1B\uC544\uC57C\uACA0\uB294\uB370,
@@ -2865,7 +2918,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5183
+  - Id: 5187
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uBB34\uC5ED\uC0C1\uC5D0\uAC8C \uC120\uBB3C \uBC1B\uC740 \uC7A5\uB09C\uAC10\uC778\uB370,
@@ -2880,7 +2933,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5184
+  - Id: 5188
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB3C4\uB974\uB975 \uAD6C\uC2AC\uC774 \uAD74\uB7EC\uAC00\uB294
@@ -2893,7 +2946,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5185
+  - Id: 5189
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uACE0\uB9D9\uC2B5\uB2C8\uB2E4! \uB355\uBD84\uC5D0 \uC774\uC81C\uC11C\uC57C
@@ -2906,7 +2959,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5186
+  - Id: 5190
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC7A5\uC0AC\uAFBC\uC740 \uC0C1\uC790 \uC548\uC744 \uD655\uC778\uD558\uB354\uB2C8,
@@ -2919,7 +2972,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5187
+  - Id: 5191
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uD558\uC774\uACE0, \uAE00\uB3C4 \uBABB \uD558\uB294\uB370 \uCC45\uC774\uB77C\uB2C8.....
@@ -2934,9 +2987,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 1011
-  - Id: 5188
+  - Id: 5192
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uBC43\uAE38\uC744 \uC7A0\uC7AC\uC6B0\uB294 \uBC29\uBC95\uC774\uB77C..
       \uAC00\uB054 \uD558\uB298\uC5D0 \uC81C\uB97C \uC9C0\uB0B4\uBA74 \uB41C\uB2E4\uB294
       \uB9D0\uB3C4 \uC788\uB358\uB370.. \uC81C\uB300\uB85C\uB294 \uC798 \uBAA8\uB974\uACA0\uAD70."
@@ -2948,7 +3001,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5189
+  - Id: 5193
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uAD73\uC774 \uC54C\uB824 \uD558\uC9C0 \uC54A\uC558\uC73C\uBA74
@@ -2961,7 +3014,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5190
+  - Id: 5194
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC800\uD76C\uAC00 \uBB34\uC5ED\uC744 \uD558\uBA70 \uC4F0\uB294
@@ -2975,7 +3028,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5191
+  - Id: 5195
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC758 \uB9D0\uC744 \uB4E3\uC790.)"
@@ -2987,7 +3040,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5192
+  - Id: 5196
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC5B4\uC11C \uAC00\uBCF4\uAC8C. \uBAB8\uC870\uC2EC\uD558\uACE0!"
@@ -2999,9 +3052,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5193
+  - Id: 5197
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uACE0\uB9D9\uB124. \uC77C\uC804\uC5D0 \uB0B4\uAC00 \uCD9C\uD56D
       \uB0A0\uC744 \uC54C\uC544\uC640\uB2EC\uB77C\uB294 \uBD80\uD0C1\uC744 \uB4E4\uC5B4\uC8FC\uC5C8\uAD6C\uB824.
       \uC5EC\uAE30\uC11C\uBD80\uD134 \uB0B4\uAC00 \uC54C\uC544\uC11C \uCC98\uB9AC\uD558\uACA0\uB124."
@@ -3013,7 +3066,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5194
+  - Id: 5198
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E63\uC6D4 \uBCF4\uB984\uB0A0\uC774 \uBC1D\uC558\uB2E4. \uC5B4\uCC0C
@@ -3027,7 +3080,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5195
+  - Id: 5199
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB2E4\uC74C\uB0A0\uB3C4, \uB610 \uADF8 \uB2E4\uC74C\uB0A0\uC5D0\uB3C4."
@@ -3039,7 +3092,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5196
+  - Id: 5200
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBD80\uC778\uC774 \uC5C6\uB294 \uD5A5\uB9AC \uB301\uC758 \uB300\uBB38\uC740
@@ -3052,7 +3105,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5197
+  - Id: 5201
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC774\uC73D\uACE0, \uB0A8\uC544\uC788\uB358 \uC1A1\uB098\uB77C
@@ -3067,7 +3120,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5198
+  - Id: 5202
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24D1[\uC5F0\uACBD\uD559\uB9DD]"
@@ -3079,7 +3132,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5199
+  - Id: 5203
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC758 \uB9D0\uC744 \uB4E3\uC790.)"
@@ -3091,7 +3144,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5200
+  - Id: 5204
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC758 \uB9D0\uC744 \uB4E3\uC790.)"
@@ -3103,7 +3156,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5201
+  - Id: 5205
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC758 \uB9D0\uC744 \uB4E3\uC790.)"
@@ -3115,7 +3168,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5202
+  - Id: 5206
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uAC11\uC790\uAE30 \uB4A4\uD1B5\uC218\uC5D0 \uB454\uD0C1\uD55C
@@ -3128,7 +3181,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5203
+  - Id: 5207
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC815\uC2E0\uC744 \uCC28\uB9AC\uB2C8 \uBAB8\uC740 \uAF41\uAF41
@@ -3142,7 +3195,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5204
+  - Id: 5208
     SpeakerType: Npc
     Name: ???
     Comment: "\u24E6........\uC5B4\uB450\uC6B4 \uC544\uBE44 \uB208\uC744 \uBC1D\uAC8C
@@ -3155,7 +3208,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5205
+  - Id: 5209
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCA8\uBC99 \uC18C\uB9AC\uAC00 \uB0AC\uACE0, \uB4A4\uC774\uC5B4
@@ -3168,7 +3221,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5206
+  - Id: 5210
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0DD\uC0DD\uD55C \uD749\uBABD\uC784\uC5D0 \uD2C0\uB9BC\uC5C6\uB2E4.
@@ -3183,7 +3236,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5207
+  - Id: 5211
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E1[\uCDE8\uC0DD\uBABD\uC0AC]"
@@ -3195,7 +3248,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5208
+  - Id: 5212
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC774\uC57C\uAE30\uB97C \uB4E4\uC740 \uC0AC\uACF5\uC774 \uBAA9\uC18C\uB9AC\uB97C
@@ -3208,7 +3261,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5209
+  - Id: 5213
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8\uAC74 \uB610 \uC5B4\uB514\uC11C \uB4E4\uC5C8\uC18C?! \uC774
@@ -3222,7 +3275,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5210
+  - Id: 5214
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E63\uC6D4 \uBCF4\uB984\uB0A0, \uADF8 \uCE58\uB4E4\uC774 \uBC14\uB2E4\uC5D0\uC11C
@@ -3236,7 +3289,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5211
+  - Id: 5215
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC6D0\uC778 \uBAA8\uB97C \uC774\uB04C\uB9BC\uC5D0, \uB098\uB294
@@ -3249,7 +3302,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5212
+  - Id: 5216
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uCC44\uBE44\uB97C \uB9C8\uCE5C \uB4A4 \uC120\uCC29\uC7A5\uC5D0
@@ -3262,7 +3315,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5213
+  - Id: 5217
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8\uB7EC\uBA74 \uC774\uC81C \uCD9C\uBC1C\uD558\uACA0\uC18C.
@@ -3276,7 +3329,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5214
+  - Id: 5218
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB098\uB8FB\uBC30\uC5D0 \uD0D1\uC2B9\uD558\uB2C8, \uD750\uB9BF\uD55C
@@ -3289,7 +3342,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5215
+  - Id: 5219
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uADF8\uB294 \uB0B4 \uC55E\uC73C\uB85C \uCC9C\uCC9C\uD788 \uB2E4\uAC00\uC624\uB354\uB2C8
@@ -3302,7 +3355,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5216
+  - Id: 5220
     SpeakerType: Npc
     Name: ???
     Comment: "\u24E6\uBC18\uAC11\uC2B5\uB2C8\uB2E4. \uCCAD\uC774 \uC544\uBC84\uB2D8.
@@ -3315,7 +3368,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5217
+  - Id: 5221
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC800\uB294 \uCCAD\uC774\uC640 \uAD50\uC81C \uC911\uC778 \uC7A5
@@ -3328,7 +3381,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5218
+  - Id: 5222
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uADF8\uC758 \uC5BC\uAD74\uC744 \uAC00\uAE4C\uC774 \uBC14\uB77C\uBCF4\uB2C8,
@@ -3341,7 +3394,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5219
+  - Id: 5223
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBB3B\uACE0 \uC2F6\uC740 \uAC8C \uC624\uB9CC\uAC00\uC9C0\uC600\uC9C0\uB9CC
@@ -3355,7 +3408,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5220
+  - Id: 5224
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC81C\uAC8C \uBB3C\uC5B4\uBCF4\uACE0 \uC2F6\uC73C\uC2E0 \uAC8C
@@ -3368,7 +3421,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5221
+  - Id: 5225
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uB2E4 \uC54C\uACE0 \uC624\uC168\uB098\uC694? \uD568\uAED8\uD574
@@ -3382,7 +3435,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5222
+  - Id: 5226
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCDA5\uC9C0 \uC54A\uC740 \uC9D1\uC73C\uB85C \uB9CC\uB4E4\uC5B4\uC8FC\uACA0\uB2E4
@@ -3396,7 +3449,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5223
+  - Id: 5227
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC544\uAD81\uC774\uC5D0 \uB123\uACE0 \uBD88\uC744 \uC9C0\uD53C\uC2DC\uC624."
@@ -3408,9 +3461,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5224
+  - Id: 5228
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC5EC\uAE30\uB294 \uC5B4\uCA50 \uC77C\uC774\uC624?"
     IsUsing: 0
     IndexNum: 251
@@ -3420,7 +3473,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5225
+  - Id: 5229
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uAC1C\uC6B8\uAC00\uC5D0\uC11C \uBC14\uAC00\uC9C0\uB85C \uBB3C\uC744
@@ -3433,7 +3486,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5226
+  - Id: 5230
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBA3C\uC800 \uC7A5\uC791\uC744 \uB123\uC5B4\uC57C\uD55C\uB2E4."
@@ -3445,7 +3498,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5227
+  - Id: 5231
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\uC300\uC774 \uC788\uC5B4\uC57C \uBC25\uC744 \uB9CC\uB4E4 \uC218 \uC788\uB2E4."
@@ -3457,7 +3510,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5228
+  - Id: 5232
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB204\uAD74 \uBC30\uACEF\uACE0 \uB2E4\uB2C8\uB294 \uAC70\uC9C0\uB85C
@@ -3471,7 +3524,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5229
+  - Id: 5233
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uBC25 \uC9D3\uB294 \uBC95\uB3C4 \uBAB0\uB77C\uC11C \uADF8\uB7EC\uB294\uAC00?
@@ -3486,9 +3539,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5230
+  - Id: 5234
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uD55C \uC90C\uC740 \uB420\uC9C0 \uBAA8\uB974\uACA0\uC18C."
     IsUsing: 0
     IndexNum: 285
@@ -3498,7 +3551,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5231
+  - Id: 5235
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC774 \uC815\uB3C4 \uC300\uB85C\uB294 \uC6B0\uB9AC \uB178\uC810\uC5D0\uC11C
@@ -3511,7 +3564,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5232
+  - Id: 5236
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC2DC\uC8FC\uB294 \uD55C \uAC00\uB9C8\uB2C8\uBD80\uD130 \uBC1B\uACE0
@@ -3524,7 +3577,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5233
+  - Id: 5237
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC640! \uC300\uC774\uB2E4.. \uBC30\uACE0\uD30C\uC694. \uADF8\uCE58\uB9CC
@@ -3537,7 +3590,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5234
+  - Id: 5238
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uAD76\uC8FC\uB9B4 \uB550 \uC5EC\uAE30 \uB3C4\uD654\uCD0C \uC8FC\uB9C9\uC774
@@ -3550,7 +3603,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5235
+  - Id: 5239
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC300\uC774 \uD0C0\uAE30 \uC804\uC5D0 \uBB3C\uC744 \uBD93\uC790."
@@ -3562,7 +3615,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5236
+  - Id: 5240
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC640 \uBC25\uC774\uB2E4!! \uAC10\uC0AC\uD569\uB2C8\uB2E4!"
@@ -3574,7 +3627,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5237
+  - Id: 5241
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC544\uC774\uAC00 \uC8FC\uBA39\uBC25\uC744 \uD5C8\uAC81\uC9C0\uAC81
@@ -3587,7 +3640,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5238
+  - Id: 5242
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC544, \uB9DB\uC788\uAC8C \uC798 \uBA39\uC5C8\uC2B5\uB2C8\uB2E4.
@@ -3602,7 +3655,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2004
-  - Id: 5239
+  - Id: 5243
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uADF8 \uC0AC\uB78C\uC774 \uB204\uAD70\uC9C0\uB294 \uAE30\uC5B5\uC774
@@ -3616,7 +3669,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2004
-  - Id: 5240
+  - Id: 5244
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC800\uB294 \uC774\uB7F0 \uAC83\uBCF4\uB2E8, \uC880 \uB354 \uBC18\uC9DD\uAC70\uB9AC\uB294
@@ -3629,7 +3682,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5241
+  - Id: 5245
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC774\uC81C \uBC25 \uC9D3\uB294 \uBC95\uC744 \uC880 \uC54C\uACA0\uC18C?
@@ -3642,9 +3695,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5242
+  - Id: 5246
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uD5C8\uD5C8, \uC798 \uCC59\uACA8\uB4DC\uC2DC\uC624."
     IsUsing: 0
     IndexNum: 294
@@ -3654,7 +3707,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5243
+  - Id: 5247
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC5EC\uAE30\uC11C \uC2DD\uC790\uC7AC\uB294 \uD314\uC9C0\uC54A\uC18C."
@@ -3666,7 +3719,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5244
+  - Id: 5248
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uD558\uD558 \uC2DD\uC0AC\uB3C4 \uCC59\uACA8\uC8FC\uC2DC\uB294\uAC81\uB2C8\uAE4C?
@@ -3679,7 +3732,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5245
+  - Id: 5249
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC798 \uCC59\uACA8 \uBA39\uB294\uAC8C \uC81C\uC77C\uC774\uC624."
@@ -3691,7 +3744,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5246
+  - Id: 5250
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC815\uB9D0\uB85C \uAC16\uACE0\uC2F6\uC5C8\uB358 \uAC83\uC774\uC635\uB2C8\uB2E4~
@@ -3704,7 +3757,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5247
+  - Id: 5251
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB098\uC758 \uD314\uC5D0 \uB9E4\uB2EC\uB9AC\uB824\uB294 \uBE91\uB355
@@ -3717,7 +3770,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5248
+  - Id: 5252
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC544, \uADF8\uB807\uC9C0. \u24E1\uCCAD\uC774\uAC00 \uC1A1\uB098\uB77C
@@ -3731,7 +3784,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2006
-  - Id: 5249
+  - Id: 5253
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB0B4\uAC8C \uC8FC\uB294 \uAC83\uC774\uC624?? \uAC16\uB2E4 \uD314\uACE0
@@ -3744,9 +3797,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5250
+  - Id: 5254
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC5EC\uAE30\uB294 \uC5B4\uCA50 \uC77C\uC774\uC624?"
     IsUsing: 0
     IndexNum: 301
@@ -3756,7 +3809,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5251
+  - Id: 5255
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC5B8\uC81C \uD6D4\uCCE4\uC218?! \uC774\uB7F0 \uB3C4\uC801 \uB188\uC744
@@ -3771,7 +3824,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5252
+  - Id: 5256
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6'\uD0DC\uD615\uC5D0 \uCC98\uD560 \uC904 \uC544\uC2DC\uC624!!'"
@@ -3783,7 +3836,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5253
+  - Id: 5257
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC7A5\uC0AC\uAFBC\uC774 \uC5F0\uC2E0 \uC18C\uB9AC\uCCE4\uB2E4."
@@ -3795,7 +3848,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5254
+  - Id: 5258
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC7A5\uC0AC\uAFBC\uC5D0\uAC8C \uD314\uB69D\uC744 \uBD99\uC7A1\uD600
@@ -3810,7 +3863,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5255
+  - Id: 5259
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E1[\uC591\uC0C1\uAD70\uC790]"
@@ -3822,7 +3875,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5256
+  - Id: 5260
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC808 \uC8FC\uC2DC\uB294 \uAC74\uAC00\uC694? \uD544\uC694 \uC5C6\uC5B4\uC694.
@@ -3835,7 +3888,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5257
+  - Id: 5261
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB0B4 \uD615\uD3B8\uC774 \uB109\uB109\uD588\uB2E4\uBA74 \uB538\uB4E4\uD55C\uD14C
@@ -3849,7 +3902,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5258
+  - Id: 5262
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC774\uBC88\uC5D0 \uB4E4\uC5EC\uC628 \uAFB8\uBBF8\uAC1C\uAD70\uC694.
@@ -3862,7 +3915,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5259
+  - Id: 5263
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uBA39?? \uD638\uD638. \uAE00\uC528 \uC4F0\uB294 \uC0AC\uB0B4\uB294
@@ -3875,7 +3928,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5260
+  - Id: 5264
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC6B0\uB9AC \uADC0\uB355\uC774 \uACF5\uBD80 \uC2DC\uD0AC \uB54C
@@ -3888,9 +3941,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5261
+  - Id: 5265
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uB2E8\uC0B0\uC5D0\uC11C \uC62C\uB77C\uC628 \uBA39\uC774\uB77C\uACE0..
       \uD55C\uBC88 \uC368\uBCF4\uACA0\uB124. \uD488\uC9C8\uC774 \uC88B\uC544 \uBCF4\uC774\uB294\uAD70."
     IsUsing: 0
@@ -3901,7 +3954,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5262
+  - Id: 5266
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uB2E4\uB140\uC624\uC2ED\uC1FC! \uB9CC\uC57D \uB2EC\uB77C\uBA74
@@ -3915,7 +3968,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5263
+  - Id: 5267
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uD558\uD558, \uCC38 \uC88B\uC544 \uBCF4\uC774\uB294 \uBA39\uC785\uB2C8\uB2E4.
@@ -3928,7 +3981,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5264
+  - Id: 5268
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uD5E4\uD5E4, \uADF8\uAC8C \uBB50\uC608\uC694? \uBAA8\uC591\uC774
@@ -3941,7 +3994,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5265
+  - Id: 5269
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uBD80\uC720\uD55C \uBB38\uBC18\uB4E4\uC774\uB098 \uC4F0\uC9C0,
@@ -3954,7 +4007,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5266
+  - Id: 5270
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC624, \uC774\uC81C\uAE4C\uC9C0 \uBCF4\uC544\uC628 \uBA39 \uC911\uC5D0
@@ -3968,7 +4021,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5267
+  - Id: 5271
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uC8FC\uB9C9\uC5D0 \uC628 \uAC1D\uB4E4\uC744 \uB9DE\uC774\uD558\uB290\uB77C
@@ -3982,7 +4035,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5268
+  - Id: 5272
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC5D0\uAC8C \uC804\uB2EC\uD574\uC57C\uD55C\uB2E4.)"
@@ -3994,7 +4047,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5269
+  - Id: 5273
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB2E4\uB140\uC654\uB294\uAC00? \uC624, \uADF8 \uC544\uC774\uAC00
@@ -4010,9 +4063,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5270
+  - Id: 5274
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC5D0\uAC8C \uC804\uB2EC\uD574\uC57C\uD55C\uB2E4.)"
     IsUsing: 0
     IndexNum: 324
@@ -4022,7 +4075,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5271
+  - Id: 5275
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC5D0\uAC8C \uC804\uB2EC\uD574\uC57C\uD55C\uB2E4.)"
@@ -4034,7 +4087,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5272
+  - Id: 5276
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC5D0\uAC8C \uC804\uB2EC\uD574\uC57C\uD55C\uB2E4.)"
@@ -4046,7 +4099,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5273
+  - Id: 5277
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC81C\uAC00 \uBCF4\uAE30\uC5D4 \uC608\uC05C \uAF43\uC774\uC9C0\uB9CC,
@@ -4059,7 +4112,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5274
+  - Id: 5278
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC5D0\uAC8C \uC804\uB2EC\uD574\uC57C\uD55C\uB2E4.)"
@@ -4071,7 +4124,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5275
+  - Id: 5279
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uADC0\uB355 \uC5B4\uBA48\uC5D0\uAC8C \uC804\uB2EC\uD574\uC57C\uD55C\uB2E4.)"
@@ -4083,7 +4136,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5276
+  - Id: 5280
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uAFC0\uB5A1\uAFC0\uB5A1, \uC57D\uCD08\uBB3C\uC744 \uBAA8\uC870\uB9AC
@@ -4096,7 +4149,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5277
+  - Id: 5281
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC5ED\uC2DC \uC774 \uC57D\uCD08\uAC00 \uB0B4 \uBAB8\uC5D0 \uC798
@@ -4109,7 +4162,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5278
+  - Id: 5282
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB728\uB048\uD568\uC5D0 \uAE30\uBD84\uB3C4 \uB098\uB978\uD574\uC9C4
@@ -4122,7 +4175,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5279
+  - Id: 5283
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBAB8\uC774 \uACC4\uC18D \uB728\uAC70\uC6CC\uC9C0\uBA70 \uC228\uC774
@@ -4136,7 +4189,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5280
+  - Id: 5284
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB0B4 \uBAB8\uC744 \uB258\uC778 \uBC14\uB2E5\uC740 \uC774\uC820
@@ -4149,7 +4202,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5281
+  - Id: 5285
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E1[\uACFC\uC720\uBD88\uAE09]"
@@ -4161,7 +4214,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5282
+  - Id: 5286
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uC0AC\uACF5\uC758 \uAC83\uC774\uB2E4. \uB2E4\uB978 \uC0AC\uB78C\uC5D0\uAC8C
@@ -4174,7 +4227,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5283
+  - Id: 5287
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uC0AC\uACF5\uC758 \uAC83\uC774\uB2E4. \uB2E4\uB978 \uC0AC\uB78C\uC5D0\uAC8C
@@ -4187,9 +4240,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5284
+  - Id: 5288
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6(\uC0AC\uACF5\uC758 \uAC83\uC774\uB2E4. \uB2E4\uB978 \uC0AC\uB78C\uC5D0\uAC8C
       \uAC74\uB124\uC120 \uC548\uB41C\uB2E4.)"
     IsUsing: 0
@@ -4200,7 +4253,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5285
+  - Id: 5289
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6(\uC0AC\uACF5\uC758 \uAC83\uC774\uB2E4. \uB2E4\uB978 \uC0AC\uB78C\uC5D0\uAC8C
@@ -4213,7 +4266,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5286
+  - Id: 5290
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC73C\uC74C, \uC774 \uD2B9\uC774\uD55C \uD5A5. \uC544\uD3B8\uC774\uB124\uC694..
@@ -4226,7 +4279,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5287
+  - Id: 5291
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB2EC\uB2EC\uD558\uACE0 \uD1A1\uC3D8\uB294 \uB0C4\uC0C8\uAC00
@@ -4239,7 +4292,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5288
+  - Id: 5292
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uACE0\uB9D9\uC18C. \uBD80\uD0C1\uC744 \uB4E4\uC5B4\uC8FC\uC5C8\uC73C\uB2C8
@@ -4252,7 +4305,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5289
+  - Id: 5293
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC9C0\uB09C\uD574 \uC624\uC6D4\uBD80\uD130 \uC1A1\uB098\uB77C
@@ -4268,7 +4321,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5290
+  - Id: 5294
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC694\uC998 \uC0AC\uB294\uAC8C \uD30D\uD30D\uD574 \uADF8\uB7F0\uC9C0
@@ -4284,7 +4337,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5291
+  - Id: 5295
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uC0AC\uACF5\uC758 \uAC83\uC774\uB2E4. \uB2E4\uB978 \uC0AC\uB78C\uC5D0\uAC8C
@@ -4297,7 +4350,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5292
+  - Id: 5296
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBAB8\uC774 \uB2EC\uC544\uC624\uB978\uB2E4. \uC464\uC2DC\uB358
@@ -4311,7 +4364,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5293
+  - Id: 5297
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uB2E8\uC11C\uB97C \uB354 \uC870\uD569\uD574 \uBCF4\uC790.)"
@@ -4323,7 +4376,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5294
+  - Id: 5298
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uB2E8\uC11C\uB97C \uB354 \uC870\uD569\uD574 \uBCF4\uC790.)"
@@ -4335,9 +4388,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5295
+  - Id: 5299
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6(\uB2E8\uC11C\uB97C \uB354 \uC870\uD569\uD574 \uBCF4\uC790.)"
     IsUsing: 0
     IndexNum: 351
@@ -4347,7 +4400,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5296
+  - Id: 5300
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6(\uB2E8\uC11C\uB97C \uB354 \uC870\uD569\uD574 \uBCF4\uC790.)"
@@ -4359,7 +4412,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5297
+  - Id: 5301
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6(\uB2E8\uC11C\uB97C \uB354 \uC870\uD569\uD574 \uBCF4\uC790.)"
@@ -4371,7 +4424,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5298
+  - Id: 5302
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6(\uB2E8\uC11C\uB97C \uB354 \uC870\uD569\uD574 \uBCF4\uC790.)"
@@ -4383,7 +4436,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5299
+  - Id: 5303
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6(\uB2E8\uC11C\uB97C \uB354 \uC870\uD569\uD574 \uBCF4\uC790.)"
@@ -4395,7 +4448,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5300
+  - Id: 5304
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uB2E8\uC11C\uB97C \uB354 \uC870\uD569\uD574 \uBCF4\uC790.)"
@@ -4407,7 +4460,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5301
+  - Id: 5305
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC5B4\uC81C \uBC18\uCC2C\uB3C4 \uAE30\uC5B5\uC774 \uC548 \uB098\uB294\uB370
@@ -4420,7 +4473,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5302
+  - Id: 5306
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uADF8\uB0A0\uC774\uC5C8\uB098,, \u24E1\uBC43\uC0AC\uACF5\uC774
@@ -4434,9 +4487,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5303
+  - Id: 5307
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC14B\uC9F8\uAC00 \uC774\uD2C0 \uC804\uC5D0 \uD0DC\uC758\uAC10\uC73C\uB85C
       \uD5A5\uD588\uC9C0.. \uB610 \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uC18C?"
     IsUsing: 0
@@ -4447,7 +4500,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5304
+  - Id: 5308
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uBD80\uCC98\uAED8 \uC9C0\uC131\uC73C\uB85C \uBD88\uACF5\uB4DC\uB9B0\uB2E4\uBA74
@@ -4460,7 +4513,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5305
+  - Id: 5309
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6,,,\uC8FC\uB9C9\uC774 \uC18C\uB780\uC2A4\uB7EC\uC6E0\uB358 \uAC78\uB85C
@@ -4474,7 +4527,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5306
+  - Id: 5310
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC2E0\uACBD \uC4F0\uACE0 \uC2F6\uC9C0 \uC54A\uC18C. \uC800\uB9AC
@@ -4487,7 +4540,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5307
+  - Id: 5311
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB0A8\uB140 \uB458\uC774 \uCE5C\uD558\uBA74 \uD558\uB098 \uBC16\uC5D0
@@ -4500,7 +4553,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5308
+  - Id: 5312
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uADF8 \uB458\uC774 \uD568\uAED8 \uC788\uB294\uAC78 \uB098\uB3C4
@@ -4513,9 +4566,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5309
+  - Id: 5313
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC9C0\uAE08 \uC6B0\uB9AC \uC544\uB4E4\uC774\uB791 \uADF8 \uB301
       \uB530\uB2D8\uD558\uACE0 \uC5EE\uB294 \uAC83\uC774\uC624?? \uC2E4\uB840\uB77C\uB294
       \uC0DD\uAC01\uC740 \uC548\uB4DC\uC2DC\uC624?"
@@ -4527,7 +4580,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5310
+  - Id: 5314
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB458\uC774 \uCE5C\uC6B0\uBCF4\uB2E4\uB294 \uAC00\uAE4C\uC6CC
@@ -4540,7 +4593,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5311
+  - Id: 5315
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8 \uB458\uC774 \uCE5C\uD55C \uAC83\uACFC \uB0B4\uAC8C \uC9C8\uBB38\uC744
@@ -4553,7 +4606,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5312
+  - Id: 5316
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB458 \uB2E4 \uC774\uD2C0 \uC804\uC5D0 \uC0AC\uB77C\uC84C\uB2E4\uACE0\uC694?
@@ -4566,7 +4619,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5313
+  - Id: 5317
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uCCAD\uC774\uC640 \uD5A5\uB9AC \uB301 \uB9C9\uB0B4\uC544\uB4E4\uC774
@@ -4582,9 +4635,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5314
+  - Id: 5318
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC6B0\uB9AC \uC14B\uC9F8\uB294 \uBD84\uBA85\uD788 \uD0DC\uC758\uAC10\uC73C\uB85C
       \uAC14\uC18C. \uB610 \uD5C8\uD2BC \uC18C\uB9AC \uD558\uB2E4\uAC04 \uBE44\uBA85\uD6A1\uC0AC\uD560
       \uC904 \uC544\uC2DC\uC624."
@@ -4596,9 +4649,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5315
+  - Id: 5319
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uB0B4\uAC00 \uB2E8\uB2E8\uD788 \uACBD\uACE0 \uD588\uC9C0\uC54A\uC18C?
       \uC790\uCD08\uD55C \uC904 \uC544\uC2DC\uC624."
     IsUsing: 0
@@ -4609,7 +4662,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5316
+  - Id: 5320
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBD80\uC778\uC774 \uD558\uC778\uC758 \uD558\uC580 \uCC9C\uC744
@@ -4622,7 +4675,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5317
+  - Id: 5321
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCE7C\uB0A0\uC5D0 \uBC18\uC0AC\uB41C \uBE5B\uC774 \uB208\uC5D0
@@ -4636,7 +4689,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5318
+  - Id: 5322
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0C1\uD669\uC744 \uD30C\uC545\uD558\uAE30\uB3C4 \uC804\uC5D0
@@ -4650,7 +4703,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5319
+  - Id: 5323
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E1[\uAD6C\uD654\uC9C0\uBB38]"
@@ -4662,7 +4715,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5320
+  - Id: 5324
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uB098\uB294 \uAD00\uC2EC \uC5C6\uC73C\uB2C8 \uC7A5\uC0AC \uBC29\uD574
@@ -4675,7 +4728,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5321
+  - Id: 5325
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC800\uB294 \uBAA8\uB974\uACA0\uC5B4\uC694."
@@ -4687,7 +4740,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5322
+  - Id: 5326
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC2EC\uCCAD \uC544\uAE30\uC528\uC640 \uADF8 \uB301 \uB3C4\uB839\uC774
@@ -4702,7 +4755,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5323
+  - Id: 5327
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC634\uB9C8, \uC9C0\uAE08 \uBB34\uC5ED\uC774 \uC911\uB2E8 \uB418\uC5C8\uB2E4\uB294
@@ -4716,7 +4769,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5324
+  - Id: 5328
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC5B4\uCA50\uC9C0, \uBC43\uC0AC\uB78C\uB4E4\uC774 \uC8FC\uB9C9\uC5D0
@@ -4729,9 +4782,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5325
+  - Id: 5329
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uD55C\uB3D9\uC548 \uC0AC\uC808\uC740 \uC548 \uC624\uACA0\uAD70.."
     IsUsing: 0
     IndexNum: 383
@@ -4741,7 +4794,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5326
+  - Id: 5330
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uBB34\uC5ED\uC774 \uC911\uB2E8 \uB41C \uC9C0\uB294 \uC5BC\uB9C8\uB418\uC9C0\uC54A\uC558\uC2B5\uC8E0.
@@ -4755,7 +4808,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5327
+  - Id: 5331
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uBB34\uC2A8 \uB9D0\uC778\uC9C0 \uC798 \uBAA8\uB974\uACA0\uC5B4\uC694.."
@@ -4767,7 +4820,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5328
+  - Id: 5332
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uB2E4 \uBD80\uCC98\uC758 \uB73B\uC77C \uAC81\uB2C8\uB2E4."
@@ -4779,7 +4832,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5329
+  - Id: 5333
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uBB34\uC5ED\uC774 \uC911\uB2E8\uB41C \uC77C\uC744 \uC5B4\uB5BB\uAC8C
@@ -4793,7 +4846,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5330
+  - Id: 5334
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8\uAC74 \uB610 \uC5B4\uB514\uC11C \uC804\uD574\uB4E4\uC740
@@ -4806,7 +4859,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5331
+  - Id: 5335
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB9E4\uD574 \uC774\uB9D8\uB54C, \uC1A1\uC5D0\uC11C \uC624\uAC00\uB294
@@ -4821,7 +4874,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 2022
-  - Id: 5332
+  - Id: 5336
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8\uB4E4\uC774 \uC54C\uC544\uC11C \uD558\uACA0\uC9C0. \uC774\uC81C
@@ -4834,7 +4887,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5333
+  - Id: 5337
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uB9C8\uC74C\uC774 \uC218\uCE58\uC2A4\uB7EC\uC6CC \uC5B4\uB514\uC5D0\uB3C4
@@ -4847,7 +4900,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5334
+  - Id: 5338
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6(\uB9C8\uC74C\uC774 \uC218\uCE58\uC2A4\uB7EC\uC6CC \uC5B4\uB514\uC5D0\uB3C4
@@ -4860,9 +4913,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5335
+  - Id: 5339
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6(\uB9C8\uC74C\uC774 \uC218\uCE58\uC2A4\uB7EC\uC6CC \uC5B4\uB514\uC5D0\uB3C4
       \uBB3C\uC5B4\uBCFC \uC218 \uC5C6\uB2E4.)"
     IsUsing: 0
@@ -4873,7 +4926,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5336
+  - Id: 5340
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6(\uB9C8\uC74C\uC774 \uC218\uCE58\uC2A4\uB7EC\uC6CC \uC5B4\uB514\uC5D0\uB3C4
@@ -4886,7 +4939,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5337
+  - Id: 5341
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6(\uB9C8\uC74C\uC774 \uC218\uCE58\uC2A4\uB7EC\uC6CC \uC5B4\uB514\uC5D0\uB3C4
@@ -4899,7 +4952,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5338
+  - Id: 5342
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6(\uB9C8\uC74C\uC774 \uC218\uCE58\uC2A4\uB7EC\uC6CC \uC5B4\uB514\uC5D0\uB3C4
@@ -4912,7 +4965,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5339
+  - Id: 5343
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6(\uB9C8\uC74C\uC774 \uC218\uCE58\uC2A4\uB7EC\uC6CC \uC5B4\uB514\uC5D0\uB3C4
@@ -4925,7 +4978,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5340
+  - Id: 5344
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6(\uB9C8\uC74C\uC774 \uC218\uCE58\uC2A4\uB7EC\uC6CC \uC5B4\uB514\uC5D0\uB3C4
@@ -4938,7 +4991,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5341
+  - Id: 5345
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC774 \uC815\uB3C4 \uAC70\uB9AC\uBA74 \uC800\uCABD\uC5D0\uC11C
@@ -4951,7 +5004,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5342
+  - Id: 5346
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uAC70\uB9AC\uB97C \uB450\uC5B4 \uC1A1 \uC0C1\uC778\uB4E4\uC758
@@ -4964,7 +5017,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5343
+  - Id: 5347
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uB3DB\uC744 \uC811\uACE0 \uB2FB\uC744 \uB0B4\uB9AC\uB294 \uAC83
@@ -4977,7 +5030,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5344
+  - Id: 5348
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC774\uC81C \uBC30\uB97C \uBD99\uC774\uACA0\uC18C."
@@ -4989,7 +5042,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5345
+  - Id: 5349
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0AC\uACF5\uACFC \uC9C0\uC5B8\uC758 \uC774\uC57C\uAE30\uB85C
@@ -5003,7 +5056,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5346
+  - Id: 5350
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCEE4\uB2E4\uB780 \uC1A1\uB098\uB77C \uC0C1\uC778\uB4E4\uC758
@@ -5016,7 +5069,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5347
+  - Id: 5351
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBFCC\uC5F0 \uC2DC\uC57C \uB05D\uC5D0 \uAC70\uB300\uD55C \uBB34\uC5B8\uAC00\uAC00
@@ -5029,7 +5082,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5348
+  - Id: 5352
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uAC70\uC13C \uB108\uC6B8\uC5D0 \uBC30\uAC00 \uC790\uAFB8\uB9CC
@@ -5043,7 +5096,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5349
+  - Id: 5353
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uADD3\uAC00\uB97C \uAC15\uD558\uAC8C \uB54C\uB9AC\uB294 \uBC14\uB78C
@@ -5057,7 +5110,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5350
+  - Id: 5354
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC2DC\uAC01\uC774 \uAE09\uD558\uB2C8 \uC5B4\uC11C \uBC14\uC090
@@ -5070,7 +5123,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5351
+  - Id: 5355
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB4E4\uB9AC\uB294 \uC18C\uB9AC\uC5D0 \uC758\uD558\uC5EC \uCCAD\uC774\uAC00
@@ -5083,7 +5136,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5352
+  - Id: 5356
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uBE44\uB098\uC774\uB2E4, \uBE44\uB098\uC774\uB2E4. \uC8FD\uB294
@@ -5099,7 +5152,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5353
+  - Id: 5357
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uBC30\uB97C \uC880 \uB354 \uBD99\uC774\uACA0\uC18C."
@@ -5111,7 +5164,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5354
+  - Id: 5358
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0AC\uACF5\uC774 \uB098\uB8FB\uBC30\uB97C \uCCAD\uC774\uAC00
@@ -5125,7 +5178,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5355
+  - Id: 5359
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uACE0\uAC1C\uB97C \uCCD0\uB4DC\uB2C8 \uCCAD\uC774\uC758 \uD754\uC801\uC774
@@ -5139,7 +5192,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5356
+  - Id: 5360
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uAC70\uC138\uAC8C \uCE58\uB294 \uD48D\uB791 \uC704\uC5D0\uC11C
@@ -5154,7 +5207,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5357
+  - Id: 5361
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uAE30\uBD84 \uB098\uC05C \uC608\uAC10\uC774 \uAD00\uC790\uB180\uC774\uC5D0
@@ -5167,7 +5220,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5358
+  - Id: 5362
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC544\uBC84\uB2D8!!!"
@@ -5179,7 +5232,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5359
+  - Id: 5363
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uACE0\uBBFC\uD560 \uC0C8\uB3C4 \uC5C6\uC774 \uBC14\uB2E4\uC5D0
@@ -5192,7 +5245,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5360
+  - Id: 5364
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC815\uC2E0\uC5C6\uC774 \uD314\uC744 \uD718\uC801\uC774\uB2C8
@@ -5206,7 +5259,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5361
+  - Id: 5365
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB2F9\uAE34 \uBB3C\uCCB4\uAC00 \uCCAD\uC774\uC5C8\uAE30\uB97C
@@ -5220,7 +5273,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5362
+  - Id: 5366
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24D1[\uBD84\uACE8\uC1C4\uC2E0]"
@@ -5232,7 +5285,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5363
+  - Id: 5367
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC9C0\uC5B8\uC774 \uB2E8\uB2E8\uD788 \uC77C\uB7EC\uB454 \uB300\uB85C
@@ -5246,7 +5299,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5364
+  - Id: 5368
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBC30\uC5D0 \uC788\uB358 \uB204\uAD70\uAC00\uAC00 \uBC14\uB2F7\uBB3C\uB85C
@@ -5260,7 +5313,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5365
+  - Id: 5369
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC9C0\uC5B8\uACFC \uB098\uB294 \uCE68\uBB35 \uC18D\uC5D0\uC11C
@@ -5273,7 +5326,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5366
+  - Id: 5370
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC5BC\uB9C8 \uB3D9\uC548\uC758 \uC2DC\uAC04\uC774 \uD758\uB800\uC744\uAE4C,
@@ -5287,7 +5340,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5367
+  - Id: 5371
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uB3CC\uC544\uC654\uB2E4\uB294 \uAC83\uC744
@@ -5301,7 +5354,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5368
+  - Id: 5372
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC544\uBC84\uC9C0\uAC00 \uC65C \uC5EC\uAE30\uC5D0..."
@@ -5313,7 +5366,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5369
+  - Id: 5373
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uB0B4 \uD314\uC744 \uBFCC\uB9AC\uCE58\uBA70
@@ -5326,7 +5379,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5370
+  - Id: 5374
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC544\uBC84\uC9C0\uAED8\uC120 \uC5ED\uC2DC \uC81C\uAC00 \uC5B4\uB5A4
@@ -5339,7 +5392,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5371
+  - Id: 5375
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uC124\uD54F \uC6C3\uC5B4 \uBCF4\uC774\uB354\uB2C8,
@@ -5352,7 +5405,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5372
+  - Id: 5376
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB418\uB824 \uD3B8\uD569\uB2C8\uB2E4. \uC544\uBC84\uC9C0."
@@ -5364,7 +5417,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5373
+  - Id: 5377
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB208\uC744 \uB728\uC2DC\uC5B4 \uBC1D\uC740 \uC138\uC0C1 \uBCF4\uC2DC\uACE0,
@@ -5378,7 +5431,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5374
+  - Id: 5378
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCC98\uC74C \uBCF4\uB294 \uCCAD\uC774\uC758 \uBE44\uB9BF\uD55C
@@ -5391,7 +5444,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5375
+  - Id: 5379
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uB208\uC744 \uAC10\uACE0 \uBC14\uB2E4\uC5D0
@@ -5404,7 +5457,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5376
+  - Id: 5380
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC544!!"
@@ -5416,7 +5469,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5377
+  - Id: 5381
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC774\uBCF4\uAC8C!!"
@@ -5428,7 +5481,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5378
+  - Id: 5382
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC774\uBCF4\uC2DC\uC624, \uC0AC\uACF5 \uC591\uBC18!! \uC5B4\uB5BB\uAC8C\uB4E0
@@ -5442,7 +5495,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5379
+  - Id: 5383
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB098\uB3C4 \uBC29\uAE08\uAE4C\uC9C0 \uBB3C\uC5D0 \uC788\uC5C8\uC18C!!
@@ -5456,7 +5509,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5380
+  - Id: 5384
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC2B9\uAC15\uC774\uB97C \uD558\uB294 \uB458\uC758 \uC0AC\uC774\uC5D0\uC11C
@@ -5469,7 +5522,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5381
+  - Id: 5385
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB9C8\uC74C\uB9C8\uC800 \uAE5C\uAE5C\uD574\uC84C\uB2E4."
@@ -5481,7 +5534,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5382
+  - Id: 5386
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB9C8\uC744\uB85C \uB2E4\uC2DC \uB3CC\uC544\uAC00\uB294 \uBC43\uAE38\uC5D0
@@ -5494,7 +5547,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5383
+  - Id: 5387
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC5EC\uD0DC\uAECF \uB538\uC758 \uB9D8\uC744 \uC54C\uC544\uC8FC\uC9C0
@@ -5507,7 +5560,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5384
+  - Id: 5388
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6....\uC544\uBC84\uC9C0"
@@ -5519,7 +5572,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5385
+  - Id: 5389
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uACF5\uD5C8\uD55C \uB208\uC73C\uB85C \uB098\uB97C
@@ -5532,7 +5585,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5386
+  - Id: 5390
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC544\uBC84\uC9C0\uAED8 \uC0AC\uACFC\uB97C \uBC1B\uB294\uB2E4\uBA74
@@ -5546,7 +5599,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5387
+  - Id: 5391
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC774\uBBF8 \uB3CC\uC774\uD0AC \uC218 \uC5C6\uC774 \uBA40\uB9AC\uC654\uB098\uBD05\uB2C8\uB2E4."
@@ -5558,7 +5611,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5388
+  - Id: 5392
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB208\uC744 \uB728\uC2DC\uC5B4 \uBC1D\uC740 \uC138\uC0C1 \uBCF4\uC2DC\uACE0,
@@ -5572,7 +5625,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5389
+  - Id: 5393
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB2E4\uC2DC \uD55C\uBC88 \uCCAD\uC774\uB97C \uC548\uC73C\uB824
@@ -5586,7 +5639,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5390
+  - Id: 5394
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uB208\uC744 \uAC10\uACE0 \uBC14\uB2E4\uC5D0
@@ -5599,7 +5652,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5391
+  - Id: 5395
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC544!!"
@@ -5611,7 +5664,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5392
+  - Id: 5396
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC774\uBCF4\uAC8C!!"
@@ -5623,7 +5676,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5393
+  - Id: 5397
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC774\uBCF4\uC2DC\uC624, \uC0AC\uACF5 \uC591\uBC18!! \uC5B4\uB5BB\uAC8C\uB4E0
@@ -5637,7 +5690,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5394
+  - Id: 5398
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB098\uB3C4 \uBC29\uAE08\uAE4C\uC9C0 \uBB3C\uC5D0 \uC788\uC5C8\uC18C!!
@@ -5651,7 +5704,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5395
+  - Id: 5399
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC2B9\uAC15\uC774\uB97C \uD558\uB294 \uB458\uC758 \uC0AC\uC774\uC5D0\uC11C
@@ -5664,7 +5717,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5396
+  - Id: 5400
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB9C8\uC74C\uB9C8\uC800 \uAE5C\uAE5C\uD574\uC84C\uB2E4."
@@ -5676,7 +5729,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5397
+  - Id: 5401
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB9C8\uC744\uB85C \uB2E4\uC2DC \uB3CC\uC544\uAC00\uB294 \uBC43\uAE38\uC5D0
@@ -5689,7 +5742,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5398
+  - Id: 5402
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB098\uB294 \uC544\uBB34 \uB9D0\uB3C4 \uD560 \uC218 \uC5C6\uC5B4
@@ -5702,7 +5755,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5399
+  - Id: 5403
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC65C \uC544\uBB34 \uB9D0\uC500\uB3C4 \uC5C6\uC73C\uC2E0\uC9C0\uC694."
@@ -5714,7 +5767,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5400
+  - Id: 5404
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB054\uBC85\uB054\uBC85\uD558\uBA70 \uCCAD\uC774\uB294 \uB098\uB97C
@@ -5727,7 +5780,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5401
+  - Id: 5405
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC758 \uBAA8\uB4E0 \uD589\uB3D9\uC5D0, \uC774\uC720\uAC00
@@ -5740,7 +5793,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5402
+  - Id: 5406
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB97C \uADF8\uB807\uAC8C \uBAB0\uC544\uB123\uC740
@@ -5753,7 +5806,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5403
+  - Id: 5407
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC785\uC774 \uB5A8\uC5B4\uC9C0\uC9C0 \uC54A\uC558\uB2E4."
@@ -5765,7 +5818,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5404
+  - Id: 5408
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB9D0\uB3C4 \uC783\uC73C\uC168\uC2B5\uB2C8\uAE4C? \uBB34\uC2A8
@@ -5778,7 +5831,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5405
+  - Id: 5409
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC544. \uC9C4\uC815\uD558\uAC70\uB77C."
@@ -5790,7 +5843,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5406
+  - Id: 5410
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB0A0 \uBD99\uC7A1\uACE0 \uD754\uB4DC\uB294 \uCCAD\uC774\uB97C
@@ -5803,7 +5856,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5407
+  - Id: 5411
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC9C0\uC5B8\uC774 \uCCAD\uC774\uC758 \uC591\uC5B4\uAE68\uB97C
@@ -5817,7 +5870,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5408
+  - Id: 5412
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uAE34\uC7A5\uC774 \uD480\uB9AC\uC790\uB9C8\uC790
@@ -5830,7 +5883,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5409
+  - Id: 5413
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB2EC\uBC24\uC774 \uC9C0\uB098 \uC0C8\uBCBD\uC774 \uC624\uB294
@@ -5844,7 +5897,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5410
+  - Id: 5414
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uCC98\uC74C\uC5D4 \uB2E4\uB978 \uC9D1 \uADDC\uC218\uB4E4\uACFC\uB294
@@ -5857,7 +5910,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5411
+  - Id: 5415
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC88B\uC740 \uC74C\uC2DD, \uBB3C\uAC74\uC744 \uBD10\uB3C4 \uC148\uC774
@@ -5870,7 +5923,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5412
+  - Id: 5416
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uADF8\uC800 \uC138\uC0C1\uBAA8\uB974\uAC8C \uC77C\uB9CC \uD558\uB294
@@ -5883,7 +5936,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5413
+  - Id: 5417
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uADF8\uB7EC\uB2E4 \uC5B4\uB290\uC0C8, \uC81C\uAC00 \uC2EB\uC5B4\uC9C4
@@ -5896,7 +5949,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5414
+  - Id: 5418
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB3C4\uD654\uCD0C\uC5D0 \uB3CC\uC544\uAC00\uBA74.. \uC9C0\uC5B8\uACFC
@@ -5909,7 +5962,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5415
+  - Id: 5419
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC5B4\uB290 \uB0A0, \uAE68\uB057\uD55C \uB9C8\uC74C\uC774 \uB4E4
@@ -5922,7 +5975,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5416
+  - Id: 5420
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uADF8\uB798\uB3C4 \uC774\uC81C\uAECF \uD0A4\uC6CC\uC8FC\uC2E0
@@ -5935,7 +5988,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5417
+  - Id: 5421
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uAC10\uC0AC\uD569\uB2C8\uB2E4. \uC544\uBC84\uC9C0."
@@ -5947,7 +6000,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5418
+  - Id: 5422
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBAA8\uB450\uAC00 \uC774\uC57C\uAE30\uB97C \uC7A0\uC790\uCF54
@@ -5960,7 +6013,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5419
+  - Id: 5423
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCD08\uC5F0\uD55C \uCCAD\uC774\uC758 \uD45C\uC815\uC5D0, \uB098\uB294
@@ -5973,7 +6026,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5420
+  - Id: 5424
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB3C4\uD654\uCD0C\uC73C\uB85C \uB3CC\uC544\uC628 \uB4A4, \uCCAD\uC774\uC640
@@ -5986,7 +6039,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5421
+  - Id: 5425
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC790\uC758\uC600\uB4E0, \uD0C0\uC758\uC600\uB4E0. \uBD80\uBAA8
@@ -6000,7 +6053,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5422
+  - Id: 5426
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBA87 \uB2EC\uC774 \uC9C0\uB098\uACE0, \uADC0\uB355 \uC5B4\uBA48\uC774
@@ -6014,7 +6067,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5423
+  - Id: 5427
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB300\uC2E0 \uBCF4\uBD80\uC0C1\uB4E4\uC774 \uC7A5\uD130 \uC790\uB9AC\uB97C
@@ -6027,7 +6080,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5424
+  - Id: 5428
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC7A5\uC791\uC744 \uC544\uAD81\uC774\uC5D0 \uB123\uC5C8\uB2E4."
@@ -6039,7 +6092,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5425
+  - Id: 5429
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBD80\uC2DC\uC640 \uBD80\uC2EF\uB3CC\uB85C \uBD88\uC744 \uBD99\uC600\uB2E4."
@@ -6051,7 +6104,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5426
+  - Id: 5430
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBC14\uAC00\uC9C0\uB85C \uBB3C\uC744 \uB5B4\uB2E4."
@@ -6063,7 +6116,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5427
+  - Id: 5431
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBB3C\uC774 \uB4E0 \uBC14\uAC00\uC9C0\uB97C \uC1A5\uC5D0 \uBD80\uC5C8\uB2E4."
@@ -6075,7 +6128,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5428
+  - Id: 5432
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC300\uC744 \uC1A5\uC5D0 \uB123\uC5C8\uB2E4."
@@ -6087,7 +6140,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5429
+  - Id: 5433
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC8FC\uBA39\uBC25\uC744 \uB9CC\uB4E4\uC5C8\uB2E4."
@@ -6099,7 +6152,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5430
+  - Id: 5434
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC8FC\uBA39\uBC25\uC744 \uAC74\uB138\uB2E4."
@@ -6111,7 +6164,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5431
+  - Id: 5435
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBE44\uB140\uB97C \uAC74\uB138\uB2E4."
@@ -6123,7 +6176,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5432
+  - Id: 5436
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBA39\uC744 \uAC74\uB138\uB2E4."
@@ -6135,7 +6188,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5433
+  - Id: 5437
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBCF4\uB9AC\uB5A1\uC744 \uAC74\uB138\uB2E4."
@@ -6147,7 +6200,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5434
+  - Id: 5438
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uAF43\uC744 \uAC74\uB138\uB2E4."
@@ -6159,7 +6212,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5435
+  - Id: 5439
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC57D\uCD08\uB97C \uC1A5\uC5D0 \uB123\uC5C8\uB2E4."
@@ -6171,7 +6224,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5436
+  - Id: 5440
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0AC\uACF5\uC758 \uBB3C\uAC74\uC744 \uAC74\uB138\uB2E4."
@@ -6183,7 +6236,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5437
+  - Id: 5441
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uD5A5\uB9AC \uB301\uC758 \uC218\uC591\uB538\uC5D0 \uB300\uD558\uC5EC
@@ -6196,7 +6249,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5438
+  - Id: 5442
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC758 \uAC70\uC9D3\uB9D0\uC5D0 \uB300\uD558\uC5EC
@@ -6209,7 +6262,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5439
+  - Id: 5443
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC758 \uD589\uBC29\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6222,7 +6275,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5440
+  - Id: 5444
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC640 \uC7A5\uD130\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6235,7 +6288,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5441
+  - Id: 5445
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC640 \uC0AC\uB0B4\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6248,7 +6301,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5442
+  - Id: 5446
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB204\uAD70\uAC00\uC758 \uC544\uB4E4\uC5D0 \uB300\uD558\uC5EC
@@ -6261,7 +6314,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5443
+  - Id: 5447
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC1A1\uB098\uB77C \uC0C1\uC778\uACFC \uCCAD\uC774\uC5D0 \uB300\uD558\uC5EC
@@ -6274,7 +6327,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5444
+  - Id: 5448
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC2B9\uB824\uC640 \uCCAD\uC774\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6287,7 +6340,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5445
+  - Id: 5449
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC2B9\uB824\uC758 \uB9C8\uC74C\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6300,7 +6353,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5446
+  - Id: 5450
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC758 \uB3C4\uC6C0\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6313,7 +6366,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5447
+  - Id: 5451
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uACF5\uC591\uBBF8 \uC0BC\uBC31 \uC11D\uC5D0 \uB300\uD558\uC5EC
@@ -6326,7 +6379,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5448
+  - Id: 5452
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uACF5\uC591\uBBF8\uC758 \uCD9C\uCC98\uC5D0 \uB300\uD558\uC5EC
@@ -6339,7 +6392,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5449
+  - Id: 5453
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC758 \uAC70\uB798\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6352,7 +6405,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5450
+  - Id: 5454
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uD5A5\uB9AC \uB301 \uC14B\uC9F8 \uC544\uB4E4\uC5D0 \uB300\uD558\uC5EC
@@ -6365,7 +6418,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5451
+  - Id: 5455
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC7A0\uC7A0\uD574\uC838\uC57C \uD560 \uBB3C\uC0B4\uC5D0 \uB300\uD558\uC5EC
@@ -6378,7 +6431,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5452
+  - Id: 5456
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC0AC\uAC04 \uAC83\uC5D0 \uB300\uD558\uC5EC
@@ -6391,7 +6444,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5453
+  - Id: 5457
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC9DA\uC2E0\uC744 \uC0AC\uAC04 \uCCAD\uC774\uC5D0 \uB300\uD558\uC5EC
@@ -6404,7 +6457,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5454
+  - Id: 5458
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBC30\uC758 \uCD9C\uD56D\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6417,7 +6470,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5455
+  - Id: 5459
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB178\uC810\uC758 \uB2E8\uACE8\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6430,7 +6483,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5456
+  - Id: 5460
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB728\uC9C0 \uC54A\uB294 \uBC30\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6443,7 +6496,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5457
+  - Id: 5461
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0AC\uACF5\uC5D0\uAC8C \uC788\uC5C8\uB358 \uC77C\uC5D0 \uB300\uD558\uC5EC
@@ -6456,7 +6509,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5458
+  - Id: 5462
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0AC\uACF5\uC758 \uBB3C\uAC74\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6469,7 +6522,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5459
+  - Id: 5463
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBC43\uAE38\uC744 \uC7A0\uC7AC\uC6B8 \uBC29\uBC95\uC5D0 \uB300\uD558\uC5EC
@@ -6482,7 +6535,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5460
+  - Id: 5464
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E63\uC6D4 \uBCF4\uB984\uB0A0\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6495,7 +6548,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5461
+  - Id: 5465
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uACF5\uC591\uBBF8\uB97C \uAD6C\uD55C \uBC29\uBC95\uC5D0 \uB300\uD558\uC5EC
@@ -6508,7 +6561,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5462
+  - Id: 5466
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC0AC\uB77C\uC9C4 \uB0A0\uC5D0 \uB300\uD558\uC5EC
@@ -6521,7 +6574,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5463
+  - Id: 5467
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC640 \uADF8\uC758 \uAD00\uACC4\uC5D0 \uB300\uD558\uC5EC
@@ -6534,7 +6587,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5464
+  - Id: 5468
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uD568\uAED8 \uC0AC\uB77C\uC9C4 \uB450 \uC0AC\uB78C\uC5D0 \uB300\uD558\uC5EC
@@ -6547,7 +6600,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5465
+  - Id: 5469
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBB34\uC5ED\uC758 \uC911\uB2E8\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6560,7 +6613,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5466
+  - Id: 5470
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC758 \uAC00\uCD9C\uC5D0 \uB300\uD558\uC5EC \uB9D0\uC744
@@ -6573,7 +6626,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5467
+  - Id: 5471
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBC14\uB2E4\uC5D0 \uBC14\uCCD0\uC9C8 \uC81C\uBB3C\uC5D0 \uB300\uD558\uC5EC
@@ -6586,7 +6639,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5468
+  - Id: 5472
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC608, \uC5B4\uBA38\uB2C8\uAED8\uC11C\uB294 \uCCAD\uC774\uB97C
@@ -6602,7 +6655,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5469
+  - Id: 5473
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uBB38\uC81C\uB294, \uC81C \uB9C8\uC74C\uB3C4 \uD568\uAED8 \uC0AC\uB85C\uC7A1\uD614\uB2E4\uB294
@@ -6615,7 +6668,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5470
+  - Id: 5474
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uAC70\uC9D3\uB9D0\uC744 \uD558\uAC8C \uB41C
@@ -6628,7 +6681,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5471
+  - Id: 5475
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC544\uBC84\uB2D8\uACFC \uC7A0\uC2DC \uBA40\uB9AC
@@ -6642,7 +6695,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5472
+  - Id: 5476
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC544\uAE4C\uB3C4 \uB9D0\uC500\uB4DC\uB838\uC9C0\uB9CC \uC800\uC640
@@ -6657,7 +6710,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5473
+  - Id: 5477
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC800\uB294 \uB3C4\uD654\uCD0C \uD5A5\uB9AC \uB301\uC758 \uC14B\uC9F8
@@ -6671,7 +6724,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5474
+  - Id: 5478
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC544\uBC84\uB2D8\uAED8\uC11C \uC2B9\uB824\uC640 \uC57D\uC18D\uD55C
@@ -6687,7 +6740,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5475
+  - Id: 5479
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6..\uCC38 \uD130\uBB34\uB2C8\uC5C6\uB294 \uC774\uC57C\uAE30\uAE34
@@ -6702,7 +6755,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5476
+  - Id: 5480
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC5BC\uD1A0\uB2F9\uD1A0\uC54A\uC740 \uC774\uC57C\uAE30\uB77C
@@ -6715,7 +6768,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5477
+  - Id: 5481
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC1A1\uB098\uB77C \uC0C1\uC778\uB4E4\uC740 \uC790\uAFB8\uB9CC
@@ -6730,7 +6783,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5478
+  - Id: 5482
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC544\uC2DC\uB2E4\uC2DC\uD53C \uCC45\uC784\uAC10\uC774 \uB618\uB618
@@ -6746,7 +6799,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5479
+  - Id: 5483
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uB2EC\uD3EC \uC804\uBD80\uD130 \uC1A1\uB098\uB77C \uC0C1\uC778\uB4E4\uC740
@@ -6761,7 +6814,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5480
+  - Id: 5484
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6 ...\uCCAD\uC774\uAC00 \uBBF8\uCCE4\uB2E4\uB294 \uC18C\uB9AC\uB294
@@ -6774,7 +6827,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5481
+  - Id: 5485
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uC77C\uC774 \uC5B4\uB5BB\uAC8C \uC9C4\uD589\uB418\uB294\uC9C0
@@ -6789,7 +6842,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5482
+  - Id: 5486
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC808 \uCC3E\uC544\uB2E4\uB2C8\uC168\uB098 \uBCF4\uB124\uC694.
@@ -6803,7 +6856,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5483
+  - Id: 5487
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC5B4\uBA38\uB2C8\uAED8\uC11C \uC81C\uAC8C \uAC70\uB294 \uAE30\uB300\uAC00
@@ -6817,7 +6870,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5484
+  - Id: 5488
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uBC43\uC0AC\uACF5\uC758 \uC774\uC57C\uAE30\uB85C\uB294, \uBB3C\uC774
@@ -6833,7 +6886,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5485
+  - Id: 5489
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC785\uC744 \uAC83, \uBA39\uC744 \uAC83, \uC7A0\uB4E4 \uAC83..\uC774\uB807\uAC8C
@@ -6846,7 +6899,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5486
+  - Id: 5490
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC9DA\uC2E0\uC744 \uB9CE\uC774 \uCC59\uAE34
@@ -6860,7 +6913,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5487
+  - Id: 5491
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uB9E4\uBC88 \uC544\uBB34\uB807\uC9C0 \uC54A\uAC8C
@@ -6873,7 +6926,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5488
+  - Id: 5492
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6...\uCD9C\uD56D\uC77C\uC744 \uBB3C\uC5B4\uBCF4\uC2E0 \uAC74..
@@ -6888,7 +6941,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5489
+  - Id: 5493
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC544\uBC84\uC9C0\uC640 \uC5B4\uBA38\uB2C8\uB294 \uBCF5\uC7A1\uD55C
@@ -6902,7 +6955,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5490
+  - Id: 5494
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC800\uB294 \uCCAD\uC774\uC758 \uACC1\uC5D0 \uB0A8\uC744 \uAC83\uC785\uB2C8\uB2E4."
@@ -6914,7 +6967,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5491
+  - Id: 5495
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uB124. \uADF8 \uC7A1\uD654\uC0C1\uACFC \uB9E4\uBC88 \uAC70\uB798\uD569\uB2C8\uB2E4.
@@ -6929,7 +6982,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5492
+  - Id: 5496
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uAC15\uD574\uC9C4 \uBB3C\uC0B4 \uD0D3\uC5D0 \uADF8\uB7F0 \uAC83\uC73C\uB85C
@@ -6942,7 +6995,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5493
+  - Id: 5497
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC0AC\uACF5\uC5D0\uAC8C \uB4E4\uC5C8\uB294\uB370, \uC0AC\uACF5\uC758
@@ -6956,7 +7009,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5494
+  - Id: 5498
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC544\uBB34\uB9AC \uB3C8\uC774 \uAE09\uD574\uB3C4 \uC548 \uD560
@@ -6971,7 +7024,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5495
+  - Id: 5499
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uBCF4\uC168\uB2E4\uC2DC\uD53C \uC0AC\uACF5\uC758 \uB530\uB2D8\uC5D0\uAC8C
@@ -6987,7 +7040,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5496
+  - Id: 5500
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uBB3C\uC774 \uC794\uC794\uD560 \uB54C\uAC00 \uC788\uB294 \uB9CC\uD07C,
@@ -7002,7 +7055,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5497
+  - Id: 5501
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC1A1\uB098\uB77C \uC0C1\uC778\uB4E4\uC758 \uC791\uC815\uC740
@@ -7017,7 +7070,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5498
+  - Id: 5502
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC0DD\uAC01\uD558\uC2E0 \uB300\uB85C, \uCCAD\uC774\uAC00 \uC778\uB2F9\uC218\uC5D0
@@ -7032,7 +7085,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5499
+  - Id: 5503
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uADF8 \uB0A0\uC740 \uC8FC\uB9C9\uC5D0\uC11C \uD558\uB8E8\uB97C
@@ -7046,7 +7099,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5500
+  - Id: 5504
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC544\uAE4C\uB3C4 \uB9D0\uC500\uB4DC\uB838\uC9C0\uB9CC \uC800\uC640
@@ -7060,7 +7113,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5501
+  - Id: 5505
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uC800\uC640 \uD568\uAED8 \uC0AC\uB77C\uC9C4
@@ -7075,7 +7128,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5502
+  - Id: 5506
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uBC30\uAC00 \uB728\uC9C0 \uBABB\uD558\uB2C8, \uBB34\uC5ED\uC758
@@ -7088,7 +7141,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5503
+  - Id: 5507
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uADF8\uB3D9\uC548 \uCCAD\uC774\uB294 \uC548\uC804\uD55C \uACF3\uC5D0
@@ -7101,7 +7154,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5504
+  - Id: 5508
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uC778\uB2F9\uC218\uC5D0 \uBC14\uCCD0\uC9C8
@@ -7115,7 +7168,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5505
+  - Id: 5509
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC544\uBC84\uB2D8\uAED8\uC11C\uB294 \uC800\uD76C \uACC4\uD68D\uC5D0
@@ -7130,7 +7183,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5506
+  - Id: 5510
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC608\uC815\uB300\uB85C \uCCAD\uC774\uAC00 \uC778\uB2F9\uC218\uC5D0
@@ -7144,7 +7197,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5507
+  - Id: 5511
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC704\uD5D8\uCC9C\uB9CC\uD55C \uC77C\uC774\uB2C8 \uC123\uBD88\uB9AC
@@ -7159,7 +7212,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5508
+  - Id: 5512
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\uC81C\uAC8C \uBB3C\uC5B4\uBCF4\uACE0 \uC2F6\uC73C\uC2E0 \uAC8C \uAF64
@@ -7172,7 +7225,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5509
+  - Id: 5513
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB178 \uC813\uAE30\uB97C \uB3C4\uC640\uC900\uB2E4."
@@ -7184,7 +7237,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5510
+  - Id: 5514
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC9C0\uC5B8\uC774 \uB2E8\uB2E8\uD788 \uC77C\uB7EC\uB454 \uB300\uB85C
@@ -7198,7 +7251,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5511
+  - Id: 5515
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBC30\uC5D0 \uC788\uB358 \uB204\uAD70\uAC00\uAC00 \uBC14\uB2F7\uBB3C\uB85C
@@ -7212,7 +7265,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5512
+  - Id: 5516
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC9C0\uC5B8\uACFC \uB098\uB294 \uCE68\uBB35 \uC18D\uC5D0\uC11C
@@ -7225,7 +7278,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5513
+  - Id: 5517
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC5BC\uB9C8 \uB3D9\uC548\uC758 \uC2DC\uAC04\uC774 \uD758\uB800\uC744\uAE4C,
@@ -7239,7 +7292,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5514
+  - Id: 5518
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uB3CC\uC544\uC654\uB2E4\uB294 \uAC83\uC744
@@ -7253,7 +7306,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5515
+  - Id: 5519
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC544\uBC84\uC9C0\uAC00 \uC65C \uC5EC\uAE30\uC5D0..."
@@ -7265,7 +7318,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5516
+  - Id: 5520
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uAC00 \uB0B4 \uD314\uC744 \uBFCC\uB9AC\uCE58\uBA70
@@ -7278,7 +7331,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5517
+  - Id: 5521
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC544\uBC84\uC9C0\uAED8\uC120 \uC5ED\uC2DC \uC81C\uAC00 \uC5B4\uB5A4
@@ -7291,7 +7344,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5518
+  - Id: 5522
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uC124\uD54F \uC6C3\uC5B4 \uBCF4\uC774\uB354\uB2C8,
@@ -7304,7 +7357,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5519
+  - Id: 5523
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB418\uB824 \uD3B8\uD569\uB2C8\uB2E4. \uC544\uBC84\uC9C0."
@@ -7316,7 +7369,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5520
+  - Id: 5524
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB208\uC744 \uB728\uC2DC\uC5B4 \uBC1D\uC740 \uC138\uC0C1 \uBCF4\uC2DC\uACE0,
@@ -7330,7 +7383,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5521
+  - Id: 5525
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCC98\uC74C \uBCF4\uB294 \uCCAD\uC774\uC758 \uBE44\uB9BF\uD55C
@@ -7343,7 +7396,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5522
+  - Id: 5526
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uB208\uC744 \uAC10\uACE0 \uBC14\uB2E4\uC5D0
@@ -7356,7 +7409,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5523
+  - Id: 5527
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC544!!"
@@ -7368,7 +7421,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5524
+  - Id: 5528
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC774\uBCF4\uAC8C!!"
@@ -7380,7 +7433,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5525
+  - Id: 5529
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC774\uBCF4\uC2DC\uC624, \uC0AC\uACF5 \uC591\uBC18!! \uC5B4\uB5BB\uAC8C\uB4E0
@@ -7394,7 +7447,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5526
+  - Id: 5530
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB098\uB3C4 \uBC29\uAE08\uAE4C\uC9C0 \uBB3C\uC5D0 \uC788\uC5C8\uC18C!!
@@ -7408,7 +7461,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5527
+  - Id: 5531
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC2B9\uAC15\uC774\uB97C \uD558\uB294 \uB458\uC758 \uC0AC\uC774\uC5D0\uC11C
@@ -7421,7 +7474,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5528
+  - Id: 5532
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB9C8\uC74C\uB9C8\uC800 \uAE5C\uAE5C\uD574\uC84C\uB2E4."
@@ -7433,7 +7486,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5529
+  - Id: 5533
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB9C8\uC744\uB85C \uB2E4\uC2DC \uB3CC\uC544\uAC00\uB294 \uBC43\uAE38\uC5D0
@@ -7446,7 +7499,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5530
+  - Id: 5534
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC5EC\uD0DC\uAECF \uB538\uC758 \uB9D8\uC744 \uC54C\uC544\uC8FC\uC9C0
@@ -7459,7 +7512,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5531
+  - Id: 5535
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6....\uC544\uBC84\uC9C0"
@@ -7471,7 +7524,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5532
+  - Id: 5536
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uACF5\uD5C8\uD55C \uB208\uC73C\uB85C \uB098\uB97C
@@ -7484,7 +7537,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5533
+  - Id: 5537
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC544\uBC84\uC9C0\uAED8 \uC0AC\uACFC\uB97C \uBC1B\uB294\uB2E4\uBA74
@@ -7498,7 +7551,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5534
+  - Id: 5538
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC774\uBBF8 \uB3CC\uC774\uD0AC \uC218 \uC5C6\uC774 \uBA40\uB9AC\uC654\uB098\uBD05\uB2C8\uB2E4."
@@ -7510,7 +7563,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5535
+  - Id: 5539
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB208\uC744 \uB728\uC2DC\uC5B4 \uBC1D\uC740 \uC138\uC0C1 \uBCF4\uC2DC\uACE0,
@@ -7524,7 +7577,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5536
+  - Id: 5540
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB2E4\uC2DC \uD55C\uBC88 \uCCAD\uC774\uB97C \uC548\uC73C\uB824
@@ -7538,7 +7591,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5537
+  - Id: 5541
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uB208\uC744 \uAC10\uACE0 \uBC14\uB2E4\uC5D0
@@ -7551,7 +7604,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5538
+  - Id: 5542
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC544!!"
@@ -7563,7 +7616,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5539
+  - Id: 5543
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC774\uBCF4\uAC8C!!"
@@ -7575,7 +7628,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5540
+  - Id: 5544
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uC774\uBCF4\uC2DC\uC624, \uC0AC\uACF5 \uC591\uBC18!! \uC5B4\uB5BB\uAC8C\uB4E0
@@ -7589,7 +7642,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5541
+  - Id: 5545
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uB098\uB3C4 \uBC29\uAE08\uAE4C\uC9C0 \uBB3C\uC5D0 \uC788\uC5C8\uC18C!!
@@ -7603,7 +7656,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5542
+  - Id: 5546
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC2B9\uAC15\uC774\uB97C \uD558\uB294 \uB458\uC758 \uC0AC\uC774\uC5D0\uC11C
@@ -7616,7 +7669,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5543
+  - Id: 5547
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB9C8\uC74C\uB9C8\uC800 \uAE5C\uAE5C\uD574\uC84C\uB2E4."
@@ -7628,7 +7681,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5544
+  - Id: 5548
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB9C8\uC744\uB85C \uB2E4\uC2DC \uB3CC\uC544\uAC00\uB294 \uBC43\uAE38\uC5D0
@@ -7641,7 +7694,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5545
+  - Id: 5549
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB098\uB294 \uC544\uBB34 \uB9D0\uB3C4 \uD560 \uC218 \uC5C6\uC5B4
@@ -7654,7 +7707,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5546
+  - Id: 5550
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC65C \uC544\uBB34 \uB9D0\uC500\uB3C4 \uC5C6\uC73C\uC2E0\uC9C0\uC694."
@@ -7666,7 +7719,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5547
+  - Id: 5551
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB054\uBC85\uB054\uBC85\uD558\uBA70 \uCCAD\uC774\uB294 \uB098\uB97C
@@ -7679,7 +7732,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5548
+  - Id: 5552
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uC758 \uBAA8\uB4E0 \uD589\uB3D9\uC5D0, \uC774\uC720\uAC00
@@ -7692,7 +7745,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5549
+  - Id: 5553
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB97C \uADF8\uB807\uAC8C \uBAB0\uC544\uB123\uC740
@@ -7705,7 +7758,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5550
+  - Id: 5554
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC785\uC774 \uB5A8\uC5B4\uC9C0\uC9C0 \uC54A\uC558\uB2E4."
@@ -7717,7 +7770,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5551
+  - Id: 5555
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB9D0\uB3C4 \uC783\uC73C\uC168\uC2B5\uB2C8\uAE4C? \uBB34\uC2A8
@@ -7730,7 +7783,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5552
+  - Id: 5556
     SpeakerType: Npc
     Name: "\uC7A5\uC9C0\uC5B8"
     Comment: "\u24E6\uCCAD\uC544. \uC9C4\uC815\uD558\uAC70\uB77C."
@@ -7742,7 +7795,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5553
+  - Id: 5557
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB0A0 \uBD99\uC7A1\uACE0 \uD754\uB4DC\uB294 \uCCAD\uC774\uB97C
@@ -7755,7 +7808,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5554
+  - Id: 5558
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC9C0\uC5B8\uC774 \uCCAD\uC774\uC758 \uC591\uC5B4\uAE68\uB97C
@@ -7769,7 +7822,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5555
+  - Id: 5559
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB294 \uAE34\uC7A5\uC774 \uD480\uB9AC\uC790\uB9C8\uC790
@@ -7782,7 +7835,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5556
+  - Id: 5560
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB2EC\uBC24\uC774 \uC9C0\uB098 \uC0C8\uBCBD\uC774 \uC624\uB294
@@ -7796,7 +7849,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5557
+  - Id: 5561
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uCC98\uC74C\uC5D4 \uB2E4\uB978 \uC9D1 \uADDC\uC218\uB4E4\uACFC\uB294
@@ -7809,7 +7862,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5558
+  - Id: 5562
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC88B\uC740 \uC74C\uC2DD, \uBB3C\uAC74\uC744 \uBD10\uB3C4 \uC148\uC774
@@ -7822,7 +7875,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5559
+  - Id: 5563
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uADF8\uC800 \uC138\uC0C1\uBAA8\uB974\uAC8C \uC77C\uB9CC \uD558\uB294
@@ -7835,7 +7888,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5560
+  - Id: 5564
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uADF8\uB7EC\uB2E4 \uC5B4\uB290\uC0C8, \uC81C\uAC00 \uC2EB\uC5B4\uC9C4
@@ -7848,7 +7901,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5561
+  - Id: 5565
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uB3C4\uD654\uCD0C\uC5D0 \uB3CC\uC544\uAC00\uBA74.. \uC9C0\uC5B8\uACFC
@@ -7861,7 +7914,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5562
+  - Id: 5566
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uC5B4\uB290 \uB0A0, \uAE68\uB057\uD55C \uB9C8\uC74C\uC774 \uB4E4
@@ -7874,7 +7927,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5563
+  - Id: 5567
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uADF8\uB798\uB3C4 \uC774\uC81C\uAECF \uD0A4\uC6CC\uC8FC\uC2E0
@@ -7887,7 +7940,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5564
+  - Id: 5568
     SpeakerType: Npc
     Name: "\uC2EC\uCCAD"
     Comment: "\u24E6\uAC10\uC0AC\uD569\uB2C8\uB2E4. \uC544\uBC84\uC9C0."
@@ -7899,7 +7952,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5565
+  - Id: 5569
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBAA8\uB450\uAC00 \uC774\uC57C\uAE30\uB97C \uC7A0\uC790\uCF54
@@ -7912,7 +7965,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5566
+  - Id: 5570
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCD08\uC5F0\uD55C \uCCAD\uC774\uC758 \uD45C\uC815\uC5D0, \uB098\uB294
@@ -7925,7 +7978,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5567
+  - Id: 5571
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB3C4\uD654\uCD0C\uC73C\uB85C \uB3CC\uC544\uC628 \uB4A4, \uCCAD\uC774\uC640
@@ -7938,7 +7991,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5568
+  - Id: 5572
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC790\uC758\uC600\uB4E0, \uD0C0\uC758\uC600\uB4E0. \uBD80\uBAA8
@@ -7952,7 +8005,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5569
+  - Id: 5573
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBA87 \uB2EC\uC774 \uC9C0\uB098\uACE0, \uADC0\uB355 \uC5B4\uBA48\uC774
@@ -7966,7 +8019,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5570
+  - Id: 5574
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB300\uC2E0 \uBCF4\uBD80\uC0C1\uB4E4\uC774 \uC7A5\uD130 \uC790\uB9AC\uB97C
@@ -7979,10 +8032,10 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5571
+  - Id: 5575
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
-    Comment: "\u24E6\uB2E8\uC11C\uC5D0 \uB300\uD574 \uD5A5\uB9AC \uB301 \uBD80\uC778\uACFC
+    Comment: "\u24E6\uB2E8\uC11C\uC5D0 \uB300\uD574 \uC7A5 \uC2B9\uC0C1 \uBD80\uC778\uACFC
       \uB300\uD654\uB97C \uD574\uBCF4\uC790."
     IsUsing: 0
     IndexNum: 764
@@ -7992,7 +8045,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5572
+  - Id: 5576
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uADF8\uB7EC\uBA74 \uC774\uC81C \uCD9C\uBC1C\uD558\uACA0\uC18C."
@@ -8004,7 +8057,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5573
+  - Id: 5577
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC774 \uBC24\uC5D0 \uBC30\uB97C \uD0C0\uC2DC\uB294 \uAC74\uAC00\uC694?"
@@ -8016,7 +8069,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5574
+  - Id: 5578
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBC30\uC5D0 \uC62C\uB77C\uD0C0\uB824\uB294\uB370, \uC544\uC774\uC758
@@ -8029,7 +8082,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5575
+  - Id: 5579
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC774\uB7F0,, \uC774 \uC2DC\uAC04\uC5D0 \uC6EC \uC544\uC774\uAC00.."
@@ -8041,7 +8094,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5576
+  - Id: 5580
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uBC30\uB97C \uD0C0\uC2E4 \uAC74\uAC00 \uBD10\uC694."
@@ -8053,7 +8106,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5577
+  - Id: 5581
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC544\uC774\uC758 \uBAA9\uC18C\uB9AC\uAC00 \uAF64\uB098 \uC74C\uC0B0\uD558\uAC8C
@@ -8066,7 +8119,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5578
+  - Id: 5582
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6...\uC544\uC774\uC57C. \uC624\uB298 \uBC24\uC740 \uC704\uD5D8\uD558\uB2C8
@@ -8079,7 +8132,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5579
+  - Id: 5583
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC0C1\uC778 \uC544\uC800\uC528\uB4E4\uC774 \uC624\uB298 \uBC30\uB97C
@@ -8092,7 +8145,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5580
+  - Id: 5584
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uB098\uC05C \uC0AC\uB78C\uB4E4\uC744 \uC7A1\uC73C\uBA74 \uB9DB\uC788\uB294
@@ -8105,7 +8158,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5581
+  - Id: 5585
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC870\uC6A9\uD55C \uC2DC\uAC04\uC5D0 \uC18C\uB780\uC774\uC5C8\uB098
@@ -8118,7 +8171,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5582
+  - Id: 5586
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC660\uC9C0 \uC870\uAE08 \uC774\uC0C1\uD55C \uAC83 \uAC19\uC18C."
@@ -8130,7 +8183,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5583
+  - Id: 5587
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0AC\uACF5\uC774 \uB0B4\uAC8C \uC18D\uC0AD\uC774\uC790\uB9C8\uC790
@@ -8143,7 +8196,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5584
+  - Id: 5588
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB2EC\uC544\uB09C \uBC43\uC0AC\uACF5\uC744 \uB450 \uC0AC\uB78C\uC774
@@ -8156,7 +8209,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5585
+  - Id: 5589
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uB098\uB294 \uADF8 \uC774\uD6C4\uB85C \uCCAD\uC774\uB97C \uB2E4\uC2E0
@@ -8169,7 +8222,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5586
+  - Id: 5590
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24D1[\uACC4\uB780\uC720\uACE8]"
@@ -8181,7 +8234,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5587
+  - Id: 5591
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uADF8\uB9CC \uC880 \uBB3C\uC5B4\uBCF4\uAC8C!! \uB301\uB3C4 \uC774\uC820
@@ -8194,7 +8247,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5588
+  - Id: 5592
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uCCAD\uC774 \uB204\uB2D8\uC774 \uBCF4\uACE0 \uC2F6\uC5B4\uC694.
@@ -8207,7 +8260,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5589
+  - Id: 5593
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uB530\uB2D8\uC774 \uC5B4\uB514 \uBA40\uB9AC \uAC04\uB2E4\uACE0
@@ -8221,7 +8274,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5590
+  - Id: 5594
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uD558\uC544\uC554~ \uC774\uC81C \uADF8\uB9CC\uD558\uC2DC\uC5B4\uC694.
@@ -8234,7 +8287,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5591
+  - Id: 5595
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC2E0\uACBD\uC744 \uC77C\uCC0D \uC37C\uC5B4\uC57C\uC9C0. \uB0B4\uAC8C
@@ -8247,7 +8300,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5592
+  - Id: 5596
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uBD80\uCC98\uC758 \uB73B\uC5D0 \uB2F5\uC774 \uC788\uC2B5\uB2C8\uB2E4."
@@ -8259,7 +8312,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5593
+  - Id: 5597
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0AC\uB78C\uB4E4\uC774 \uB0A0 \uC2F8\uB298\uD558\uAC8C \uB300\uD55C\uB2E4.
@@ -8273,7 +8326,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5594
+  - Id: 5598
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC544.. \uB0B4 \uB538 \uC2EC\uCCAD\uC544.."
@@ -8285,7 +8338,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5595
+  - Id: 5599
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC774\uB97C \uCC3E\uAE30 \uC704\uD574 \uB9C8\uC744 \uBC14\uAE65\uC73C\uB85C
@@ -8298,7 +8351,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5596
+  - Id: 5600
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC5BC\uB9C8\uB098 \uAC78\uC5C8\uC744\uAE4C, \uC5B8\uC81C\uBD80\uD130\uC778\uC9C0
@@ -8311,7 +8364,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5597
+  - Id: 5601
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBA39\uC9C0 \uC54A\uC544\uB3C4 \uACE0\uD504\uC9C0 \uC54A\uC558\uACE0
@@ -8324,7 +8377,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5598
+  - Id: 5602
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uCCAD\uC544.. \uC2EC\uCCAD\uC544.. \uCCAD\uC544.. \uB0B4 \uB538
@@ -8337,7 +8390,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5599
+  - Id: 5603
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E1[\uACE0\uB9BD\uBB34\uC6D0]"
@@ -8349,7 +8402,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5600
+  - Id: 5604
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC57D\uCD08\uB97C \uB2EC\uC774\uB824\uBA74 \uBB3C\uB3C4 \uD544\uC694\uD558\uB2E4."
@@ -8361,7 +8414,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5601
+  - Id: 5605
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC5B4\uBA38!!! \uC774\uAC8C \uBB34\uC2A8 \uC9D3\uC774\uC5D0\uC694!!
@@ -8374,7 +8427,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5602
+  - Id: 5606
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBB3C\uC774 \uB2E4 \uC3DF\uC544\uC84C\uB2E4. \uB2E4\uC2DC \uB5A0\uC57C\uACA0\uB2E4."
@@ -8386,7 +8439,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5603
+  - Id: 5607
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC774\uB7F0!! \uC798 \uC880 \uBCF4\uACE0..! \uC544\uB2C8\uC57C...\uC870\uC2EC\uD788
@@ -8399,7 +8452,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5604
+  - Id: 5608
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBB3C\uC774 \uB2E4 \uC3DF\uC544\uC84C\uB2E4. \uB2E4\uC2DC \uB5A0\uC57C\uACA0\uB2E4."
@@ -8411,7 +8464,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5605
+  - Id: 5609
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC2B9\uB824\uB294 \uC5CE\uC5B4\uC9C0\uB294 \uBB3C\uC744 \uBE60\uB974\uAC8C
@@ -8424,7 +8477,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5606
+  - Id: 5610
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC74C. \uC7A5\uB09C\uAE30\uAC00 \uC788\uC73C\uC2DC\uAD70\uC694.
@@ -8437,7 +8490,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5607
+  - Id: 5611
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6....\uBB3C\uC774 \uB2E4 \uC3DF\uC544\uC84C\uB2E4. \uB2E4\uC2DC
@@ -8450,7 +8503,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5608
+  - Id: 5612
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC557 \uCC28\uAC00\uC6CC!! \uC73C\uC544.. \uC81C\uAC8C \uC65C
@@ -8464,7 +8517,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5609
+  - Id: 5613
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBB3C\uC774 \uB2E4 \uC3DF\uC544\uC84C\uB2E4. \uB2E4\uC2DC \uB5A0\uC57C\uACA0\uB2E4."
@@ -8476,7 +8529,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5610
+  - Id: 5614
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC5CE\uC5B4\uC9C0\uB294 \uBC14\uAC00\uC9C0\uB97C \uC7A5\uC0AC\uAFBC\uC774
@@ -8489,7 +8542,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5611
+  - Id: 5615
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC870\uC2EC\uD558\uC2DC\uC624!! \uBB3C\uAC74\uB4E4\uC744 \uB2E4
@@ -8502,7 +8555,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5612
+  - Id: 5616
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uBB3C\uC774\uB77C\uBA74 \uC9C8\uC0C9\uC774\uC624. \uB0C7\uBB3C
@@ -8515,7 +8568,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5613
+  - Id: 5617
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0AC\uACF5\uC774 \uC5C4\uD3EC\uB97C \uB193\uB294 \uBC14\uB78C\uC5D0,
@@ -8528,9 +8581,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5614
+  - Id: 5618
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uD558\uC778\uC774 \uBD80\uC778\uC744 \uAC10\uC2F8 \uBB3C\uC744
       \uC815\uD1B5\uC73C\uB85C \uB9DE\uC558\uB2E4."
     IsUsing: 0
@@ -8541,9 +8594,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5615
+  - Id: 5619
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6...\uC870\uC2EC\uD558\uC2DC\uAC8C..\uC6B0\uB9AC \uC2B9\uB0E5\uC774\uB294
       \uC131\uC9C8\uC774 \uC628\uC628\uD558\uC9C0\uC54A\uC73C\uB2C8.."
     IsUsing: 0
@@ -8554,7 +8607,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5616
+  - Id: 5620
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBB3C\uC774 \uB2E4 \uC3DF\uC544\uC84C\uB2E4. \uB2E4\uC2DC \uB5A0\uC57C\uACA0\uB2E4."
@@ -8566,7 +8619,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5617
+  - Id: 5621
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uBB34\uC2A8 \uC9D3\uC774\uC8E0? \uB108\uBB34 \uCC28\uAC11\uAD70\uC694..
@@ -8580,7 +8633,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5618
+  - Id: 5622
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC6C3\uB294 \uD45C\uC815\uC774 \uC5B4\uB518\uAC00 \uC12C\uB729\uD558\uB2E4.
@@ -8593,7 +8646,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5619
+  - Id: 5623
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC81C\uB300\uB85C \uACC4\uC0B0\uD55C \uAC83\uC774\uC624? \uB0B4\uAC00
@@ -8606,7 +8659,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5620
+  - Id: 5624
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0C8\uB07C\uC904\uC744 \uAF2C\uC558\uB2E4."
@@ -8618,7 +8671,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5621
+  - Id: 5625
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uC0C8\uB07C\uC904\uC744 \uAC74\uB138\uB2E4."
@@ -8630,7 +8683,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5622
+  - Id: 5626
     SpeakerType: Player
     Name: "\uC2EC\uD559\uADDC"
     Comment: "\u24E6\uBCCF\uC9DA\uC744 \uAC74\uB138\uB2E4."
@@ -8642,9 +8695,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5623
+  - Id: 5627
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uBCCF\uC9DA\uC774 \uC788\uB2E4\uBA74 \uC9D1 \uC548\uC5D0 \u24E1\uBCA0\uD2C0\u24E6\uC5D0\uC11C
       \uC0C8\uB07C\uC904\uC744 \uB9CC\uB4E4\uC5B4\uC8FC\uAC8C."
     IsUsing: 0
@@ -8655,7 +8708,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5624
+  - Id: 5628
     SpeakerType: Npc
     Name: "\uBE91\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC124\uB9C8 \uBCCF\uC9DA\uC744 \uAF2C\uC544\uB2EC\uB77C\uB294
@@ -8669,7 +8722,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5625
+  - Id: 5629
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uBCCF\uC9DA\uC744 \uC544\uC8FC \uC798 \uB9D0\uB824\uB1A8\uAD6C\uB9CC.
@@ -8683,9 +8736,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5626
+  - Id: 5630
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC2EC\uC528 \uB301\uC5D0 \uBCA0\uD2C0\uC5D0\uC11C \uC0C8\uB07C\uB97C
       \uAF2C\uC544\uB2E4\uC8FC\uAC8C."
     IsUsing: 0
@@ -8696,7 +8749,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5627
+  - Id: 5631
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uC774\uAC74 \uC624\uB978\uC0C8\uB07C\uB124.. \uC5F4\uC2EC\uD788
@@ -8709,9 +8762,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5628
+  - Id: 5632
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC774\uAC74 \uC624\uB978\uC0C8\uB07C\uC9C0 \uC54A\uC740\uAC00...
       \uADF8\uB798\uB3C4 \uACE0\uB9D9\uB124."
     IsUsing: 0
@@ -8722,9 +8775,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5629
+  - Id: 5633
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC544, \uBB3C\uC5B4\uBCFC\uAC8C \uC788\uB2E4\uACE0 \uD558\uC600\uB294\uAC00?
       \uC5B4\uC11C \uBB3C\uC5B4\uBCF4\uAC8C."
     IsUsing: 0
@@ -8735,7 +8788,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5630
+  - Id: 5634
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC0C8\uB07C\uC904\uC744 \uD314\uB7EC \uC654\uC18C? \uB2E4\uB978
@@ -8748,7 +8801,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5631
+  - Id: 5635
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uBD80\uCC98\uAED8 \uC9C0\uC131\uC73C\uB85C \uBD88\uACF5\uB4DC\uB9B0\uB2E4\uBA74
@@ -8761,7 +8814,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5632
+  - Id: 5636
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC774\uAC8C \uBB50\uC608\uC694? \uC0C8\uB07C\uC904?? \uC9DA\uC2E0\uC774\uB77C\uB3C4
@@ -8774,7 +8827,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5633
+  - Id: 5637
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC0C8\uB07C\uC904\uC774\uAD70.. \uB0B4 \uC548\uC0AC\uB78C\uC774
@@ -8787,7 +8840,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5634
+  - Id: 5638
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC5EC\uAE30 \uC0AC\uB78C\uB4E4\uC758 \uC0C8\uB07C\uC904\uC740
@@ -8800,7 +8853,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5635
+  - Id: 5639
     SpeakerType: Npc
     Name: "\uADC0\uB355 \uC5B4\uBA48"
     Comment: "\u24E6\uB9CC\uC838\uBCF4\uBA74 \uC54C\uC796\uB294\uAC00. \uC67C\uC0C8\uB07C\uC77C\uC138.
@@ -8813,9 +8866,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5636
+  - Id: 5640
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC624, \uC815\uB9D0 \uACE0\uB9D9\uB124! \uB0B4\uAC00 \uC870\uB9CC\uAC04
       \uAF2D \uC0AC\uB840\uD558\uB3C4\uB85D \uD558\uC9C0."
     IsUsing: 0
@@ -8826,9 +8879,9 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5637
+  - Id: 5641
     SpeakerType: Npc
-    Name: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
     Comment: "\u24E6\uC544, \uBB3C\uC5B4\uBCFC\uAC8C \uC788\uB2E4\uACE0 \uD558\uC600\uB294\uAC00?
       \uC5B4\uC11C \uBB3C\uC5B4\uBCF4\uAC8C."
     IsUsing: 0
@@ -8839,7 +8892,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5638
+  - Id: 5642
     SpeakerType: Npc
     Name: "\uC7A5\uC0AC\uAFBC"
     Comment: "\u24E6\uC67C\uC0C8\uB07C\uB294 \uBCF4\uD1B5 \uC798 \uC548 \uD31D\uB2C8\uB2E4.
@@ -8852,7 +8905,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5639
+  - Id: 5643
     SpeakerType: Npc
     Name: "\uC2B9\uB824"
     Comment: "\u24E6\uC67C\uC0C8\uB07C\uB294 \uC800\uD76C \uBABD\uC6B4\uC0AC\uC5D0\uC11C\uB3C4
@@ -8865,7 +8918,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5640
+  - Id: 5644
     SpeakerType: Npc
     Name: "\uAC70\uC9C0"
     Comment: "\u24E6\uC774\uAC8C \uBB50\uC608\uC694? \uC0C8\uB07C\uC904?? \uC9DA\uC2E0\uC774\uB77C\uB3C4
@@ -8878,7 +8931,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5641
+  - Id: 5645
     SpeakerType: Npc
     Name: "\uBC43\uC0AC\uACF5"
     Comment: "\u24E6\uC0C8\uB07C\uC904\uC774\uAD70.. \uB0B4 \uC548\uC0AC\uB78C\uC774
@@ -8891,7 +8944,7 @@ MonoBehaviour:
     StartEventID: 0
     EndEventID: 0
     RewardID: 0
-  - Id: 5642
+  - Id: 5646
     SpeakerType: Npc
     Name: "\uC1A1\uB098\uB77C \uC0C1\uC778"
     Comment: "\u24E6\uC5EC\uAE30 \uC0AC\uB78C\uB4E4\uC758 \uC0C8\uB07C\uC904\uC740
@@ -9001,8 +9054,8 @@ MonoBehaviour:
   - Id: 7040
     SpeakerType: Npc
     Name: "\uB3C5\uBC31"
-    Comment: "\u24E6\uCCAD\uC774\uAC00 \uD5A5\uB9AC\uB301\uC5D0 \uC218\uC591\uB538\uB85C
-      \uB4E4\uC5B4\uAC00\uB2E4\uB2C8..\n\uD5A5\uB9AC\uB301 \uBD80\uC778\uACFC \uB300\uD654\uB97C
+    Comment: "\u24E6\uCCAD\uC774\uAC00 \uC7A5 \uC2B9\uC0C1 \uB301\uC5D0 \uC218\uC591\uB538\uB85C
+      \uB4E4\uC5B4\uAC00\uB2E4\uB2C8..\n\uC7A5 \uC2B9\uC0C1 \uBD80\uC778\uACFC \uB300\uD654\uB97C
       \uD574\uBD10\uC57C\uD560 \uAC83 \uAC19\uB2E4."
     IsUsing: 0
     IndexNum: 876
@@ -9015,7 +9068,8 @@ MonoBehaviour:
   - Id: 7041
     SpeakerType: Npc
     Name: "\uB3C5\uBC31"
-    Comment: "\u24E1\uD5A5\uB9AC\uB301\uC740 \uB9C8\uC744 \uC88C\uCE21\uC5D0 \uC788\uB2E4."
+    Comment: "\u24E1\uC7A5 \uC2B9\uC0C1 \uB301\uC740 \uB9C8\uC744 \uC88C\uCE21\uC5D0
+      \uC788\uB2E4."
     IsUsing: 0
     IndexNum: 877
     NextCommentNum: 0
@@ -9043,7 +9097,7 @@ MonoBehaviour:
     Name: "\uB3C5\uBC31"
     Comment: "\u24E6\uC120\uD0DD\uB41C \uB300\uD654 \uC8FC\uC81C\uB294 \uC88C\uCE21
       \uD558\uB2E8 UI\uB97C \uD1B5\uD574 \uD655\uC778 \uD560 \uC218 \uC788\uB2E4.\n\u24E1\uC9C0\uAE08\uC740
-      \uD5A5\uB9AC\uB301 \uC218\uC591\uB538 \uB2E8\uC11C\uB97C \uC8FC\uC81C\uB85C
+      \uC7A5 \uC2B9\uC0C1 \uB301\uC758 \uC218\uC591\uB538 \uB2E8\uC11C\uB97C \uC8FC\uC81C\uB85C
       \uB300\uD654\uD574\uBCF4\uC790. "
     IsUsing: 0
     IndexNum: 879
@@ -9056,8 +9110,8 @@ MonoBehaviour:
   - Id: 7060
     SpeakerType: Npc
     Name: "\uB3C5\uBC31"
-    Comment: "\u24E6\uC544\uBB34\uB798\uB3C4 \uCCAD\uC774\uAC00 \uD5A5\uB9AC\uB301\uC5D0
-      \uC218\uC591\uB538\uB85C \uB4E4\uC5B4\uAC14\uB2E4\uACE0 \uAC70\uC9D3\uB9D0\uC744
+    Comment: "\u24E6\uC544\uBB34\uB798\uB3C4 \uCCAD\uC774\uAC00 \uC7A5 \uC2B9\uC0C1
+      \uB301\uC5D0 \uC218\uC591\uB538\uB85C \uB4E4\uC5B4\uAC14\uB2E4\uACE0 \uAC70\uC9D3\uB9D0\uC744
       \uD55C \uAC83 \uAC19\uB2E4."
     IsUsing: 0
     IndexNum: 880
@@ -9152,18 +9206,19 @@ MonoBehaviour:
     IndexNum: 4
   - Id: 10040
     EventType: Tutorial
-    Name: "\uD5A5\uB9AC\uB301\uACFC \uB300\uD654"
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778\uACFC \uB300\uD654"
     Comment: "\uBD07\uC9D0\uC744 \uC5F4\uACE0[I], \uB2E8\uC11C \uD0ED\uC5D0\uC11C
-      \uD5A5\uB9AC\uB301 \uC218\uC591\uB538\uC744 \uC120\uD0DD \uD6C4 \uB300\uD654\uD574\uBCF4\uC790."
-    Description: "\uD5A5\uB9AC\uB301\uC774\uB77C\uBA74 \uCCAD\uC774\uAC00 \uC5B4\uB514\uB85C
-      \uAC14\uB294\uC9C0 \uC54C\uACE0 \uC788\uC9C0 \uC54A\uC744\uAE4C?"
+      \uC7A5 \uC2B9\uC0C1 \uB301\uC758 \uC218\uC591\uB538\uC744 \uC120\uD0DD \uD6C4
+      \uB300\uD654\uD574\uBCF4\uC790."
+    Description: "\uC7A5 \uC2B9\uC0C1 \uB301\uC774\uB77C\uBA74 \uCCAD\uC774\uAC00
+      \uC5B4\uB514\uB85C \uAC14\uB294\uC9C0 \uC54C\uACE0 \uC788\uC9C0 \uC54A\uC744\uAE4C?"
     IsClear: 0
     IndexNum: 5
   - Id: 10050
     EventType: Main
-    Name: "\uD5A5\uB9AC\uB301\uC758 \uC218\uC591\uB538"
-    Comment: "\uC8FC\uBCC0\uC744 \uC218\uC18C\uBB38 \uD574\uBCF4\uC790."
-    Description: "\uCCAD\uC774\uAC00 \uD5A5\uB9AC\uB301\uC758 \uC218\uC591\uB538\uB85C
+    Name: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778\uC758 \uC218\uC591\uB538"
+    Comment: "\uAC70\uC9C0\uC640 \uC18C\uBB38"
+    Description: "\uCCAD\uC774\uAC00 <color=#850000>\uD5A5\uB9AC\uB301\uC758 \uC218\uC591\uB538<color=#ffffff>\uB85C
       \uB4E4\uC5B4\uAC04 \uC904\uB85C\uB9CC \uC54C\uC558\uB2E4. \uADF8\uB7F0\uB370
       \uC544\uB2C8\uB77C\uB2C8.. \uC8FC\uBCC0\uC744 \uC218\uC18C\uBB38 \uD574\uBCF4\uC790."
     IsClear: 0

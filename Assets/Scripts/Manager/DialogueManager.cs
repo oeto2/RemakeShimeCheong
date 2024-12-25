@@ -36,6 +36,8 @@ public class DialogueManager : MonoBehaviour
     private StringBuilder _contextSb = new StringBuilder();//대사 출력용 스트링빌더
     private string _replaceText; //컬러코드 적용 후 텍스트
     private int _getClueID; //획득할 단서 ID
+    private bool isClueTalk; //단서 대화를 하고 있는지
+    
     
     //변수 : 초상화 관련
     private Color32 darkPortraitColor = new Color32(90,90,90,255);
@@ -103,6 +105,8 @@ public class DialogueManager : MonoBehaviour
             {
                 yield return null;
             }
+
+            isClueTalk = false;
         }
         
         EndTalk(); //대화 종료
@@ -124,7 +128,7 @@ public class DialogueManager : MonoBehaviour
         
         _replaceText = GetReplaceColorMarkText(_tempDialogueData.Comment);
         dialoguePanel.SetActive(true);
-        ChangeDialogueSpeakerName(_tempDialogueData.Name); //다이얼로그 이름 변경
+        ChangeDialogueSpeakerName(_tempDialogueData.Name); //대화자 이름 변경
          _inventory.GetClue(_tempDialogueData.RewardID); //단서 획득하기
         
         EventManager.Instance.ActiveEvent(DBManager.Instance.GetEventData(_tempDialogueData.StartEventID)); //이벤트 시작
@@ -180,6 +184,12 @@ public class DialogueManager : MonoBehaviour
                 findData = _dialogueDatas.Where(x => x.Value.EquipCondition == 100
                                                      && x.Value.Name == speakerName).Select(x => x.Value).FirstOrDefault();
             }
+            
+            //단서 대화일 경우
+            else
+            {
+                isClueTalk = true;
+            }
         }
 
         //플레이어가 장착한 아이템이 없는 경우
@@ -220,6 +230,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false); //대화창 끄기
         _playerController.ReleaseTalkIgnoreInput();//입력무시 해제
         CallDialogueEndEvent(); //대화 종료 후 이벤트 호출
+        isClueTalk = false; //단서 대화중인지 확인하는 flag off
     }
 
     //현재 진행중인 대화 데이터 얻기
@@ -248,7 +259,6 @@ public class DialogueManager : MonoBehaviour
     //인물 초상화 변경하기
     private void ChangePortrait(string name_)
     {
-        
         switch (name_)
         {
             case "뺑덕 어멈":
@@ -291,7 +301,7 @@ public class DialogueManager : MonoBehaviour
                 ResetRightPortraitColor(); //오른쪽 초상화 색 복구
                 break;
             
-            case "향리 댁 부인":
+            case "장 승상 부인":
                 portrait_Right.sprite = portraits[5];
                 portrait_Right.rectTransform.anchoredPosition = new Vector3(0, 0, 0); 
                 portrait_Right.rectTransform.sizeDelta = new Vector2(1000, 1000);
@@ -345,6 +355,14 @@ public class DialogueManager : MonoBehaviour
                 ResetLeftPortraitColor(); //왼쪽 초상화 색 복구
                 break;
         }
+        
+        //만약 첫 번째 단서 대화라면
+        if (isClueTalk)
+        {
+            //심학규 초상화만 밝게
+            ResetLeftPortraitColor();
+            DarkenRightPortrait();
+        }
     }
     
     //왼쪽 초상화 어둡게 설정
@@ -390,6 +408,13 @@ public class DialogueManager : MonoBehaviour
     //다이얼로그 이름 변경
     private void ChangeDialogueSpeakerName(string speakerName)
     {
+        //단서 대화 중이라면
+        if (isClueTalk)
+        {
+            nameText.text = "심학규";
+            return;
+        }
+        
         if (speakerName == "독백")
         {
             nameText.text = "심학규";

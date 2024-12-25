@@ -1,5 +1,3 @@
-using System;
-using UnityEditor.Searcher;
 using UnityEngine;
 
 public class MapBox : MonoBehaviour, Iinteractable
