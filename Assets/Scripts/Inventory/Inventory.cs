@@ -242,5 +242,49 @@ public class Inventory : MonoBehaviour
 
         return InventoryClues[id];
     }
+    
+    //해당 아이템을 보유하고있는지
+    public bool ContainsItem(int id)
+    {
+        if (!InventoryItems.ContainsKey(id))
+        {
+            return false;
+        }
+
+        return true;
+    }
+    
+    //해당 단서를 보유하고있는지
+    public bool ContainsClue(int id)
+    {
+        if (!InventoryClues.ContainsKey(id))
+        {
+            return false;
+        }
+
+        return true;
+    }
+    
+    //해당 아이템 제거
+    public void RemoveItem(int id)
+    {
+        if (!InventoryItems.ContainsKey(id))
+        {
+            return;
+        }
+
+        InventoryItems.Remove(id);
+    }
+    
+    //해당 단서 제거
+    public void RemoveClue(int id)
+    {
+        if (!InventoryClues.ContainsKey(id))
+        {
+            return;
+        }
+
+        InventoryClues.Remove(id);
+    }
 }
 
