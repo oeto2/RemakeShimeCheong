@@ -7,12 +7,15 @@ public class PlayerAnimationData
 {
     //변수 : 애니메이션 관련 파라미터
     private string _moveParameterName = "Move";
+    private string _getBotzimeParameterName = "getBotzime";
 
     public int MoveParameterHash { get; private set; }
+    public int GetBotzimeParameterHash { get; private set; }
 
     public void Init()
     {
         //해쉬값 변환
-        MoveParameterHash = Animator.StringToHash(_moveParameterName); 
+        MoveParameterHash = Animator.StringToHash(_moveParameterName);
+        GetBotzimeParameterHash = Animator.StringToHash(_getBotzimeParameterName); 
     }
 }

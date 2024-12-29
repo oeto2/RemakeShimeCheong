@@ -8,7 +8,7 @@ public class ToastMessagePopup : UIBase
     public Image itemImage;
     public TextMeshProUGUI itemNameText;
     public TextMeshProUGUI mainText;
-    private Animator _animator;
+    public Animator _animator;
     
     //애니메이션 파라미터 
     private string _onMessageParameterName = "OnMessage";
@@ -19,8 +19,6 @@ public class ToastMessagePopup : UIBase
 
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
-
         _onMessageParameterHash = Animator.StringToHash(_onMessageParameterName);
         _hideMessageParameterHash = Animator.StringToHash(_hideMessageParameterName);
     }

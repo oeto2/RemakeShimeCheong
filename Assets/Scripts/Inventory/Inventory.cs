@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -26,14 +27,17 @@ public class Inventory : MonoBehaviour
 
     private PlayerEquipment _playerEquipment; //플레이어 장비
 
+    private ToastMessagePopup _toastMessage;
     private void Awake()
     {
         itemTab?.onClick.AddListener(ClickItemTap);
         clueTab?.onClick.AddListener(ClickClueTap);
 
         _playerEquipment = GameManager.Instance.playerObj.GetComponent<PlayerEquipment>();
+        _toastMessage = UIManager.Instance.GetUIComponent<ToastMessagePopup>();
+
     }
-    
+
     //아이템 탭 클릭시
     private void ClickItemTap()
     {
@@ -122,11 +126,23 @@ public class Inventory : MonoBehaviour
             slots.Add(slot.GetComponent<Slot>()); //슬롯 추가
             slot.GetComponent<Slot>().Init(InventoryItems[itemId]); //슬롯 세팅    
         }
+        
+        //토스트 메세지
+        UIManager.Instance.ShowPopup<ToastMessagePopup>();
+        _toastMessage.StartHideMessageAnimation();
+        _toastMessage.SetToastMessage(ResourceManager.Instance.Load<Sprite>(InventoryItems[itemId].SpritePath), InventoryItems[itemId].Name,
+            $"{InventoryItems[itemId].Name} 획득");
+        _toastMessage.StartOnMessageAnimation();
     }
     
     //단서 획득
     public void GetClue(int clueId)
     {
+        if (clueId == 0)
+        {
+            return;
+        }
+        
         //해당 ID의 단서 데이터 존재하지 않거나
         if (!DBManager.Instance.CheckContainsClue(clueId))
         {
@@ -136,7 +152,6 @@ public class Inventory : MonoBehaviour
         //이미 보유중이라면
         if (InventoryClues.ContainsKey(clueId))
         {
-            ConsoleLogger.LogWarning($"{clueId}번 단서를 이미 보유하고 있습니다");
             return;
         }
         
@@ -149,6 +164,14 @@ public class Inventory : MonoBehaviour
             slots.Add(slot.GetComponent<Slot>()); //슬롯 추가
             slot.GetComponent<Slot>().Init(InventoryClues[clueId]); //슬롯 세팅    
         }
+        
+        
+        //토스트 메세지
+        UIManager.Instance.ShowPopup<ToastMessagePopup>();
+        _toastMessage.StartHideMessageAnimation();
+        _toastMessage.SetToastMessage(ResourceManager.Instance.Load<Sprite>(InventoryClues[clueId].SpritePath), InventoryClues[clueId].Name,
+            $"{InventoryClues[clueId].Name} 획득");
+        _toastMessage.StartOnMessageAnimation();
     }
     
     //설명란 텍스트 작성하기
@@ -205,6 +228,11 @@ public class Inventory : MonoBehaviour
     //인벤토리 단서 데이터 가져오기
     public ClueData GetInventoryClueData(int id)
     {
+        if (id != 0)
+        {
+            return null;
+        }
+        
         //id의 단서을 가지고 있지 않다면
         if (!InventoryClues.ContainsKey(id))
         {
@@ -213,6 +241,50 @@ public class Inventory : MonoBehaviour
         }
 
         return InventoryClues[id];
+    }
+    
+    //해당 아이템을 보유하고있는지
+    public bool ContainsItem(int id)
+    {
+        if (!InventoryItems.ContainsKey(id))
+        {
+            return false;
+        }
+
+        return true;
+    }
+    
+    //해당 단서를 보유하고있는지
+    public bool ContainsClue(int id)
+    {
+        if (!InventoryClues.ContainsKey(id))
+        {
+            return false;
+        }
+
+        return true;
+    }
+    
+    //해당 아이템 제거
+    public void RemoveItem(int id)
+    {
+        if (!InventoryItems.ContainsKey(id))
+        {
+            return;
+        }
+
+        InventoryItems.Remove(id);
+    }
+    
+    //해당 단서 제거
+    public void RemoveClue(int id)
+    {
+        if (!InventoryClues.ContainsKey(id))
+        {
+            return;
+        }
+
+        InventoryClues.Remove(id);
     }
 }
 

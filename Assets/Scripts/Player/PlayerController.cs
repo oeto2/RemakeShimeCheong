@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using Cinemachine;
 using Constants;
@@ -18,7 +19,6 @@ public class PlayerController : MonoBehaviour
     private IPortalable _portalScr;
     private bool _canUsePortal = true; //포탈 사용가능 여부    
 
-
     //변수 : 이동관련
     private Vector2 _playerMoveDirection; //플레이어의 이동 방향
 
@@ -27,13 +27,16 @@ public class PlayerController : MonoBehaviour
 
     //변수 : 상호작용 관련
     private Iinteractable _interactObject; //상호 작용 가능한 오브젝트
-
+    
+    //이벤트
+    public event Action OnQuestPopupEvent;
+    
     private void Awake()
     {
         Init();
         GameManager.Instance.Init();
         GameManager.Instance.playerObj = gameObject;
-        // Cursor.visible = false; //커서 숨기기
+        Cursor.visible = false; //커서 숨기기
     }
 
     //초기 설정
@@ -139,6 +142,7 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             ConsoleLogger.Log("대화 버튼 입력");
+            DialogueManager.Instance.PrintNextContext(); //다음대사 출력
         }
     }
 
@@ -245,6 +249,31 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    
+    //퀘스트 단축키 입력
+    public void OnQuest(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            //퀘스트 팝업이 활성화 중이라면
+            if (UIManager.Instance.IsActiveUI<QuestPopup>())
+            {
+                UIManager.Instance.ClosePopup<QuestPopup>();
+                Cursor.visible = false; //커서 숨기기
+                return;
+            }
+
+            //퀘스트 팝업중에 하나라도 활성화 중이라면
+            if (UIManager.Instance.IsActiveInteractPopup())
+            {
+                UIManager.Instance.CloseAllInteractPopups(); //모든 팝업 종료
+            }
+
+            CallOnQuestPopupEvent();
+            UIManager.Instance.ShowPopup<QuestPopup>();
+            Cursor.visible = true; //커서 보이기
+        }
+    }
 
     //입력 무시
     public void IgnoreInput()
@@ -255,6 +284,13 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Portal"].Disable();
         _playerInput.actions["Move"].Disable();
         _playerInput.actions["Map"].Disable();
+        _playerInput.actions["Quest"].Disable();
+    }
+    
+    //입력 무시하기
+    public void IgnoreInput(string inputName)
+    {
+        _playerInput.actions[inputName].Disable();
     }
 
     //입력 무시 해제
@@ -266,7 +302,41 @@ public class PlayerController : MonoBehaviour
         _playerInput.actions["Portal"].Enable();
         _playerInput.actions["Move"].Enable();
         _playerInput.actions["Map"].Enable();
+        _playerInput.actions["Quest"].Enable();
     }
+    
+    //입력 무시 해제
+    public void ReleaseIgnoreInput(string inputName)
+    {
+        _playerInput.actions[inputName].Enable();
+    }
+    
+    //대화상태일 경우 입력 무시
+    public void TalkIgnoreInput()
+    {
+        _playerInput.actions["Interaction"].Disable();
+        _playerInput.actions["Inventory"].Disable();
+        _playerInput.actions["Option"].Disable();
+        _playerInput.actions["Portal"].Disable();
+        _playerInput.actions["Move"].Disable();
+        _playerInput.actions["Map"].Disable();
+        _playerInput.actions["Quest"].Disable();
+    }
+    
+    //대화상태일 경우 입력 무시 해제
+    public void ReleaseTalkIgnoreInput()
+    {
+        _playerInput.actions["Interaction"].Enable();
+        _playerInput.actions["Inventory"].Enable();
+        _playerInput.actions["Option"].Enable();
+        _playerInput.actions["Portal"].Enable();
+        _playerInput.actions["Move"].Enable();
+        _playerInput.actions["Map"].Enable();
+        _playerInput.actions["Quest"].Enable();
+    }
+    
+    
+   
 
     //포탈 검출하기
     private void DetectPortal()
@@ -278,7 +348,7 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(transform.position, Vector2.up * 1f, Color.red);
         RaycastHit2D portalHit = _raycastHit2Ds.FirstOrDefault(hit =>
             hit.collider != null && hit.collider.gameObject.layer == ObjectLayer.PortalLayer);
-
+        
         if (portalHit.collider != null)
         {
             _usePortal = portalHit.collider.gameObject; //사용할 포탈에 등록
@@ -303,5 +373,17 @@ public class PlayerController : MonoBehaviour
     {
         cinemachineConfiner2D.m_Damping = 0f;
         cinemachineConfiner2D.transform.position = transform.position;
+    }
+    
+    //봇짐 획득
+    public void GetBotzime()
+    {
+        _playerAnimator.StartAnimation(_playerAnimationData.GetBotzimeParameterHash);
+    }
+    
+    //퀘스트 팝업 이벤트 호출
+    public void CallOnQuestPopupEvent()
+    {
+        OnQuestPopupEvent?.Invoke();
     }
 }

@@ -11,7 +11,7 @@ public class UIBase : MonoBehaviour
 {
     [SerializeField] protected Button _closeButton;
     public UIType _uiType = UIType.Normal; 
-    private PlayerController _playerController;
+    protected PlayerController _playerController;
 
     protected virtual void Start()
     {

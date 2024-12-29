@@ -1,12 +1,10 @@
-using System;
 using UnityEngine;
 
 public class MapBox : MonoBehaviour, Iinteractable
 {
     private SpriteRenderer _spriteRenderer;
     private Inventory _inventory;
-    private ToastMessagePopup _toastMessage;
-    
+    private BoxCollider2D _boxCollider2D; 
     
     [Header("Setting")] public int itemId; //획득할 아이템 id
     public Sprite closeBoxSprite; //닫힌 상자 스프라이트
@@ -20,12 +18,18 @@ public class MapBox : MonoBehaviour, Iinteractable
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     private void Start()
     {
+        EventManager.Instance.StartGetMapEvent += EnableGetMap;
         _inventory = UIManager.Instance.GetPopupObject<InventoryPopup>().GetComponent<Inventory>();
-        _toastMessage = UIManager.Instance.GetUIComponent<ToastMessagePopup>();
+    }
+
+    private void OnDisable()
+    {
+        EventManager.Instance.StartGetMapEvent -= EnableGetMap;
     }
 
     //상호작용 시 
@@ -42,12 +46,10 @@ public class MapBox : MonoBehaviour, Iinteractable
             _inventory.GetItem(itemId);
             ItemData itemData = _inventory.GetInventoryItemData(itemId);
 
-            //토스트 메세지
-            UIManager.Instance.ShowPopup<ToastMessagePopup>();
-            _toastMessage.StartHideMessageAnimation();
-            _toastMessage.SetToastMessage(ResourceManager.Instance.Load<Sprite>(itemData.SpritePath), itemData.Name,
-                $"{itemData.Name} 획득");
-            _toastMessage.StartOnMessageAnimation();
+            //대화 시작
+            DialogueManager.Instance.StartTalk(7030);
+            //이벤트 클리어
+            EventManager.Instance.ClearEvent(10020);
             
             //중복 획득 방지
             hasAcquiredMap = true;
@@ -84,5 +86,11 @@ public class MapBox : MonoBehaviour, Iinteractable
     public void OnPlayerCollision()
     {
         
+    }
+    
+    //지도 획득 가능
+    private void EnableGetMap()
+    {
+        _boxCollider2D.isTrigger = true;
     }
 }

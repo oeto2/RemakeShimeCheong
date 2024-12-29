@@ -17,11 +17,32 @@ namespace Constants
         None
     }
     
+    //대화시 사용되는 화자 타입
+    public enum SpeakerType
+    {
+        Npc,
+        Player
+    }
+    
+    //이벤트 타입
+    public enum EventType
+    {
+        Tutorial,
+        Main
+    }
+    
     //게임에 사용되는 동적로딩 이미지 경로
     public static class ResourceImagePath
     {
         public const string Cursor_Idle = "Sprites/CurSor/Brush_Idle"; //브러시 기본
         public const string Cursor_Click = "Sprites/CurSor/Brush_Click"; //브러시 클릭
+    }
+    
+    //게임에 사용되는 동적로딩 프리팹 경로
+    public static class ResourcePrefabPath
+    {
+        public const string QuestTextBox = "QuestText";
+        public const string EventTextBox = "EventText";
     }
     
     //게임에 사용되는 오브젝트 레이어 이름
@@ -31,5 +52,6 @@ namespace Constants
         public const int ItemLayer = 7;
         public const int InteractableObjectLayer = 8;
         public const int NPCLayer = 9;
+        public const int PlayerLayer = 10;
     }
 }

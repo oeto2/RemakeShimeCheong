@@ -96,9 +96,9 @@ MonoBehaviour:
   m_fontSize: 25
   m_fontSizeBase: 25
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 25
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 4096
@@ -276,6 +276,22 @@ MonoBehaviour:
   objectNameText: {fileID: 3470376132240408910}
   objectImage: {fileID: 5880994875795347160}
   SelectSlotObj: {fileID: 4272080881914696953}
+  itemData:
+    Id: 0
+    ObjectType: 0
+    Name: 
+    Comment: 
+    IsUsing: 0
+    IndexNum: 0
+    SpritePath: 
+  clueData:
+    Id: 0
+    ObjectType: 0
+    Name: 
+    Comment: 
+    IsUsing: 0
+    IndexNum: 0
+    SpritePath: 
 --- !u!1 &4272080881914696953
 GameObject:
   m_ObjectHideFlags: 0
