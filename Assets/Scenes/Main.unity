@@ -10591,7 +10591,7 @@ GameObject:
   - component: {fileID: 1360070648}
   - component: {fileID: 1360070651}
   m_Layer: 9
-  m_Name: JangSeong
+  m_Name: Hyangri
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10742,7 +10742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6678a177875d07547b178f1b1720b470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speakerName: "\uC7A5 \uC2B9\uC0C1 \uBD80\uC778"
+  speakerName: "\uD5A5\uB9AC \uB301 \uBD80\uC778"
 --- !u!1 &1362245066
 GameObject:
   m_ObjectHideFlags: 0
